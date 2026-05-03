@@ -17,5 +17,100 @@
     <itunes:category text="Technology"/>
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>5/4 マスクvsアルトマン裁判＆医療AIが救急医を超えた日</title>
+      <description><![CDATA[マスク氏対アルトマン氏の裁判が開始され、xAIによるOpenAIモデルの蒸留が法廷で認められた衝撃の展開を解説。ハーバード大学の研究でAIが救急医を上回る診断精度を示した医療AI最前線。OpenAIのマルチクラウド戦略転換の全貌と、アカデミー賞がAI生成コンテンツを排除した創作の未来まで、今週の重要トピックを深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：マスク vs アルトマン裁判の衝撃証言
+・メインニュース：AIが救急医を超えた？ハーバード研究と医療AI最前線
+・ディープダイブ：アカデミー賞のAI排除とAI時代の創作・地政学
+・生活＆仕事へのヒント：医療AI・コーディング・ロボティクスの実践
+・エンディング
+
+【参照元】
+・In Harvard study, AI offered more accurate diagnoses than emergency room doctors: https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/
+・Inference Scaling: Why Reasoning Models Raise Your Compute Bill: https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/
+・Sakana AI Introduces KAME: https://www.marktechpost.com/2026/05/03/sakana-ai-introduces-kame-a-tandem-speech-to-speech-architecture-that-injects-llm-knowledge-in-real-time/
+・Mistral AI Launches Remote Agents and Mistral Medium 3.5: https://www.marktechpost.com/2026/05/02/mistral-ai-launches-remote-agents-in-vibe-and-mistral-medium-3-5-with-77-6-swe-bench-verified-score/
+・AI-generated actors and scripts are now ineligible for Oscars: https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/
+・Disneyland Now Uses Face Recognition on Visitors: https://www.wired.com/story/security-news-this-week-disneyland-now-uses-face-recognition-on-visitors/
+・Replit's Amjad Masad on the Cursor deal: https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/
+・Meta buys robotics startup for humanoid AI: https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/
+・A Dark-Money Campaign Framing Chinese AI as a Threat: https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/
+・Pentagon inks deals with Nvidia, Microsoft, and AWS for classified AI: https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/
+・Anthropic potential $900B+ valuation round: https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/
+・Apple was surprised by AI-driven demand for Macs: https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/
+・After dissing Anthropic, OpenAI restricts access to Cyber too: https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/
+・Elon Musk testifies xAI trained Grok on OpenAI models: https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/
+・Musk v. Altman week 1 - MIT Technology Review: https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/
+・Stripe updates Link for AI agents: https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/
+・AI music is flooding streaming services: https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it
+・All the evidence revealed in Musk v. Altman: https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial
+・Pentagon strikes classified AI deals: https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia
+・Elon Musk confirms xAI used OpenAI's models: https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation
+・Christian creators outsourcing AI slop on Fiverr: https://www.theverge.com/ai-artificial-intelligence/920881/ai-generated-bible-videos-christian-creators-fiverr-slop
+・Microsoft Word Legal Agent: https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai
+・Everyone's an Engineer Now - O'Reilly Radar: https://www.oreilly.com/radar/everyones-an-engineer-now/
+・Why physical AI is the real manufacturing revolution: https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/
+・California opens gate for autonomous trucks: https://www.therobotreport.com/california-lawmakers-open-gate-autonomous-trucks-state/
+・Figure, 1X Ramp Up Humanoid Robot Production: https://spectrum.ieee.org/video-friday-humanoid-robot-production
+・Table tennis robot defeats world's best players: https://techxplore.com/news/2026-04-table-tennis-robot-defeats-world.html
+・Google Gemini AI in millions of vehicles: https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/
+・Hard Fork: OpenAI's Big Reset + AI in the Doctor's Office: https://www.nytimes.com/column/hard-fork
+・No Priors: Baseten CEO on the AI Inference Crunch: 
+
+#AIニュース #生成AI #海外AI #医療AI #マスクvsアルトマン #OpenAI #アカデミー賞 #ロボティクス #AIと社会 #バイブコーディング]]></description>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-04.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-04.mp3" length="25620909" type="audio/mpeg"/>
+      <itunes:title>5/4 マスクvsアルトマン裁判＆医療AIが救急医を超えた日</itunes:title>
+      <itunes:summary><![CDATA[マスク氏対アルトマン氏の裁判が開始され、xAIによるOpenAIモデルの蒸留が法廷で認められた衝撃の展開を解説。ハーバード大学の研究でAIが救急医を上回る診断精度を示した医療AI最前線。OpenAIのマルチクラウド戦略転換の全貌と、アカデミー賞がAI生成コンテンツを排除した創作の未来まで、今週の重要トピックを深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：マスク vs アルトマン裁判の衝撃証言
+・メインニュース：AIが救急医を超えた？ハーバード研究と医療AI最前線
+・ディープダイブ：アカデミー賞のAI排除とAI時代の創作・地政学
+・生活＆仕事へのヒント：医療AI・コーディング・ロボティクスの実践
+・エンディング
+
+【参照元】
+・In Harvard study, AI offered more accurate diagnoses than emergency room doctors: https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/
+・Inference Scaling: Why Reasoning Models Raise Your Compute Bill: https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/
+・Sakana AI Introduces KAME: https://www.marktechpost.com/2026/05/03/sakana-ai-introduces-kame-a-tandem-speech-to-speech-architecture-that-injects-llm-knowledge-in-real-time/
+・Mistral AI Launches Remote Agents and Mistral Medium 3.5: https://www.marktechpost.com/2026/05/02/mistral-ai-launches-remote-agents-in-vibe-and-mistral-medium-3-5-with-77-6-swe-bench-verified-score/
+・AI-generated actors and scripts are now ineligible for Oscars: https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/
+・Disneyland Now Uses Face Recognition on Visitors: https://www.wired.com/story/security-news-this-week-disneyland-now-uses-face-recognition-on-visitors/
+・Replit's Amjad Masad on the Cursor deal: https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/
+・Meta buys robotics startup for humanoid AI: https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/
+・A Dark-Money Campaign Framing Chinese AI as a Threat: https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/
+・Pentagon inks deals with Nvidia, Microsoft, and AWS for classified AI: https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/
+・Anthropic potential $900B+ valuation round: https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/
+・Apple was surprised by AI-driven demand for Macs: https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/
+・After dissing Anthropic, OpenAI restricts access to Cyber too: https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/
+・Elon Musk testifies xAI trained Grok on OpenAI models: https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/
+・Musk v. Altman week 1 - MIT Technology Review: https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/
+・Stripe updates Link for AI agents: https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/
+・AI music is flooding streaming services: https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it
+・All the evidence revealed in Musk v. Altman: https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial
+・Pentagon strikes classified AI deals: https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia
+・Elon Musk confirms xAI used OpenAI's models: https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation
+・Christian creators outsourcing AI slop on Fiverr: https://www.theverge.com/ai-artificial-intelligence/920881/ai-generated-bible-videos-christian-creators-fiverr-slop
+・Microsoft Word Legal Agent: https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai
+・Everyone's an Engineer Now - O'Reilly Radar: https://www.oreilly.com/radar/everyones-an-engineer-now/
+・Why physical AI is the real manufacturing revolution: https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/
+・California opens gate for autonomous trucks: https://www.therobotreport.com/california-lawmakers-open-gate-autonomous-trucks-state/
+・Figure, 1X Ramp Up Humanoid Robot Production: https://spectrum.ieee.org/video-friday-humanoid-robot-production
+・Table tennis robot defeats world's best players: https://techxplore.com/news/2026-04-table-tennis-robot-defeats-world.html
+・Google Gemini AI in millions of vehicles: https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/
+・Hard Fork: OpenAI's Big Reset + AI in the Doctor's Office: https://www.nytimes.com/column/hard-fork
+・No Priors: Baseten CEO on the AI Inference Crunch: 
+
+#AIニュース #生成AI #海外AI #医療AI #マスクvsアルトマン #OpenAI #アカデミー賞 #ロボティクス #AIと社会 #バイブコーディング]]></itunes:summary>
+      <itunes:duration>00:26:41</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
   </channel>
 </rss>
