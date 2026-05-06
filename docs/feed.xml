@@ -18,97 +18,118 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>5/4 マスクvsアルトマン裁判＆医療AIが救急医を超えた日</title>
-      <description><![CDATA[マスク氏対アルトマン氏の裁判が開始され、xAIによるOpenAIモデルの蒸留が法廷で認められた衝撃の展開を解説。ハーバード大学の研究でAIが救急医を上回る診断精度を示した医療AI最前線。OpenAIのマルチクラウド戦略転換の全貌と、アカデミー賞がAI生成コンテンツを排除した創作の未来まで、今週の重要トピックを深掘りします。
+      <title>5/7 GPT-5.5登場＆AI10分で思考力低下の衝撃</title>
+      <description><![CDATA[OpenAIがChatGPTのデフォルトモデルをGPT-5.5 Instantに刷新、広告モデルへの転換も始動。DeepSeekが評価額6.7兆円、サムスンが時価総額150兆円突破とAIマネーが激流に。「AIを10分使うだけで思考力低下」の研究結果を深掘りし、日常でのAI活用の線引きを議論します。マスク対アルトマン裁判ではムラティ元CTO証言も。
 
 【目次】
 ・オープニング
-・メインニュース：マスク vs アルトマン裁判の衝撃証言
-・メインニュース：AIが救急医を超えた？ハーバード研究と医療AI最前線
-・ディープダイブ：アカデミー賞のAI排除とAI時代の創作・地政学
-・生活＆仕事へのヒント：医療AI・コーディング・ロボティクスの実践
+・メインニュース：GPT-5.5 InstantとOpenAIのビジネスモデル転換
+・メインニュース：DeepSeek6.7兆円評価＆サムスン時価総額150兆円突破
+・ディープダイブ：AIを10分使うだけで思考力が落ちる？
+・生活＆仕事へのヒント：iOS 27のAI選択、Google検索のReddit引用、AI導入コストと雇用
 ・エンディング
 
 【参照元】
-・In Harvard study, AI offered more accurate diagnoses than emergency room doctors: https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/
-・Inference Scaling: Why Reasoning Models Raise Your Compute Bill: https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/
-・Sakana AI Introduces KAME: https://www.marktechpost.com/2026/05/03/sakana-ai-introduces-kame-a-tandem-speech-to-speech-architecture-that-injects-llm-knowledge-in-real-time/
-・Mistral AI Launches Remote Agents and Mistral Medium 3.5: https://www.marktechpost.com/2026/05/02/mistral-ai-launches-remote-agents-in-vibe-and-mistral-medium-3-5-with-77-6-swe-bench-verified-score/
-・AI-generated actors and scripts are now ineligible for Oscars: https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/
-・Disneyland Now Uses Face Recognition on Visitors: https://www.wired.com/story/security-news-this-week-disneyland-now-uses-face-recognition-on-visitors/
-・Replit's Amjad Masad on the Cursor deal: https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/
-・Meta buys robotics startup for humanoid AI: https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/
-・A Dark-Money Campaign Framing Chinese AI as a Threat: https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/
-・Pentagon inks deals with Nvidia, Microsoft, and AWS for classified AI: https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/
-・Anthropic potential $900B+ valuation round: https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/
-・Apple was surprised by AI-driven demand for Macs: https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/
-・After dissing Anthropic, OpenAI restricts access to Cyber too: https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/
-・Elon Musk testifies xAI trained Grok on OpenAI models: https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/
-・Musk v. Altman week 1 - MIT Technology Review: https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/
-・Stripe updates Link for AI agents: https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/
-・AI music is flooding streaming services: https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it
-・All the evidence revealed in Musk v. Altman: https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial
-・Pentagon strikes classified AI deals: https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia
-・Elon Musk confirms xAI used OpenAI's models: https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation
-・Christian creators outsourcing AI slop on Fiverr: https://www.theverge.com/ai-artificial-intelligence/920881/ai-generated-bible-videos-christian-creators-fiverr-slop
-・Microsoft Word Legal Agent: https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai
-・Everyone's an Engineer Now - O'Reilly Radar: https://www.oreilly.com/radar/everyones-an-engineer-now/
-・Why physical AI is the real manufacturing revolution: https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/
-・California opens gate for autonomous trucks: https://www.therobotreport.com/california-lawmakers-open-gate-autonomous-trucks-state/
-・Figure, 1X Ramp Up Humanoid Robot Production: https://spectrum.ieee.org/video-friday-humanoid-robot-production
-・Table tennis robot defeats world's best players: https://techxplore.com/news/2026-04-table-tennis-robot-defeats-world.html
-・Google Gemini AI in millions of vehicles: https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/
+・Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird: https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/
+・How Elon Musk left OpenAI, according to Greg Brockman: https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/
+・Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows: https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/
+・DeepSeek could hit $45B valuation from its first investment round: https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/
+・I Am Begging AI Companies to Stop Naming Features After Human Processes: https://www.wired.com/story/i-am-begging-ai-companies-to-stop-naming-features-after-human-processes/
+・Google updates AI search to include expert advice from Reddit: https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/
+・Genesis AI has gone full-stack, demo shows: https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/
+・Tinder owner Match Group is slowing hiring to pay for AI tools: https://techcrunch.com/2026/05/06/tinder-owner-match-group-is-slowing-hiring-to-pay-for-its-increased-use-of-ai-tools/
+・Apple to pay $250M to settle lawsuit over Siri's delayed AI features: https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/
+・AI boom pushes Samsung to $1T: https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/
+・Higher usage limits for Claude and a compute deal with SpaceX: https://www.anthropic.com/news/higher-limits-spacex
+・OpenAI releases GPT-5.5 Instant: https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/
+・GPT-5.5 Instant: smarter, clearer, and more personalized: https://openai.com/index/gpt-5-5-instant
+・New ways to buy ChatGPT ads: https://openai.com/index/new-ways-to-buy-chatgpt-ads
+・OpenAI and PwC collaborate to reimagine the office of the CFO: https://openai.com/index/openai-pwc-finance-collaboration
+・Introducing ChatGPT Futures: Class of 2026: https://openai.com/index/introducing-chatgpt-futures-class-of-2026
+・Mira Murati tells the court she couldn't trust Sam Altman's words: https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati
+・Live updates from Musk and Altman's court battle: https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit
+・Google's AI search summaries will now quote Reddit: https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links
+・Apple could let you pick a favorite AI model in iOS 27: https://www.theverge.com/tech/924515/apple-intelligence-third-party-chatbot-extensions-ios-27
+・Apple agrees to pay $250M for not delivering AI Siri: https://www.theverge.com/tech/924706/apple-iphone-siri-intelligence-class-action-lawsuit-settlement
+・Pennsylvania sues Character.AI after chatbot posed as a doctor: https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/
+・PayPal says it's becoming a technology company again: https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/
+・ASML CEO: No one is coming for us: https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/
+・SAP bets $1.16B on German AI lab: https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/
+・1X begins production of NEO humanoids in California: https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/
+・Genesis AI introduces GENE-26.5 model: https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/
+・J&J completes clinical study for OTTAVA robotic surgical system: https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/
+・Sanofi expands AI capabilities, investing $294M in Toronto hub: https://www.fiercebiotech.com/pharma/sanofi-expands-ai-capabilities-investing-294m-scale-toronto-hub
 ・Hard Fork: OpenAI's Big Reset + AI in the Doctor's Office: https://www.nytimes.com/column/hard-fork
-・No Priors: Baseten CEO on the AI Inference Crunch: 
+・No Priors: Baseten CEO on the AI Inference Crunch: https://www.youtube.com/watch?v=placeholder
+・Week one of Musk v. Altman trial: https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/
+・NVIDIA Spectrum-X Ethernet MRC: https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/
+・Microsoft gives up on Xbox Copilot AI: https://www.theverge.com/games/924551/microsoft-xbox-ceo-copilot-ai-asha-sharma
+・Chrome's AI features may be hogging 4GB of storage: https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features
 
-#AIニュース #生成AI #海外AI #医療AI #マスクvsアルトマン #OpenAI #アカデミー賞 #ロボティクス #AIと社会 #バイブコーディング]]></description>
+#AIニュース #生成AI #海外AI #GPT55 #DeepSeek #サムスン #AI思考力 #OpenAI #半導体 #AIと社会]]></description>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-07.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-07.mp3" length="24036909" type="audio/mpeg"/>
+      <itunes:title>5/7 GPT-5.5登場＆AI10分で思考力低下の衝撃</itunes:title>
+      <itunes:summary><![CDATA[OpenAIがChatGPTのデフォルトモデルをGPT-5.5 Instantに刷新、広告モデルへの転換も始動。DeepSeekが評価額6.7兆円、サムスンが時価総額150兆円突破とAIマネーが激流に。「AIを10分使うだけで思考力低下」の研究結果を深掘りし、日常でのAI活用の線引きを議論します。マスク対アルトマン裁判ではムラティ元CTO証言も。
+
+【目次】
+・オープニング
+・メインニュース：GPT-5.5 InstantとOpenAIのビジネスモデル転換
+・メインニュース：DeepSeek6.7兆円評価＆サムスン時価総額150兆円突破
+・ディープダイブ：AIを10分使うだけで思考力が落ちる？
+・生活＆仕事へのヒント：iOS 27のAI選択、Google検索のReddit引用、AI導入コストと雇用
+・エンディング
+
+【参照元】
+・Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird: https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/
+・How Elon Musk left OpenAI, according to Greg Brockman: https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/
+・Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows: https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/
+・DeepSeek could hit $45B valuation from its first investment round: https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/
+・I Am Begging AI Companies to Stop Naming Features After Human Processes: https://www.wired.com/story/i-am-begging-ai-companies-to-stop-naming-features-after-human-processes/
+・Google updates AI search to include expert advice from Reddit: https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/
+・Genesis AI has gone full-stack, demo shows: https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/
+・Tinder owner Match Group is slowing hiring to pay for AI tools: https://techcrunch.com/2026/05/06/tinder-owner-match-group-is-slowing-hiring-to-pay-for-its-increased-use-of-ai-tools/
+・Apple to pay $250M to settle lawsuit over Siri's delayed AI features: https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/
+・AI boom pushes Samsung to $1T: https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/
+・Higher usage limits for Claude and a compute deal with SpaceX: https://www.anthropic.com/news/higher-limits-spacex
+・OpenAI releases GPT-5.5 Instant: https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/
+・GPT-5.5 Instant: smarter, clearer, and more personalized: https://openai.com/index/gpt-5-5-instant
+・New ways to buy ChatGPT ads: https://openai.com/index/new-ways-to-buy-chatgpt-ads
+・OpenAI and PwC collaborate to reimagine the office of the CFO: https://openai.com/index/openai-pwc-finance-collaboration
+・Introducing ChatGPT Futures: Class of 2026: https://openai.com/index/introducing-chatgpt-futures-class-of-2026
+・Mira Murati tells the court she couldn't trust Sam Altman's words: https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati
+・Live updates from Musk and Altman's court battle: https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit
+・Google's AI search summaries will now quote Reddit: https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links
+・Apple could let you pick a favorite AI model in iOS 27: https://www.theverge.com/tech/924515/apple-intelligence-third-party-chatbot-extensions-ios-27
+・Apple agrees to pay $250M for not delivering AI Siri: https://www.theverge.com/tech/924706/apple-iphone-siri-intelligence-class-action-lawsuit-settlement
+・Pennsylvania sues Character.AI after chatbot posed as a doctor: https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/
+・PayPal says it's becoming a technology company again: https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/
+・ASML CEO: No one is coming for us: https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/
+・SAP bets $1.16B on German AI lab: https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/
+・1X begins production of NEO humanoids in California: https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/
+・Genesis AI introduces GENE-26.5 model: https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/
+・J&J completes clinical study for OTTAVA robotic surgical system: https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/
+・Sanofi expands AI capabilities, investing $294M in Toronto hub: https://www.fiercebiotech.com/pharma/sanofi-expands-ai-capabilities-investing-294m-scale-toronto-hub
+・Hard Fork: OpenAI's Big Reset + AI in the Doctor's Office: https://www.nytimes.com/column/hard-fork
+・No Priors: Baseten CEO on the AI Inference Crunch: https://www.youtube.com/watch?v=placeholder
+・Week one of Musk v. Altman trial: https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/
+・NVIDIA Spectrum-X Ethernet MRC: https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/
+・Microsoft gives up on Xbox Copilot AI: https://www.theverge.com/games/924551/microsoft-xbox-ceo-copilot-ai-asha-sharma
+・Chrome's AI features may be hogging 4GB of storage: https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features
+
+#AIニュース #生成AI #海外AI #GPT55 #DeepSeek #サムスン #AI思考力 #OpenAI #半導体 #AIと社会]]></itunes:summary>
+      <itunes:duration>00:25:02</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>海外AIニュース・ダイジェスト 2026-05-04</title>
+      <description><![CDATA[2026-05-04 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-04.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-04.mp3" length="25620909" type="audio/mpeg"/>
-      <itunes:title>5/4 マスクvsアルトマン裁判＆医療AIが救急医を超えた日</itunes:title>
-      <itunes:summary><![CDATA[マスク氏対アルトマン氏の裁判が開始され、xAIによるOpenAIモデルの蒸留が法廷で認められた衝撃の展開を解説。ハーバード大学の研究でAIが救急医を上回る診断精度を示した医療AI最前線。OpenAIのマルチクラウド戦略転換の全貌と、アカデミー賞がAI生成コンテンツを排除した創作の未来まで、今週の重要トピックを深掘りします。
-
-【目次】
-・オープニング
-・メインニュース：マスク vs アルトマン裁判の衝撃証言
-・メインニュース：AIが救急医を超えた？ハーバード研究と医療AI最前線
-・ディープダイブ：アカデミー賞のAI排除とAI時代の創作・地政学
-・生活＆仕事へのヒント：医療AI・コーディング・ロボティクスの実践
-・エンディング
-
-【参照元】
-・In Harvard study, AI offered more accurate diagnoses than emergency room doctors: https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/
-・Inference Scaling: Why Reasoning Models Raise Your Compute Bill: https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/
-・Sakana AI Introduces KAME: https://www.marktechpost.com/2026/05/03/sakana-ai-introduces-kame-a-tandem-speech-to-speech-architecture-that-injects-llm-knowledge-in-real-time/
-・Mistral AI Launches Remote Agents and Mistral Medium 3.5: https://www.marktechpost.com/2026/05/02/mistral-ai-launches-remote-agents-in-vibe-and-mistral-medium-3-5-with-77-6-swe-bench-verified-score/
-・AI-generated actors and scripts are now ineligible for Oscars: https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/
-・Disneyland Now Uses Face Recognition on Visitors: https://www.wired.com/story/security-news-this-week-disneyland-now-uses-face-recognition-on-visitors/
-・Replit's Amjad Masad on the Cursor deal: https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/
-・Meta buys robotics startup for humanoid AI: https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/
-・A Dark-Money Campaign Framing Chinese AI as a Threat: https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/
-・Pentagon inks deals with Nvidia, Microsoft, and AWS for classified AI: https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/
-・Anthropic potential $900B+ valuation round: https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/
-・Apple was surprised by AI-driven demand for Macs: https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/
-・After dissing Anthropic, OpenAI restricts access to Cyber too: https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/
-・Elon Musk testifies xAI trained Grok on OpenAI models: https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/
-・Musk v. Altman week 1 - MIT Technology Review: https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/
-・Stripe updates Link for AI agents: https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/
-・AI music is flooding streaming services: https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it
-・All the evidence revealed in Musk v. Altman: https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial
-・Pentagon strikes classified AI deals: https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia
-・Elon Musk confirms xAI used OpenAI's models: https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation
-・Christian creators outsourcing AI slop on Fiverr: https://www.theverge.com/ai-artificial-intelligence/920881/ai-generated-bible-videos-christian-creators-fiverr-slop
-・Microsoft Word Legal Agent: https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai
-・Everyone's an Engineer Now - O'Reilly Radar: https://www.oreilly.com/radar/everyones-an-engineer-now/
-・Why physical AI is the real manufacturing revolution: https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/
-・California opens gate for autonomous trucks: https://www.therobotreport.com/california-lawmakers-open-gate-autonomous-trucks-state/
-・Figure, 1X Ramp Up Humanoid Robot Production: https://spectrum.ieee.org/video-friday-humanoid-robot-production
-・Table tennis robot defeats world's best players: https://techxplore.com/news/2026-04-table-tennis-robot-defeats-world.html
-・Google Gemini AI in millions of vehicles: https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/
-・Hard Fork: OpenAI's Big Reset + AI in the Doctor's Office: https://www.nytimes.com/column/hard-fork
-・No Priors: Baseten CEO on the AI Inference Crunch: 
-
-#AIニュース #生成AI #海外AI #医療AI #マスクvsアルトマン #OpenAI #アカデミー賞 #ロボティクス #AIと社会 #バイブコーディング]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-05-04</itunes:title>
+      <itunes:summary><![CDATA[2026-05-04 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:26:41</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
