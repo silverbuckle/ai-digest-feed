@@ -18,118 +18,163 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>5/7 GPT-5.5登場＆AI10分で思考力低下の衝撃</title>
-      <description><![CDATA[OpenAIがChatGPTのデフォルトモデルをGPT-5.5 Instantに刷新、広告モデルへの転換も始動。DeepSeekが評価額6.7兆円、サムスンが時価総額150兆円突破とAIマネーが激流に。「AIを10分使うだけで思考力低下」の研究結果を深掘りし、日常でのAI活用の線引きを議論します。マスク対アルトマン裁判ではムラティ元CTO証言も。
+      <title>5/11 NVIDIA6兆円投資＆AIが1100人の仕事を消した日</title>
+      <description><![CDATA[NVIDIAが2026年だけで6兆円規模のAI投資、SpaceXが8兆円のチップ工場を計画。一方Cloudflareは業績好調の中で1100人をAI効率化で解雇。ChatGPTへの広告導入や子供向けAI玩具の問題まで、AIが私たちの仕事と暮らしに迫るリアルな変化を徹底解説します。
 
 【目次】
 ・オープニング
-・メインニュース：GPT-5.5 InstantとOpenAIのビジネスモデル転換
-・メインニュース：DeepSeek6.7兆円評価＆サムスン時価総額150兆円突破
-・ディープダイブ：AIを10分使うだけで思考力が落ちる？
-・生活＆仕事へのヒント：iOS 27のAI選択、Google検索のReddit引用、AI導入コストと雇用
+・メインニュース：NVIDIA6兆円投資とSpaceXのチップ工場、半導体覇権争い
+・メインニュース：Cloudflare1100人解雇とAI時代の雇用問題
+・ディープダイブ：ChatGPT広告導入・安全機能・音声AI・AI玩具が変える日常
+・生活＆仕事へのヒント：AIエージェント時代に備えるスキルと視点
 ・エンディング
 
 【参照元】
-・Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird: https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/
-・How Elon Musk left OpenAI, according to Greg Brockman: https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/
-・Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows: https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/
-・DeepSeek could hit $45B valuation from its first investment round: https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/
-・I Am Begging AI Companies to Stop Naming Features After Human Processes: https://www.wired.com/story/i-am-begging-ai-companies-to-stop-naming-features-after-human-processes/
-・Google updates AI search to include expert advice from Reddit: https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/
-・Genesis AI has gone full-stack, demo shows: https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/
-・Tinder owner Match Group is slowing hiring to pay for AI tools: https://techcrunch.com/2026/05/06/tinder-owner-match-group-is-slowing-hiring-to-pay-for-its-increased-use-of-ai-tools/
-・Apple to pay $250M to settle lawsuit over Siri's delayed AI features: https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/
-・AI boom pushes Samsung to $1T: https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/
-・Higher usage limits for Claude and a compute deal with SpaceX: https://www.anthropic.com/news/higher-limits-spacex
-・OpenAI releases GPT-5.5 Instant: https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/
-・GPT-5.5 Instant: smarter, clearer, and more personalized: https://openai.com/index/gpt-5-5-instant
-・New ways to buy ChatGPT ads: https://openai.com/index/new-ways-to-buy-chatgpt-ads
-・OpenAI and PwC collaborate to reimagine the office of the CFO: https://openai.com/index/openai-pwc-finance-collaboration
-・Introducing ChatGPT Futures: Class of 2026: https://openai.com/index/introducing-chatgpt-futures-class-of-2026
-・Mira Murati tells the court she couldn't trust Sam Altman's words: https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati
-・Live updates from Musk and Altman's court battle: https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit
-・Google's AI search summaries will now quote Reddit: https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links
-・Apple could let you pick a favorite AI model in iOS 27: https://www.theverge.com/tech/924515/apple-intelligence-third-party-chatbot-extensions-ios-27
-・Apple agrees to pay $250M for not delivering AI Siri: https://www.theverge.com/tech/924706/apple-iphone-siri-intelligence-class-action-lawsuit-settlement
-・Pennsylvania sues Character.AI after chatbot posed as a doctor: https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/
-・PayPal says it's becoming a technology company again: https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/
-・ASML CEO: No one is coming for us: https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/
-・SAP bets $1.16B on German AI lab: https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/
-・1X begins production of NEO humanoids in California: https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/
-・Genesis AI introduces GENE-26.5 model: https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/
-・J&J completes clinical study for OTTAVA robotic surgical system: https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/
-・Sanofi expands AI capabilities, investing $294M in Toronto hub: https://www.fiercebiotech.com/pharma/sanofi-expands-ai-capabilities-investing-294m-scale-toronto-hub
-・Hard Fork: OpenAI's Big Reset + AI in the Doctor's Office: https://www.nytimes.com/column/hard-fork
-・No Priors: Baseten CEO on the AI Inference Crunch: https://www.youtube.com/watch?v=placeholder
-・Week one of Musk v. Altman trial: https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/
-・NVIDIA Spectrum-X Ethernet MRC: https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/
-・Microsoft gives up on Xbox Copilot AI: https://www.theverge.com/games/924551/microsoft-xbox-ceo-copilot-ai-asha-sharma
-・Chrome's AI features may be hogging 4GB of storage: https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features
+・MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck
+・We're feeling cynical about xAI's big deal with Anthropic: https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/
+・NVIDIA AI Just Released cuda-oxide: https://www.marktechpost.com/2026/05/09/nvidia-ai-just-released-cuda-oxide-an-experimental-rust-to-cuda-compiler-backend-that-compiles-simt-gpu-kernels-directly-to-ptx/
+・Voice AI in India is hard. Wispr Flow is betting on it anyway.: https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/
+・NVIDIA AI Releases Star Elastic: https://www.marktechpost.com/2026/05/09/nvidia-ai-releases-star-elastic-one-checkpoint-that-contains-30b-23b-and-12b-reasoning-models-with-zero-shot-slicing/
+・OncoAgent: A Dual-Tier Multi-Agent Framework: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper
+・Nvidia has already committed $40B to equity AI deals this year: https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/
+・RAG Is Blind to Time: https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/
+・Meet GitHub Spec-Kit: https://www.marktechpost.com/2026/05/08/meet-github-spec-kit-an-open-source-toolkit-for-spec-driven-development-with-ai-coding-agents/
+・Laid-off Oracle workers tried to negotiate better severance: https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/
+・OpenAI Adds Chrome Extension to Codex: https://www.marktechpost.com/2026/05/08/openai-adds-chrome-extension-to-codex-letting-its-ai-agent-access-linkedin-salesforce-gmail-and-internal-tools-via-signed-in-sessions/
+・Intel's comeback story is even wilder than it seems: https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/
+・Cloudflare says AI made 1,100 jobs obsolete: https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/
+・The AI Agent Security Surface: https://towardsdatascience.com/the-ai-agent-security-surface-what-gets-exposed-when-you-add-tools-and-memory/
+・The enterprise AI gold rush: https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/
+・California Workers From AI protection proposal: https://www.wired.com/story/tom-steyer-proposes-jobs-guarantee-to-protect-california-workers-from-ai/
+・Nick Bostrom Has a Plan for Humanity's Big Retirement: https://www.wired.com/story/nick-bostrom-has-a-plan-for-humanitys-big-retirement/
+・Running Codex safely at OpenAI: https://openai.com/index/running-codex-safely
+・The New Wild West of AI Kids' Toys: https://www.wired.com/story/the-new-wild-west-of-ai-kids-toys/
+・Anthropic Introduces Natural Language Autoencoders: https://www.marktechpost.com/2026/05/08/anthropic-introduces-natural-language-autoencoders-that-convert-claudes-internal-activations-directly-into-human-readable-text-explanations/
+・OpenAI Releases Three Realtime Audio Models: https://www.marktechpost.com/2026/05/08/openai-releases-three-realtime-audio-models-gpt-realtime-2-gpt-realtime-translate-and-gpt-realtime-whisper-in-the-realtime-api/
+・Musk v. Altman Evidence Shows What Microsoft Executives Thought of OpenAI: https://www.wired.com/story/microsoft-executives-discuss-openai-sam-altman-2018/
+・OpenAI launches new voice intelligence features in its API: https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/
+・Testing ads in ChatGPT: https://openai.com/index/testing-ads-in-chatgpt
+・Introducing Trusted Contact in ChatGPT: https://openai.com/index/introducing-trusted-contact-in-chatgpt
+・Scaling Trusted Access for Cyber with GPT-5.5: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber
+・Advancing voice intelligence with new models in the API: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
+・Musk v. Altman week 2: https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/
+・AI malaise and babymaking tech: https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/
+・Trump Pivots on AI Regulation: https://www.wired.com/story/uncanny-valley-podcast-trump-pivots-ai-regulation-worker-ousted-by-doge-runs-for-office-hantavirus-explained/
+・SpaceX has a $55 billion plan to build AI chips in Texas: https://www.theverge.com/ai-artificial-intelligence/926356/spacex-terafab-plant-cost-ai-chips
+・ChatGPT Trusted Contact: https://www.theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification
+・Musk v. Altman trial live updates: https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit
+・Mira Murati deposition: https://www.theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster
+・Microsoft worried OpenAI would run off to Amazon: https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure
+・PlayStation sees AI as a powerful tool: https://www.theverge.com/games/926914/sony-playstation-ai-powerful-tool-games
+・Apple AirPods with cameras for AI: https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production
+・Roche shells out up to $1B for PathAI: https://www.fiercebiotech.com/medtech/roche-shell-out-1b-acquire-pathai-move-boost-ai-based-dx-algorithms
+・Big Pharmas showcase AI's measurable impact: https://www.fiercebiotech.com/biotech/drug-development-ma-big-pharmas-showcase-measurable-impact-ai
+・BioNTech cutting 1,860 jobs: https://www.drugdiscoverytrends.com/biontech-made-e19b-in-2021-this-quarter-e118m-now-its-cutting-1860-jobs-and-betting-e16-8b-in-cash-on-becoming-an-oncology-company/
+・Johnson & Johnson completes OTTAVA clinical study: https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/
+・Hard Fork: Prediction Markets, Joanna Stern, Attention School: https://www.nytimes.com/column/hard-fork
+・No Priors: Baseten CEO on AI Inference Crunch: https://www.youtube.com/watch?v=placeholder
+・Perplexity's Personal Computer for Mac: https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/
+・Anthropic Mythos rewrites Firefox cybersecurity: https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/
+・Aurora self-driving trucks ready to scale: https://techcrunch.com/podcast/auroras-chris-urmson-on-why-self-driving-trucks-are-finally-ready-to-scale/
+・Hugging Face launches agentic toolkit for Reachy Mini: https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/
+・Cognex AI-powered vision system for robotics: https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/
+・Nyobolt raises funding for robot fast charging: https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/
 
-#AIニュース #生成AI #海外AI #GPT55 #DeepSeek #サムスン #AI思考力 #OpenAI #半導体 #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #NVIDIA #半導体 #AI雇用 #ChatGPT広告 #医療AI #AIエージェント #AIと社会]]></description>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-11.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-11.mp3" length="27801261" type="audio/mpeg"/>
+      <itunes:title>5/11 NVIDIA6兆円投資＆AIが1100人の仕事を消した日</itunes:title>
+      <itunes:summary><![CDATA[NVIDIAが2026年だけで6兆円規模のAI投資、SpaceXが8兆円のチップ工場を計画。一方Cloudflareは業績好調の中で1100人をAI効率化で解雇。ChatGPTへの広告導入や子供向けAI玩具の問題まで、AIが私たちの仕事と暮らしに迫るリアルな変化を徹底解説します。
+
+【目次】
+・オープニング
+・メインニュース：NVIDIA6兆円投資とSpaceXのチップ工場、半導体覇権争い
+・メインニュース：Cloudflare1100人解雇とAI時代の雇用問題
+・ディープダイブ：ChatGPT広告導入・安全機能・音声AI・AI玩具が変える日常
+・生活＆仕事へのヒント：AIエージェント時代に備えるスキルと視点
+・エンディング
+
+【参照元】
+・MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck
+・We're feeling cynical about xAI's big deal with Anthropic: https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/
+・NVIDIA AI Just Released cuda-oxide: https://www.marktechpost.com/2026/05/09/nvidia-ai-just-released-cuda-oxide-an-experimental-rust-to-cuda-compiler-backend-that-compiles-simt-gpu-kernels-directly-to-ptx/
+・Voice AI in India is hard. Wispr Flow is betting on it anyway.: https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/
+・NVIDIA AI Releases Star Elastic: https://www.marktechpost.com/2026/05/09/nvidia-ai-releases-star-elastic-one-checkpoint-that-contains-30b-23b-and-12b-reasoning-models-with-zero-shot-slicing/
+・OncoAgent: A Dual-Tier Multi-Agent Framework: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper
+・Nvidia has already committed $40B to equity AI deals this year: https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/
+・RAG Is Blind to Time: https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/
+・Meet GitHub Spec-Kit: https://www.marktechpost.com/2026/05/08/meet-github-spec-kit-an-open-source-toolkit-for-spec-driven-development-with-ai-coding-agents/
+・Laid-off Oracle workers tried to negotiate better severance: https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/
+・OpenAI Adds Chrome Extension to Codex: https://www.marktechpost.com/2026/05/08/openai-adds-chrome-extension-to-codex-letting-its-ai-agent-access-linkedin-salesforce-gmail-and-internal-tools-via-signed-in-sessions/
+・Intel's comeback story is even wilder than it seems: https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/
+・Cloudflare says AI made 1,100 jobs obsolete: https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/
+・The AI Agent Security Surface: https://towardsdatascience.com/the-ai-agent-security-surface-what-gets-exposed-when-you-add-tools-and-memory/
+・The enterprise AI gold rush: https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/
+・California Workers From AI protection proposal: https://www.wired.com/story/tom-steyer-proposes-jobs-guarantee-to-protect-california-workers-from-ai/
+・Nick Bostrom Has a Plan for Humanity's Big Retirement: https://www.wired.com/story/nick-bostrom-has-a-plan-for-humanitys-big-retirement/
+・Running Codex safely at OpenAI: https://openai.com/index/running-codex-safely
+・The New Wild West of AI Kids' Toys: https://www.wired.com/story/the-new-wild-west-of-ai-kids-toys/
+・Anthropic Introduces Natural Language Autoencoders: https://www.marktechpost.com/2026/05/08/anthropic-introduces-natural-language-autoencoders-that-convert-claudes-internal-activations-directly-into-human-readable-text-explanations/
+・OpenAI Releases Three Realtime Audio Models: https://www.marktechpost.com/2026/05/08/openai-releases-three-realtime-audio-models-gpt-realtime-2-gpt-realtime-translate-and-gpt-realtime-whisper-in-the-realtime-api/
+・Musk v. Altman Evidence Shows What Microsoft Executives Thought of OpenAI: https://www.wired.com/story/microsoft-executives-discuss-openai-sam-altman-2018/
+・OpenAI launches new voice intelligence features in its API: https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/
+・Testing ads in ChatGPT: https://openai.com/index/testing-ads-in-chatgpt
+・Introducing Trusted Contact in ChatGPT: https://openai.com/index/introducing-trusted-contact-in-chatgpt
+・Scaling Trusted Access for Cyber with GPT-5.5: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber
+・Advancing voice intelligence with new models in the API: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
+・Musk v. Altman week 2: https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/
+・AI malaise and babymaking tech: https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/
+・Trump Pivots on AI Regulation: https://www.wired.com/story/uncanny-valley-podcast-trump-pivots-ai-regulation-worker-ousted-by-doge-runs-for-office-hantavirus-explained/
+・SpaceX has a $55 billion plan to build AI chips in Texas: https://www.theverge.com/ai-artificial-intelligence/926356/spacex-terafab-plant-cost-ai-chips
+・ChatGPT Trusted Contact: https://www.theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification
+・Musk v. Altman trial live updates: https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit
+・Mira Murati deposition: https://www.theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster
+・Microsoft worried OpenAI would run off to Amazon: https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure
+・PlayStation sees AI as a powerful tool: https://www.theverge.com/games/926914/sony-playstation-ai-powerful-tool-games
+・Apple AirPods with cameras for AI: https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production
+・Roche shells out up to $1B for PathAI: https://www.fiercebiotech.com/medtech/roche-shell-out-1b-acquire-pathai-move-boost-ai-based-dx-algorithms
+・Big Pharmas showcase AI's measurable impact: https://www.fiercebiotech.com/biotech/drug-development-ma-big-pharmas-showcase-measurable-impact-ai
+・BioNTech cutting 1,860 jobs: https://www.drugdiscoverytrends.com/biontech-made-e19b-in-2021-this-quarter-e118m-now-its-cutting-1860-jobs-and-betting-e16-8b-in-cash-on-becoming-an-oncology-company/
+・Johnson & Johnson completes OTTAVA clinical study: https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/
+・Hard Fork: Prediction Markets, Joanna Stern, Attention School: https://www.nytimes.com/column/hard-fork
+・No Priors: Baseten CEO on AI Inference Crunch: https://www.youtube.com/watch?v=placeholder
+・Perplexity's Personal Computer for Mac: https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/
+・Anthropic Mythos rewrites Firefox cybersecurity: https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/
+・Aurora self-driving trucks ready to scale: https://techcrunch.com/podcast/auroras-chris-urmson-on-why-self-driving-trucks-are-finally-ready-to-scale/
+・Hugging Face launches agentic toolkit for Reachy Mini: https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/
+・Cognex AI-powered vision system for robotics: https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/
+・Nyobolt raises funding for robot fast charging: https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/
+
+#AIニュース #生成AI #海外AI #NVIDIA #半導体 #AI雇用 #ChatGPT広告 #医療AI #AIエージェント #AIと社会]]></itunes:summary>
+      <itunes:duration>00:28:57</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>海外AIニュース・ダイジェスト 2026-05-07</title>
+      <description><![CDATA[2026-05-07 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-07.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-07.mp3" length="24036909" type="audio/mpeg"/>
-      <itunes:title>5/7 GPT-5.5登場＆AI10分で思考力低下の衝撃</itunes:title>
-      <itunes:summary><![CDATA[OpenAIがChatGPTのデフォルトモデルをGPT-5.5 Instantに刷新、広告モデルへの転換も始動。DeepSeekが評価額6.7兆円、サムスンが時価総額150兆円突破とAIマネーが激流に。「AIを10分使うだけで思考力低下」の研究結果を深掘りし、日常でのAI活用の線引きを議論します。マスク対アルトマン裁判ではムラティ元CTO証言も。
-
-【目次】
-・オープニング
-・メインニュース：GPT-5.5 InstantとOpenAIのビジネスモデル転換
-・メインニュース：DeepSeek6.7兆円評価＆サムスン時価総額150兆円突破
-・ディープダイブ：AIを10分使うだけで思考力が落ちる？
-・生活＆仕事へのヒント：iOS 27のAI選択、Google検索のReddit引用、AI導入コストと雇用
-・エンディング
-
-【参照元】
-・Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird: https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/
-・How Elon Musk left OpenAI, according to Greg Brockman: https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/
-・Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows: https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/
-・DeepSeek could hit $45B valuation from its first investment round: https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/
-・I Am Begging AI Companies to Stop Naming Features After Human Processes: https://www.wired.com/story/i-am-begging-ai-companies-to-stop-naming-features-after-human-processes/
-・Google updates AI search to include expert advice from Reddit: https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/
-・Genesis AI has gone full-stack, demo shows: https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/
-・Tinder owner Match Group is slowing hiring to pay for AI tools: https://techcrunch.com/2026/05/06/tinder-owner-match-group-is-slowing-hiring-to-pay-for-its-increased-use-of-ai-tools/
-・Apple to pay $250M to settle lawsuit over Siri's delayed AI features: https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/
-・AI boom pushes Samsung to $1T: https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/
-・Higher usage limits for Claude and a compute deal with SpaceX: https://www.anthropic.com/news/higher-limits-spacex
-・OpenAI releases GPT-5.5 Instant: https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/
-・GPT-5.5 Instant: smarter, clearer, and more personalized: https://openai.com/index/gpt-5-5-instant
-・New ways to buy ChatGPT ads: https://openai.com/index/new-ways-to-buy-chatgpt-ads
-・OpenAI and PwC collaborate to reimagine the office of the CFO: https://openai.com/index/openai-pwc-finance-collaboration
-・Introducing ChatGPT Futures: Class of 2026: https://openai.com/index/introducing-chatgpt-futures-class-of-2026
-・Mira Murati tells the court she couldn't trust Sam Altman's words: https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati
-・Live updates from Musk and Altman's court battle: https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit
-・Google's AI search summaries will now quote Reddit: https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links
-・Apple could let you pick a favorite AI model in iOS 27: https://www.theverge.com/tech/924515/apple-intelligence-third-party-chatbot-extensions-ios-27
-・Apple agrees to pay $250M for not delivering AI Siri: https://www.theverge.com/tech/924706/apple-iphone-siri-intelligence-class-action-lawsuit-settlement
-・Pennsylvania sues Character.AI after chatbot posed as a doctor: https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/
-・PayPal says it's becoming a technology company again: https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/
-・ASML CEO: No one is coming for us: https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/
-・SAP bets $1.16B on German AI lab: https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/
-・1X begins production of NEO humanoids in California: https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/
-・Genesis AI introduces GENE-26.5 model: https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/
-・J&J completes clinical study for OTTAVA robotic surgical system: https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/
-・Sanofi expands AI capabilities, investing $294M in Toronto hub: https://www.fiercebiotech.com/pharma/sanofi-expands-ai-capabilities-investing-294m-scale-toronto-hub
-・Hard Fork: OpenAI's Big Reset + AI in the Doctor's Office: https://www.nytimes.com/column/hard-fork
-・No Priors: Baseten CEO on the AI Inference Crunch: https://www.youtube.com/watch?v=placeholder
-・Week one of Musk v. Altman trial: https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/
-・NVIDIA Spectrum-X Ethernet MRC: https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/
-・Microsoft gives up on Xbox Copilot AI: https://www.theverge.com/games/924551/microsoft-xbox-ceo-copilot-ai-asha-sharma
-・Chrome's AI features may be hogging 4GB of storage: https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features
-
-#AIニュース #生成AI #海外AI #GPT55 #DeepSeek #サムスン #AI思考力 #OpenAI #半導体 #AIと社会]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-05-07</itunes:title>
+      <itunes:summary><![CDATA[2026-05-07 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:25:02</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>海外AIニュース・ダイジェスト 2026-05-04</title>
-      <description><![CDATA[2026-05-04 の海外AI最新情報をお届けします。]]></description>
+      <title>5/4 マスクvsアルトマン裁判＆医療AIが救急医を超えた日</title>
+      <description><![CDATA[【今回のトピック】
+・マスク氏対アルトマン氏の裁判 — OpenAIの営利転換の正当性、xAIによるモデル蒸留の自認、AI業界のガバナンスと知的財産問題
+・ハーバード大学の研究で大規模言語モデルが救急医より正確な診断を達成 — AIスクライブやOpen Evidenceの急速普及、メイヨー・クリニックの膵臓がん早期発見AI
+・OpenAIのマルチクラウド戦略転換（Microsoft独占解消→Amazon・Googleへ展開）およびアカデミー賞によるAI生成俳優・脚本の排除決定]]></description>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-04.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-04.mp3" length="25620909" type="audio/mpeg"/>
-      <itunes:title>海外AIニュース・ダイジェスト 2026-05-04</itunes:title>
-      <itunes:summary><![CDATA[2026-05-04 の海外AI最新情報をお届けします。]]></itunes:summary>
+      <itunes:title>5/4 マスクvsアルトマン裁判＆医療AIが救急医を超えた日</itunes:title>
+      <itunes:summary><![CDATA[【今回のトピック】
+・マスク氏対アルトマン氏の裁判 — OpenAIの営利転換の正当性、xAIによるモデル蒸留の自認、AI業界のガバナンスと知的財産問題
+・ハーバード大学の研究で大規模言語モデルが救急医より正確な診断を達成 — AIスクライブやOpen Evidenceの急速普及、メイヨー・クリニックの膵臓がん早期発見AI
+・OpenAIのマルチクラウド戦略転換（Microsoft独占解消→Amazon・Googleへ展開）およびアカデミー賞によるAI生成俳優・脚本の排除決定]]></itunes:summary>
       <itunes:duration>00:26:41</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
