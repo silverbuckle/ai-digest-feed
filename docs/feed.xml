@@ -18,127 +18,124 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>5/14 世界初AI買収9500億円＆Anthropic逆転劇</title>
-      <description><![CDATA[ロングレイクの9500億円規模「AIテイクプライベート」が示す企業変革の新モデル、xAIデータセンターの環境訴訟、AnthropicがOpenAIをビジネス顧客数で初めて逆転した背景、MedicareのAI前提支払いモデル、AI歯科診断の過剰診療リスクまで、AI産業の最前線を深掘りします。
+      <title>5/18 AI兵器Mythosの衝撃＆米国の半導体地政学Pax Silica</title>
+      <description><![CDATA[AnthropicのClaude Mythosがサイバーセキュリティの均衡を崩し、トランプ政権がAI安全規制に急転換。OpenAIはグレッグ・ブロックマン氏のもとプロダクト再編、ChatGPTに個人資産管理機能を搭載。米国が14カ国のAI供給チェーン同盟「Pax Silica」を始動し、CerebrasのIPO大成功やarXivのAI丸投げ禁止令など、AIゴールドラッシュの勝者と敗者が鮮明に。
 
 【目次】
 ・オープニング
-・メインニュース：世界初のAIテイクプライベート — 9500億円で企業を丸ごと変える
-・メインニュース：xAIガスタービン訴訟とAIの電力問題
-・ディープダイブ：Anthropic vs OpenAI — ビジネス顧客逆転の意味とバイブコーディングの波
-・生活＆仕事へのヒント：Medicare新モデル、AI歯科診断、AI創薬3200億円調達
+・メインニュース：Claude Mythosの衝撃とトランプ政権のAI安全規制転換
+・メインニュース：OpenAI組織再編・ChatGPT個人資産管理・マスク対アルトマン裁判
+・ディープダイブ：Pax Silica — AIサプライチェーンの地政学
+・生活＆仕事へのヒント：AIゴールドラッシュの勝ち組と負け組、arXivのAI丸投げ禁止、ディープフェイク対策
 ・エンディング
 
 【参照元】
-・Building a safe, effective sandbox to enable Codex on Windows: https://openai.com/index/building-codex-windows-sandbox
-・Musk's xAI is running nearly 50 gas turbines unchecked at its Mississippi data center: https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/
-・Anthropic's Cat Wu says AI will anticipate your needs: https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/
-・What It Will Take to Make AI Sustainable: https://www.wired.com/story/what-it-will-take-to-make-ai-sustainable/
-・DHS Plans Experiment Running Reconnaissance Drones Along US-Canada Border: https://www.wired.com/story/dhs-plans-experiment-running-reconnaissance-drones-along-the-us-canada-border/
-・Origin Lab raises $8M for game data marketplace: https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/
-・Anthropic courts small business owners: https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/
-・Amazon launches AI shopping assistant powered by Alexa+: https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/
-・Anthropic now has more business customers than OpenAI (Ramp data): https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/
-・WhatsApp Adds Meta AI Incognito Chat: https://www.wired.com/story/whatsapp-incognito-chat-meta-ai/
-・Poppy debuts proactive AI assistant: https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/
-・NVIDIA and Ineffable Intelligence reinforcement learning collaboration: https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/
-・Adaption AutoScientist AI tool: https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/
-・Mira Murati's Thinking Machines Lab Interaction Models: https://www.marktechpost.com/2026/05/13/mira-muratis-thinking-machines-lab-introduces-interaction-models-a-native-multimodal-architecture-for-real-time-human-ai-collaboration/
-・MIT: New approach to cancer vaccination: https://news.mit.edu/2026/new-approach-cancer-vaccination-yields-more-powerful-t-cells-0513
-・Google DeepMind AI-enabled mouse pointer: https://www.marktechpost.com/2026/05/13/google-deepmind-introduces-an-ai-enabled-mouse-pointer-powered-by-gemini-that-captures-visual-and-semantic-context-around-the-cursor/
-・Medicare's new payment model is built for AI: https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/
-・Sam Altman testifies about Musk in trial: https://www.wired.com/story/sam-altman-testifies-musk-v-altman-trial/
-・xAI Adds 19 New Gas Turbines Despite Lawsuit: https://www.wired.com/story/xai-adds-19-new-gas-turbines-despite-ongoing-lawsuit/
-・Unitree GD01 Mecha Robot: https://www.wired.com/story/unitree-gd01-mecha-robot/
-・OpenAI Parameter Golf: https://openai.com/index/what-parameter-golf-taught-us
-・How NVIDIA engineers build with Codex: https://openai.com/index/nvidia
-・ChatGPT adoption broadened in early 2026: https://openai.com/signals/research/2026q1-update
-・OpenAI launches DeployCo: https://openai.com/index/openai-launches-the-deployment-company
-・AI chatbots giving out real phone numbers: https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/
-・Nobel-winning economist on AI: https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/
-・Data centers coming for rural America: https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine
-・Meta AI on Threads can't be blocked: https://www.theverge.com/tech/929091/meta-ai-threads-account-block
-・Gemini updates for Android: https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill
-・Google Create My Widget vibe-coded widgets: https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/
-・Ryan Carson one-person code factory: https://www.oreilly.com/radar/ryan-carson-is-a-one-person-code-factory/
-・Anthropic AI legal services tools: https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/
-・Google and SpaceX data centers in orbit: https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/
-・Anthropic warns against secondary share platforms: https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/
-・Isomorphic Labs $2.1B series B: https://www.fiercebiotech.com/biotech/alphabets-ai-biotech-isomorphic-labs-bags-21b-series-b-fuel-next-gen-drug-design-model
-・AstraZeneca agentic AI deal with Owkin: https://www.fiercebiotech.com/medtech/astrazeneca-pens-agentic-ai-licensing-deal-owkin
-・Charles River AI diagnostic pathology tool: https://www.fiercebiotech.com/medtech/charles-river-debuts-ai-diagnostic-tool-cut-down-pathology-timelines
-・Hello Robot Stretch 4: https://spectrum.ieee.org/stretch-4-home-robot
-・Hard Fork: Prediction Markets, Joanna Stern AI experiments: https://www.nytimes.com/column/hard-fork
-・No Priors: Amex GBT AI Take-Private with Long Lake CEO: https://www.youtube.com/watch?v=nopriors-longake
-・LangSmith Sandboxes GA: https://www.langchain.com/blog/langsmith-sandboxes-generally-available
-・LangSmith Engine: https://www.langchain.com/blog/introducing-langsmith-engine
-・Novo Nordisk Parkinson's cell therapy to Cellular Intelligence: https://www.drugdiscoverytrends.com/novo-nordisk-hands-a-parkinsons-cell-therapy-to-cellular-intelligence-a-startup-trying-to-design-cell-behavior/
-・Touch dreaming helps humanoid robots: https://techxplore.com/news/2026-05-humanoid-robots-tricky-tasks-higher.html
-・Hermes Agent open source framework: https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/
+・Hard Fork: A.I. Safety Is So Back + Mythos Mayhem with Nikesh Arora: https://www.nytimes.com/column/hard-fork
+・No Priors: Pax Silica with Jacob Helberg: 
+・OpenAI co-founder Greg Brockman reportedly takes charge of product strategy: https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/
+・Greg Brockman Officially Takes Control of OpenAI's Products: https://www.wired.com/story/openai-reorg-greg-brockman-product/
+・OpenAI launches ChatGPT for personal finance: https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/
+・A new personal finance experience in ChatGPT: https://openai.com/index/personal-finance-chatgpt
+・OpenAI and Malta partner to bring ChatGPT Plus to all citizens: https://openai.com/index/malta-chatgpt-plus-partnership
+・OpenAI is reportedly preparing legal action against Apple: https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/
+・The haves and have nots of the AI gold rush: https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/
+・Cerebras raises $5.5B in first huge tech IPO of 2026: https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/
+・Cisco cuts nearly 4,000 jobs to spend more on AI: https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/
+・ArXiv will ban authors for a year if they let AI do all the work: https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/
+・ArXiv will ban researchers who upload papers full of AI slop: https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers
+・AI chatbots are giving out people's real phone numbers: https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/
+・The shock of seeing your body used in deepfake porn: https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/
+・YouTube expanding AI deepfake detection tool to all adults: https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults
+・Mira Murati Wants Her AI to 'Keep Humans in the Loop': https://www.wired.com/story/mira-murati-humans-in-the-loop-ai-models-thinking-machines/
+・What happens when AI starts building itself?: https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/
+・NVIDIA Introduces SANA-WM: https://www.marktechpost.com/2026/05/16/nvidia-introduces-sana-wm-a-2-6b-parameter-open-source-world-model-that-generates-minute-scale-720p-video-on-a-single-gpu/
+・Runway wants to beat Google at AI: https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/
+・Vercel Labs Introduces Zero: https://www.marktechpost.com/2026/05/17/vercel-labs-introduces-zero-a-systems-programming-language-designed-so-ai-agents-can-read-repair-and-ship-native-programs/
+・Ryan Carson Is a One-Person Code Factory: https://www.oreilly.com/radar/ryan-carson-is-a-one-person-code-factory/
+・The Real Losers of the Musk v. Altman Trial: https://www.wired.com/story/musk-v-altman-trial-closing-arguments/
+・Why trust is a big question at the Musk-OpenAI trial: https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/
+・The OpenAI trial wraps up: https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/
+・Silicon Valley's vacationland energy prices rising from AI: https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/
+・University of Arizona students boo Eric Schmidt's AI speech: https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement
+・Revamped Siri will reportedly offer auto-deleting chats: https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats
+・OpenAI keeps shuffling executives for AI agent battle: https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle
+・Google updates spam rules for AI manipulation: https://www.theverge.com/tech/931416/google-ai-search-spam-policy
+・Work with Codex from anywhere: https://openai.com/index/work-with-codex-from-anywhere
+・Building a safe sandbox for Codex on Windows: https://openai.com/index/building-codex-windows-sandbox
+・Databricks brings GPT-5.5 to enterprise agent workflows: https://openai.com/index/databricks
+・Khosla Ventures bets $10M on AI bookkeeping startup Synthetic: https://techcrunch.com/2026/05/14/khosla-ventures-is-betting-10m-on-ian-crosby-whose-last-startup-bench-imploded/
 
-#AIニュース #生成AI #海外AI #Anthropic #OpenAI #AI創薬 #バイブコーディング #AIと雇用 #エネルギー問題 #医療AI]]></description>
+#AIニュース #生成AI #海外AI #サイバーセキュリティ #AIと社会 #PaxSilica #OpenAI #半導体 #AIゴールドラッシュ #ディープフェイク]]></description>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-18.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-18.mp3" length="27930669" type="audio/mpeg"/>
+      <itunes:title>5/18 AI兵器Mythosの衝撃＆米国の半導体地政学Pax Silica</itunes:title>
+      <itunes:summary><![CDATA[AnthropicのClaude Mythosがサイバーセキュリティの均衡を崩し、トランプ政権がAI安全規制に急転換。OpenAIはグレッグ・ブロックマン氏のもとプロダクト再編、ChatGPTに個人資産管理機能を搭載。米国が14カ国のAI供給チェーン同盟「Pax Silica」を始動し、CerebrasのIPO大成功やarXivのAI丸投げ禁止令など、AIゴールドラッシュの勝者と敗者が鮮明に。
+
+【目次】
+・オープニング
+・メインニュース：Claude Mythosの衝撃とトランプ政権のAI安全規制転換
+・メインニュース：OpenAI組織再編・ChatGPT個人資産管理・マスク対アルトマン裁判
+・ディープダイブ：Pax Silica — AIサプライチェーンの地政学
+・生活＆仕事へのヒント：AIゴールドラッシュの勝ち組と負け組、arXivのAI丸投げ禁止、ディープフェイク対策
+・エンディング
+
+【参照元】
+・Hard Fork: A.I. Safety Is So Back + Mythos Mayhem with Nikesh Arora: https://www.nytimes.com/column/hard-fork
+・No Priors: Pax Silica with Jacob Helberg: 
+・OpenAI co-founder Greg Brockman reportedly takes charge of product strategy: https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/
+・Greg Brockman Officially Takes Control of OpenAI's Products: https://www.wired.com/story/openai-reorg-greg-brockman-product/
+・OpenAI launches ChatGPT for personal finance: https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/
+・A new personal finance experience in ChatGPT: https://openai.com/index/personal-finance-chatgpt
+・OpenAI and Malta partner to bring ChatGPT Plus to all citizens: https://openai.com/index/malta-chatgpt-plus-partnership
+・OpenAI is reportedly preparing legal action against Apple: https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/
+・The haves and have nots of the AI gold rush: https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/
+・Cerebras raises $5.5B in first huge tech IPO of 2026: https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/
+・Cisco cuts nearly 4,000 jobs to spend more on AI: https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/
+・ArXiv will ban authors for a year if they let AI do all the work: https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/
+・ArXiv will ban researchers who upload papers full of AI slop: https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers
+・AI chatbots are giving out people's real phone numbers: https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/
+・The shock of seeing your body used in deepfake porn: https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/
+・YouTube expanding AI deepfake detection tool to all adults: https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults
+・Mira Murati Wants Her AI to 'Keep Humans in the Loop': https://www.wired.com/story/mira-murati-humans-in-the-loop-ai-models-thinking-machines/
+・What happens when AI starts building itself?: https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/
+・NVIDIA Introduces SANA-WM: https://www.marktechpost.com/2026/05/16/nvidia-introduces-sana-wm-a-2-6b-parameter-open-source-world-model-that-generates-minute-scale-720p-video-on-a-single-gpu/
+・Runway wants to beat Google at AI: https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/
+・Vercel Labs Introduces Zero: https://www.marktechpost.com/2026/05/17/vercel-labs-introduces-zero-a-systems-programming-language-designed-so-ai-agents-can-read-repair-and-ship-native-programs/
+・Ryan Carson Is a One-Person Code Factory: https://www.oreilly.com/radar/ryan-carson-is-a-one-person-code-factory/
+・The Real Losers of the Musk v. Altman Trial: https://www.wired.com/story/musk-v-altman-trial-closing-arguments/
+・Why trust is a big question at the Musk-OpenAI trial: https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/
+・The OpenAI trial wraps up: https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/
+・Silicon Valley's vacationland energy prices rising from AI: https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/
+・University of Arizona students boo Eric Schmidt's AI speech: https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement
+・Revamped Siri will reportedly offer auto-deleting chats: https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats
+・OpenAI keeps shuffling executives for AI agent battle: https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle
+・Google updates spam rules for AI manipulation: https://www.theverge.com/tech/931416/google-ai-search-spam-policy
+・Work with Codex from anywhere: https://openai.com/index/work-with-codex-from-anywhere
+・Building a safe sandbox for Codex on Windows: https://openai.com/index/building-codex-windows-sandbox
+・Databricks brings GPT-5.5 to enterprise agent workflows: https://openai.com/index/databricks
+・Khosla Ventures bets $10M on AI bookkeeping startup Synthetic: https://techcrunch.com/2026/05/14/khosla-ventures-is-betting-10m-on-ian-crosby-whose-last-startup-bench-imploded/
+
+#AIニュース #生成AI #海外AI #サイバーセキュリティ #AIと社会 #PaxSilica #OpenAI #半導体 #AIゴールドラッシュ #ディープフェイク]]></itunes:summary>
+      <itunes:duration>00:29:05</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>5/14 世界初AI買収9500億円＆Anthropic逆転劇</title>
+      <description><![CDATA[【今回のトピック】
+・ロングレイク・マネジメントによる世界初の「AIテイクプライベート」買収（約9500億円規模）でAIによる企業変革モデルが始動
+・xAIデータセンターのガスタービン無許可稼働による環境訴訟とAIの電力消費問題の顕在化
+・AnthropicがOpenAIをビジネス顧客数で初めて逆転し、AI競争の軸が業務実装へ移行
+・MedicareがAI前提の新支払いモデルを導入し、米国医療制度がAIに適応し始めた動き]]></description>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-14.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-14.mp3" length="24440493" type="audio/mpeg"/>
       <itunes:title>5/14 世界初AI買収9500億円＆Anthropic逆転劇</itunes:title>
-      <itunes:summary><![CDATA[ロングレイクの9500億円規模「AIテイクプライベート」が示す企業変革の新モデル、xAIデータセンターの環境訴訟、AnthropicがOpenAIをビジネス顧客数で初めて逆転した背景、MedicareのAI前提支払いモデル、AI歯科診断の過剰診療リスクまで、AI産業の最前線を深掘りします。
-
-【目次】
-・オープニング
-・メインニュース：世界初のAIテイクプライベート — 9500億円で企業を丸ごと変える
-・メインニュース：xAIガスタービン訴訟とAIの電力問題
-・ディープダイブ：Anthropic vs OpenAI — ビジネス顧客逆転の意味とバイブコーディングの波
-・生活＆仕事へのヒント：Medicare新モデル、AI歯科診断、AI創薬3200億円調達
-・エンディング
-
-【参照元】
-・Building a safe, effective sandbox to enable Codex on Windows: https://openai.com/index/building-codex-windows-sandbox
-・Musk's xAI is running nearly 50 gas turbines unchecked at its Mississippi data center: https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/
-・Anthropic's Cat Wu says AI will anticipate your needs: https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/
-・What It Will Take to Make AI Sustainable: https://www.wired.com/story/what-it-will-take-to-make-ai-sustainable/
-・DHS Plans Experiment Running Reconnaissance Drones Along US-Canada Border: https://www.wired.com/story/dhs-plans-experiment-running-reconnaissance-drones-along-the-us-canada-border/
-・Origin Lab raises $8M for game data marketplace: https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/
-・Anthropic courts small business owners: https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/
-・Amazon launches AI shopping assistant powered by Alexa+: https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/
-・Anthropic now has more business customers than OpenAI (Ramp data): https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/
-・WhatsApp Adds Meta AI Incognito Chat: https://www.wired.com/story/whatsapp-incognito-chat-meta-ai/
-・Poppy debuts proactive AI assistant: https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/
-・NVIDIA and Ineffable Intelligence reinforcement learning collaboration: https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/
-・Adaption AutoScientist AI tool: https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/
-・Mira Murati's Thinking Machines Lab Interaction Models: https://www.marktechpost.com/2026/05/13/mira-muratis-thinking-machines-lab-introduces-interaction-models-a-native-multimodal-architecture-for-real-time-human-ai-collaboration/
-・MIT: New approach to cancer vaccination: https://news.mit.edu/2026/new-approach-cancer-vaccination-yields-more-powerful-t-cells-0513
-・Google DeepMind AI-enabled mouse pointer: https://www.marktechpost.com/2026/05/13/google-deepmind-introduces-an-ai-enabled-mouse-pointer-powered-by-gemini-that-captures-visual-and-semantic-context-around-the-cursor/
-・Medicare's new payment model is built for AI: https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/
-・Sam Altman testifies about Musk in trial: https://www.wired.com/story/sam-altman-testifies-musk-v-altman-trial/
-・xAI Adds 19 New Gas Turbines Despite Lawsuit: https://www.wired.com/story/xai-adds-19-new-gas-turbines-despite-ongoing-lawsuit/
-・Unitree GD01 Mecha Robot: https://www.wired.com/story/unitree-gd01-mecha-robot/
-・OpenAI Parameter Golf: https://openai.com/index/what-parameter-golf-taught-us
-・How NVIDIA engineers build with Codex: https://openai.com/index/nvidia
-・ChatGPT adoption broadened in early 2026: https://openai.com/signals/research/2026q1-update
-・OpenAI launches DeployCo: https://openai.com/index/openai-launches-the-deployment-company
-・AI chatbots giving out real phone numbers: https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/
-・Nobel-winning economist on AI: https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/
-・Data centers coming for rural America: https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine
-・Meta AI on Threads can't be blocked: https://www.theverge.com/tech/929091/meta-ai-threads-account-block
-・Gemini updates for Android: https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill
-・Google Create My Widget vibe-coded widgets: https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/
-・Ryan Carson one-person code factory: https://www.oreilly.com/radar/ryan-carson-is-a-one-person-code-factory/
-・Anthropic AI legal services tools: https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/
-・Google and SpaceX data centers in orbit: https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/
-・Anthropic warns against secondary share platforms: https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/
-・Isomorphic Labs $2.1B series B: https://www.fiercebiotech.com/biotech/alphabets-ai-biotech-isomorphic-labs-bags-21b-series-b-fuel-next-gen-drug-design-model
-・AstraZeneca agentic AI deal with Owkin: https://www.fiercebiotech.com/medtech/astrazeneca-pens-agentic-ai-licensing-deal-owkin
-・Charles River AI diagnostic pathology tool: https://www.fiercebiotech.com/medtech/charles-river-debuts-ai-diagnostic-tool-cut-down-pathology-timelines
-・Hello Robot Stretch 4: https://spectrum.ieee.org/stretch-4-home-robot
-・Hard Fork: Prediction Markets, Joanna Stern AI experiments: https://www.nytimes.com/column/hard-fork
-・No Priors: Amex GBT AI Take-Private with Long Lake CEO: https://www.youtube.com/watch?v=nopriors-longake
-・LangSmith Sandboxes GA: https://www.langchain.com/blog/langsmith-sandboxes-generally-available
-・LangSmith Engine: https://www.langchain.com/blog/introducing-langsmith-engine
-・Novo Nordisk Parkinson's cell therapy to Cellular Intelligence: https://www.drugdiscoverytrends.com/novo-nordisk-hands-a-parkinsons-cell-therapy-to-cellular-intelligence-a-startup-trying-to-design-cell-behavior/
-・Touch dreaming helps humanoid robots: https://techxplore.com/news/2026-05-humanoid-robots-tricky-tasks-higher.html
-・Hermes Agent open source framework: https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/
-
-#AIニュース #生成AI #海外AI #Anthropic #OpenAI #AI創薬 #バイブコーディング #AIと雇用 #エネルギー問題 #医療AI]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・ロングレイク・マネジメントによる世界初の「AIテイクプライベート」買収（約9500億円規模）でAIによる企業変革モデルが始動
+・xAIデータセンターのガスタービン無許可稼働による環境訴訟とAIの電力消費問題の顕在化
+・AnthropicがOpenAIをビジネス顧客数で初めて逆転し、AI競争の軸が業務実装へ移行
+・MedicareがAI前提の新支払いモデルを導入し、米国医療制度がAIに適応し始めた動き]]></itunes:summary>
       <itunes:duration>00:25:27</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
