@@ -18,105 +18,184 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>5/18 AI兵器Mythosの衝撃＆米国の半導体地政学Pax Silica</title>
-      <description><![CDATA[AnthropicのClaude Mythosがサイバーセキュリティの均衡を崩し、トランプ政権がAI安全規制に急転換。OpenAIはグレッグ・ブロックマン氏のもとプロダクト再編、ChatGPTに個人資産管理機能を搭載。米国が14カ国のAI供給チェーン同盟「Pax Silica」を始動し、CerebrasのIPO大成功やarXivのAI丸投げ禁止令など、AIゴールドラッシュの勝者と敗者が鮮明に。
+      <title>5/21 マスク敗訴＆OpenAI上場へ、Google検索の終わりとAI創薬の転換点</title>
+      <description><![CDATA[マスク対アルトマン裁判がマスク氏の敗訴で決着し、OpenAIのIPOが9月にも実現する可能性が浮上。Google I/O 2026ではAI検索への大転換とエージェント時代の幕開けが宣言されました。製薬大手BMSがAnthropicのClaudeを全社導入する一方、AI臨床試験の欠陥拡大リスクも報告。AIエージェントの安全性問題からAIコンテンツのラベリングまで、今週の重要ニュースを深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：Claude Mythosの衝撃とトランプ政権のAI安全規制転換
-・メインニュース：OpenAI組織再編・ChatGPT個人資産管理・マスク対アルトマン裁判
-・ディープダイブ：Pax Silica — AIサプライチェーンの地政学
-・生活＆仕事へのヒント：AIゴールドラッシュの勝ち組と負け組、arXivのAI丸投げ禁止、ディープフェイク対策
+・メインニュース：マスク対アルトマン裁判決着＆OpenAI IPO加速
+・メインニュース：Google I/O 2026 — 検索の根本的変革とエージェント時代
+・ディープダイブ：AI創薬の大波と臨床試験のデータ品質問題
+・生活＆仕事へのヒント：検索変化への備え、バイブコーディング、医療AI、コンテンツ真贋
 ・エンディング
 
 【参照元】
+・An OpenAI model has disproved a central conjecture in discrete geometry: https://openai.com/index/model-disproves-discrete-geometry-conjecture
+・How Ramp engineers accelerate code review with Codex: https://openai.com/index/ramp
+・The next phase of OpenAI's Education for Countries: https://openai.com/index/the-next-phase-of-education-for-countries
+・Introducing OpenAI for Singapore: https://openai.com/index/introducing-openai-for-singapore
+・Advancing content provenance for a safer, more transparent AI ecosystem: https://openai.com/index/advancing-content-provenance
+・OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments: https://openai.com/index/dell-codex-enterprise-partnership
+・OlmoEarth v1.1: A more efficient family of Earth observation models: https://huggingface.co/blog/allenai/olmoearth-v1-1
+・Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation: https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation
+・The Open Agent Leaderboard: https://huggingface.co/blog/ibm-research/open-agent-leaderboard
+・Roundtables: Inside the Musk v. Altman Trial: https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/
+・The Download: Musk v. Altman, smart glasses for warfare, and Google I/O: https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/
+・Colossal Biosciences is growing chickens in a 3D-printed artificial eggshell: https://www.technologyreview.com/2026/05/19/1137471/colossal-biosciences-is-growing-chickens-in-a-3d-printed-container/
+・Here's why Elon Musk lost his suit against OpenAI: https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/
+・Inside Anduril and Meta's quest to make smart glasses for warfare: https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/
+・OpenAI claims it solved an 80-year-old math problem — for real this time: https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/
+・IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy: https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/
+・OpenAI barrels toward IPO that may happen in September: https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/
+・Stability AI releases a new audio model that can create 6-minute songs: https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/
+・Figma adds an AI assistant to its collaborative canvas: https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/
+・You can now talk to your Gmail inbox, as seen at Google IO 2026: https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/
+・How to use Google's new AI agents to go beyond your standard searches: https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/
+・From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing: https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/
+・Elon Musk said Sam Altman 'stole' a non-profit — but the trial showed he had similar aims: https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/
+・Google takes a page out of Meta's book, announces new audio-powered smart glasses at IO 2026: https://techcrunch.com/2026/05/19/google-takes-a-page-out-of-metas-book-announces-new-audio-powered-smart-glasses-at-io-2026/
+・Google's Genie world model can now simulate real streets with Street View: https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/
+・With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots: https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/
+・Google Search as you know it is over: https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/
+・OpenAI is making it easier to check if an image was made by their models: https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/
+・Agentic app coding gets an upgrade with Google's release of Android CLI: https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/
+・Google's AI Studio now lets anyone build Android apps in minutes: https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/
+・Vibe coding is coming to your phone: https://www.theverge.com/tech/934628/google-io-2026-android-ai-studio-widgets-shortcuts
+・You can now remix other people's YouTube Shorts with AI: https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai
+・Google Search's AI evolution includes more ads: https://www.theverge.com/tech/934585/google-ai-shopping-ads-search
+・It's make or break time for AI labeling systems: https://www.theverge.com/ai-artificial-intelligence/934521/google-synthid-c2pa-content-credentials-ai-labelling-efforts
+・If Google can't make AI agents useful, maybe no one can: https://www.theverge.com/ai-artificial-intelligence/934478/if-google-cant-make-ai-agents-useful-maybe-no-one-can
+・The biggest data center ever is becoming a huge problem in Utah: https://www.theverge.com/ai-artificial-intelligence/933687/utah-stratos-project-data-center-kevin-oleary
+・Demis Hassabis said this might be the 'foothills of the singularity.' What?: https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis
+・The future of Google is a search box that does everything: https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026
+・Google's AI future demands trust — and your personal data: https://www.theverge.com/tech/934172/google-io-gemini-ai-trust-personal-data
+・Gemini will use Volvo's external cameras to interpret parking signs: https://www.theverge.com/transportation/933556/google-io-gemini-volvo-ex60-camera-ai-parking
+・The Agent Stack Bet: https://www.oreilly.com/radar/the-agent-stack-bet/
+・When an Agent Deletes the Production Database: https://www.oreilly.com/radar/when-an-agent-deletes-the-production-database/
+・AI Artifact Catalogs: Durable Standards Worth Institutional Investment: https://www.oreilly.com/radar/ai-artifact-catalogs-durable-standards-worth-institutional-investment/
+・Agent Skills Work but the Research Shows Most Teams Are Building Them Wrong: https://www.oreilly.com/radar/agent-skills-work-but-the-research-shows-most-teams-are-building-them-wrong/
+・Inside Verobotics' edge AI robotics deployment at NVIDIA's Israel campus: https://www.therobotreport.com/inside-verobotics-edge-ai-robotics-deployment-at-nvidias-israel-campus/
+・Rovex and Sphaira pioneer autonomous patient transport: https://www.therobotreport.com/rovex-sphaira-pioneer-autonomous-patient-transport/
+・Opentrons launches Compliance Ready Software for Flex lab robots: https://www.therobotreport.com/opentrons-launches-compliance-ready-software-flex-lab-robots/
+・Locus Array expands picking ability with Nexera Robotics' NeuraGrasp: https://www.therobotreport.com/locus-array-expands-picking-ability-with-nexera-robotics-neuragrip/
+・FANUC strengthens robot integration with NVIDIA Isaac Sim: https://www.therobotreport.com/fanuc-strengthens-robot-integration-nvidia-isaac-sim/
+・Table tennis robot defeats some of world's best players: https://robohub.org/table-tennis-robot-defeats-some-of-worlds-best-players-why-this-has-major-implications-for-robotics/
+・Will Robotics Have a ChatGPT Moment?: https://spectrum.ieee.org/robotics-ai-breakthrough
+・Robots Could Turn E-Waste Into a Source of Legacy Chips: https://spectrum.ieee.org/e-waste-recycling-robots-ram
+・Home Robot Safety Is All About Relationships: https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards
+・What Makes a Job Dull, Dirty, or Dangerous?: https://spectrum.ieee.org/dull-dirty-dangerous-robots
+・What AI taxis and robots can learn from bees: https://techxplore.com/news/2026-05-ai-taxis-robots-bees.html
+・Qiagen links with chip giant Nvidia to propel AI use in drug discovery: https://www.fiercebiotech.com/medtech/qiagen-links-chip-giant-nvidia-propel-ai-use-drug-discovery
+・Incyte pays Genesis $80M to expand AI-fueled drug discovery pact: https://www.fiercebiotech.com/biotech/incyte-pays-genesis-80m-expand-ai-fueled-drug-discovery-pact
+・BMS taps Anthropic's Claude for enterprise-wide AI adoption: https://www.fiercebiotech.com/pharma/bristol-myers-taps-anthropic-claude-enterprise-wide-ai-adoption-speed-drug-rd-global
+・Labcorp joins lab results personalization push with MyLabcorp AI app: https://www.fiercebiotech.com/medtech/labcorp-joins-lab-results-personalisation-push-mylabcorp-ai-app
+・Clinical trial flaws 'being scaled, not solved' by AI: report: https://www.fiercebiotech.com/cro/flaws-are-being-scaled-not-solved-ai-clinical-trials-report
+・Incyte inks deal with Edison Scientific to train AI through drug discovery: https://www.fiercebiotech.com/biotech/incyte-inks-deal-edison-scientific-train-ai-through-drug-discovery
+・Facing mounting China licensing costs, biopharma buyers turn to AI: https://www.fiercebiotech.com/biotech/chinese-biotechs-raise-costs-buyers-turn-ai-local-know-how-keep
+・Herantis taps Indivi for digital biomarker tech in Parkinson's disease trial: https://www.fiercebiotech.com/medtech/herantis-taps-indivi-digital-biomarker-tech-parkinsons-disease-trial
 ・Hard Fork: A.I. Safety Is So Back + Mythos Mayhem with Nikesh Arora: https://www.nytimes.com/column/hard-fork
-・No Priors: Pax Silica with Jacob Helberg: 
-・OpenAI co-founder Greg Brockman reportedly takes charge of product strategy: https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/
-・Greg Brockman Officially Takes Control of OpenAI's Products: https://www.wired.com/story/openai-reorg-greg-brockman-product/
-・OpenAI launches ChatGPT for personal finance: https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/
-・A new personal finance experience in ChatGPT: https://openai.com/index/personal-finance-chatgpt
-・OpenAI and Malta partner to bring ChatGPT Plus to all citizens: https://openai.com/index/malta-chatgpt-plus-partnership
-・OpenAI is reportedly preparing legal action against Apple: https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/
-・The haves and have nots of the AI gold rush: https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/
-・Cerebras raises $5.5B in first huge tech IPO of 2026: https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/
-・Cisco cuts nearly 4,000 jobs to spend more on AI: https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/
-・ArXiv will ban authors for a year if they let AI do all the work: https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/
-・ArXiv will ban researchers who upload papers full of AI slop: https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers
-・AI chatbots are giving out people's real phone numbers: https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/
-・The shock of seeing your body used in deepfake porn: https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/
-・YouTube expanding AI deepfake detection tool to all adults: https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults
-・Mira Murati Wants Her AI to 'Keep Humans in the Loop': https://www.wired.com/story/mira-murati-humans-in-the-loop-ai-models-thinking-machines/
-・What happens when AI starts building itself?: https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/
-・NVIDIA Introduces SANA-WM: https://www.marktechpost.com/2026/05/16/nvidia-introduces-sana-wm-a-2-6b-parameter-open-source-world-model-that-generates-minute-scale-720p-video-on-a-single-gpu/
-・Runway wants to beat Google at AI: https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/
-・Vercel Labs Introduces Zero: https://www.marktechpost.com/2026/05/17/vercel-labs-introduces-zero-a-systems-programming-language-designed-so-ai-agents-can-read-repair-and-ship-native-programs/
-・Ryan Carson Is a One-Person Code Factory: https://www.oreilly.com/radar/ryan-carson-is-a-one-person-code-factory/
-・The Real Losers of the Musk v. Altman Trial: https://www.wired.com/story/musk-v-altman-trial-closing-arguments/
-・Why trust is a big question at the Musk-OpenAI trial: https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/
-・The OpenAI trial wraps up: https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/
-・Silicon Valley's vacationland energy prices rising from AI: https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/
-・University of Arizona students boo Eric Schmidt's AI speech: https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement
-・Revamped Siri will reportedly offer auto-deleting chats: https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats
-・OpenAI keeps shuffling executives for AI agent battle: https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle
-・Google updates spam rules for AI manipulation: https://www.theverge.com/tech/931416/google-ai-search-spam-policy
-・Work with Codex from anywhere: https://openai.com/index/work-with-codex-from-anywhere
-・Building a safe sandbox for Codex on Windows: https://openai.com/index/building-codex-windows-sandbox
-・Databricks brings GPT-5.5 to enterprise agent workflows: https://openai.com/index/databricks
-・Khosla Ventures bets $10M on AI bookkeeping startup Synthetic: https://techcrunch.com/2026/05/14/khosla-ventures-is-betting-10m-on-ian-crosby-whose-last-startup-bench-imploded/
+・No Priors: Pax Silica with Jacob Helberg: https://www.youtube.com/watch?v=placeholder
 
-#AIニュース #生成AI #海外AI #サイバーセキュリティ #AIと社会 #PaxSilica #OpenAI #半導体 #AIゴールドラッシュ #ディープフェイク]]></description>
+#AIニュース #生成AI #海外AI #OpenAI #GoogleIO #AI創薬 #AIエージェント #AIと社会 #バイブコーディング #医療AI]]></description>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-21.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-21.mp3" length="28970541" type="audio/mpeg"/>
+      <itunes:title>5/21 マスク敗訴＆OpenAI上場へ、Google検索の終わりとAI創薬の転換点</itunes:title>
+      <itunes:summary><![CDATA[マスク対アルトマン裁判がマスク氏の敗訴で決着し、OpenAIのIPOが9月にも実現する可能性が浮上。Google I/O 2026ではAI検索への大転換とエージェント時代の幕開けが宣言されました。製薬大手BMSがAnthropicのClaudeを全社導入する一方、AI臨床試験の欠陥拡大リスクも報告。AIエージェントの安全性問題からAIコンテンツのラベリングまで、今週の重要ニュースを深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：マスク対アルトマン裁判決着＆OpenAI IPO加速
+・メインニュース：Google I/O 2026 — 検索の根本的変革とエージェント時代
+・ディープダイブ：AI創薬の大波と臨床試験のデータ品質問題
+・生活＆仕事へのヒント：検索変化への備え、バイブコーディング、医療AI、コンテンツ真贋
+・エンディング
+
+【参照元】
+・An OpenAI model has disproved a central conjecture in discrete geometry: https://openai.com/index/model-disproves-discrete-geometry-conjecture
+・How Ramp engineers accelerate code review with Codex: https://openai.com/index/ramp
+・The next phase of OpenAI's Education for Countries: https://openai.com/index/the-next-phase-of-education-for-countries
+・Introducing OpenAI for Singapore: https://openai.com/index/introducing-openai-for-singapore
+・Advancing content provenance for a safer, more transparent AI ecosystem: https://openai.com/index/advancing-content-provenance
+・OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments: https://openai.com/index/dell-codex-enterprise-partnership
+・OlmoEarth v1.1: A more efficient family of Earth observation models: https://huggingface.co/blog/allenai/olmoearth-v1-1
+・Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation: https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation
+・The Open Agent Leaderboard: https://huggingface.co/blog/ibm-research/open-agent-leaderboard
+・Roundtables: Inside the Musk v. Altman Trial: https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/
+・The Download: Musk v. Altman, smart glasses for warfare, and Google I/O: https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/
+・Colossal Biosciences is growing chickens in a 3D-printed artificial eggshell: https://www.technologyreview.com/2026/05/19/1137471/colossal-biosciences-is-growing-chickens-in-a-3d-printed-container/
+・Here's why Elon Musk lost his suit against OpenAI: https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/
+・Inside Anduril and Meta's quest to make smart glasses for warfare: https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/
+・OpenAI claims it solved an 80-year-old math problem — for real this time: https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/
+・IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy: https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/
+・OpenAI barrels toward IPO that may happen in September: https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/
+・Stability AI releases a new audio model that can create 6-minute songs: https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/
+・Figma adds an AI assistant to its collaborative canvas: https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/
+・You can now talk to your Gmail inbox, as seen at Google IO 2026: https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/
+・How to use Google's new AI agents to go beyond your standard searches: https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/
+・From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing: https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/
+・Elon Musk said Sam Altman 'stole' a non-profit — but the trial showed he had similar aims: https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/
+・Google takes a page out of Meta's book, announces new audio-powered smart glasses at IO 2026: https://techcrunch.com/2026/05/19/google-takes-a-page-out-of-metas-book-announces-new-audio-powered-smart-glasses-at-io-2026/
+・Google's Genie world model can now simulate real streets with Street View: https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/
+・With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots: https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/
+・Google Search as you know it is over: https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/
+・OpenAI is making it easier to check if an image was made by their models: https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/
+・Agentic app coding gets an upgrade with Google's release of Android CLI: https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/
+・Google's AI Studio now lets anyone build Android apps in minutes: https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/
+・Vibe coding is coming to your phone: https://www.theverge.com/tech/934628/google-io-2026-android-ai-studio-widgets-shortcuts
+・You can now remix other people's YouTube Shorts with AI: https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai
+・Google Search's AI evolution includes more ads: https://www.theverge.com/tech/934585/google-ai-shopping-ads-search
+・It's make or break time for AI labeling systems: https://www.theverge.com/ai-artificial-intelligence/934521/google-synthid-c2pa-content-credentials-ai-labelling-efforts
+・If Google can't make AI agents useful, maybe no one can: https://www.theverge.com/ai-artificial-intelligence/934478/if-google-cant-make-ai-agents-useful-maybe-no-one-can
+・The biggest data center ever is becoming a huge problem in Utah: https://www.theverge.com/ai-artificial-intelligence/933687/utah-stratos-project-data-center-kevin-oleary
+・Demis Hassabis said this might be the 'foothills of the singularity.' What?: https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis
+・The future of Google is a search box that does everything: https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026
+・Google's AI future demands trust — and your personal data: https://www.theverge.com/tech/934172/google-io-gemini-ai-trust-personal-data
+・Gemini will use Volvo's external cameras to interpret parking signs: https://www.theverge.com/transportation/933556/google-io-gemini-volvo-ex60-camera-ai-parking
+・The Agent Stack Bet: https://www.oreilly.com/radar/the-agent-stack-bet/
+・When an Agent Deletes the Production Database: https://www.oreilly.com/radar/when-an-agent-deletes-the-production-database/
+・AI Artifact Catalogs: Durable Standards Worth Institutional Investment: https://www.oreilly.com/radar/ai-artifact-catalogs-durable-standards-worth-institutional-investment/
+・Agent Skills Work but the Research Shows Most Teams Are Building Them Wrong: https://www.oreilly.com/radar/agent-skills-work-but-the-research-shows-most-teams-are-building-them-wrong/
+・Inside Verobotics' edge AI robotics deployment at NVIDIA's Israel campus: https://www.therobotreport.com/inside-verobotics-edge-ai-robotics-deployment-at-nvidias-israel-campus/
+・Rovex and Sphaira pioneer autonomous patient transport: https://www.therobotreport.com/rovex-sphaira-pioneer-autonomous-patient-transport/
+・Opentrons launches Compliance Ready Software for Flex lab robots: https://www.therobotreport.com/opentrons-launches-compliance-ready-software-flex-lab-robots/
+・Locus Array expands picking ability with Nexera Robotics' NeuraGrasp: https://www.therobotreport.com/locus-array-expands-picking-ability-with-nexera-robotics-neuragrip/
+・FANUC strengthens robot integration with NVIDIA Isaac Sim: https://www.therobotreport.com/fanuc-strengthens-robot-integration-nvidia-isaac-sim/
+・Table tennis robot defeats some of world's best players: https://robohub.org/table-tennis-robot-defeats-some-of-worlds-best-players-why-this-has-major-implications-for-robotics/
+・Will Robotics Have a ChatGPT Moment?: https://spectrum.ieee.org/robotics-ai-breakthrough
+・Robots Could Turn E-Waste Into a Source of Legacy Chips: https://spectrum.ieee.org/e-waste-recycling-robots-ram
+・Home Robot Safety Is All About Relationships: https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards
+・What Makes a Job Dull, Dirty, or Dangerous?: https://spectrum.ieee.org/dull-dirty-dangerous-robots
+・What AI taxis and robots can learn from bees: https://techxplore.com/news/2026-05-ai-taxis-robots-bees.html
+・Qiagen links with chip giant Nvidia to propel AI use in drug discovery: https://www.fiercebiotech.com/medtech/qiagen-links-chip-giant-nvidia-propel-ai-use-drug-discovery
+・Incyte pays Genesis $80M to expand AI-fueled drug discovery pact: https://www.fiercebiotech.com/biotech/incyte-pays-genesis-80m-expand-ai-fueled-drug-discovery-pact
+・BMS taps Anthropic's Claude for enterprise-wide AI adoption: https://www.fiercebiotech.com/pharma/bristol-myers-taps-anthropic-claude-enterprise-wide-ai-adoption-speed-drug-rd-global
+・Labcorp joins lab results personalization push with MyLabcorp AI app: https://www.fiercebiotech.com/medtech/labcorp-joins-lab-results-personalisation-push-mylabcorp-ai-app
+・Clinical trial flaws 'being scaled, not solved' by AI: report: https://www.fiercebiotech.com/cro/flaws-are-being-scaled-not-solved-ai-clinical-trials-report
+・Incyte inks deal with Edison Scientific to train AI through drug discovery: https://www.fiercebiotech.com/biotech/incyte-inks-deal-edison-scientific-train-ai-through-drug-discovery
+・Facing mounting China licensing costs, biopharma buyers turn to AI: https://www.fiercebiotech.com/biotech/chinese-biotechs-raise-costs-buyers-turn-ai-local-know-how-keep
+・Herantis taps Indivi for digital biomarker tech in Parkinson's disease trial: https://www.fiercebiotech.com/medtech/herantis-taps-indivi-digital-biomarker-tech-parkinsons-disease-trial
+・Hard Fork: A.I. Safety Is So Back + Mythos Mayhem with Nikesh Arora: https://www.nytimes.com/column/hard-fork
+・No Priors: Pax Silica with Jacob Helberg: https://www.youtube.com/watch?v=placeholder
+
+#AIニュース #生成AI #海外AI #OpenAI #GoogleIO #AI創薬 #AIエージェント #AIと社会 #バイブコーディング #医療AI]]></itunes:summary>
+      <itunes:duration>00:30:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>5/18 AI兵器Mythosの衝撃＆米国の半導体地政学Pax Silica</title>
+      <description><![CDATA[【今回のトピック】
+・Anthropicの新モデル「Claude Mythos」がサイバーセキュリティに与える衝撃と、トランプ政権のAI安全規制への急転換
+・米国が始動させた多国間経済安全保障の枠組み「Pax Silica」とAI半導体をめぐる地政学
+・AIゴールドラッシュの勝ち組と負け組――CerebrasのIPO成功、arXivのAI丸投げ禁止令、AI離婚アシスタントによる「従業員ゼロ」起業]]></description>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-18.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-18.mp3" length="27930669" type="audio/mpeg"/>
       <itunes:title>5/18 AI兵器Mythosの衝撃＆米国の半導体地政学Pax Silica</itunes:title>
-      <itunes:summary><![CDATA[AnthropicのClaude Mythosがサイバーセキュリティの均衡を崩し、トランプ政権がAI安全規制に急転換。OpenAIはグレッグ・ブロックマン氏のもとプロダクト再編、ChatGPTに個人資産管理機能を搭載。米国が14カ国のAI供給チェーン同盟「Pax Silica」を始動し、CerebrasのIPO大成功やarXivのAI丸投げ禁止令など、AIゴールドラッシュの勝者と敗者が鮮明に。
-
-【目次】
-・オープニング
-・メインニュース：Claude Mythosの衝撃とトランプ政権のAI安全規制転換
-・メインニュース：OpenAI組織再編・ChatGPT個人資産管理・マスク対アルトマン裁判
-・ディープダイブ：Pax Silica — AIサプライチェーンの地政学
-・生活＆仕事へのヒント：AIゴールドラッシュの勝ち組と負け組、arXivのAI丸投げ禁止、ディープフェイク対策
-・エンディング
-
-【参照元】
-・Hard Fork: A.I. Safety Is So Back + Mythos Mayhem with Nikesh Arora: https://www.nytimes.com/column/hard-fork
-・No Priors: Pax Silica with Jacob Helberg: 
-・OpenAI co-founder Greg Brockman reportedly takes charge of product strategy: https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/
-・Greg Brockman Officially Takes Control of OpenAI's Products: https://www.wired.com/story/openai-reorg-greg-brockman-product/
-・OpenAI launches ChatGPT for personal finance: https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/
-・A new personal finance experience in ChatGPT: https://openai.com/index/personal-finance-chatgpt
-・OpenAI and Malta partner to bring ChatGPT Plus to all citizens: https://openai.com/index/malta-chatgpt-plus-partnership
-・OpenAI is reportedly preparing legal action against Apple: https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/
-・The haves and have nots of the AI gold rush: https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/
-・Cerebras raises $5.5B in first huge tech IPO of 2026: https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/
-・Cisco cuts nearly 4,000 jobs to spend more on AI: https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/
-・ArXiv will ban authors for a year if they let AI do all the work: https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/
-・ArXiv will ban researchers who upload papers full of AI slop: https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers
-・AI chatbots are giving out people's real phone numbers: https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/
-・The shock of seeing your body used in deepfake porn: https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/
-・YouTube expanding AI deepfake detection tool to all adults: https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults
-・Mira Murati Wants Her AI to 'Keep Humans in the Loop': https://www.wired.com/story/mira-murati-humans-in-the-loop-ai-models-thinking-machines/
-・What happens when AI starts building itself?: https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/
-・NVIDIA Introduces SANA-WM: https://www.marktechpost.com/2026/05/16/nvidia-introduces-sana-wm-a-2-6b-parameter-open-source-world-model-that-generates-minute-scale-720p-video-on-a-single-gpu/
-・Runway wants to beat Google at AI: https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/
-・Vercel Labs Introduces Zero: https://www.marktechpost.com/2026/05/17/vercel-labs-introduces-zero-a-systems-programming-language-designed-so-ai-agents-can-read-repair-and-ship-native-programs/
-・Ryan Carson Is a One-Person Code Factory: https://www.oreilly.com/radar/ryan-carson-is-a-one-person-code-factory/
-・The Real Losers of the Musk v. Altman Trial: https://www.wired.com/story/musk-v-altman-trial-closing-arguments/
-・Why trust is a big question at the Musk-OpenAI trial: https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/
-・The OpenAI trial wraps up: https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/
-・Silicon Valley's vacationland energy prices rising from AI: https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/
-・University of Arizona students boo Eric Schmidt's AI speech: https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement
-・Revamped Siri will reportedly offer auto-deleting chats: https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats
-・OpenAI keeps shuffling executives for AI agent battle: https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle
-・Google updates spam rules for AI manipulation: https://www.theverge.com/tech/931416/google-ai-search-spam-policy
-・Work with Codex from anywhere: https://openai.com/index/work-with-codex-from-anywhere
-・Building a safe sandbox for Codex on Windows: https://openai.com/index/building-codex-windows-sandbox
-・Databricks brings GPT-5.5 to enterprise agent workflows: https://openai.com/index/databricks
-・Khosla Ventures bets $10M on AI bookkeeping startup Synthetic: https://techcrunch.com/2026/05/14/khosla-ventures-is-betting-10m-on-ian-crosby-whose-last-startup-bench-imploded/
-
-#AIニュース #生成AI #海外AI #サイバーセキュリティ #AIと社会 #PaxSilica #OpenAI #半導体 #AIゴールドラッシュ #ディープフェイク]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・Anthropicの新モデル「Claude Mythos」がサイバーセキュリティに与える衝撃と、トランプ政権のAI安全規制への急転換
+・米国が始動させた多国間経済安全保障の枠組み「Pax Silica」とAI半導体をめぐる地政学
+・AIゴールドラッシュの勝ち組と負け組――CerebrasのIPO成功、arXivのAI丸投げ禁止令、AI離婚アシスタントによる「従業員ゼロ」起業]]></itunes:summary>
       <itunes:duration>00:29:05</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
