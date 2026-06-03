@@ -18,89 +18,122 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>6/1 Anthropic10兆円調達＆Copilot課金激変＆自動運転の未来</title>
-      <description><![CDATA[Anthropicが650億ドル（約10兆円）を調達しIPOに接近。GitHub Copilotがトークン従量課金に移行し開発者が大騒ぎ。自動運転タクシーの2035年シナリオと日本への影響を深掘り。AIツールの「使い放題時代」の終焉と、技術と社会のギャップを考えます。
+      <title>6/4 トランプAI大統領令＆NVIDIA物理AI＆自動運転の分岐点</title>
+      <description><![CDATA[トランプ大統領が業界反発を受けてトーンダウンしたAI大統領令に署名。NVIDIAはCosmos 3やヒューマノイドロボットなど物理AIの新ツールを大量公開。AIエージェントの暴走を防ぐセキュリティビジネスに巨額投資が集中。自動運転タクシーの2035年普及シナリオと、それが日本の地方交通にもたらす可能性を深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：Anthropic10兆円調達とAI半導体競争の多様化
-・メインニュース：GitHub Copilot従量課金とAIコーディングの転換点
-・ディープダイブ：自動運転タクシーの未来と社会の受容
-・生活＆仕事へのヒント：ロボット訓練データ・医療AI・AI時代のリテラシー
+・メインニュース：トランプAI大統領令＆Alphabet13兆円調達
+・メインニュース：NVIDIA物理AI新展開＆ロボットの進化
+・ディープダイブ：AIエージェントのセキュリティ＆自動運転の未来
+・生活＆仕事へのヒント：Codexプラグイン、ディープフェイク対策、AI検索規制
 ・エンディング
 
 【参照元】
-・Anthropic raises $65 billion, nears $1T valuation ahead of IPO: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
-・SoftBank says it will invest up to €75 billion to build French data centers: https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/
-・Github Copilot's new token-based billing spurs consternation among devs: https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/
-・Coders are refusing to work without AI — and that could come back to bite them: https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/
-・Cognition's Scott Wu says AI coding agents shouldn't replace humans: https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/
-・Does your CEO have AI psychosis? Aaron Levie thinks most of them do: https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/
-・What happens when companies become too AI-pilled?: https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/
-・Claude's new model is more 'honest' when it messes up: https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort
-・This chip startup just raised $135M on a bet that AI's biggest bottleneck isn't compute — it's memory: https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/
-・After Nvidia's $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M: https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/
-・Hard Fork: Why Are We Still Driving?: https://www.nytimes.com/column/hard-fork
-・AI training startup Shift will clean your home for free to train robots: https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning
-・Genesis AI Releases Genesis World 1.0 Physics Platform: https://www.marktechpost.com/2026/05/30/genesis-ai-releases-nyx-quadrants-and-genesis-world-1-0-physics-platform-for-scalable-robotics-foundation-model-evaluation/
-・Humanoids Summit Tokyo: https://techxplore.com/news/2026-05-humanoids-thread-needles-japanese-robotics.html
-・Boston Children's uses AI to unlock new diagnoses: https://openai.com/index/boston-childrens-hospital
-・MUFG aims to become AI-native with OpenAI: https://openai.com/index/mufg
-・The AI Hype Index: AI gets booed in graduation season: https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/
-・Glean's top line crosses $300M: https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/
-・The internet is being rebuilt for machines: https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/
-・No Priors: Building an AI Guardian for Enterprise with Onyx Security: 
-・NVIDIA Research Advances Robotics From Simulation to the Real World: https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/
-・OpenAI's Rosalind Biodefense: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense
-・Meta is reportedly developing an AI pendant: https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/
-・Amazon AI-animated show controversy: https://www.wired.com/story/story/amazon-is-making-an-ai-animated-good-advice-cupcake-tv-show-its-original-creator-is-furious/
-・NIST proposes benchmark for humanoid robots: https://www.therobotreport.com/nist-proposes-a-baseline-performance-benchmark-for-humanoid-robots/
-・Software becoming biggest bottleneck to physical AI: https://www.therobotreport.com/software-becoming-biggest-bottleneck-physical-ai-innovation-finds-qnx/
+・This Is How Trump Finally Signed the AI Executive Order: https://www.wired.com/story/this-is-how-trump-finally-signed-the-ai-executive-order/
+・Trump signs narrower executive order on AI oversight after industry objections: https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/
+・Alphabet's record-breaking $85B raise for Google's AI business: https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/
+・NVIDIA Releases Cosmos 3: https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/
+・NVIDIA Enables the Next Era Of Physical AI Research: https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/
+・NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving: https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/
+・The Humanoid Robot of the Future: NVIDIA and Unitree: https://www.wired.com/story/nvidia-unitree-humanoid-robot-h2-plus/
+・NVIDIA Factory Operations Blueprint: https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/
+・How Cosmos 3 Helps Physical AI Think Before It Acts: https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/
+・NVIDIA Jetson Brings Agentic AI to the Physical World: https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/
+・Building an AI Guardian for Enterprise with Onyx Security CEO: https://www.youtube.com/watch?v=placeholder
+・Coralogix raises $200M to monitor AI agents: https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/
+・Uber caps employee AI spending after blowing through budget: https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/
+・Interesting Times: Why Are We Still Driving?: https://www.nytimes.com/column/hard-fork
+・Anthropic scales Claude Mythos to critical infrastructure in 15+ countries: https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/
+・OpenAI launches new Codex tools for white-collar work: https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/
+・Microsoft launches Scout, an OpenClaw-inspired personal assistant: https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/
+・Google rolls out fake call detection: https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/
+・xAI Asks Court to Strip Alleged Grok Deepfake Nudes Victims of Anonymity: https://www.wired.com/story/xai-asks-court-to-strip-alleged-grok-deepfake-nudes-victims-of-anonymity/
+・Amazon will show AI product images when you search: https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/
+・Publishers will be able to opt out of AI Search, UK regulation: https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/
+・Google DeepMind Releases Gemma 4 12B: https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/
+・How virtual power plants could provide energy for data centers: https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/
+・OpenAI Stargate Michigan Data Center: https://openai.com/index/stargate-michigan-data-center
+・OpenAI public policy agenda: https://openai.com/index/public-policy-agenda
+・As AI gets better, it reveals an empty promise: https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise
+・Microsoft Build 2026: The 7 biggest announcements: https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements
+・Consistency, not complexity, key to teaching robots dexterity: https://techxplore.com/news/2026-06-complexity-key-robots-dexterity.html
+・LLMs help robots understand vague instructions: https://techxplore.com/news/2026-06-llms-robots-vague-focus-key.html
+・A robot is helping an ailing couple stay in their home: https://techxplore.com/news/2026-06-robot-ailing-couple-stay-home.html
+・Festo launches pneumatic gripper and tests GripperAI: https://www.therobotreport.com/festo-launches-pneumatic-gripper-tests-gripperai/
+・Introducing new capabilities to GPT-Rosalind: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind
+・Meta's AI agent for WhatsApp Business now available globally: https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/
+・Google must let publishers opt out of AI Search features, UK: https://www.theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out
 
-#AIニュース #生成AI #海外AI #Anthropic #GitHubCopilot #自動運転 #ロボティクス #AIと社会 #AI投資 #バイブコーディング]]></description>
+#AIニュース #生成AI #海外AI #ロボティクス #AIと社会 #自動運転 #AIセキュリティ #NVIDIA #物理AI #AI規制]]></description>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-04.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-04.mp3" length="26272941" type="audio/mpeg"/>
+      <itunes:title>6/4 トランプAI大統領令＆NVIDIA物理AI＆自動運転の分岐点</itunes:title>
+      <itunes:summary><![CDATA[トランプ大統領が業界反発を受けてトーンダウンしたAI大統領令に署名。NVIDIAはCosmos 3やヒューマノイドロボットなど物理AIの新ツールを大量公開。AIエージェントの暴走を防ぐセキュリティビジネスに巨額投資が集中。自動運転タクシーの2035年普及シナリオと、それが日本の地方交通にもたらす可能性を深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：トランプAI大統領令＆Alphabet13兆円調達
+・メインニュース：NVIDIA物理AI新展開＆ロボットの進化
+・ディープダイブ：AIエージェントのセキュリティ＆自動運転の未来
+・生活＆仕事へのヒント：Codexプラグイン、ディープフェイク対策、AI検索規制
+・エンディング
+
+【参照元】
+・This Is How Trump Finally Signed the AI Executive Order: https://www.wired.com/story/this-is-how-trump-finally-signed-the-ai-executive-order/
+・Trump signs narrower executive order on AI oversight after industry objections: https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/
+・Alphabet's record-breaking $85B raise for Google's AI business: https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/
+・NVIDIA Releases Cosmos 3: https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/
+・NVIDIA Enables the Next Era Of Physical AI Research: https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/
+・NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving: https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/
+・The Humanoid Robot of the Future: NVIDIA and Unitree: https://www.wired.com/story/nvidia-unitree-humanoid-robot-h2-plus/
+・NVIDIA Factory Operations Blueprint: https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/
+・How Cosmos 3 Helps Physical AI Think Before It Acts: https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/
+・NVIDIA Jetson Brings Agentic AI to the Physical World: https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/
+・Building an AI Guardian for Enterprise with Onyx Security CEO: https://www.youtube.com/watch?v=placeholder
+・Coralogix raises $200M to monitor AI agents: https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/
+・Uber caps employee AI spending after blowing through budget: https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/
+・Interesting Times: Why Are We Still Driving?: https://www.nytimes.com/column/hard-fork
+・Anthropic scales Claude Mythos to critical infrastructure in 15+ countries: https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/
+・OpenAI launches new Codex tools for white-collar work: https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/
+・Microsoft launches Scout, an OpenClaw-inspired personal assistant: https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/
+・Google rolls out fake call detection: https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/
+・xAI Asks Court to Strip Alleged Grok Deepfake Nudes Victims of Anonymity: https://www.wired.com/story/xai-asks-court-to-strip-alleged-grok-deepfake-nudes-victims-of-anonymity/
+・Amazon will show AI product images when you search: https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/
+・Publishers will be able to opt out of AI Search, UK regulation: https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/
+・Google DeepMind Releases Gemma 4 12B: https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/
+・How virtual power plants could provide energy for data centers: https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/
+・OpenAI Stargate Michigan Data Center: https://openai.com/index/stargate-michigan-data-center
+・OpenAI public policy agenda: https://openai.com/index/public-policy-agenda
+・As AI gets better, it reveals an empty promise: https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise
+・Microsoft Build 2026: The 7 biggest announcements: https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements
+・Consistency, not complexity, key to teaching robots dexterity: https://techxplore.com/news/2026-06-complexity-key-robots-dexterity.html
+・LLMs help robots understand vague instructions: https://techxplore.com/news/2026-06-llms-robots-vague-focus-key.html
+・A robot is helping an ailing couple stay in their home: https://techxplore.com/news/2026-06-robot-ailing-couple-stay-home.html
+・Festo launches pneumatic gripper and tests GripperAI: https://www.therobotreport.com/festo-launches-pneumatic-gripper-tests-gripperai/
+・Introducing new capabilities to GPT-Rosalind: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind
+・Meta's AI agent for WhatsApp Business now available globally: https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/
+・Google must let publishers opt out of AI Search features, UK: https://www.theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out
+
+#AIニュース #生成AI #海外AI #ロボティクス #AIと社会 #自動運転 #AIセキュリティ #NVIDIA #物理AI #AI規制]]></itunes:summary>
+      <itunes:duration>00:27:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>6/1 Anthropic10兆円調達＆Copilot課金激変＆自動運転の未来</title>
+      <description><![CDATA[【今回のトピック】
+・Anthropicが650億ドル（約10兆円）を調達し、企業評価額が約145兆円に到達。IPO間近の可能性と新モデルClaude Opus 4.8のリリース
+・GitHub Copilotの料金体系が従量課金に大きく変更され、AIツールの「使い放題時代」の終焉が示唆されている
+・自動運転タクシーが技術的にはほぼ準備完了だが、社会制度・文化の追随にはあと10年程度かかる見通し。日本では高齢者の移動問題の解決策として期待]]></description>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-01.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-01.mp3" length="26740269" type="audio/mpeg"/>
       <itunes:title>6/1 Anthropic10兆円調達＆Copilot課金激変＆自動運転の未来</itunes:title>
-      <itunes:summary><![CDATA[Anthropicが650億ドル（約10兆円）を調達しIPOに接近。GitHub Copilotがトークン従量課金に移行し開発者が大騒ぎ。自動運転タクシーの2035年シナリオと日本への影響を深掘り。AIツールの「使い放題時代」の終焉と、技術と社会のギャップを考えます。
-
-【目次】
-・オープニング
-・メインニュース：Anthropic10兆円調達とAI半導体競争の多様化
-・メインニュース：GitHub Copilot従量課金とAIコーディングの転換点
-・ディープダイブ：自動運転タクシーの未来と社会の受容
-・生活＆仕事へのヒント：ロボット訓練データ・医療AI・AI時代のリテラシー
-・エンディング
-
-【参照元】
-・Anthropic raises $65 billion, nears $1T valuation ahead of IPO: https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/
-・SoftBank says it will invest up to €75 billion to build French data centers: https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/
-・Github Copilot's new token-based billing spurs consternation among devs: https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/
-・Coders are refusing to work without AI — and that could come back to bite them: https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/
-・Cognition's Scott Wu says AI coding agents shouldn't replace humans: https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/
-・Does your CEO have AI psychosis? Aaron Levie thinks most of them do: https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/
-・What happens when companies become too AI-pilled?: https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/
-・Claude's new model is more 'honest' when it messes up: https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort
-・This chip startup just raised $135M on a bet that AI's biggest bottleneck isn't compute — it's memory: https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/
-・After Nvidia's $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M: https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/
-・Hard Fork: Why Are We Still Driving?: https://www.nytimes.com/column/hard-fork
-・AI training startup Shift will clean your home for free to train robots: https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning
-・Genesis AI Releases Genesis World 1.0 Physics Platform: https://www.marktechpost.com/2026/05/30/genesis-ai-releases-nyx-quadrants-and-genesis-world-1-0-physics-platform-for-scalable-robotics-foundation-model-evaluation/
-・Humanoids Summit Tokyo: https://techxplore.com/news/2026-05-humanoids-thread-needles-japanese-robotics.html
-・Boston Children's uses AI to unlock new diagnoses: https://openai.com/index/boston-childrens-hospital
-・MUFG aims to become AI-native with OpenAI: https://openai.com/index/mufg
-・The AI Hype Index: AI gets booed in graduation season: https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/
-・Glean's top line crosses $300M: https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/
-・The internet is being rebuilt for machines: https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/
-・No Priors: Building an AI Guardian for Enterprise with Onyx Security: 
-・NVIDIA Research Advances Robotics From Simulation to the Real World: https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/
-・OpenAI's Rosalind Biodefense: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense
-・Meta is reportedly developing an AI pendant: https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/
-・Amazon AI-animated show controversy: https://www.wired.com/story/story/amazon-is-making-an-ai-animated-good-advice-cupcake-tv-show-its-original-creator-is-furious/
-・NIST proposes benchmark for humanoid robots: https://www.therobotreport.com/nist-proposes-a-baseline-performance-benchmark-for-humanoid-robots/
-・Software becoming biggest bottleneck to physical AI: https://www.therobotreport.com/software-becoming-biggest-bottleneck-physical-ai-innovation-finds-qnx/
-
-#AIニュース #生成AI #海外AI #Anthropic #GitHubCopilot #自動運転 #ロボティクス #AIと社会 #AI投資 #バイブコーディング]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・Anthropicが650億ドル（約10兆円）を調達し、企業評価額が約145兆円に到達。IPO間近の可能性と新モデルClaude Opus 4.8のリリース
+・GitHub Copilotの料金体系が従量課金に大きく変更され、AIツールの「使い放題時代」の終焉が示唆されている
+・自動運転タクシーが技術的にはほぼ準備完了だが、社会制度・文化の追随にはあと10年程度かかる見通し。日本では高齢者の移動問題の解決策として期待]]></itunes:summary>
       <itunes:duration>00:27:51</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
