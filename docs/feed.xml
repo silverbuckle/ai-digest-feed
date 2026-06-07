@@ -18,105 +18,178 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>6/4 トランプAI大統領令＆NVIDIA物理AI＆自動運転の分岐点</title>
-      <description><![CDATA[トランプ大統領が業界反発を受けてトーンダウンしたAI大統領令に署名。NVIDIAはCosmos 3やヒューマノイドロボットなど物理AIの新ツールを大量公開。AIエージェントの暴走を防ぐセキュリティビジネスに巨額投資が集中。自動運転タクシーの2035年普及シナリオと、それが日本の地方交通にもたらす可能性を深掘りします。
+      <title>6/8 AI企業IPOラッシュ＆セキュリティ危機＆データセンター摩擦</title>
+      <description><![CDATA[SpaceX・Anthropic・OpenAIの史上最大級IPOラッシュが社会に与える影響を分析。MetaのAIがハッキングに悪用された事件とOpenAIのロックダウンモード。ニューヨーク州のデータセンター建設停止法案に見る、AIの恩恵と負担の分配問題を深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：トランプAI大統領令＆Alphabet13兆円調達
-・メインニュース：NVIDIA物理AI新展開＆ロボットの進化
-・ディープダイブ：AIエージェントのセキュリティ＆自動運転の未来
-・生活＆仕事へのヒント：Codexプラグイン、ディープフェイク対策、AI検索規制
+・メインニュース：AI企業の超大型IPOラッシュとその社会的影響
+・メインニュース：AIセキュリティ危機—MetaのAI悪用事件とOpenAIロックダウンモード
+・ディープダイブ：データセンター建設ラッシュと地域社会の衝突
+・生活＆仕事へのヒント：ChatGPTの新メモリ機能、AIエージェント活用、数学とAI
 ・エンディング
 
 【参照元】
-・This Is How Trump Finally Signed the AI Executive Order: https://www.wired.com/story/this-is-how-trump-finally-signed-the-ai-executive-order/
-・Trump signs narrower executive order on AI oversight after industry objections: https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/
-・Alphabet's record-breaking $85B raise for Google's AI business: https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/
-・NVIDIA Releases Cosmos 3: https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/
-・NVIDIA Enables the Next Era Of Physical AI Research: https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/
-・NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving: https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/
-・The Humanoid Robot of the Future: NVIDIA and Unitree: https://www.wired.com/story/nvidia-unitree-humanoid-robot-h2-plus/
-・NVIDIA Factory Operations Blueprint: https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/
-・How Cosmos 3 Helps Physical AI Think Before It Acts: https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/
-・NVIDIA Jetson Brings Agentic AI to the Physical World: https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/
-・Building an AI Guardian for Enterprise with Onyx Security CEO: https://www.youtube.com/watch?v=placeholder
-・Coralogix raises $200M to monitor AI agents: https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/
-・Uber caps employee AI spending after blowing through budget: https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/
-・Interesting Times: Why Are We Still Driving?: https://www.nytimes.com/column/hard-fork
-・Anthropic scales Claude Mythos to critical infrastructure in 15+ countries: https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/
-・OpenAI launches new Codex tools for white-collar work: https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/
-・Microsoft launches Scout, an OpenClaw-inspired personal assistant: https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/
-・Google rolls out fake call detection: https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/
-・xAI Asks Court to Strip Alleged Grok Deepfake Nudes Victims of Anonymity: https://www.wired.com/story/xai-asks-court-to-strip-alleged-grok-deepfake-nudes-victims-of-anonymity/
-・Amazon will show AI product images when you search: https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/
-・Publishers will be able to opt out of AI Search, UK regulation: https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/
-・Google DeepMind Releases Gemma 4 12B: https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/
+・OpenAI is still working on that 'super app': https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/
+・We Should Train AI to Betray Its Users: https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/
+・Building a Multi-Agent System in Python: https://towardsdatascience.com/building-a-multi-agent-system-in-python/
+・Best 21 Low-Code and No-Code AI Tools in 2026: https://www.marktechpost.com/2026/06/07/best-21-low-code-and-no-code-ai-tools-in-2026/
+・NVIDIA, KRAFTON, NC and T1 Celebrate RTX Spark at Korea's PC Bangs: https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/
+・Meet Harness-1: A 20B Retrieval Subagent: https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b/
+・NVIDIA garak Tutorial: https://www.marktechpost.com/2026/06/06/nvidia-garak-tutorial-build-a-complete-defensive-llm-red-teaming-workflow-with-custom-probes-and-detectors/
+・Google's New Colab CLI: https://www.marktechpost.com/2026/06/06/googles-new-colab-cli-lets-developers-and-ai-agents-run-python-on-remote-colab-gpus-and-tpus-from-the-terminal/
+・OpenAI unveils Lockdown Mode: https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/
+・Sriram Krishnan is leaving his role as White House AI advisor: https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/
+・The Trump administration might take an equity stake in OpenAI: https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/
+・Crypto-Funded Chinese Peptide Labs Are Booming: https://www.wired.com/story/security-news-this-week-crypto-funded-chinese-peptide-labs-are-booming/
+・Moonshot AI Releases Kimi Code CLI: https://www.marktechpost.com/2026/06/06/moonshot-ai-releases-kimi-code-cli-a-terminal-ai-coding-agent-built-in-typescript-for-next-gen-agents/
+・NVIDIA Releases Nemotron 3.5 ASR: https://www.marktechpost.com/2026/06/06/nvidia-releases-nemotron-3-5-asr-a-600m-parameter-cache-aware-streaming-model-transcribing-40-language-locales-in-real-time/
+・Thousand Token Wood: shipping a multi-agent economy on a 3B model: https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim
+・Google DeepMind Releases Gemma 4 QAT Checkpoints: https://www.marktechpost.com/2026/06/05/google-deepmind-releases-gemma-4-qat-checkpoints-q4_0-and-a-new-mobile-format-cut-on-device-memory/
+・Google will pay SpaceX $920M per month for compute: https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/
+・Give your agent its own computer: https://www.langchain.com/blog/give-your-ai-agent-its-own-computer
+・My AI Couldn't See My Files — I Built a Zero-Dependency MCP Server: https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/
+・Has Microsoft Lost Its Mojo (Again)?: https://www.wired.com/story/has-microsoft-lost-its-mojo-again/
+・The token bill comes due: https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/
+・Automate Writing Your LLM Prompts: https://towardsdatascience.com/automate-writing-your-llm-prompts/
+・AirTrunk commits $30B to build 5GW of AI data centers in India: https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/
+・OpenAI and Anthropic May Be Rivals, but Investors Aren't Picking Sides: https://www.wired.com/story/openai-and-anthropic-may-be-rivals-but-their-investors-arent-choosing-sides/
+・NVIDIA AI Releases Dynamo Snapshot: https://www.marktechpost.com/2026/06/05/nvidia-ai-releases-dynamo-snapshot-a-criu-based-fast-startup-system-for-ai-inference-on-kubernetes/
+・Perplexity AI Introduces Hybrid Local-Server Inference Orchestrator: https://www.marktechpost.com/2026/06/05/perplexity-ai-introduces-hybrid-local-server-inference-orchestrator-for-personal-computer-automatic-on-device-and-cloud-task-routing/
+・How Endava is redesigning software delivery around AI agents: https://openai.com/index/endava-frontiers
+・Dreaming: Better memory for a more helpful ChatGPT: https://openai.com/index/chatgpt-memory-dreaming
+・Biodefense in the Intelligence Age: https://openai.com/index/biodefense-in-the-intelligence-age
+・Nemotron 3.5 Content Safety: https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety
+・Unlocking dependable responses with Gemini Enterprise Agent Platform's Agentic RAG: https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/
+・Towards passive heart health monitoring via smartphone camera: https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera/
+・The Meta hack shows there's more to AI security than Mythos: https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/
+・Are AI chatbots making us lose control of our brains?: https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/
+・How courts are coping with a flood of AI-generated lawsuits: https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/
 ・How virtual power plants could provide energy for data centers: https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/
-・OpenAI Stargate Michigan Data Center: https://openai.com/index/stargate-michigan-data-center
-・OpenAI public policy agenda: https://openai.com/index/public-policy-agenda
-・As AI gets better, it reveals an empty promise: https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise
-・Microsoft Build 2026: The 7 biggest announcements: https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements
-・Consistency, not complexity, key to teaching robots dexterity: https://techxplore.com/news/2026-06-complexity-key-robots-dexterity.html
-・LLMs help robots understand vague instructions: https://techxplore.com/news/2026-06-llms-robots-vague-focus-key.html
-・A robot is helping an ailing couple stay in their home: https://techxplore.com/news/2026-06-robot-ailing-couple-stay-home.html
-・Festo launches pneumatic gripper and tests GripperAI: https://www.therobotreport.com/festo-launches-pneumatic-gripper-tests-gripperai/
-・Introducing new capabilities to GPT-Rosalind: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind
-・Meta's AI agent for WhatsApp Business now available globally: https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/
-・Google must let publishers opt out of AI Search features, UK: https://www.theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out
+・Ahead of its IPO, Anthropic's Daniela Amodei shrugs off doubts about AI's returns: https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/
+・Airbnb's Brian Chesky plans to launch a new AI lab: https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/
+・Meta steals a tactic from Tesla and builds data centers in tents: https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/
+・Apple approves Poke as the first AI agent on its Messages for Business platform: https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/
+・Meta rolls out a new AI creator assistant on Facebook: https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/
+・Is Silicon Valley ready to put robots in people's homes? Hello Robot is.: https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/
+・AI 'content creators' are getting harder to spot: https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators
+・Shelbyville Indiana mayor data center controversy: https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center
+・Meta made its own AI-generated clickbait news feed: https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles
+・Here comes new Siri again: https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini
+・This is your laptop… on AI: https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast
+・New York lawmakers pass one-year ban on new data centers: https://www.theverge.com/policy/944041/new-york-data-center-moratorium
+・Kevin O'Leary agrees to downsize massive Utah data center: https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center
+・TSMC struggles to keep up with AI demand: https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles
+・I Let an AI Agent Run 40 Experiments While I Slept: https://www.oreilly.com/radar/i-let-an-ai-agent-run-40-experiments-while-i-slept/
+・AGIBOT holds World Challenge 2026: https://www.therobotreport.com/agibot-holds-world-challenge-2026-see-how-ai-models-perform-real-tasks/
+・Robots can enhance manufacturing workers rather than replace them: https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/
+・Proteus gets natural-language ability as Amazon expands European robot deployments: https://www.therobotreport.com/proteus-gets-natural-language-ability-amazon-expands-europe-robot-deployments/
+・Generalist raises $400M to scale its general-purpose AI models: https://www.therobotreport.com/generalist-raises-400m-to-scale-its-general-purpose-ai-models/
+・China can build humanoids at scale. The hard part is finding enough buyers: https://techxplore.com/news/2026-06-china-humanoids-scale-hard-buyers.html
+・New app lets anyone operate a robot from their phone: https://techxplore.com/news/2026-06-app-robot.html
+・Alnylam pens $2B deal with Inceptive to transform siRNA design with AI pioneer: https://www.fiercebiotech.com/biotech/alnylam-pays-inceptive-30m-transform-sirna-design-ai-pioneer
+・Hard Fork: Hot IPO Summer + What Is AI Doing to Math? + HatGPT: https://www.nytimes.com/column/hard-fork
+・No Priors: The Rise of the Full-Stack Builder with Microsoft CEO Satya Nadella: 
 
-#AIニュース #生成AI #海外AI #ロボティクス #AIと社会 #自動運転 #AIセキュリティ #NVIDIA #物理AI #AI規制]]></description>
+#AIニュース #生成AI #海外AI #IPO #データセンター #AIセキュリティ #AIと社会 #OpenAI #Anthropic]]></description>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-08.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-08.mp3" length="25842861" type="audio/mpeg"/>
+      <itunes:title>6/8 AI企業IPOラッシュ＆セキュリティ危機＆データセンター摩擦</itunes:title>
+      <itunes:summary><![CDATA[SpaceX・Anthropic・OpenAIの史上最大級IPOラッシュが社会に与える影響を分析。MetaのAIがハッキングに悪用された事件とOpenAIのロックダウンモード。ニューヨーク州のデータセンター建設停止法案に見る、AIの恩恵と負担の分配問題を深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：AI企業の超大型IPOラッシュとその社会的影響
+・メインニュース：AIセキュリティ危機—MetaのAI悪用事件とOpenAIロックダウンモード
+・ディープダイブ：データセンター建設ラッシュと地域社会の衝突
+・生活＆仕事へのヒント：ChatGPTの新メモリ機能、AIエージェント活用、数学とAI
+・エンディング
+
+【参照元】
+・OpenAI is still working on that 'super app': https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/
+・We Should Train AI to Betray Its Users: https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/
+・Building a Multi-Agent System in Python: https://towardsdatascience.com/building-a-multi-agent-system-in-python/
+・Best 21 Low-Code and No-Code AI Tools in 2026: https://www.marktechpost.com/2026/06/07/best-21-low-code-and-no-code-ai-tools-in-2026/
+・NVIDIA, KRAFTON, NC and T1 Celebrate RTX Spark at Korea's PC Bangs: https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/
+・Meet Harness-1: A 20B Retrieval Subagent: https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b/
+・NVIDIA garak Tutorial: https://www.marktechpost.com/2026/06/06/nvidia-garak-tutorial-build-a-complete-defensive-llm-red-teaming-workflow-with-custom-probes-and-detectors/
+・Google's New Colab CLI: https://www.marktechpost.com/2026/06/06/googles-new-colab-cli-lets-developers-and-ai-agents-run-python-on-remote-colab-gpus-and-tpus-from-the-terminal/
+・OpenAI unveils Lockdown Mode: https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/
+・Sriram Krishnan is leaving his role as White House AI advisor: https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/
+・The Trump administration might take an equity stake in OpenAI: https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/
+・Crypto-Funded Chinese Peptide Labs Are Booming: https://www.wired.com/story/security-news-this-week-crypto-funded-chinese-peptide-labs-are-booming/
+・Moonshot AI Releases Kimi Code CLI: https://www.marktechpost.com/2026/06/06/moonshot-ai-releases-kimi-code-cli-a-terminal-ai-coding-agent-built-in-typescript-for-next-gen-agents/
+・NVIDIA Releases Nemotron 3.5 ASR: https://www.marktechpost.com/2026/06/06/nvidia-releases-nemotron-3-5-asr-a-600m-parameter-cache-aware-streaming-model-transcribing-40-language-locales-in-real-time/
+・Thousand Token Wood: shipping a multi-agent economy on a 3B model: https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim
+・Google DeepMind Releases Gemma 4 QAT Checkpoints: https://www.marktechpost.com/2026/06/05/google-deepmind-releases-gemma-4-qat-checkpoints-q4_0-and-a-new-mobile-format-cut-on-device-memory/
+・Google will pay SpaceX $920M per month for compute: https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/
+・Give your agent its own computer: https://www.langchain.com/blog/give-your-ai-agent-its-own-computer
+・My AI Couldn't See My Files — I Built a Zero-Dependency MCP Server: https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/
+・Has Microsoft Lost Its Mojo (Again)?: https://www.wired.com/story/has-microsoft-lost-its-mojo-again/
+・The token bill comes due: https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/
+・Automate Writing Your LLM Prompts: https://towardsdatascience.com/automate-writing-your-llm-prompts/
+・AirTrunk commits $30B to build 5GW of AI data centers in India: https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/
+・OpenAI and Anthropic May Be Rivals, but Investors Aren't Picking Sides: https://www.wired.com/story/openai-and-anthropic-may-be-rivals-but-their-investors-arent-choosing-sides/
+・NVIDIA AI Releases Dynamo Snapshot: https://www.marktechpost.com/2026/06/05/nvidia-ai-releases-dynamo-snapshot-a-criu-based-fast-startup-system-for-ai-inference-on-kubernetes/
+・Perplexity AI Introduces Hybrid Local-Server Inference Orchestrator: https://www.marktechpost.com/2026/06/05/perplexity-ai-introduces-hybrid-local-server-inference-orchestrator-for-personal-computer-automatic-on-device-and-cloud-task-routing/
+・How Endava is redesigning software delivery around AI agents: https://openai.com/index/endava-frontiers
+・Dreaming: Better memory for a more helpful ChatGPT: https://openai.com/index/chatgpt-memory-dreaming
+・Biodefense in the Intelligence Age: https://openai.com/index/biodefense-in-the-intelligence-age
+・Nemotron 3.5 Content Safety: https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety
+・Unlocking dependable responses with Gemini Enterprise Agent Platform's Agentic RAG: https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/
+・Towards passive heart health monitoring via smartphone camera: https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera/
+・The Meta hack shows there's more to AI security than Mythos: https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/
+・Are AI chatbots making us lose control of our brains?: https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/
+・How courts are coping with a flood of AI-generated lawsuits: https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/
+・How virtual power plants could provide energy for data centers: https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/
+・Ahead of its IPO, Anthropic's Daniela Amodei shrugs off doubts about AI's returns: https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/
+・Airbnb's Brian Chesky plans to launch a new AI lab: https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/
+・Meta steals a tactic from Tesla and builds data centers in tents: https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/
+・Apple approves Poke as the first AI agent on its Messages for Business platform: https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/
+・Meta rolls out a new AI creator assistant on Facebook: https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/
+・Is Silicon Valley ready to put robots in people's homes? Hello Robot is.: https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/
+・AI 'content creators' are getting harder to spot: https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators
+・Shelbyville Indiana mayor data center controversy: https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center
+・Meta made its own AI-generated clickbait news feed: https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles
+・Here comes new Siri again: https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini
+・This is your laptop… on AI: https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast
+・New York lawmakers pass one-year ban on new data centers: https://www.theverge.com/policy/944041/new-york-data-center-moratorium
+・Kevin O'Leary agrees to downsize massive Utah data center: https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center
+・TSMC struggles to keep up with AI demand: https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles
+・I Let an AI Agent Run 40 Experiments While I Slept: https://www.oreilly.com/radar/i-let-an-ai-agent-run-40-experiments-while-i-slept/
+・AGIBOT holds World Challenge 2026: https://www.therobotreport.com/agibot-holds-world-challenge-2026-see-how-ai-models-perform-real-tasks/
+・Robots can enhance manufacturing workers rather than replace them: https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/
+・Proteus gets natural-language ability as Amazon expands European robot deployments: https://www.therobotreport.com/proteus-gets-natural-language-ability-amazon-expands-europe-robot-deployments/
+・Generalist raises $400M to scale its general-purpose AI models: https://www.therobotreport.com/generalist-raises-400m-to-scale-its-general-purpose-ai-models/
+・China can build humanoids at scale. The hard part is finding enough buyers: https://techxplore.com/news/2026-06-china-humanoids-scale-hard-buyers.html
+・New app lets anyone operate a robot from their phone: https://techxplore.com/news/2026-06-app-robot.html
+・Alnylam pens $2B deal with Inceptive to transform siRNA design with AI pioneer: https://www.fiercebiotech.com/biotech/alnylam-pays-inceptive-30m-transform-sirna-design-ai-pioneer
+・Hard Fork: Hot IPO Summer + What Is AI Doing to Math? + HatGPT: https://www.nytimes.com/column/hard-fork
+・No Priors: The Rise of the Full-Stack Builder with Microsoft CEO Satya Nadella: 
+
+#AIニュース #生成AI #海外AI #IPO #データセンター #AIセキュリティ #AIと社会 #OpenAI #Anthropic]]></itunes:summary>
+      <itunes:duration>00:26:55</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>6/4 トランプAI大統領令＆NVIDIA物理AI＆自動運転の分岐点</title>
+      <description><![CDATA[【今回のトピック】
+・トランプ大統領の新AI大統領令（自主的フレームワークと重要インフラ防御）
+・NVIDIAの物理AI新展開（Cosmos 3など、ロボット・自動運転向け技術基盤）
+・AIエージェントのセキュリティと暴走防止
+・自動運転タクシーの未来と規制・公共交通統合の課題
+・Alphabet・OpenAIなど巨額AI投資とデータセンターのエネルギー問題]]></description>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-04.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-04.mp3" length="26272941" type="audio/mpeg"/>
       <itunes:title>6/4 トランプAI大統領令＆NVIDIA物理AI＆自動運転の分岐点</itunes:title>
-      <itunes:summary><![CDATA[トランプ大統領が業界反発を受けてトーンダウンしたAI大統領令に署名。NVIDIAはCosmos 3やヒューマノイドロボットなど物理AIの新ツールを大量公開。AIエージェントの暴走を防ぐセキュリティビジネスに巨額投資が集中。自動運転タクシーの2035年普及シナリオと、それが日本の地方交通にもたらす可能性を深掘りします。
-
-【目次】
-・オープニング
-・メインニュース：トランプAI大統領令＆Alphabet13兆円調達
-・メインニュース：NVIDIA物理AI新展開＆ロボットの進化
-・ディープダイブ：AIエージェントのセキュリティ＆自動運転の未来
-・生活＆仕事へのヒント：Codexプラグイン、ディープフェイク対策、AI検索規制
-・エンディング
-
-【参照元】
-・This Is How Trump Finally Signed the AI Executive Order: https://www.wired.com/story/this-is-how-trump-finally-signed-the-ai-executive-order/
-・Trump signs narrower executive order on AI oversight after industry objections: https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/
-・Alphabet's record-breaking $85B raise for Google's AI business: https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/
-・NVIDIA Releases Cosmos 3: https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/
-・NVIDIA Enables the Next Era Of Physical AI Research: https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/
-・NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving: https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/
-・The Humanoid Robot of the Future: NVIDIA and Unitree: https://www.wired.com/story/nvidia-unitree-humanoid-robot-h2-plus/
-・NVIDIA Factory Operations Blueprint: https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/
-・How Cosmos 3 Helps Physical AI Think Before It Acts: https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/
-・NVIDIA Jetson Brings Agentic AI to the Physical World: https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/
-・Building an AI Guardian for Enterprise with Onyx Security CEO: https://www.youtube.com/watch?v=placeholder
-・Coralogix raises $200M to monitor AI agents: https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/
-・Uber caps employee AI spending after blowing through budget: https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/
-・Interesting Times: Why Are We Still Driving?: https://www.nytimes.com/column/hard-fork
-・Anthropic scales Claude Mythos to critical infrastructure in 15+ countries: https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/
-・OpenAI launches new Codex tools for white-collar work: https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/
-・Microsoft launches Scout, an OpenClaw-inspired personal assistant: https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/
-・Google rolls out fake call detection: https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/
-・xAI Asks Court to Strip Alleged Grok Deepfake Nudes Victims of Anonymity: https://www.wired.com/story/xai-asks-court-to-strip-alleged-grok-deepfake-nudes-victims-of-anonymity/
-・Amazon will show AI product images when you search: https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/
-・Publishers will be able to opt out of AI Search, UK regulation: https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/
-・Google DeepMind Releases Gemma 4 12B: https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/
-・How virtual power plants could provide energy for data centers: https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/
-・OpenAI Stargate Michigan Data Center: https://openai.com/index/stargate-michigan-data-center
-・OpenAI public policy agenda: https://openai.com/index/public-policy-agenda
-・As AI gets better, it reveals an empty promise: https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise
-・Microsoft Build 2026: The 7 biggest announcements: https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements
-・Consistency, not complexity, key to teaching robots dexterity: https://techxplore.com/news/2026-06-complexity-key-robots-dexterity.html
-・LLMs help robots understand vague instructions: https://techxplore.com/news/2026-06-llms-robots-vague-focus-key.html
-・A robot is helping an ailing couple stay in their home: https://techxplore.com/news/2026-06-robot-ailing-couple-stay-home.html
-・Festo launches pneumatic gripper and tests GripperAI: https://www.therobotreport.com/festo-launches-pneumatic-gripper-tests-gripperai/
-・Introducing new capabilities to GPT-Rosalind: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind
-・Meta's AI agent for WhatsApp Business now available globally: https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/
-・Google must let publishers opt out of AI Search features, UK: https://www.theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out
-
-#AIニュース #生成AI #海外AI #ロボティクス #AIと社会 #自動運転 #AIセキュリティ #NVIDIA #物理AI #AI規制]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・トランプ大統領の新AI大統領令（自主的フレームワークと重要インフラ防御）
+・NVIDIAの物理AI新展開（Cosmos 3など、ロボット・自動運転向け技術基盤）
+・AIエージェントのセキュリティと暴走防止
+・自動運転タクシーの未来と規制・公共交通統合の課題
+・Alphabet・OpenAIなど巨額AI投資とデータセンターのエネルギー問題]]></itunes:summary>
       <itunes:duration>00:27:22</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
