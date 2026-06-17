@@ -18,103 +18,126 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>6/15 Anthropicモデル停止命令＆Meta AI部門崩壊＆ドイツ判決の衝撃</title>
-      <description><![CDATA[米政府がAnthropicのFable 5・Mythos 5を全面停止命令。中国によるアクセス疑惑と国家安全保障の問題を深掘り。MetaのAI部門6500人が内部崩壊寸前の報道、ドイツ裁判所がGoogleのAI検索に法的責任を認める画期的判決、ベゾス氏のPrometheus1.8兆円調達など、AIの責任と規制が問われる一週間を徹底解説。
+      <title>6/18 Anthropic国際騒動＆AI投資ROI問題＆生物学×AIの未来</title>
+      <description><![CDATA[AnthropicのAIモデル停止問題がG7サミットで国際問題に発展。ホワイトハウスの「完全ジェイルブレイク防止」要求は技術的に不可能と専門家が指摘。企業のAI投資でROI問題が浮上し、アメリカ人の84%がAIにネガティブ。ザッカーバーグ夫妻のBiohubが進める生物学×AIプロジェクトとGoogle医療AI「AMIE」の進展を深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：Anthropicモデル全面停止と国家安全保障
-・メインニュース：MetaのAI部門崩壊とManus買収巻き戻し
-・ディープダイブ：AIの責任と規制—ドイツ判決・OpenAI調査・KPMG撤回
-・生活＆仕事へのヒント：ナデラ氏の提言・Biohub・エージェント時代の備え
+・メインニュース：Anthropicモデル停止の国際波紋とホワイトハウスの不可能な要求
+・メインニュース：企業のAI投資ROI問題とアメリカ人のAI意識調査
+・ディープダイブ：Biohub・Google AMIE・AI創薬——医療×AIの最前線
+・生活＆仕事へのヒント：クリエイターの差別化・AIコードの著作権・物理AIの今
 ・エンディング
 
 【参照元】
-・Anthropic's safety warnings may have just backfired: https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/
-・Anthropic Says It's Taking Claude Fable 5 Offline: https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/
-・Anthropic cuts off Fable 5 and Mythos 5 access: https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security
-・Amazon CEO reportedly raised Anthropic model concerns: https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/
-・Amazon security research led to Anthropic ban: https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban
-・China may have accessed Mythos: https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos
-・India debates its AI future after Anthropic suspension: https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/
-・Meta's AI unit is a soul-crushing gulag: https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/
-・Meta's New AI Unit Is a Total Mess: https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/
-・Meta moves to unwind $2B Manus deal: https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/
-・German Court rules Google liable for AI Overview false statements: https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/
-・OpenAI faces investigation from state attorneys general: https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/
-・KPMG pulls report on AI usage due to hallucinations: https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/
-・Chinese cybercrime operation sued by Google: https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/
-・Jeff Bezos's Prometheus raises $12B: https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/
-・NEURA Robotics to raise up to $1.4B: https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/
-・Theker raised $85M for reconfigurable factory robots: https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/
-・Mistral rumored to be raising €3B: https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/
-・Hard Fork Live: Satya Nadella and Cindy Cohn: https://www.nytimes.com/column/hard-fork
-・Biohub: The Future of Biology is Open-Source: https://www.youtube.com/watch?v=nopriors
-・OpenAI Academy new courses: https://openai.com/index/academy-courses-applying-ai-at-work
-・Google DeepMind worried about millions of agents: https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/
-・Google research: AI for skin conditions: https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/
-・AI use surging across HHS agencies: https://www.fiercebiotech.com/ai-and-machine-learning/all-hhs-agencies-saw-ai-use-case-increases-fy-2025-bipartisan-policy-center
-・SpaceX, Anthropic, and OpenAI's hot IPO summer: https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/
-・Siri is good now??: https://www.theverge.com/podcast/949079/siri-ai-good-vergecast
-・Apple's new AI photo editing tools: https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on
-・OpenAI to acquire Ona: https://openai.com/index/openai-to-acquire-ona
-・Databricks open-sources Omnigent: https://www.marktechpost.com/2026/06/13/databricks-open-sources-omnigent-a-meta-harness-that-composes-governs-and-shares-ai-agents-across-claude-code-codex-and-pi/
-・Bosch pivots to robots: https://techxplore.com/news/2026-06-struggling-german-auto-supplier-bosch.html
-・Deezer's AI music identification tool: https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/
-・NVIDIA Blackwell leads on AgentPerf benchmark: https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/
-・OpenAI supports EU AI content transparency: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem
+・World leaders want American AI. They just don't want America to be able to turn it off.: https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/
+・The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible: https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/
+・Anthropic got hit by export rules nobody understands: https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls
+・Anthropic's latest feud with the Trump admin may actually help it, sales data suggests: https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/
+・Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem: https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem
+・Anthropic becomes first AI startup to join the Frontier carbon removal coalition: https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/
+・NEA's Tiffany Luck says enterprises are still figuring out their AI ROI: https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/
+・NEA's Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning: https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/
+・Only 16 percent of Americans think AI will have a positive impact on society: https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/
+・Two-thirds of Americans think AI is advancing too quickly: https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly
+・Sixty percent of US consumers say 'AI' in brand messaging is a turnoff: https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/
+・Biohub: The Future of Biology is Open-Source (No Priors Podcast): https://www.youtube.com/watch?v=nopriors-biohub
+・New research shows how AMIE could help manage health conditions (Google Blog): https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/
+・A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry (OpenAI): https://openai.com/index/ai-chemist-improves-reaction
+・PE firm Altaris scoops up AI drug development outfit Simulations Plus for $375M: https://www.fiercebiotech.com/biotech/pe-firm-altaris-scoops-ai-drug-development-outfit-simulations-plus-375m
+・Merck inks $510M biobucks data generation partnership with Protillion: https://www.fiercebiotech.com/biotech/merck-inks-510m-biobucks-data-generation-partnership-protillion
+・Hard Fork Live Part 2: Dylan Field on Standing Out in the A.I. Era: https://www.nytimes.com/column/hard-fork
+・Who Owns the Code Claude Wrote?: https://www.oreilly.com/radar/who-owns-the-code-claude-wrote/
+・Operating a Humanoid With Your Body Is a Hot Job in China's Hardware Capital: https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/
+・Collecting robot training data is dirty, unglamorous work: https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/
+・Sanctuary AI validates physical AI performance at Tier 1 automotive supplier: https://www.therobotreport.com/sanctuary-ai-validates-physical-ai-performance-tier-1-automotive-supplier/
+・Google bets on Gemini to reinvent the smart home speaker: https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/
+・NVIDIA XR AI Brings Agents to AR Glasses: https://blogs.nvidia.com/blog/nvidia-xr-ai/
+・Google invests $1.5B in Alabama data center expansion: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/
+・Canadian pension giant joins race to fund India's AI-fueled data center boom: https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/
+・Get back hours every day with autonomous agents in Amazon Quick: https://aws.amazon.com/blogs/machine-learning/get-back-hours-every-day-with-autonomous-agents-in-amazon-quick/
+・New in Amazon Bedrock AgentCore: https://aws.amazon.com/blogs/machine-learning/new-in-amazon-bedrock-agentcore-build-agents-with-broader-knowledge-and-continuous-learning/
+・World model maker Odyssey nabs $1.45B valuation: https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/
+・Introducing the OpenAI Partner Network: https://openai.com/index/introducing-openai-partner-network
+・OpenAI Deployment Simulation: https://openai.com/index/deployment-simulation
+・Kawasaki Robotics to debut RL030N physical AI platform: https://www.therobotreport.com/kawasaki-robotics-debut-rl030n-physical-ai-platform-automate/
+・Genesis AI launches Eno general-purpose robot: https://www.therobotreport.com/genesis-ai-launches-eno-general-purpose-robot/
+・DeepL acquires Mixhalo for live-event audio streaming and translation: https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/
+・Qualcomm Snapdragon Reality Elite for smart glasses: https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables
+・Apple 2027 rumors: AirPods with cameras for AI: https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor
 
-#AIニュース #生成AI #海外AI #Anthropic #AI規制 #Meta #AIと安全保障 #ロボティクス #AI創薬 #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #Anthropic #AI医療 #AI創薬 #Biohub #AI投資 #物理AI #AIと社会]]></description>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-18.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-18.mp3" length="28601901" type="audio/mpeg"/>
+      <itunes:title>6/18 Anthropic国際騒動＆AI投資ROI問題＆生物学×AIの未来</itunes:title>
+      <itunes:summary><![CDATA[AnthropicのAIモデル停止問題がG7サミットで国際問題に発展。ホワイトハウスの「完全ジェイルブレイク防止」要求は技術的に不可能と専門家が指摘。企業のAI投資でROI問題が浮上し、アメリカ人の84%がAIにネガティブ。ザッカーバーグ夫妻のBiohubが進める生物学×AIプロジェクトとGoogle医療AI「AMIE」の進展を深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：Anthropicモデル停止の国際波紋とホワイトハウスの不可能な要求
+・メインニュース：企業のAI投資ROI問題とアメリカ人のAI意識調査
+・ディープダイブ：Biohub・Google AMIE・AI創薬——医療×AIの最前線
+・生活＆仕事へのヒント：クリエイターの差別化・AIコードの著作権・物理AIの今
+・エンディング
+
+【参照元】
+・World leaders want American AI. They just don't want America to be able to turn it off.: https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/
+・The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible: https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/
+・Anthropic got hit by export rules nobody understands: https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls
+・Anthropic's latest feud with the Trump admin may actually help it, sales data suggests: https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/
+・Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem: https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem
+・Anthropic becomes first AI startup to join the Frontier carbon removal coalition: https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/
+・NEA's Tiffany Luck says enterprises are still figuring out their AI ROI: https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/
+・NEA's Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning: https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/
+・Only 16 percent of Americans think AI will have a positive impact on society: https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/
+・Two-thirds of Americans think AI is advancing too quickly: https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly
+・Sixty percent of US consumers say 'AI' in brand messaging is a turnoff: https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/
+・Biohub: The Future of Biology is Open-Source (No Priors Podcast): https://www.youtube.com/watch?v=nopriors-biohub
+・New research shows how AMIE could help manage health conditions (Google Blog): https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/
+・A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry (OpenAI): https://openai.com/index/ai-chemist-improves-reaction
+・PE firm Altaris scoops up AI drug development outfit Simulations Plus for $375M: https://www.fiercebiotech.com/biotech/pe-firm-altaris-scoops-ai-drug-development-outfit-simulations-plus-375m
+・Merck inks $510M biobucks data generation partnership with Protillion: https://www.fiercebiotech.com/biotech/merck-inks-510m-biobucks-data-generation-partnership-protillion
+・Hard Fork Live Part 2: Dylan Field on Standing Out in the A.I. Era: https://www.nytimes.com/column/hard-fork
+・Who Owns the Code Claude Wrote?: https://www.oreilly.com/radar/who-owns-the-code-claude-wrote/
+・Operating a Humanoid With Your Body Is a Hot Job in China's Hardware Capital: https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/
+・Collecting robot training data is dirty, unglamorous work: https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/
+・Sanctuary AI validates physical AI performance at Tier 1 automotive supplier: https://www.therobotreport.com/sanctuary-ai-validates-physical-ai-performance-tier-1-automotive-supplier/
+・Google bets on Gemini to reinvent the smart home speaker: https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/
+・NVIDIA XR AI Brings Agents to AR Glasses: https://blogs.nvidia.com/blog/nvidia-xr-ai/
+・Google invests $1.5B in Alabama data center expansion: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/
+・Canadian pension giant joins race to fund India's AI-fueled data center boom: https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/
+・Get back hours every day with autonomous agents in Amazon Quick: https://aws.amazon.com/blogs/machine-learning/get-back-hours-every-day-with-autonomous-agents-in-amazon-quick/
+・New in Amazon Bedrock AgentCore: https://aws.amazon.com/blogs/machine-learning/new-in-amazon-bedrock-agentcore-build-agents-with-broader-knowledge-and-continuous-learning/
+・World model maker Odyssey nabs $1.45B valuation: https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/
+・Introducing the OpenAI Partner Network: https://openai.com/index/introducing-openai-partner-network
+・OpenAI Deployment Simulation: https://openai.com/index/deployment-simulation
+・Kawasaki Robotics to debut RL030N physical AI platform: https://www.therobotreport.com/kawasaki-robotics-debut-rl030n-physical-ai-platform-automate/
+・Genesis AI launches Eno general-purpose robot: https://www.therobotreport.com/genesis-ai-launches-eno-general-purpose-robot/
+・DeepL acquires Mixhalo for live-event audio streaming and translation: https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/
+・Qualcomm Snapdragon Reality Elite for smart glasses: https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables
+・Apple 2027 rumors: AirPods with cameras for AI: https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor
+
+#AIニュース #生成AI #海外AI #Anthropic #AI医療 #AI創薬 #Biohub #AI投資 #物理AI #AIと社会]]></itunes:summary>
+      <itunes:duration>00:29:47</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>6/15 Anthropicモデル停止命令＆Meta AI部門崩壊＆ドイツ判決の衝撃</title>
+      <description><![CDATA[【今回のトピック】
+・Anthropicの最強モデル（Fable 5・Mythos 5）が米政府命令で全面停止——安全性報告のパラドックスと国家安全保障の交差
+・MetaのAI部門（6,500人規模）が内部崩壊しかけている報道——組織混乱とManus買収巻き戻し
+・ドイツ裁判所がGoogleのAI検索に画期的判決——AIの出力に対する責任の所在
+・ジェフ・ベゾス氏の新AIスタートアップPrometheusが120億ドル（約1兆8,000億円）を調達]]></description>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-15.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-15.mp3" length="21623853" type="audio/mpeg"/>
       <itunes:title>6/15 Anthropicモデル停止命令＆Meta AI部門崩壊＆ドイツ判決の衝撃</itunes:title>
-      <itunes:summary><![CDATA[米政府がAnthropicのFable 5・Mythos 5を全面停止命令。中国によるアクセス疑惑と国家安全保障の問題を深掘り。MetaのAI部門6500人が内部崩壊寸前の報道、ドイツ裁判所がGoogleのAI検索に法的責任を認める画期的判決、ベゾス氏のPrometheus1.8兆円調達など、AIの責任と規制が問われる一週間を徹底解説。
-
-【目次】
-・オープニング
-・メインニュース：Anthropicモデル全面停止と国家安全保障
-・メインニュース：MetaのAI部門崩壊とManus買収巻き戻し
-・ディープダイブ：AIの責任と規制—ドイツ判決・OpenAI調査・KPMG撤回
-・生活＆仕事へのヒント：ナデラ氏の提言・Biohub・エージェント時代の備え
-・エンディング
-
-【参照元】
-・Anthropic's safety warnings may have just backfired: https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/
-・Anthropic Says It's Taking Claude Fable 5 Offline: https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/
-・Anthropic cuts off Fable 5 and Mythos 5 access: https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security
-・Amazon CEO reportedly raised Anthropic model concerns: https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/
-・Amazon security research led to Anthropic ban: https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban
-・China may have accessed Mythos: https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos
-・India debates its AI future after Anthropic suspension: https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/
-・Meta's AI unit is a soul-crushing gulag: https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/
-・Meta's New AI Unit Is a Total Mess: https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/
-・Meta moves to unwind $2B Manus deal: https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/
-・German Court rules Google liable for AI Overview false statements: https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/
-・OpenAI faces investigation from state attorneys general: https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/
-・KPMG pulls report on AI usage due to hallucinations: https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/
-・Chinese cybercrime operation sued by Google: https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/
-・Jeff Bezos's Prometheus raises $12B: https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/
-・NEURA Robotics to raise up to $1.4B: https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/
-・Theker raised $85M for reconfigurable factory robots: https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/
-・Mistral rumored to be raising €3B: https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/
-・Hard Fork Live: Satya Nadella and Cindy Cohn: https://www.nytimes.com/column/hard-fork
-・Biohub: The Future of Biology is Open-Source: https://www.youtube.com/watch?v=nopriors
-・OpenAI Academy new courses: https://openai.com/index/academy-courses-applying-ai-at-work
-・Google DeepMind worried about millions of agents: https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/
-・Google research: AI for skin conditions: https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/
-・AI use surging across HHS agencies: https://www.fiercebiotech.com/ai-and-machine-learning/all-hhs-agencies-saw-ai-use-case-increases-fy-2025-bipartisan-policy-center
-・SpaceX, Anthropic, and OpenAI's hot IPO summer: https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/
-・Siri is good now??: https://www.theverge.com/podcast/949079/siri-ai-good-vergecast
-・Apple's new AI photo editing tools: https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on
-・OpenAI to acquire Ona: https://openai.com/index/openai-to-acquire-ona
-・Databricks open-sources Omnigent: https://www.marktechpost.com/2026/06/13/databricks-open-sources-omnigent-a-meta-harness-that-composes-governs-and-shares-ai-agents-across-claude-code-codex-and-pi/
-・Bosch pivots to robots: https://techxplore.com/news/2026-06-struggling-german-auto-supplier-bosch.html
-・Deezer's AI music identification tool: https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/
-・NVIDIA Blackwell leads on AgentPerf benchmark: https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/
-・OpenAI supports EU AI content transparency: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem
-
-#AIニュース #生成AI #海外AI #Anthropic #AI規制 #Meta #AIと安全保障 #ロボティクス #AI創薬 #AIと社会]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・Anthropicの最強モデル（Fable 5・Mythos 5）が米政府命令で全面停止——安全性報告のパラドックスと国家安全保障の交差
+・MetaのAI部門（6,500人規模）が内部崩壊しかけている報道——組織混乱とManus買収巻き戻し
+・ドイツ裁判所がGoogleのAI検索に画期的判決——AIの出力に対する責任の所在
+・ジェフ・ベゾス氏の新AIスタートアップPrometheusが120億ドル（約1兆8,000億円）を調達]]></itunes:summary>
       <itunes:duration>00:22:31</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
