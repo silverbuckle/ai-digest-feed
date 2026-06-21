@@ -18,107 +18,130 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>6/18 Anthropic国際騒動＆AI投資ROI問題＆生物学×AIの未来</title>
-      <description><![CDATA[AnthropicのAIモデル停止問題がG7サミットで国際問題に発展。ホワイトハウスの「完全ジェイルブレイク防止」要求は技術的に不可能と専門家が指摘。企業のAI投資でROI問題が浮上し、アメリカ人の84%がAIにネガティブ。ザッカーバーグ夫妻のBiohubが進める生物学×AIプロジェクトとGoogle医療AI「AMIE」の進展を深掘りします。
+      <title>6/22 Anthropic規制混乱＆Intel大転換＆AI進化スピード論争</title>
+      <description><![CDATA[Anthropicへの米政府締め付けの続報と、ルールなき規制の危うさを深掘り。Intel新CEO・リップ・ブー・タン氏がAI時代の半導体戦略を語った注目インタビューを解説。Hard Forkライブイベントでの「AI進化スピード」をめぐる専門家の白熱議論、OpenAIの医療AI・子どもの希少疾患診断など、AIの日常化と課題を多角的に議論します。
 
 【目次】
 ・オープニング
-・メインニュース：Anthropicモデル停止の国際波紋とホワイトハウスの不可能な要求
-・メインニュース：企業のAI投資ROI問題とアメリカ人のAI意識調査
-・ディープダイブ：Biohub・Google AMIE・AI創薬——医療×AIの最前線
-・生活＆仕事へのヒント：クリエイターの差別化・AIコードの著作権・物理AIの今
+・メインニュース：Anthropic規制続報とAIへの社会的不安
+・メインニュース：Intel大転換と半導体サプライチェーンの地政学
+・ディープダイブ：AI進化スピード論争とロボティクスの現在地
+・生活＆仕事へのヒント：医療AI・クリエイティブツール・インフラの最前線
 ・エンディング
 
 【参照元】
-・World leaders want American AI. They just don't want America to be able to turn it off.: https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/
-・The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible: https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/
+・When the Trump administration cracks down on Anthropic, who benefits?: https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/
+・The White House Is Making Up Its Rules for AI in Real Time: https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/
+・Encryption, spyware, and now Mythos: History shows why cyber export control doesn't work: https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/
+・Is the US government's Anthropic ban accidentally helping the brand?: https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/
+・The US banned Anthropic's Fable 5 release, but the numbers don't seem to care: https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/
 ・Anthropic got hit by export rules nobody understands: https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls
-・Anthropic's latest feud with the Trump admin may actually help it, sales data suggests: https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/
-・Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem: https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem
-・Anthropic becomes first AI startup to join the Frontier carbon removal coalition: https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/
-・NEA's Tiffany Luck says enterprises are still figuring out their AI ROI: https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/
-・NEA's Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning: https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/
-・Only 16 percent of Americans think AI will have a positive impact on society: https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/
+・Who decides when AI is too dangerous?: https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump
+・Nobel laureate John Jumper is leaving DeepMind for rival Anthropic: https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/
+・Signal's Meredith Whittaker wants you to remember that AI chatbots 'are not your friends': https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/
 ・Two-thirds of Americans think AI is advancing too quickly: https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly
-・Sixty percent of US consumers say 'AI' in brand messaging is a turnoff: https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/
-・Biohub: The Future of Biology is Open-Source (No Priors Podcast): https://www.youtube.com/watch?v=nopriors-biohub
-・New research shows how AMIE could help manage health conditions (Google Blog): https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/
-・A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry (OpenAI): https://openai.com/index/ai-chemist-improves-reaction
+・Hard Fork Live, Part 3: Differing Visions of an A.I. Future: https://www.nytimes.com/column/hard-fork
+・Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan (No Priors): https://www.youtube.com/@NoPriorsPodcast
+・The US says ASML's top chip tool may be in China. ASML says it isn't: https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/
+・Improving health intelligence in ChatGPT: https://openai.com/index/improving-health-intelligence-in-chatgpt
+・Using AI to help physicians diagnose rare genetic diseases affecting children: https://openai.com/index/diagnose-rare-childhood-diseases
+・Midjourney goes from generating cat images to full-body ultrasound scans: https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan
+・Photoshop and Premiere now have AI assistants: https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch
+・Adobe's redesigned AI studio remembers what your creations look like: https://www.theverge.com/tech/952104/adobe-firefly-ai-agent-elements-projects-update
+・The Atlantic created a searchable database of the music used to train AI: https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data
+・AI inference startup Baseten reportedly raising $1.5B months after its last mega round: https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/
+・Amazon hopes to challenge Nvidia more directly by selling its AI chips: https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/
+・AI data centers just got a government-mandated fast lane to the grid: https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/
+・Amazon employees say they're facing termination for backing data center limits: https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action
+・OpenAI is bringing on some big guns in the lead-up to its IPO: https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/
+・Barret Zoph is out at OpenAI again after just five months: https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab
+・Perplexity Launches Brain: https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/
+・Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27: https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/
+・Meta's AI Workers Are Revolting: https://www.wired.com/story/uncanny-valley-podcast-meta-ai-workers-revolting-peter-thiel-secret-society-sbf-plea-to-trump/
+・A startup claims it broke through a bottleneck that's holding back LLMs: https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/
+・Brain-computer interface trials are taking off: https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/
 ・PE firm Altaris scoops up AI drug development outfit Simulations Plus for $375M: https://www.fiercebiotech.com/biotech/pe-firm-altaris-scoops-ai-drug-development-outfit-simulations-plus-375m
 ・Merck inks $510M biobucks data generation partnership with Protillion: https://www.fiercebiotech.com/biotech/merck-inks-510m-biobucks-data-generation-partnership-protillion
-・Hard Fork Live Part 2: Dylan Field on Standing Out in the A.I. Era: https://www.nytimes.com/column/hard-fork
-・Who Owns the Code Claude Wrote?: https://www.oreilly.com/radar/who-owns-the-code-claude-wrote/
-・Operating a Humanoid With Your Body Is a Hot Job in China's Hardware Capital: https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/
-・Collecting robot training data is dirty, unglamorous work: https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/
-・Sanctuary AI validates physical AI performance at Tier 1 automotive supplier: https://www.therobotreport.com/sanctuary-ai-validates-physical-ai-performance-tier-1-automotive-supplier/
-・Google bets on Gemini to reinvent the smart home speaker: https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/
-・NVIDIA XR AI Brings Agents to AR Glasses: https://blogs.nvidia.com/blog/nvidia-xr-ai/
-・Google invests $1.5B in Alabama data center expansion: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/
-・Canadian pension giant joins race to fund India's AI-fueled data center boom: https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/
-・Get back hours every day with autonomous agents in Amazon Quick: https://aws.amazon.com/blogs/machine-learning/get-back-hours-every-day-with-autonomous-agents-in-amazon-quick/
-・New in Amazon Bedrock AgentCore: https://aws.amazon.com/blogs/machine-learning/new-in-amazon-bedrock-agentcore-build-agents-with-broader-knowledge-and-continuous-learning/
-・World model maker Odyssey nabs $1.45B valuation: https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/
-・Introducing the OpenAI Partner Network: https://openai.com/index/introducing-openai-partner-network
-・OpenAI Deployment Simulation: https://openai.com/index/deployment-simulation
-・Kawasaki Robotics to debut RL030N physical AI platform: https://www.therobotreport.com/kawasaki-robotics-debut-rl030n-physical-ai-platform-automate/
-・Genesis AI launches Eno general-purpose robot: https://www.therobotreport.com/genesis-ai-launches-eno-general-purpose-robot/
-・DeepL acquires Mixhalo for live-event audio streaming and translation: https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/
-・Qualcomm Snapdragon Reality Elite for smart glasses: https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables
-・Apple 2027 rumors: AirPods with cameras for AI: https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor
+・Billionaire Ambani wants AI in every call, app, and home: https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/
+・Snap spins off AI video team into new company, Dotmo, due to costs: https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/
+・Tool Calling, Explained: How AI Agents Decide What to Do Next: https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/
+・FERC Large-Load Interconnection Actions: https://blogs.nvidia.com/blog/ferc-large-load-interconnection/
+・New usage analytics and updated spend controls for enterprises: https://openai.com/index/chatgpt-enterprise-spend-controls/
+・U.S. robotics industry saw double-digit growth in 2025, says IFR: https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/
 
-#AIニュース #生成AI #海外AI #Anthropic #AI医療 #AI創薬 #Biohub #AI投資 #物理AI #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #Anthropic #Intel #半導体 #医療AI #AI規制 #AIと社会 #著作権]]></description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-22.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-22.mp3" length="28211757" type="audio/mpeg"/>
+      <itunes:title>6/22 Anthropic規制混乱＆Intel大転換＆AI進化スピード論争</itunes:title>
+      <itunes:summary><![CDATA[Anthropicへの米政府締め付けの続報と、ルールなき規制の危うさを深掘り。Intel新CEO・リップ・ブー・タン氏がAI時代の半導体戦略を語った注目インタビューを解説。Hard Forkライブイベントでの「AI進化スピード」をめぐる専門家の白熱議論、OpenAIの医療AI・子どもの希少疾患診断など、AIの日常化と課題を多角的に議論します。
+
+【目次】
+・オープニング
+・メインニュース：Anthropic規制続報とAIへの社会的不安
+・メインニュース：Intel大転換と半導体サプライチェーンの地政学
+・ディープダイブ：AI進化スピード論争とロボティクスの現在地
+・生活＆仕事へのヒント：医療AI・クリエイティブツール・インフラの最前線
+・エンディング
+
+【参照元】
+・When the Trump administration cracks down on Anthropic, who benefits?: https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/
+・The White House Is Making Up Its Rules for AI in Real Time: https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/
+・Encryption, spyware, and now Mythos: History shows why cyber export control doesn't work: https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/
+・Is the US government's Anthropic ban accidentally helping the brand?: https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/
+・The US banned Anthropic's Fable 5 release, but the numbers don't seem to care: https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/
+・Anthropic got hit by export rules nobody understands: https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls
+・Who decides when AI is too dangerous?: https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump
+・Nobel laureate John Jumper is leaving DeepMind for rival Anthropic: https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/
+・Signal's Meredith Whittaker wants you to remember that AI chatbots 'are not your friends': https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/
+・Two-thirds of Americans think AI is advancing too quickly: https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly
+・Hard Fork Live, Part 3: Differing Visions of an A.I. Future: https://www.nytimes.com/column/hard-fork
+・Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan (No Priors): https://www.youtube.com/@NoPriorsPodcast
+・The US says ASML's top chip tool may be in China. ASML says it isn't: https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/
+・Improving health intelligence in ChatGPT: https://openai.com/index/improving-health-intelligence-in-chatgpt
+・Using AI to help physicians diagnose rare genetic diseases affecting children: https://openai.com/index/diagnose-rare-childhood-diseases
+・Midjourney goes from generating cat images to full-body ultrasound scans: https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan
+・Photoshop and Premiere now have AI assistants: https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch
+・Adobe's redesigned AI studio remembers what your creations look like: https://www.theverge.com/tech/952104/adobe-firefly-ai-agent-elements-projects-update
+・The Atlantic created a searchable database of the music used to train AI: https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data
+・AI inference startup Baseten reportedly raising $1.5B months after its last mega round: https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/
+・Amazon hopes to challenge Nvidia more directly by selling its AI chips: https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/
+・AI data centers just got a government-mandated fast lane to the grid: https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/
+・Amazon employees say they're facing termination for backing data center limits: https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action
+・OpenAI is bringing on some big guns in the lead-up to its IPO: https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/
+・Barret Zoph is out at OpenAI again after just five months: https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab
+・Perplexity Launches Brain: https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/
+・Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27: https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/
+・Meta's AI Workers Are Revolting: https://www.wired.com/story/uncanny-valley-podcast-meta-ai-workers-revolting-peter-thiel-secret-society-sbf-plea-to-trump/
+・A startup claims it broke through a bottleneck that's holding back LLMs: https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/
+・Brain-computer interface trials are taking off: https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/
+・PE firm Altaris scoops up AI drug development outfit Simulations Plus for $375M: https://www.fiercebiotech.com/biotech/pe-firm-altaris-scoops-ai-drug-development-outfit-simulations-plus-375m
+・Merck inks $510M biobucks data generation partnership with Protillion: https://www.fiercebiotech.com/biotech/merck-inks-510m-biobucks-data-generation-partnership-protillion
+・Billionaire Ambani wants AI in every call, app, and home: https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/
+・Snap spins off AI video team into new company, Dotmo, due to costs: https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/
+・Tool Calling, Explained: How AI Agents Decide What to Do Next: https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/
+・FERC Large-Load Interconnection Actions: https://blogs.nvidia.com/blog/ferc-large-load-interconnection/
+・New usage analytics and updated spend controls for enterprises: https://openai.com/index/chatgpt-enterprise-spend-controls/
+・U.S. robotics industry saw double-digit growth in 2025, says IFR: https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/
+
+#AIニュース #生成AI #海外AI #Anthropic #Intel #半導体 #医療AI #AI規制 #AIと社会 #著作権]]></itunes:summary>
+      <itunes:duration>00:29:23</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>6/18 Anthropic国際騒動＆AI投資ROI問題＆生物学×AIの未来</title>
+      <description><![CDATA[【今回のトピック】
+・Anthropicモデル停止問題の国際的拡大：G7サミットでの各国首脳の懸念とホワイトハウスの技術的に不可能な要求
+・企業のAI投資ROI問題とアメリカ人消費者のAIに対する冷めた意識調査
+・Biohub（ザッカーバーグ夫妻）による生物学×AIプロジェクトと医療AIの最前線]]></description>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-18.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-18.mp3" length="28601901" type="audio/mpeg"/>
       <itunes:title>6/18 Anthropic国際騒動＆AI投資ROI問題＆生物学×AIの未来</itunes:title>
-      <itunes:summary><![CDATA[AnthropicのAIモデル停止問題がG7サミットで国際問題に発展。ホワイトハウスの「完全ジェイルブレイク防止」要求は技術的に不可能と専門家が指摘。企業のAI投資でROI問題が浮上し、アメリカ人の84%がAIにネガティブ。ザッカーバーグ夫妻のBiohubが進める生物学×AIプロジェクトとGoogle医療AI「AMIE」の進展を深掘りします。
-
-【目次】
-・オープニング
-・メインニュース：Anthropicモデル停止の国際波紋とホワイトハウスの不可能な要求
-・メインニュース：企業のAI投資ROI問題とアメリカ人のAI意識調査
-・ディープダイブ：Biohub・Google AMIE・AI創薬——医療×AIの最前線
-・生活＆仕事へのヒント：クリエイターの差別化・AIコードの著作権・物理AIの今
-・エンディング
-
-【参照元】
-・World leaders want American AI. They just don't want America to be able to turn it off.: https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/
-・The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible: https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/
-・Anthropic got hit by export rules nobody understands: https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls
-・Anthropic's latest feud with the Trump admin may actually help it, sales data suggests: https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/
-・Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem: https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem
-・Anthropic becomes first AI startup to join the Frontier carbon removal coalition: https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/
-・NEA's Tiffany Luck says enterprises are still figuring out their AI ROI: https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/
-・NEA's Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning: https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/
-・Only 16 percent of Americans think AI will have a positive impact on society: https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/
-・Two-thirds of Americans think AI is advancing too quickly: https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly
-・Sixty percent of US consumers say 'AI' in brand messaging is a turnoff: https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/
-・Biohub: The Future of Biology is Open-Source (No Priors Podcast): https://www.youtube.com/watch?v=nopriors-biohub
-・New research shows how AMIE could help manage health conditions (Google Blog): https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/
-・A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry (OpenAI): https://openai.com/index/ai-chemist-improves-reaction
-・PE firm Altaris scoops up AI drug development outfit Simulations Plus for $375M: https://www.fiercebiotech.com/biotech/pe-firm-altaris-scoops-ai-drug-development-outfit-simulations-plus-375m
-・Merck inks $510M biobucks data generation partnership with Protillion: https://www.fiercebiotech.com/biotech/merck-inks-510m-biobucks-data-generation-partnership-protillion
-・Hard Fork Live Part 2: Dylan Field on Standing Out in the A.I. Era: https://www.nytimes.com/column/hard-fork
-・Who Owns the Code Claude Wrote?: https://www.oreilly.com/radar/who-owns-the-code-claude-wrote/
-・Operating a Humanoid With Your Body Is a Hot Job in China's Hardware Capital: https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/
-・Collecting robot training data is dirty, unglamorous work: https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/
-・Sanctuary AI validates physical AI performance at Tier 1 automotive supplier: https://www.therobotreport.com/sanctuary-ai-validates-physical-ai-performance-tier-1-automotive-supplier/
-・Google bets on Gemini to reinvent the smart home speaker: https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/
-・NVIDIA XR AI Brings Agents to AR Glasses: https://blogs.nvidia.com/blog/nvidia-xr-ai/
-・Google invests $1.5B in Alabama data center expansion: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/
-・Canadian pension giant joins race to fund India's AI-fueled data center boom: https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/
-・Get back hours every day with autonomous agents in Amazon Quick: https://aws.amazon.com/blogs/machine-learning/get-back-hours-every-day-with-autonomous-agents-in-amazon-quick/
-・New in Amazon Bedrock AgentCore: https://aws.amazon.com/blogs/machine-learning/new-in-amazon-bedrock-agentcore-build-agents-with-broader-knowledge-and-continuous-learning/
-・World model maker Odyssey nabs $1.45B valuation: https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/
-・Introducing the OpenAI Partner Network: https://openai.com/index/introducing-openai-partner-network
-・OpenAI Deployment Simulation: https://openai.com/index/deployment-simulation
-・Kawasaki Robotics to debut RL030N physical AI platform: https://www.therobotreport.com/kawasaki-robotics-debut-rl030n-physical-ai-platform-automate/
-・Genesis AI launches Eno general-purpose robot: https://www.therobotreport.com/genesis-ai-launches-eno-general-purpose-robot/
-・DeepL acquires Mixhalo for live-event audio streaming and translation: https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/
-・Qualcomm Snapdragon Reality Elite for smart glasses: https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables
-・Apple 2027 rumors: AirPods with cameras for AI: https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor
-
-#AIニュース #生成AI #海外AI #Anthropic #AI医療 #AI創薬 #Biohub #AI投資 #物理AI #AIと社会]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・Anthropicモデル停止問題の国際的拡大：G7サミットでの各国首脳の懸念とホワイトハウスの技術的に不可能な要求
+・企業のAI投資ROI問題とアメリカ人消費者のAIに対する冷めた意識調査
+・Biohub（ザッカーバーグ夫妻）による生物学×AIプロジェクトと医療AIの最前線]]></itunes:summary>
       <itunes:duration>00:29:47</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
