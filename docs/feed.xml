@@ -18,99 +18,140 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>6/25 OpenAIハラペーニョチップ＆ロボット上場＆米中AI緊張</title>
-      <description><![CDATA[OpenAIがBroadcomと共同開発した初の自社チップ「ハラペーニョ」を発表。ヒューマノイドロボット企業Agility Roboticsが企業価値3,800億円でSPAC上場を発表。米中AI研究者が「チェルノブイリの瞬間」への懸念を共有する一方、企業ではAI予算の使い過ぎが深刻化。半導体、ロボティクス、規制の三方面からAI産業の転換点を読み解きます。
+      <title>6/29 フォードAI失敗の教訓＆GPT-5.6政府介入＆AIベンチマーク崩壊</title>
+      <description><![CDATA[フォードがAIに頼りすぎて品質低下、ベテランエンジニアを呼び戻した教訓を深掘り。OpenAIのGPT-5.6とAnthropicのMythos問題でAIモデルへの政府介入が加速。OpenAI研究者ノーム・ブラウン氏がAIの実力テスト（ベンチマーク）の根本的欠陥を指摘。ソニーのアイボ販売終了や介護ロボットの光と影も紹介します。
 
 【目次】
 ・オープニング
-・メインニュース：OpenAI初カスタムチップ「ハラペーニョ」とIntel復活戦略
-・メインニュース：Agility Robotics上場とヒューマノイドロボットの現在地
-・ディープダイブ：米中AI軍拡競争と企業AI予算の暴走
-・生活＆仕事へのヒント：Geminiコンピューター操作・医療AI・Claude Tag
+・メインニュース：フォードのAI失敗とベテラン回帰
+・メインニュース：GPT-5.6とMythos—政府がAIに介入する時代
+・ディープダイブ：AIベンチマークは壊れている—ノーム・ブラウン氏の警鐘
+・生活＆仕事へのヒント：AI時代を生き抜く3つのポイント
 ・エンディング
 
 【参照元】
-・I Met With China's Top AI Experts. They're Freaking Out, Too: https://www.wired.com/story/ai-arms-race-china-us-cooperation/
-・Facebook rolls out an AI companion app for creators: https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/
-・Agility Robotics plans to go public via SPAC in a $2.5B deal: https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/
-・Introducing computer use in Gemini 3.5 Flash: https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/
-・Introducing computer use in Gemini 3.5 Flash (Google Blog): https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/
-・The Trump White House Is Over Anthropic CEO Dario Amodei: https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei/
-・OpenAI unveils its first custom chip, built by Broadcom: https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/
-・Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion: https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/
-・OpenAI and Broadcom unveil LLM-optimized inference chip: https://openai.com/index/openai-broadcom-jalapeno-inference-chip
-・Companies are scrambling to stop employees from maxing out AI budgets with small tasks: https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/
-・Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates: https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/
-・The running list: major tech layoffs in 2026 where employers cited AI: https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/
-・AI chipmaker Groq confirms $650M raise: https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/
-・Nvidia wants to cut data center water use: https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/
-・Google DeepMind bets $75M on AI's future in Hollywood with A24 deal: https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/
-・SpaceX inks compute deal with Reflection AI: https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/
-・OpenAI reveals its first AI processor: Jalapeño: https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno
-・Hollywood is bending the knee to OpenAI: https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt
-・Something's off with Midjourney's pivot to body scanners: https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence
-・Why corporate AI super PACs spent $27 million on a local election: https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district
-・Figma now has AI motion graphics and shader tools: https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements
-・How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery: https://openai.com/index/gpt-5-immunology-mystery
-・Anthropic's Claude Tag is learning your company, one Slack message at a time: https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/
-・Samsung Electronics brings ChatGPT and Codex to employees: https://openai.com/index/samsung-electronics-chatgpt-codex-deployment
-・Helping build shared standards for advanced AI: https://openai.com/index/helping-build-shared-standards-for-advanced-ai
-・Daybreak: Tools for securing every organization in the world: https://openai.com/index/daybreak-securing-the-world
-・Humanoid maker Agility Robotics to go public through SPAC merger: https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/
-・NVIDIA releases Halos, a full-stack safety system for robotics: https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/
-・Mantis Robotics launches dual-arm, fenceless robot: https://www.therobotreport.com/mantis-robotics-launches-dual-arm-fenceless-robot/
-・Hard Fork Live, Part 3: Differing Visions of an A.I. Future: https://www.nytimes.com/column/hard-fork
-・No Priors: Re-engineering the Semiconductor Supply Chain with Intel CEO Lip-Bu Tan: 
+・Ford rehires 'gray beard' engineers after AI falls short: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/
+・Tail Control: The Counterintuitive Engineering of Reliable Agentic Workflows: https://towardsdatascience.com/tail-control-the-counterintuitive-engineering-of-reliable-agentic-workflows/
+・Why Wall Street thinks US memory maker Micron is the next Nvidia: https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/
+・Liquid AI Ships LFM2.5-230M with On-Device Inference: https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/
+・SoftBank's CEO isn't the only one with questions about Elon Musk's orbital data center hype: https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/
+・DeepSeek Releases DSpark: https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/
+・Apple Vision Pro exec is reportedly leaving for OpenAI: https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/
+・We Built a Routing Layer to Cut Our AI Costs. It Broke the Product.: https://towardsdatascience.com/we-built-a-routing-layer-to-cut-our-ai-costs-it-broke-the-product/
+・Asian AI startups launch Mythos-like models as Anthropic's export ban drags on: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/
+・Trump Administration Allows Anthropic to Release Mythos to Select US Organizations: https://www.wired.com/story/anthropic-restores-access-to-mythos/
+・OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/
+・OpenAI limits GPT-5.6 rollout after government request: https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/
+・OpenAI poaches Uber India chief to lead its biggest market outside the US: https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/
+・Why everyone from OpenAI to SpaceX is building their own chips: https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/
+・OpenAI Has New AI Models. Here's Why You Can't Use Them: https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/
+・It's not about Anthropic vs. OpenAI anymore: https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/
+・How data centers can better manage energy use: https://news.mit.edu/2026/how-data-centers-can-better-manage-energy-use-0626
+・Europe Is Fed Up and Wants Its Own AI: https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/
+・Previewing GPT-5.6 Sol: a next-generation model: https://openai.com/index/previewing-gpt-5-6-sol
+・Anthropic Thinks Its Own Success Is Key to Making AI Safe: https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/
+・The White House is asking OpenAI to slow roll the release of its new model: https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/
+・Patronus AI lands $50M to build 'digital worlds' that stress-test AI agents: https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/
+・AGIBOT produces 15,000th robot: https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/
+・General Intuition raises $320M to use video game data to train robots: https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/
+・Sony discontinues Japan sales of robot puppy 'aibo': https://techxplore.com/news/2026-06-sony-discontinues-japan-sales-robot.html
+・Exoskeleton and robotic arm reduce factory lifting strain by up to 65%: https://techxplore.com/news/2026-06-exoskeleton-robotic-arm-factory-strain.html
+・IBM has unveiled chip technology that could help extend Moore's Law another decade: https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/
+・Anthropic's Claude is winning over paid consumers: https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/
+・General Intuition's $2.3B bet that video games can train AI agents: https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/
+・Databricks' former AI chief thinks he can cut AI's power bill by 1,000x: https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/
+・Ford had to hire back former engineers to fix mistakes made by its automated systems: https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes
+・Why is Apple asking me to pay more for Big Tech's AI obsession?: https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech
+・OpenAI unveils GPT-5.6 amid US AI regulatory drama: https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview
+・Anthropic's Mythos mess is only getting worse: https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations
+・OpenAI will delay GPT-5.6 after Trump administration request: https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request
+・Prosecutors used ChatGPT logs as evidence in the Palisades fire trial: https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial
+・Congresswoman denies staff used AI to write defense funding amendment: https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude
+・How agents are transforming work (OpenAI): https://openai.com/index/how-agents-are-transforming-work
+・Hard Fork: How A.I. Is Changing Loneliness and Taste: https://www.nytimes.com/column/hard-fork
+・No Priors: Why Traditional Benchmarks Fail Modern AI Models with Noam Brown: https://www.youtube.com/watch?v=nopriors-noam-brown
+・LLMs help robots understand vague instructions (MIT): https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626
+・Artificial skin enables robots to sense temperature and pressure: https://techxplore.com/news/2026-06-artificial-skin-enables-robots-simultaneously.html
+・Boehringer becomes latest Big Pharma to buy into Immunai's AI platform: https://www.fiercebiotech.com/biotech/15m-discovery-deal-boehringer-becomes-latest-big-pharma-buy-immunais-ai-platform
 
-#AIニュース #生成AI #海外AI #半導体 #ロボティクス #AIチップ #OpenAI #Intel #米中AI競争 #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #フォード #GPT56 #Anthropic #AIベンチマーク #ロボティクス #AI規制 #AIと社会]]></description>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-29.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-29.mp3" length="27838125" type="audio/mpeg"/>
+      <itunes:title>6/29 フォードAI失敗の教訓＆GPT-5.6政府介入＆AIベンチマーク崩壊</itunes:title>
+      <itunes:summary><![CDATA[フォードがAIに頼りすぎて品質低下、ベテランエンジニアを呼び戻した教訓を深掘り。OpenAIのGPT-5.6とAnthropicのMythos問題でAIモデルへの政府介入が加速。OpenAI研究者ノーム・ブラウン氏がAIの実力テスト（ベンチマーク）の根本的欠陥を指摘。ソニーのアイボ販売終了や介護ロボットの光と影も紹介します。
+
+【目次】
+・オープニング
+・メインニュース：フォードのAI失敗とベテラン回帰
+・メインニュース：GPT-5.6とMythos—政府がAIに介入する時代
+・ディープダイブ：AIベンチマークは壊れている—ノーム・ブラウン氏の警鐘
+・生活＆仕事へのヒント：AI時代を生き抜く3つのポイント
+・エンディング
+
+【参照元】
+・Ford rehires 'gray beard' engineers after AI falls short: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/
+・Tail Control: The Counterintuitive Engineering of Reliable Agentic Workflows: https://towardsdatascience.com/tail-control-the-counterintuitive-engineering-of-reliable-agentic-workflows/
+・Why Wall Street thinks US memory maker Micron is the next Nvidia: https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/
+・Liquid AI Ships LFM2.5-230M with On-Device Inference: https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/
+・SoftBank's CEO isn't the only one with questions about Elon Musk's orbital data center hype: https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/
+・DeepSeek Releases DSpark: https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/
+・Apple Vision Pro exec is reportedly leaving for OpenAI: https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/
+・We Built a Routing Layer to Cut Our AI Costs. It Broke the Product.: https://towardsdatascience.com/we-built-a-routing-layer-to-cut-our-ai-costs-it-broke-the-product/
+・Asian AI startups launch Mythos-like models as Anthropic's export ban drags on: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/
+・Trump Administration Allows Anthropic to Release Mythos to Select US Organizations: https://www.wired.com/story/anthropic-restores-access-to-mythos/
+・OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/
+・OpenAI limits GPT-5.6 rollout after government request: https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/
+・OpenAI poaches Uber India chief to lead its biggest market outside the US: https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/
+・Why everyone from OpenAI to SpaceX is building their own chips: https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/
+・OpenAI Has New AI Models. Here's Why You Can't Use Them: https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/
+・It's not about Anthropic vs. OpenAI anymore: https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/
+・How data centers can better manage energy use: https://news.mit.edu/2026/how-data-centers-can-better-manage-energy-use-0626
+・Europe Is Fed Up and Wants Its Own AI: https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/
+・Previewing GPT-5.6 Sol: a next-generation model: https://openai.com/index/previewing-gpt-5-6-sol
+・Anthropic Thinks Its Own Success Is Key to Making AI Safe: https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/
+・The White House is asking OpenAI to slow roll the release of its new model: https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/
+・Patronus AI lands $50M to build 'digital worlds' that stress-test AI agents: https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/
+・AGIBOT produces 15,000th robot: https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/
+・General Intuition raises $320M to use video game data to train robots: https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/
+・Sony discontinues Japan sales of robot puppy 'aibo': https://techxplore.com/news/2026-06-sony-discontinues-japan-sales-robot.html
+・Exoskeleton and robotic arm reduce factory lifting strain by up to 65%: https://techxplore.com/news/2026-06-exoskeleton-robotic-arm-factory-strain.html
+・IBM has unveiled chip technology that could help extend Moore's Law another decade: https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/
+・Anthropic's Claude is winning over paid consumers: https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/
+・General Intuition's $2.3B bet that video games can train AI agents: https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/
+・Databricks' former AI chief thinks he can cut AI's power bill by 1,000x: https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/
+・Ford had to hire back former engineers to fix mistakes made by its automated systems: https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes
+・Why is Apple asking me to pay more for Big Tech's AI obsession?: https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech
+・OpenAI unveils GPT-5.6 amid US AI regulatory drama: https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview
+・Anthropic's Mythos mess is only getting worse: https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations
+・OpenAI will delay GPT-5.6 after Trump administration request: https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request
+・Prosecutors used ChatGPT logs as evidence in the Palisades fire trial: https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial
+・Congresswoman denies staff used AI to write defense funding amendment: https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude
+・How agents are transforming work (OpenAI): https://openai.com/index/how-agents-are-transforming-work
+・Hard Fork: How A.I. Is Changing Loneliness and Taste: https://www.nytimes.com/column/hard-fork
+・No Priors: Why Traditional Benchmarks Fail Modern AI Models with Noam Brown: https://www.youtube.com/watch?v=nopriors-noam-brown
+・LLMs help robots understand vague instructions (MIT): https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626
+・Artificial skin enables robots to sense temperature and pressure: https://techxplore.com/news/2026-06-artificial-skin-enables-robots-simultaneously.html
+・Boehringer becomes latest Big Pharma to buy into Immunai's AI platform: https://www.fiercebiotech.com/biotech/15m-discovery-deal-boehringer-becomes-latest-big-pharma-buy-immunais-ai-platform
+
+#AIニュース #生成AI #海外AI #フォード #GPT56 #Anthropic #AIベンチマーク #ロボティクス #AI規制 #AIと社会]]></itunes:summary>
+      <itunes:duration>00:28:59</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>6/25 OpenAIハラペーニョチップ＆ロボット上場＆米中AI緊張</title>
+      <description><![CDATA[【今回のトピック】
+・OpenAIが自社初のカスタムAIチップ「ハラペーニョ」を発表し、NVIDIA依存脱却とAIチップ戦国時代の幕開けを象徴
+・ヒューマノイドロボット企業Agility Roboticsが企業価値25億ドル（約3,800億円）で上場へ動き、ロボット実用化フェーズに突入
+・米中AI軍拡競争の緊張と「チェルノブイリの瞬間」への懸念、および企業のAI予算が社員に使い尽くされる問題]]></description>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-25.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-25.mp3" length="23883693" type="audio/mpeg"/>
       <itunes:title>6/25 OpenAIハラペーニョチップ＆ロボット上場＆米中AI緊張</itunes:title>
-      <itunes:summary><![CDATA[OpenAIがBroadcomと共同開発した初の自社チップ「ハラペーニョ」を発表。ヒューマノイドロボット企業Agility Roboticsが企業価値3,800億円でSPAC上場を発表。米中AI研究者が「チェルノブイリの瞬間」への懸念を共有する一方、企業ではAI予算の使い過ぎが深刻化。半導体、ロボティクス、規制の三方面からAI産業の転換点を読み解きます。
-
-【目次】
-・オープニング
-・メインニュース：OpenAI初カスタムチップ「ハラペーニョ」とIntel復活戦略
-・メインニュース：Agility Robotics上場とヒューマノイドロボットの現在地
-・ディープダイブ：米中AI軍拡競争と企業AI予算の暴走
-・生活＆仕事へのヒント：Geminiコンピューター操作・医療AI・Claude Tag
-・エンディング
-
-【参照元】
-・I Met With China's Top AI Experts. They're Freaking Out, Too: https://www.wired.com/story/ai-arms-race-china-us-cooperation/
-・Facebook rolls out an AI companion app for creators: https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/
-・Agility Robotics plans to go public via SPAC in a $2.5B deal: https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/
-・Introducing computer use in Gemini 3.5 Flash: https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/
-・Introducing computer use in Gemini 3.5 Flash (Google Blog): https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/
-・The Trump White House Is Over Anthropic CEO Dario Amodei: https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei/
-・OpenAI unveils its first custom chip, built by Broadcom: https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/
-・Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion: https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/
-・OpenAI and Broadcom unveil LLM-optimized inference chip: https://openai.com/index/openai-broadcom-jalapeno-inference-chip
-・Companies are scrambling to stop employees from maxing out AI budgets with small tasks: https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/
-・Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates: https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/
-・The running list: major tech layoffs in 2026 where employers cited AI: https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/
-・AI chipmaker Groq confirms $650M raise: https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/
-・Nvidia wants to cut data center water use: https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/
-・Google DeepMind bets $75M on AI's future in Hollywood with A24 deal: https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/
-・SpaceX inks compute deal with Reflection AI: https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/
-・OpenAI reveals its first AI processor: Jalapeño: https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno
-・Hollywood is bending the knee to OpenAI: https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt
-・Something's off with Midjourney's pivot to body scanners: https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence
-・Why corporate AI super PACs spent $27 million on a local election: https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district
-・Figma now has AI motion graphics and shader tools: https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements
-・How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery: https://openai.com/index/gpt-5-immunology-mystery
-・Anthropic's Claude Tag is learning your company, one Slack message at a time: https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/
-・Samsung Electronics brings ChatGPT and Codex to employees: https://openai.com/index/samsung-electronics-chatgpt-codex-deployment
-・Helping build shared standards for advanced AI: https://openai.com/index/helping-build-shared-standards-for-advanced-ai
-・Daybreak: Tools for securing every organization in the world: https://openai.com/index/daybreak-securing-the-world
-・Humanoid maker Agility Robotics to go public through SPAC merger: https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/
-・NVIDIA releases Halos, a full-stack safety system for robotics: https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/
-・Mantis Robotics launches dual-arm, fenceless robot: https://www.therobotreport.com/mantis-robotics-launches-dual-arm-fenceless-robot/
-・Hard Fork Live, Part 3: Differing Visions of an A.I. Future: https://www.nytimes.com/column/hard-fork
-・No Priors: Re-engineering the Semiconductor Supply Chain with Intel CEO Lip-Bu Tan: 
-
-#AIニュース #生成AI #海外AI #半導体 #ロボティクス #AIチップ #OpenAI #Intel #米中AI競争 #AIと社会]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・OpenAIが自社初のカスタムAIチップ「ハラペーニョ」を発表し、NVIDIA依存脱却とAIチップ戦国時代の幕開けを象徴
+・ヒューマノイドロボット企業Agility Roboticsが企業価値25億ドル（約3,800億円）で上場へ動き、ロボット実用化フェーズに突入
+・米中AI軍拡競争の緊張と「チェルノブイリの瞬間」への懸念、および企業のAI予算が社員に使い尽くされる問題]]></itunes:summary>
       <itunes:duration>00:24:52</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
