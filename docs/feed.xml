@@ -18,123 +18,224 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>6/29 フォードAI失敗の教訓＆GPT-5.6政府介入＆AIベンチマーク崩壊</title>
-      <description><![CDATA[フォードがAIに頼りすぎて品質低下、ベテランエンジニアを呼び戻した教訓を深掘り。OpenAIのGPT-5.6とAnthropicのMythos問題でAIモデルへの政府介入が加速。OpenAI研究者ノーム・ブラウン氏がAIの実力テスト（ベンチマーク）の根本的欠陥を指摘。ソニーのアイボ販売終了や介護ロボットの光と影も紹介します。
+      <title>7/2 Anthropic復活の裏側＆AIベンチマーク崩壊問題＆文化とAIの危うい関係</title>
+      <description><![CDATA[Anthropicの最強モデルFable 5が条件付きで復活。その裏にある政府との交渉と新セキュリティ対策とは。OpenAI研究者ノーム・ブラウン氏がAIベンチマークの根本的欠陥を指摘し、安全性評価への深刻な影響を警告。さらに、AIが文化やtasteを均質化するリスク、健康データ規制、ヒューマノイドロボットの工場実績など幅広くカバー。
 
 【目次】
 ・オープニング
-・メインニュース：フォードのAI失敗とベテラン回帰
-・メインニュース：GPT-5.6とMythos—政府がAIに介入する時代
-・ディープダイブ：AIベンチマークは壊れている—ノーム・ブラウン氏の警鐘
-・生活＆仕事へのヒント：AI時代を生き抜く3つのポイント
+・メインニュース：Anthropicモデル復活とClaude Science発表
+・メインニュース：AIチップ競争・セキュリティ・著作権の最新動向
+・ディープダイブ：AIベンチマークが壊れている問題
+・生活＆仕事へのヒント：AIと文化・健康データ・ロボット・孤独
 ・エンディング
 
 【参照元】
-・Ford rehires 'gray beard' engineers after AI falls short: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/
-・Tail Control: The Counterintuitive Engineering of Reliable Agentic Workflows: https://towardsdatascience.com/tail-control-the-counterintuitive-engineering-of-reliable-agentic-workflows/
-・Why Wall Street thinks US memory maker Micron is the next Nvidia: https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/
-・Liquid AI Ships LFM2.5-230M with On-Device Inference: https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/
-・SoftBank's CEO isn't the only one with questions about Elon Musk's orbital data center hype: https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/
-・DeepSeek Releases DSpark: https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/
-・Apple Vision Pro exec is reportedly leaving for OpenAI: https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/
-・We Built a Routing Layer to Cut Our AI Costs. It Broke the Product.: https://towardsdatascience.com/we-built-a-routing-layer-to-cut-our-ai-costs-it-broke-the-product/
-・Asian AI startups launch Mythos-like models as Anthropic's export ban drags on: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/
-・Trump Administration Allows Anthropic to Release Mythos to Select US Organizations: https://www.wired.com/story/anthropic-restores-access-to-mythos/
-・OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/
-・OpenAI limits GPT-5.6 rollout after government request: https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/
-・OpenAI poaches Uber India chief to lead its biggest market outside the US: https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/
-・Why everyone from OpenAI to SpaceX is building their own chips: https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/
-・OpenAI Has New AI Models. Here's Why You Can't Use Them: https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/
-・It's not about Anthropic vs. OpenAI anymore: https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/
-・How data centers can better manage energy use: https://news.mit.edu/2026/how-data-centers-can-better-manage-energy-use-0626
-・Europe Is Fed Up and Wants Its Own AI: https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/
-・Previewing GPT-5.6 Sol: a next-generation model: https://openai.com/index/previewing-gpt-5-6-sol
-・Anthropic Thinks Its Own Success Is Key to Making AI Safe: https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/
-・The White House is asking OpenAI to slow roll the release of its new model: https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/
-・Patronus AI lands $50M to build 'digital worlds' that stress-test AI agents: https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/
-・AGIBOT produces 15,000th robot: https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/
-・General Intuition raises $320M to use video game data to train robots: https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/
-・Sony discontinues Japan sales of robot puppy 'aibo': https://techxplore.com/news/2026-06-sony-discontinues-japan-sales-robot.html
-・Exoskeleton and robotic arm reduce factory lifting strain by up to 65%: https://techxplore.com/news/2026-06-exoskeleton-robotic-arm-factory-strain.html
-・IBM has unveiled chip technology that could help extend Moore's Law another decade: https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/
-・Anthropic's Claude is winning over paid consumers: https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/
-・General Intuition's $2.3B bet that video games can train AI agents: https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/
-・Databricks' former AI chief thinks he can cut AI's power bill by 1,000x: https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/
-・Ford had to hire back former engineers to fix mistakes made by its automated systems: https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes
-・Why is Apple asking me to pay more for Big Tech's AI obsession?: https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech
-・OpenAI unveils GPT-5.6 amid US AI regulatory drama: https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview
-・Anthropic's Mythos mess is only getting worse: https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations
-・OpenAI will delay GPT-5.6 after Trump administration request: https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request
-・Prosecutors used ChatGPT logs as evidence in the Palisades fire trial: https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial
-・Congresswoman denies staff used AI to write defense funding amendment: https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude
-・How agents are transforming work (OpenAI): https://openai.com/index/how-agents-are-transforming-work
-・Hard Fork: How A.I. Is Changing Loneliness and Taste: https://www.nytimes.com/column/hard-fork
-・No Priors: Why Traditional Benchmarks Fail Modern AI Models with Noam Brown: https://www.youtube.com/watch?v=nopriors-noam-brown
-・LLMs help robots understand vague instructions (MIT): https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626
-・Artificial skin enables robots to sense temperature and pressure: https://techxplore.com/news/2026-06-artificial-skin-enables-robots-simultaneously.html
-・Boehringer becomes latest Big Pharma to buy into Immunai's AI platform: https://www.fiercebiotech.com/biotech/15m-discovery-deal-boehringer-becomes-latest-big-pharma-buy-immunais-ai-platform
+・Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US): https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/
+・You Can Now Sound the Alarm on AI Behaving Badly: https://www.wired.com/story/flare-website-ai-flaw-reporting-safety/
+・Structured memory filtering with metadata in AgentCore Memory: https://aws.amazon.com/blogs/machine-learning/structured-memory-filtering-with-metadata-in-agentcore-memory/
+・OpenWiki: Open Source Repo Documentation for Coding Agents: https://www.langchain.com/blog/introducing-openwiki-an-open-source-agent-for-repo-documentation
+・How Inscribe uses Amazon Bedrock to stop document fraud in seconds: https://aws.amazon.com/blogs/machine-learning/how-inscribe-uses-amazon-bedrock-to-stop-document-fraud-in-seconds/
+・Cloudflare's new policy pushes AI companies to pay for publishers' content: https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/
+・Simplify model selection in Amazon Bedrock with the open source Model Profiler: https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/
+・Accelerate protein design with BoltzGen on Amazon SageMaker AI: https://aws.amazon.com/blogs/machine-learning/accelerate-protein-design-with-boltzgen-on-amazon-sagemaker-ai/
+・Anthropic Added a New Security Measure to Get Back Into the Trump Administration's Good Graces: https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces/
+・How to Use RLMs in Deep Agents: https://www.langchain.com/blog/how-to-use-rlms-in-deep-agents
+・How Pendo uses LangSmith to trace Novus from user behavior to code fixes: https://www.langchain.com/blog/how-pendo-used-langsmith-to-trace-novus-from-user-behavior-to-code-fixes
+・Persistent Latent Memory for Multi-Hop LLM Agents: https://towardsdatascience.com/persistent-latent-memory-for-multi-hop-llm-agents-how-a-6g-handover-paper-closes-the-agent-cold-start/
+・Venice AI becomes a unicorn with $65M Series A: https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/
+・Gemini Spark, Google's agentic assistant, is now available on Mac: https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/
+・Meta, like SpaceX, looks to turn excess AI compute into cash: https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/
+・NVIDIA and Partners Build in America, for America: https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/
+・5 AI Coding Platforms to Build Apps Without the Headache: https://www.kdnuggets.com/5-ai-coding-platforms-to-build-apps-without-the-headache
+・Build and Run Your Own AI Agent in the Cloud: https://towardsdatascience.com/build-and-run-your-own-ai-agent-in-the-cloud/
+・Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival: https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/
+・A portable ultrasound system could make reliable breast imaging more accessible: https://news.mit.edu/2026/portable-ultrasound-system-could-make-reliable-breast-imaging-more-accessible-0701
+・NVIDIA Releases Nemotron-Labs-TwoTower: https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower/
+・Google AI Introduces TabFM: https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/
+・Safely Releasing Frontier Models to Customers: https://aws.amazon.com/blogs/machine-learning/safely-releasing-frontier-models-to-customers/
+・Trump drops restrictions on Anthropic's Mythos and Fable models: https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/
+・Wayve launches $85M employee tender offer at $8.5B valuation: https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/
+・Hugging Face and Cerebras bring Gemma 4 to real-time voice AI: https://huggingface.co/blog/cerebras-gemma4-voice-ai
+・The Trump Administration Is Lifting Its Export Controls on Anthropic's Mythos and Fable AI Models: https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/
+・OpenClaw is finally available on Android and iOS: https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/
+・Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/
+・Gemini Spark updates: macOS launch, connected apps and more: https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/
+・The DeepMind trio who built a poker AI are now making money for quant hedge funds: https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/
+・Google introduces a faster, cheaper image generator with Nano Banana 2 Lite: https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/
+・How ChatGPT adoption has expanded: https://openai.com/index/how-chatgpt-adoption-has-expanded
+・Introducing GeneBench-Pro: https://openai.com/index/introducing-genebench-pro
+・Mapping Europe's AI Workforce Opportunity: https://openai.com/index/mapping-ai-jobs-transition-eu
+・HP Inc. launches Frontier strategic partnership with OpenAI: https://openai.com/index/hp-frontier-partnership
+・Introducing TabFM: A zero-shot foundation model for tabular data: https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/
+・LLMs are stuck in a groupthink groove: https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/
+・Claude Science is Anthropic's newest flagship product: https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/
+・Agriculture is ready for AI, but its data isn't: https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/
+・Building tech in the world's secret R&D hub: https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/
+・AI agents are not your coworkers: https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/
+・Agent confidence on the technical frontier: https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/
+・Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip: https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/
+・Anthropic launches Claude Sonnet 5 as a cheaper way to run agents: https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/
+・Acti puts AI agents directly into your smartphone keyboard: https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/
+・Anthropic's Claude Science bets on workflow, not a new model, to win over scientists: https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/
+・X now offers an MCP server to make its platform easier for AI tools to use: https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/
+・Amazon launches new $1 billion FDE org, following OpenAI and Anthropic: https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/
+・Google built a great smart speaker, but Gemini isn't ready for it: https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home
+・Anthropic's long-sidelined Fable 5 is greenlit to return: https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back
+・Google's NotebookLM can sum up your research in a TikTok-style clip: https://www.theverge.com/tech/959778/google-notebooklm-ai-clips
+・Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show: https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder
+・Libby will filter out AI content, kind of: https://www.theverge.com/column/959433/libby-ai-filter
+・Tidal won't pay royalties on AI-generated music, but isn't banning it outright: https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label
+・OpenAI is teasing new hardware… for Codex: https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder
+・Lawmakers want to ban AI companies from selling your health data: https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon
+・China's Z.ai claims it can match Mythos on cybersecurity: https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity
+・Beyond Prompt Injection: https://www.oreilly.com/radar/beyond-prompt-injection/
+・Agent Memory: https://www.oreilly.com/radar/agent-memory/
+・In Robotics, Ruggedization Is No Longer Optional: https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/
+・Top 10 robotics developments of June 2026: https://www.therobotreport.com/top-10-robotic-stories-june-2026/
+・Apptronik unveils Apollo 2 and a flagship data collection and training facility: https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/
+・X Square Robot brings its valuation to $2.8B with four consecutive funding rounds: https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/
+・Queue raises funding to build fully autonomous pharmacy: https://www.therobotreport.com/queue-raises-funding-fully-autonomous-pharmacy/
+・Soft, robotic cells from morph embed physical AI into hardware: https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/
+・Sonair ADAR One 3D ultrasonic sensor is now safety-certified: https://www.therobotreport.com/sonair-3d-ultrasonic-sensor-is-now-safety-certified/
+・Insights behind Kinisi's acquisition by Bear Robotics: https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/
+・BMW Group deploys Figure 03 humanoid after tests with previous version: https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/
+・MBody AI expands service robotics operations to eleven states and Canada: https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/
+・What's coming up at #RoboCup2026?: https://robohub.org/whats-coming-up-at-robocup2026/
+・How Jaiveer Singh Is Helping Robots — and Developers — Move Faster: https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/
+・Into the Omniverse: Vision AI Agent Accuracy With Synthetic Data: https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/
+・Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time: https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/
+・Horror-movie cue inspires wearable that turns robot movements into warning music: https://techxplore.com/news/2026-07-horror-movie-cue-wearable-robot.html
+・Chinese firm sells hyper-real, 'always loyal' humanoid robots: https://techxplore.com/news/2026-07-chinese-firm-hyper-real-loyal.html
+・Designed to tempt: How mini AI lines up carrots to look their best: https://techxplore.com/news/2026-06-mini-ai-lines-carrots.html
+・A diving suit for cyborg cockroaches could enhance search-and-rescue operations: https://techxplore.com/news/2026-06-cyborg-cockroaches.html
+・Pens to pills: what oral GLP-1s change at the bench: https://www.drugdiscoverytrends.com/pens-to-pills-what-oral-glp-1s-change-at-the-bench/
+・Diabetes to MASH: the specimens behind GLP-1's widening roster: https://www.drugdiscoverytrends.com/diabetes-to-mash-the-specimens-behind-glp-1s-widening-roster/
+・Backed by top-tier VCs, stealthy biotech bags AlzeCure Alzheimer's asset in $2.2B deal: https://www.fiercebiotech.com/biotech/backed-top-tier-vcs-stealthy-biotech-bags-alzecure-alzheimers-asset-12m-upfront
+・China approved the world's first solid tumor CAR-T therapy. When will the US follow?: https://www.fiercebiotech.com/research/china-approved-worlds-first-solid-tumor-car-t-therapy-when-will-us-follow
+・Roche launches Axelios 1, its eagerly awaited gene sequencing rival to Illumina: https://www.fiercebiotech.com/medtech/roche-launches-eagerly-awaited-illumina-gene-sequencing-platform-rival-axelios-1
+・Hard Fork: 'The Daily' and 'The Opinions': How A.I. Is Changing Loneliness and Taste: https://www.nytimes.com/column/hard-fork
+・No Priors: Really Big Test-Time Compute in AI Changes Benchmarks, Safety and Research with OpenAI Research Scientist Noam Brown: 
 
-#AIニュース #生成AI #海外AI #フォード #GPT56 #Anthropic #AIベンチマーク #ロボティクス #AI規制 #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #Anthropic #AIベンチマーク #AIと文化 #ロボティクス #AIチップ #AIセキュリティ #AIと社会]]></description>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-02.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-02.mp3" length="26997549" type="audio/mpeg"/>
+      <itunes:title>7/2 Anthropic復活の裏側＆AIベンチマーク崩壊問題＆文化とAIの危うい関係</itunes:title>
+      <itunes:summary><![CDATA[Anthropicの最強モデルFable 5が条件付きで復活。その裏にある政府との交渉と新セキュリティ対策とは。OpenAI研究者ノーム・ブラウン氏がAIベンチマークの根本的欠陥を指摘し、安全性評価への深刻な影響を警告。さらに、AIが文化やtasteを均質化するリスク、健康データ規制、ヒューマノイドロボットの工場実績など幅広くカバー。
+
+【目次】
+・オープニング
+・メインニュース：Anthropicモデル復活とClaude Science発表
+・メインニュース：AIチップ競争・セキュリティ・著作権の最新動向
+・ディープダイブ：AIベンチマークが壊れている問題
+・生活＆仕事へのヒント：AIと文化・健康データ・ロボット・孤独
+・エンディング
+
+【参照元】
+・Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US): https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/
+・You Can Now Sound the Alarm on AI Behaving Badly: https://www.wired.com/story/flare-website-ai-flaw-reporting-safety/
+・Structured memory filtering with metadata in AgentCore Memory: https://aws.amazon.com/blogs/machine-learning/structured-memory-filtering-with-metadata-in-agentcore-memory/
+・OpenWiki: Open Source Repo Documentation for Coding Agents: https://www.langchain.com/blog/introducing-openwiki-an-open-source-agent-for-repo-documentation
+・How Inscribe uses Amazon Bedrock to stop document fraud in seconds: https://aws.amazon.com/blogs/machine-learning/how-inscribe-uses-amazon-bedrock-to-stop-document-fraud-in-seconds/
+・Cloudflare's new policy pushes AI companies to pay for publishers' content: https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/
+・Simplify model selection in Amazon Bedrock with the open source Model Profiler: https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/
+・Accelerate protein design with BoltzGen on Amazon SageMaker AI: https://aws.amazon.com/blogs/machine-learning/accelerate-protein-design-with-boltzgen-on-amazon-sagemaker-ai/
+・Anthropic Added a New Security Measure to Get Back Into the Trump Administration's Good Graces: https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces/
+・How to Use RLMs in Deep Agents: https://www.langchain.com/blog/how-to-use-rlms-in-deep-agents
+・How Pendo uses LangSmith to trace Novus from user behavior to code fixes: https://www.langchain.com/blog/how-pendo-used-langsmith-to-trace-novus-from-user-behavior-to-code-fixes
+・Persistent Latent Memory for Multi-Hop LLM Agents: https://towardsdatascience.com/persistent-latent-memory-for-multi-hop-llm-agents-how-a-6g-handover-paper-closes-the-agent-cold-start/
+・Venice AI becomes a unicorn with $65M Series A: https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/
+・Gemini Spark, Google's agentic assistant, is now available on Mac: https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/
+・Meta, like SpaceX, looks to turn excess AI compute into cash: https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/
+・NVIDIA and Partners Build in America, for America: https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/
+・5 AI Coding Platforms to Build Apps Without the Headache: https://www.kdnuggets.com/5-ai-coding-platforms-to-build-apps-without-the-headache
+・Build and Run Your Own AI Agent in the Cloud: https://towardsdatascience.com/build-and-run-your-own-ai-agent-in-the-cloud/
+・Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival: https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/
+・A portable ultrasound system could make reliable breast imaging more accessible: https://news.mit.edu/2026/portable-ultrasound-system-could-make-reliable-breast-imaging-more-accessible-0701
+・NVIDIA Releases Nemotron-Labs-TwoTower: https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower/
+・Google AI Introduces TabFM: https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/
+・Safely Releasing Frontier Models to Customers: https://aws.amazon.com/blogs/machine-learning/safely-releasing-frontier-models-to-customers/
+・Trump drops restrictions on Anthropic's Mythos and Fable models: https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/
+・Wayve launches $85M employee tender offer at $8.5B valuation: https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/
+・Hugging Face and Cerebras bring Gemma 4 to real-time voice AI: https://huggingface.co/blog/cerebras-gemma4-voice-ai
+・The Trump Administration Is Lifting Its Export Controls on Anthropic's Mythos and Fable AI Models: https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/
+・OpenClaw is finally available on Android and iOS: https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/
+・Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/
+・Gemini Spark updates: macOS launch, connected apps and more: https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/
+・The DeepMind trio who built a poker AI are now making money for quant hedge funds: https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/
+・Google introduces a faster, cheaper image generator with Nano Banana 2 Lite: https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/
+・How ChatGPT adoption has expanded: https://openai.com/index/how-chatgpt-adoption-has-expanded
+・Introducing GeneBench-Pro: https://openai.com/index/introducing-genebench-pro
+・Mapping Europe's AI Workforce Opportunity: https://openai.com/index/mapping-ai-jobs-transition-eu
+・HP Inc. launches Frontier strategic partnership with OpenAI: https://openai.com/index/hp-frontier-partnership
+・Introducing TabFM: A zero-shot foundation model for tabular data: https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/
+・LLMs are stuck in a groupthink groove: https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/
+・Claude Science is Anthropic's newest flagship product: https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/
+・Agriculture is ready for AI, but its data isn't: https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/
+・Building tech in the world's secret R&D hub: https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/
+・AI agents are not your coworkers: https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/
+・Agent confidence on the technical frontier: https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/
+・Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip: https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/
+・Anthropic launches Claude Sonnet 5 as a cheaper way to run agents: https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/
+・Acti puts AI agents directly into your smartphone keyboard: https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/
+・Anthropic's Claude Science bets on workflow, not a new model, to win over scientists: https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/
+・X now offers an MCP server to make its platform easier for AI tools to use: https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/
+・Amazon launches new $1 billion FDE org, following OpenAI and Anthropic: https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/
+・Google built a great smart speaker, but Gemini isn't ready for it: https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home
+・Anthropic's long-sidelined Fable 5 is greenlit to return: https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back
+・Google's NotebookLM can sum up your research in a TikTok-style clip: https://www.theverge.com/tech/959778/google-notebooklm-ai-clips
+・Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show: https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder
+・Libby will filter out AI content, kind of: https://www.theverge.com/column/959433/libby-ai-filter
+・Tidal won't pay royalties on AI-generated music, but isn't banning it outright: https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label
+・OpenAI is teasing new hardware… for Codex: https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder
+・Lawmakers want to ban AI companies from selling your health data: https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon
+・China's Z.ai claims it can match Mythos on cybersecurity: https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity
+・Beyond Prompt Injection: https://www.oreilly.com/radar/beyond-prompt-injection/
+・Agent Memory: https://www.oreilly.com/radar/agent-memory/
+・In Robotics, Ruggedization Is No Longer Optional: https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/
+・Top 10 robotics developments of June 2026: https://www.therobotreport.com/top-10-robotic-stories-june-2026/
+・Apptronik unveils Apollo 2 and a flagship data collection and training facility: https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/
+・X Square Robot brings its valuation to $2.8B with four consecutive funding rounds: https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/
+・Queue raises funding to build fully autonomous pharmacy: https://www.therobotreport.com/queue-raises-funding-fully-autonomous-pharmacy/
+・Soft, robotic cells from morph embed physical AI into hardware: https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/
+・Sonair ADAR One 3D ultrasonic sensor is now safety-certified: https://www.therobotreport.com/sonair-3d-ultrasonic-sensor-is-now-safety-certified/
+・Insights behind Kinisi's acquisition by Bear Robotics: https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/
+・BMW Group deploys Figure 03 humanoid after tests with previous version: https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/
+・MBody AI expands service robotics operations to eleven states and Canada: https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/
+・What's coming up at #RoboCup2026?: https://robohub.org/whats-coming-up-at-robocup2026/
+・How Jaiveer Singh Is Helping Robots — and Developers — Move Faster: https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/
+・Into the Omniverse: Vision AI Agent Accuracy With Synthetic Data: https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/
+・Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time: https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/
+・Horror-movie cue inspires wearable that turns robot movements into warning music: https://techxplore.com/news/2026-07-horror-movie-cue-wearable-robot.html
+・Chinese firm sells hyper-real, 'always loyal' humanoid robots: https://techxplore.com/news/2026-07-chinese-firm-hyper-real-loyal.html
+・Designed to tempt: How mini AI lines up carrots to look their best: https://techxplore.com/news/2026-06-mini-ai-lines-carrots.html
+・A diving suit for cyborg cockroaches could enhance search-and-rescue operations: https://techxplore.com/news/2026-06-cyborg-cockroaches.html
+・Pens to pills: what oral GLP-1s change at the bench: https://www.drugdiscoverytrends.com/pens-to-pills-what-oral-glp-1s-change-at-the-bench/
+・Diabetes to MASH: the specimens behind GLP-1's widening roster: https://www.drugdiscoverytrends.com/diabetes-to-mash-the-specimens-behind-glp-1s-widening-roster/
+・Backed by top-tier VCs, stealthy biotech bags AlzeCure Alzheimer's asset in $2.2B deal: https://www.fiercebiotech.com/biotech/backed-top-tier-vcs-stealthy-biotech-bags-alzecure-alzheimers-asset-12m-upfront
+・China approved the world's first solid tumor CAR-T therapy. When will the US follow?: https://www.fiercebiotech.com/research/china-approved-worlds-first-solid-tumor-car-t-therapy-when-will-us-follow
+・Roche launches Axelios 1, its eagerly awaited gene sequencing rival to Illumina: https://www.fiercebiotech.com/medtech/roche-launches-eagerly-awaited-illumina-gene-sequencing-platform-rival-axelios-1
+・Hard Fork: 'The Daily' and 'The Opinions': How A.I. Is Changing Loneliness and Taste: https://www.nytimes.com/column/hard-fork
+・No Priors: Really Big Test-Time Compute in AI Changes Benchmarks, Safety and Research with OpenAI Research Scientist Noam Brown: 
+
+#AIニュース #生成AI #海外AI #Anthropic #AIベンチマーク #AIと文化 #ロボティクス #AIチップ #AIセキュリティ #AIと社会]]></itunes:summary>
+      <itunes:duration>00:28:07</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>6/29 フォードAI失敗の教訓＆GPT-5.6政府介入＆AIベンチマーク崩壊</title>
+      <description><![CDATA[【今回のトピック】
+・フォードがAI過信で品質低下→ベテランエンジニア呼び戻しで品質回復した教訓
+・GPT-5.6やAnthropicミソスへの政府介入・輸出規制とAIの地政学化
+・AIベンチマーク（実力テスト）の評価方法が現行モデルの能力を正しく測れていない問題]]></description>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-29.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-29.mp3" length="27838125" type="audio/mpeg"/>
       <itunes:title>6/29 フォードAI失敗の教訓＆GPT-5.6政府介入＆AIベンチマーク崩壊</itunes:title>
-      <itunes:summary><![CDATA[フォードがAIに頼りすぎて品質低下、ベテランエンジニアを呼び戻した教訓を深掘り。OpenAIのGPT-5.6とAnthropicのMythos問題でAIモデルへの政府介入が加速。OpenAI研究者ノーム・ブラウン氏がAIの実力テスト（ベンチマーク）の根本的欠陥を指摘。ソニーのアイボ販売終了や介護ロボットの光と影も紹介します。
-
-【目次】
-・オープニング
-・メインニュース：フォードのAI失敗とベテラン回帰
-・メインニュース：GPT-5.6とMythos—政府がAIに介入する時代
-・ディープダイブ：AIベンチマークは壊れている—ノーム・ブラウン氏の警鐘
-・生活＆仕事へのヒント：AI時代を生き抜く3つのポイント
-・エンディング
-
-【参照元】
-・Ford rehires 'gray beard' engineers after AI falls short: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/
-・Tail Control: The Counterintuitive Engineering of Reliable Agentic Workflows: https://towardsdatascience.com/tail-control-the-counterintuitive-engineering-of-reliable-agentic-workflows/
-・Why Wall Street thinks US memory maker Micron is the next Nvidia: https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/
-・Liquid AI Ships LFM2.5-230M with On-Device Inference: https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/
-・SoftBank's CEO isn't the only one with questions about Elon Musk's orbital data center hype: https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/
-・DeepSeek Releases DSpark: https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/
-・Apple Vision Pro exec is reportedly leaving for OpenAI: https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/
-・We Built a Routing Layer to Cut Our AI Costs. It Broke the Product.: https://towardsdatascience.com/we-built-a-routing-layer-to-cut-our-ai-costs-it-broke-the-product/
-・Asian AI startups launch Mythos-like models as Anthropic's export ban drags on: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/
-・Trump Administration Allows Anthropic to Release Mythos to Select US Organizations: https://www.wired.com/story/anthropic-restores-access-to-mythos/
-・OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/
-・OpenAI limits GPT-5.6 rollout after government request: https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/
-・OpenAI poaches Uber India chief to lead its biggest market outside the US: https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/
-・Why everyone from OpenAI to SpaceX is building their own chips: https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/
-・OpenAI Has New AI Models. Here's Why You Can't Use Them: https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/
-・It's not about Anthropic vs. OpenAI anymore: https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/
-・How data centers can better manage energy use: https://news.mit.edu/2026/how-data-centers-can-better-manage-energy-use-0626
-・Europe Is Fed Up and Wants Its Own AI: https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/
-・Previewing GPT-5.6 Sol: a next-generation model: https://openai.com/index/previewing-gpt-5-6-sol
-・Anthropic Thinks Its Own Success Is Key to Making AI Safe: https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/
-・The White House is asking OpenAI to slow roll the release of its new model: https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/
-・Patronus AI lands $50M to build 'digital worlds' that stress-test AI agents: https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/
-・AGIBOT produces 15,000th robot: https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/
-・General Intuition raises $320M to use video game data to train robots: https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/
-・Sony discontinues Japan sales of robot puppy 'aibo': https://techxplore.com/news/2026-06-sony-discontinues-japan-sales-robot.html
-・Exoskeleton and robotic arm reduce factory lifting strain by up to 65%: https://techxplore.com/news/2026-06-exoskeleton-robotic-arm-factory-strain.html
-・IBM has unveiled chip technology that could help extend Moore's Law another decade: https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/
-・Anthropic's Claude is winning over paid consumers: https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/
-・General Intuition's $2.3B bet that video games can train AI agents: https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/
-・Databricks' former AI chief thinks he can cut AI's power bill by 1,000x: https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/
-・Ford had to hire back former engineers to fix mistakes made by its automated systems: https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes
-・Why is Apple asking me to pay more for Big Tech's AI obsession?: https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech
-・OpenAI unveils GPT-5.6 amid US AI regulatory drama: https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview
-・Anthropic's Mythos mess is only getting worse: https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations
-・OpenAI will delay GPT-5.6 after Trump administration request: https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request
-・Prosecutors used ChatGPT logs as evidence in the Palisades fire trial: https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial
-・Congresswoman denies staff used AI to write defense funding amendment: https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude
-・How agents are transforming work (OpenAI): https://openai.com/index/how-agents-are-transforming-work
-・Hard Fork: How A.I. Is Changing Loneliness and Taste: https://www.nytimes.com/column/hard-fork
-・No Priors: Why Traditional Benchmarks Fail Modern AI Models with Noam Brown: https://www.youtube.com/watch?v=nopriors-noam-brown
-・LLMs help robots understand vague instructions (MIT): https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626
-・Artificial skin enables robots to sense temperature and pressure: https://techxplore.com/news/2026-06-artificial-skin-enables-robots-simultaneously.html
-・Boehringer becomes latest Big Pharma to buy into Immunai's AI platform: https://www.fiercebiotech.com/biotech/15m-discovery-deal-boehringer-becomes-latest-big-pharma-buy-immunais-ai-platform
-
-#AIニュース #生成AI #海外AI #フォード #GPT56 #Anthropic #AIベンチマーク #ロボティクス #AI規制 #AIと社会]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・フォードがAI過信で品質低下→ベテランエンジニア呼び戻しで品質回復した教訓
+・GPT-5.6やAnthropicミソスへの政府介入・輸出規制とAIの地政学化
+・AIベンチマーク（実力テスト）の評価方法が現行モデルの能力を正しく測れていない問題]]></itunes:summary>
       <itunes:duration>00:28:59</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
