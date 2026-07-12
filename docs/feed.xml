@@ -18,175 +18,106 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>7/9 GPT-Live音声革命＆ゲームでロボット訓練＆MetaのInstagram写真AI利用問題</title>
-      <description><![CDATA[OpenAIが発表した全二重音声モデル「GPT-Live」で音声AIが劇的に自然になる話題を深掘り。ビデオゲームデータでロボットを訓練するGeneral Intuitionの挑戦とロボティクス投資ラッシュを解説。MetaのAI画像モデル「Muse」がInstagram写真を無断利用する問題や、AI教育・AI詐欺対策など、生活に直結するトピックも取り上げます。
+      <title>7/13 Apple対OpenAI訴訟＆SKハイニックス4兆円IPO＆AIの意識研究最前線</title>
+      <description><![CDATA[AppleがOpenAIをハードウェア企業秘密の窃盗で訴えた衝撃の展開と、SKハイニックスが米国で史上最大の外国企業IPOを達成した半導体業界の地殻変動を深掘り。さらにAnthropicがClaudeの内部に意識に似た構造を発見したAI意識研究の最前線を解説し、私たちの生活や仕事にどう影響するかを具体的に議論します。
 
 【目次】
 ・オープニング
-・メインニュース：OpenAI GPT-Liveで音声AIが空気を読める時代に
-・メインニュース：ゲームデータでロボット訓練＆ロボティクス投資ラッシュ
-・ディープダイブ：MetaのMuseとInstagram写真AI利用のプライバシー問題
-・生活＆仕事へのヒント：Discord誤BAN・MS解雇・AI教育・詐欺対策
+・メインニュース：Apple対OpenAI知財訴訟とOpenAI幹部離脱の波紋
+・メインニュース：SKハイニックス史上最大IPOとAI投資の地殻変動
+・ディープダイブ：AIの意識研究とClaudeの内部構造の発見
+・生活＆仕事へのヒント：知財管理・AIコスト・子どものAI利用・セキュリティ
 ・エンディング
 
 【参照元】
-・Introducing Claude apps gateway for AWS: https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/
-・SpaceXAI releases Grok 4.5, which Elon describes as an 'Opus-class model': https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/
-・This startup thinks robotics is about to have its ChatGPT moment: https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/
-・OpenAI Releases GPT-Live and GPT-Live-1 mini: https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/
-・Why this CEO thinks video games make better training data than the internet: https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/
-・Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.: https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/
-・OpenAI releases new voice models for more natural live conversations: https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/
-・Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research: https://aws.amazon.com/blogs/machine-learning/powering-scientific-discovery-byokg-and-graphrag-for-intelligent-pharmaceutical-research/
-・Building and connecting a production-ready ecommerce MCP server: https://aws.amazon.com/blogs/machine-learning/building-and-connecting-a-production-ready-ecommerce-mcp-server-using-amazon-bedrock-agentcore-and-mistral-ai-studio/
-・Prime Intellect raises $130M Series A: https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/
-・These AI startups are growing revenue at faster and faster rates: https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/
-・LangChain and NVIDIA Launch NemoClaw Deep Agents Blueprint: https://www.langchain.com/blog/langchain-and-nvidia-launch-the-nemoclaw-deep-agents-blueprint
-・Tuning the harness, not the model: a Nemotron 3 Ultra playbook: https://www.langchain.com/blog/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook
-・NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness: https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/
-・Deep Agents Code on NVIDIA NemoClaw: https://www.langchain.com/blog/deep-agents-code-on-nemoclaw-a-governed-blueprint-for-your-most-sensitive-code
-・Redesign Work Before You Add More AI Agents: https://towardsdatascience.com/redesign-work-before-you-add-more-ai-agents/
-・Your gaming data could be the secret to AGI: https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup/
-・The Threshold Is a Price, Not a Percentage: https://towardsdatascience.com/the-threshold-is-a-price-not-a-percentage/
-・Helping K–12 educators build practical AI skills: https://openai.com/index/k-12-educators-practical-skills
-・This Former DeepMind Exec Thinks the AI Arms Race Could End in Disaster: https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology/
-・Hot French startup ZML releases free product to speed inference across lots of AI chips: https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/
-・AI chip maker SambaNova raises $1B at $11B valuation: https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/
-・Introducing GPT-Live: https://openai.com/index/introducing-gpt-live
-・Meta rolls out Muse, a new AI image generator: https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/
-・Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out: https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/
-・OpenAI's Chief Futurist Is Leaving the Company: https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/
-・Separating signal from noise in coding evaluations: https://openai.com/index/separating-signal-from-noise-coding-evaluations
-・MUFG aims to become AI-native with OpenAI: https://openai.com/index/mufg
-・Australian Payments Plus moves faster with ChatGPT and Codex: https://openai.com/index/australian-payments-plus
-・From Hugging Face to Amazon SageMaker Studio in one click: https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio
-・Run AI workloads on any cloud, store on Hugging Face: https://huggingface.co/blog/skypilot-hf-storage
-・Expanding Managed Agents in Gemini API: https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/
-・The Download: your stake in OpenAI, and the Treasury's AI warning: https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/
-・The foundational elements of AI architecture that IT leaders need to scale: https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/
-・Your family's $300 stake in OpenAI: https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/
-・Why the rise of open source AI isn't hurting Anthropic … yet: https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/
-・Microsoft joins AI cost-cutting trend by relying more on its own models: https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/
-・Discord admits AI moderation bug wrongfully banned users over harmless images: https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/
-・Claude Cowork expands to mobile and web: https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/
-・Savi's app aims to protect consumers from realistic AI scams: https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/
-・The first American autonomous ground vehicles are fighting in Ukraine: https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/
-・The 'first' AI-run ransomware attack still needed a human: https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/
-・ChatGPT's upgraded voice mode is better at shutting up: https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live
-・Meta's new Muse Image model can pull other Instagram users into AI photos: https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram
-・Anthropic is launching Claude Cowork on mobile and web: https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web
-・Microsoft is laying off 4,800 employees: https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox
-・Some of the nation's rich are letting AI teach their kids: https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep
-・Why AI Coding Agents Still Need Clear Specs: https://www.oreilly.com/radar/why-ai-coding-agents-still-need-clear-specs/
-・ENCY Software and Stäubli Robotics partner to simplify robot programming: https://www.therobotreport.com/ency-software-staubli-robotics-partner-simplify-robot-programming/
-・ABB Robotics includes vSLAM navigation in F712 autonomous forklift: https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/
-・Tesollo initiates IPO process while developing humanoid hands: https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/
-・HIVE brings in $15M to build physical AI for industrial machines: https://www.therobotreport.com/hive-brings-in-15m-to-build-physical-ai-for-industrial-machines/
-・Kraken Robotics acquires Covelya Group for $615M: https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/
-・Boston Dynamics brings its legged robots to the FIFA World Cup: https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/
-・Quantum Systems raises $1.2B to expand drone production and deployments: https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/
-・RoboCup2026 – humanoid league knockout stages: https://robohub.org/robocup2026-humanoid-league-knockout-stages/
-・NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot: https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/
-・An AI-powered control system for robots with legs: https://techxplore.com/news/2026-07-ai-powered-robots-legs.html
-・A soft exoskeleton could restore hand function in people with motor impairments: https://techxplore.com/news/2026-07-soft-exoskeleton-function-people-motor.html
-・EleTac: An elephant-inspired soft robotic gripper with a sophisticated sense of touch: https://techxplore.com/news/2026-07-eletac-elephant-soft-robotic-gripper.html
-・Moderna bets on mRNA's second act with cancer, autoimmune programs and AI research platform: https://www.drugdiscoverytrends.com/moderna-bets-on-mrnas-second-act-with-cancer-autoimmune-programs-and-ai-research-platform/
-・Caris Life Sciences launches cancer blood test 'Caris Detect': https://www.fiercebiotech.com/medtech/caris-life-sciences-launches-cancer-blood-test-caris-detect
-・Beckman Coulter grows Alzheimer's dx portfolio with CE mark for new assay: https://www.fiercebiotech.com/medtech/eckman-coulter-grows-alzheimers-dx-portfolio-ce-mark-new-assay
-・Hard Fork: Fable Ban Reversed + Dr. Dana Suskind on Parenting With A.I.: https://www.nytimes.com/column/hard-fork
-・No Priors: How Nuclear Will Unlock Energy Abundance with Valar Atomics: 
-・Ant Group's Robbyant Open-Sources LingBot-Vision: https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception/
-・NVIDIA Releases Audex: https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone/
-・Choosing the Right Model for Your Inference Use Case: https://www.digitalocean.com/community/tutorials/how-to-choose-llm-model-for-inference
-・The Inference Cost Model Nobody Has Published: https://www.digitalocean.com/community/tutorials/llm-inference-cost
+・Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets: https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/
+・Apple sues OpenAI over alleged trade secret theft: https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/
+・Apple sues OpenAI for allegedly stealing hardware secrets (The Verge): https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets
+・OpenAI's Head of Safety Is Leaving the Company: https://www.wired.com/story/openai-head-of-safety-leaving/
+・Fidji Simo steps down from OpenAI's no. 2 role: https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/
+・Fidji Simo steps down from leading OpenAI's AGI work due to illness: https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor
+・SK Hynix raises $26.5B in the biggest foreign IPO in US history: https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/
+・Microsoft's carbon emissions went up 25 percent last year: https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026
+・Can AI answer the $3 trillion question?: https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/
+・Anthropic found a hidden space where Claude puzzles over concepts: https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/
+・Hard Fork: Do Social Media Bans Work? + AI Consciousness: https://www.nytimes.com/column/hard-fork
+・Meta removes controversial AI feature on Instagram after backlash: https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/
+・Meta turns off Instagram AI deepfakes feature: https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes
+・Google will now disclose which ads are made with AI: https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/
+・OpenAI bets on families as ChatGPT goes deeper into households: https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/
+・Hugging Face's CEO on why companies are done renting their AI: https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/
+・Prompt Injection to Data Exfil in 3 Hops: https://www.oreilly.com/radar/prompt-injection-to-data-exfil-in-3-hops/
+・IHealthScreen nabs FDA nod for AI-backed dx to spot mild diabetic retinopathy: https://www.fiercebiotech.com/medtech/ihealthscreen-garners-fda-nod-ai-backed-dx-spot-mild-diabetic-retinopathy
+・Google Research Introduces SensorFM: https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/
+・AI² Robotics raises $735M at $3B valuation: https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/
+・Would you host part of an AI data center in your home?: https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center
+・Apple's failed self-driving car program left a legacy of powerful AI chips: https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra
+・Meta Superintelligence Labs Releases Muse Spark 1.1: https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/
+・OpenAI launches its new family of models with GPT-5.6: https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/
+・GPT-5.6 is now the preferred model in Microsoft 365 Copilot: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
+・No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel: https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/
 
-#AIニュース #生成AI #海外AI #GPTLive #ロボティクス #MetaMuse #プライバシー #AI教育 #AIと社会 #音声AI]]></description>
+#AIニュース #生成AI #海外AI #Apple #OpenAI #半導体 #SKハイニックス #AI意識 #Anthropic #AIと社会 #医療AI #AIセキュリティ]]></description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-13.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-13.mp3" length="28957869" type="audio/mpeg"/>
+      <itunes:title>7/13 Apple対OpenAI訴訟＆SKハイニックス4兆円IPO＆AIの意識研究最前線</itunes:title>
+      <itunes:summary><![CDATA[AppleがOpenAIをハードウェア企業秘密の窃盗で訴えた衝撃の展開と、SKハイニックスが米国で史上最大の外国企業IPOを達成した半導体業界の地殻変動を深掘り。さらにAnthropicがClaudeの内部に意識に似た構造を発見したAI意識研究の最前線を解説し、私たちの生活や仕事にどう影響するかを具体的に議論します。
+
+【目次】
+・オープニング
+・メインニュース：Apple対OpenAI知財訴訟とOpenAI幹部離脱の波紋
+・メインニュース：SKハイニックス史上最大IPOとAI投資の地殻変動
+・ディープダイブ：AIの意識研究とClaudeの内部構造の発見
+・生活＆仕事へのヒント：知財管理・AIコスト・子どものAI利用・セキュリティ
+・エンディング
+
+【参照元】
+・Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets: https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/
+・Apple sues OpenAI over alleged trade secret theft: https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/
+・Apple sues OpenAI for allegedly stealing hardware secrets (The Verge): https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets
+・OpenAI's Head of Safety Is Leaving the Company: https://www.wired.com/story/openai-head-of-safety-leaving/
+・Fidji Simo steps down from OpenAI's no. 2 role: https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/
+・Fidji Simo steps down from leading OpenAI's AGI work due to illness: https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor
+・SK Hynix raises $26.5B in the biggest foreign IPO in US history: https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/
+・Microsoft's carbon emissions went up 25 percent last year: https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026
+・Can AI answer the $3 trillion question?: https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/
+・Anthropic found a hidden space where Claude puzzles over concepts: https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/
+・Hard Fork: Do Social Media Bans Work? + AI Consciousness: https://www.nytimes.com/column/hard-fork
+・Meta removes controversial AI feature on Instagram after backlash: https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/
+・Meta turns off Instagram AI deepfakes feature: https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes
+・Google will now disclose which ads are made with AI: https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/
+・OpenAI bets on families as ChatGPT goes deeper into households: https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/
+・Hugging Face's CEO on why companies are done renting their AI: https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/
+・Prompt Injection to Data Exfil in 3 Hops: https://www.oreilly.com/radar/prompt-injection-to-data-exfil-in-3-hops/
+・IHealthScreen nabs FDA nod for AI-backed dx to spot mild diabetic retinopathy: https://www.fiercebiotech.com/medtech/ihealthscreen-garners-fda-nod-ai-backed-dx-spot-mild-diabetic-retinopathy
+・Google Research Introduces SensorFM: https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/
+・AI² Robotics raises $735M at $3B valuation: https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/
+・Would you host part of an AI data center in your home?: https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center
+・Apple's failed self-driving car program left a legacy of powerful AI chips: https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra
+・Meta Superintelligence Labs Releases Muse Spark 1.1: https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/
+・OpenAI launches its new family of models with GPT-5.6: https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/
+・GPT-5.6 is now the preferred model in Microsoft 365 Copilot: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
+・No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel: https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/
+
+#AIニュース #生成AI #海外AI #Apple #OpenAI #半導体 #SKハイニックス #AI意識 #Anthropic #AIと社会 #医療AI #AIセキュリティ]]></itunes:summary>
+      <itunes:duration>00:30:09</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>7/9 GPT-Live音声革命＆ゲームでロボット訓練＆MetaのInstagram写真AI利用問題</title>
+      <description><![CDATA[【今回のトピック】
+・OpenAIの「GPT-Live」によるフルデュプレックス音声会話の革新と同時通訳・カスタマーサポートへの応用
+・General Intuitionによるビデオゲームデータを活用したロボットAI訓練という新アプローチとロボティクス業界への資金流入
+・MetaのAI画像モデル「Muse」がInstagramユーザーの写真を他人のAI画像生成に利用するプライバシー問題]]></description>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-09.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-09.mp3" length="19633581" type="audio/mpeg"/>
       <itunes:title>7/9 GPT-Live音声革命＆ゲームでロボット訓練＆MetaのInstagram写真AI利用問題</itunes:title>
-      <itunes:summary><![CDATA[OpenAIが発表した全二重音声モデル「GPT-Live」で音声AIが劇的に自然になる話題を深掘り。ビデオゲームデータでロボットを訓練するGeneral Intuitionの挑戦とロボティクス投資ラッシュを解説。MetaのAI画像モデル「Muse」がInstagram写真を無断利用する問題や、AI教育・AI詐欺対策など、生活に直結するトピックも取り上げます。
-
-【目次】
-・オープニング
-・メインニュース：OpenAI GPT-Liveで音声AIが空気を読める時代に
-・メインニュース：ゲームデータでロボット訓練＆ロボティクス投資ラッシュ
-・ディープダイブ：MetaのMuseとInstagram写真AI利用のプライバシー問題
-・生活＆仕事へのヒント：Discord誤BAN・MS解雇・AI教育・詐欺対策
-・エンディング
-
-【参照元】
-・Introducing Claude apps gateway for AWS: https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/
-・SpaceXAI releases Grok 4.5, which Elon describes as an 'Opus-class model': https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/
-・This startup thinks robotics is about to have its ChatGPT moment: https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/
-・OpenAI Releases GPT-Live and GPT-Live-1 mini: https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/
-・Why this CEO thinks video games make better training data than the internet: https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/
-・Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.: https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/
-・OpenAI releases new voice models for more natural live conversations: https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/
-・Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research: https://aws.amazon.com/blogs/machine-learning/powering-scientific-discovery-byokg-and-graphrag-for-intelligent-pharmaceutical-research/
-・Building and connecting a production-ready ecommerce MCP server: https://aws.amazon.com/blogs/machine-learning/building-and-connecting-a-production-ready-ecommerce-mcp-server-using-amazon-bedrock-agentcore-and-mistral-ai-studio/
-・Prime Intellect raises $130M Series A: https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/
-・These AI startups are growing revenue at faster and faster rates: https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/
-・LangChain and NVIDIA Launch NemoClaw Deep Agents Blueprint: https://www.langchain.com/blog/langchain-and-nvidia-launch-the-nemoclaw-deep-agents-blueprint
-・Tuning the harness, not the model: a Nemotron 3 Ultra playbook: https://www.langchain.com/blog/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook
-・NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness: https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/
-・Deep Agents Code on NVIDIA NemoClaw: https://www.langchain.com/blog/deep-agents-code-on-nemoclaw-a-governed-blueprint-for-your-most-sensitive-code
-・Redesign Work Before You Add More AI Agents: https://towardsdatascience.com/redesign-work-before-you-add-more-ai-agents/
-・Your gaming data could be the secret to AGI: https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup/
-・The Threshold Is a Price, Not a Percentage: https://towardsdatascience.com/the-threshold-is-a-price-not-a-percentage/
-・Helping K–12 educators build practical AI skills: https://openai.com/index/k-12-educators-practical-skills
-・This Former DeepMind Exec Thinks the AI Arms Race Could End in Disaster: https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology/
-・Hot French startup ZML releases free product to speed inference across lots of AI chips: https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/
-・AI chip maker SambaNova raises $1B at $11B valuation: https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/
-・Introducing GPT-Live: https://openai.com/index/introducing-gpt-live
-・Meta rolls out Muse, a new AI image generator: https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/
-・Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out: https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/
-・OpenAI's Chief Futurist Is Leaving the Company: https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/
-・Separating signal from noise in coding evaluations: https://openai.com/index/separating-signal-from-noise-coding-evaluations
-・MUFG aims to become AI-native with OpenAI: https://openai.com/index/mufg
-・Australian Payments Plus moves faster with ChatGPT and Codex: https://openai.com/index/australian-payments-plus
-・From Hugging Face to Amazon SageMaker Studio in one click: https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio
-・Run AI workloads on any cloud, store on Hugging Face: https://huggingface.co/blog/skypilot-hf-storage
-・Expanding Managed Agents in Gemini API: https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/
-・The Download: your stake in OpenAI, and the Treasury's AI warning: https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/
-・The foundational elements of AI architecture that IT leaders need to scale: https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/
-・Your family's $300 stake in OpenAI: https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/
-・Why the rise of open source AI isn't hurting Anthropic … yet: https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/
-・Microsoft joins AI cost-cutting trend by relying more on its own models: https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/
-・Discord admits AI moderation bug wrongfully banned users over harmless images: https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/
-・Claude Cowork expands to mobile and web: https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/
-・Savi's app aims to protect consumers from realistic AI scams: https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/
-・The first American autonomous ground vehicles are fighting in Ukraine: https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/
-・The 'first' AI-run ransomware attack still needed a human: https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/
-・ChatGPT's upgraded voice mode is better at shutting up: https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live
-・Meta's new Muse Image model can pull other Instagram users into AI photos: https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram
-・Anthropic is launching Claude Cowork on mobile and web: https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web
-・Microsoft is laying off 4,800 employees: https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox
-・Some of the nation's rich are letting AI teach their kids: https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep
-・Why AI Coding Agents Still Need Clear Specs: https://www.oreilly.com/radar/why-ai-coding-agents-still-need-clear-specs/
-・ENCY Software and Stäubli Robotics partner to simplify robot programming: https://www.therobotreport.com/ency-software-staubli-robotics-partner-simplify-robot-programming/
-・ABB Robotics includes vSLAM navigation in F712 autonomous forklift: https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/
-・Tesollo initiates IPO process while developing humanoid hands: https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/
-・HIVE brings in $15M to build physical AI for industrial machines: https://www.therobotreport.com/hive-brings-in-15m-to-build-physical-ai-for-industrial-machines/
-・Kraken Robotics acquires Covelya Group for $615M: https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/
-・Boston Dynamics brings its legged robots to the FIFA World Cup: https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/
-・Quantum Systems raises $1.2B to expand drone production and deployments: https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/
-・RoboCup2026 – humanoid league knockout stages: https://robohub.org/robocup2026-humanoid-league-knockout-stages/
-・NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot: https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/
-・An AI-powered control system for robots with legs: https://techxplore.com/news/2026-07-ai-powered-robots-legs.html
-・A soft exoskeleton could restore hand function in people with motor impairments: https://techxplore.com/news/2026-07-soft-exoskeleton-function-people-motor.html
-・EleTac: An elephant-inspired soft robotic gripper with a sophisticated sense of touch: https://techxplore.com/news/2026-07-eletac-elephant-soft-robotic-gripper.html
-・Moderna bets on mRNA's second act with cancer, autoimmune programs and AI research platform: https://www.drugdiscoverytrends.com/moderna-bets-on-mrnas-second-act-with-cancer-autoimmune-programs-and-ai-research-platform/
-・Caris Life Sciences launches cancer blood test 'Caris Detect': https://www.fiercebiotech.com/medtech/caris-life-sciences-launches-cancer-blood-test-caris-detect
-・Beckman Coulter grows Alzheimer's dx portfolio with CE mark for new assay: https://www.fiercebiotech.com/medtech/eckman-coulter-grows-alzheimers-dx-portfolio-ce-mark-new-assay
-・Hard Fork: Fable Ban Reversed + Dr. Dana Suskind on Parenting With A.I.: https://www.nytimes.com/column/hard-fork
-・No Priors: How Nuclear Will Unlock Energy Abundance with Valar Atomics: 
-・Ant Group's Robbyant Open-Sources LingBot-Vision: https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception/
-・NVIDIA Releases Audex: https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone/
-・Choosing the Right Model for Your Inference Use Case: https://www.digitalocean.com/community/tutorials/how-to-choose-llm-model-for-inference
-・The Inference Cost Model Nobody Has Published: https://www.digitalocean.com/community/tutorials/llm-inference-cost
-
-#AIニュース #生成AI #海外AI #GPTLive #ロボティクス #MetaMuse #プライバシー #AI教育 #AIと社会 #音声AI]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・OpenAIの「GPT-Live」によるフルデュプレックス音声会話の革新と同時通訳・カスタマーサポートへの応用
+・General Intuitionによるビデオゲームデータを活用したロボットAI訓練という新アプローチとロボティクス業界への資金流入
+・MetaのAI画像モデル「Muse」がInstagramユーザーの写真を他人のAI画像生成に利用するプライバシー問題]]></itunes:summary>
       <itunes:duration>00:20:27</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
