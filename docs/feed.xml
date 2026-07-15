@@ -18,89 +18,108 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>7/13 Apple対OpenAI訴訟＆SKハイニックス4兆円IPO＆AIの意識研究最前線</title>
-      <description><![CDATA[AppleがOpenAIをハードウェア企業秘密の窃盗で訴えた衝撃の展開と、SKハイニックスが米国で史上最大の外国企業IPOを達成した半導体業界の地殻変動を深掘り。さらにAnthropicがClaudeの内部に意識に似た構造を発見したAI意識研究の最前線を解説し、私たちの生活や仕事にどう影響するかを具体的に議論します。
+      <title>7/16 中国AIガールフレンド800万消滅＆AI安全性グローバル監視の行方</title>
+      <description><![CDATA[中国でAIガールフレンド規制法が施行され一夜で800万エージェントが消えた衝撃と、AI意識研究の最前線を解説。AnthropicとブラックストーンによるAI実装ビジネスの新潮流、AI音楽サービスSunoのYouTubeスクレイピング暴露、そしてハサビス氏が提唱するグローバルAI監視機関の構想まで、AIガバナンスの多層的な動きを深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：Apple対OpenAI知財訴訟とOpenAI幹部離脱の波紋
-・メインニュース：SKハイニックス史上最大IPOとAI投資の地殻変動
-・ディープダイブ：AIの意識研究とClaudeの内部構造の発見
-・生活＆仕事へのヒント：知財管理・AIコスト・子どものAI利用・セキュリティ
+・メインニュース：中国AIガールフレンド800万消滅とAI意識研究
+・メインニュース：Anthropic×ブラックストーンのAI実装ビジネス＆Sunoの著作権問題
+・ディープダイブ：AI安全性とグローバルガバナンスの3つのレイヤー
+・生活＆仕事へのヒント：AI創薬・OpenAIハードウェア・人事AI・旅行AIの実践
 ・エンディング
 
 【参照元】
-・Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets: https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/
-・Apple sues OpenAI over alleged trade secret theft: https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/
-・Apple sues OpenAI for allegedly stealing hardware secrets (The Verge): https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets
-・OpenAI's Head of Safety Is Leaving the Company: https://www.wired.com/story/openai-head-of-safety-leaving/
-・Fidji Simo steps down from OpenAI's no. 2 role: https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/
-・Fidji Simo steps down from leading OpenAI's AGI work due to illness: https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor
-・SK Hynix raises $26.5B in the biggest foreign IPO in US history: https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/
-・Microsoft's carbon emissions went up 25 percent last year: https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026
-・Can AI answer the $3 trillion question?: https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/
-・Anthropic found a hidden space where Claude puzzles over concepts: https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/
-・Hard Fork: Do Social Media Bans Work? + AI Consciousness: https://www.nytimes.com/column/hard-fork
-・Meta removes controversial AI feature on Instagram after backlash: https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/
-・Meta turns off Instagram AI deepfakes feature: https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes
-・Google will now disclose which ads are made with AI: https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/
-・OpenAI bets on families as ChatGPT goes deeper into households: https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/
-・Hugging Face's CEO on why companies are done renting their AI: https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/
-・Prompt Injection to Data Exfil in 3 Hops: https://www.oreilly.com/radar/prompt-injection-to-data-exfil-in-3-hops/
-・IHealthScreen nabs FDA nod for AI-backed dx to spot mild diabetic retinopathy: https://www.fiercebiotech.com/medtech/ihealthscreen-garners-fda-nod-ai-backed-dx-spot-mild-diabetic-retinopathy
-・Google Research Introduces SensorFM: https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/
-・AI² Robotics raises $735M at $3B valuation: https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/
-・Would you host part of an AI data center in your home?: https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center
-・Apple's failed self-driving car program left a legacy of powerful AI chips: https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra
-・Meta Superintelligence Labs Releases Muse Spark 1.1: https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/
-・OpenAI launches its new family of models with GPT-5.6: https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/
-・GPT-5.6 is now the preferred model in Microsoft 365 Copilot: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
-・No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel: https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/
+・A Law Aimed at AI Girlfriends Just Wiped 8 Million Agents From China's Biggest AI App: https://towardsai.com/p/machine-learning/a-law-aimed-at-ai-girlfriends-just-wiped-8-million-agents-from-chinas-biggest-ai-app
+・Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not models: https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/
+・Inside Ode with Anthropic, the startup betting AI services are the future of enterprise: https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/
+・Hack suggests AI music generator Suno scraped YouTube for training data: https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/
+・Google's Demis Hassabis says it's time for a global AI watchdog — led by the US: https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog
+・GPT-Red: Unlocking Self-Improvement for Robustness: https://openai.com/index/unlocking-self-improvement-gpt-red
+・Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer: https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/
+・New York becomes the first state to enact a data center moratorium: https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium
+・Microsoft patches record number of security vulnerabilities, citing its use of AI: https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/
+・Vint Cerf is working on a plan to unleash AI agents on the open internet: https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/
+・OpenAI's new flagship model deletes files on its own, people keep warning: https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/
+・OpenAI's first hardware device is reportedly a screenless speaker that can move: https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/
+・Apple Intelligence approved for launch in China with Alibaba's Qwen AI: https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/
+・Apple opens its new Siri AI to everyone with the iOS 27 public beta: https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/
+・SpaceXAI's Grok Build was uploading users' entire codebase to cloud storage: https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload
+・Meta accused of using biased AI targeting for mass layoffs: https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs
+・Chai brews up $400M series C to fuel AI molecule models used by Lilly, Novartis and Pfizer: https://www.fiercebiotech.com/biotech/chai-brews-400m-series-c-fuel-ai-used-lilly-novartis-and-pfizer
+・OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B: https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/
+・Indian AI coding startup Emergent becomes a unicorn with $130M Series C: https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/
+・NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry: https://blogs.nvidia.com/blog/japan-ecosystem-2026/
+・Hard Fork: Do Social Media Bans Work? + AI Consciousness + Tool Time: https://www.nytimes.com/column/hard-fork
+・No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel: https://www.youtube.com/@NoPriorsPodcast
+・The US is advancing AI safety through state and federal action: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
+・The Apple FaceID Co-Inventor Building a Frontier AI Model for the Human Brain: https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/
+・What Anthropic's latest AI discovery does—and doesn't—show: https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/
+・Sam Altman didn't need another lawsuit: https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo
+・Summit sells failed antibiotic to OpenAI-backed startup in $105M deal: https://www.fiercebiotech.com/biotech/summit-sells-failed-antibiotic-openai-backed-startup-105m-deal
 
-#AIニュース #生成AI #海外AI #Apple #OpenAI #半導体 #SKハイニックス #AI意識 #Anthropic #AIと社会 #医療AI #AIセキュリティ]]></description>
+#AIニュース #生成AI #海外AI #AIガバナンス #AI著作権 #AI創薬 #AIと社会 #中国AI規制 #AI安全性]]></description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-16.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-16.mp3" length="27287469" type="audio/mpeg"/>
+      <itunes:title>7/16 中国AIガールフレンド800万消滅＆AI安全性グローバル監視の行方</itunes:title>
+      <itunes:summary><![CDATA[中国でAIガールフレンド規制法が施行され一夜で800万エージェントが消えた衝撃と、AI意識研究の最前線を解説。AnthropicとブラックストーンによるAI実装ビジネスの新潮流、AI音楽サービスSunoのYouTubeスクレイピング暴露、そしてハサビス氏が提唱するグローバルAI監視機関の構想まで、AIガバナンスの多層的な動きを深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：中国AIガールフレンド800万消滅とAI意識研究
+・メインニュース：Anthropic×ブラックストーンのAI実装ビジネス＆Sunoの著作権問題
+・ディープダイブ：AI安全性とグローバルガバナンスの3つのレイヤー
+・生活＆仕事へのヒント：AI創薬・OpenAIハードウェア・人事AI・旅行AIの実践
+・エンディング
+
+【参照元】
+・A Law Aimed at AI Girlfriends Just Wiped 8 Million Agents From China's Biggest AI App: https://towardsai.com/p/machine-learning/a-law-aimed-at-ai-girlfriends-just-wiped-8-million-agents-from-chinas-biggest-ai-app
+・Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not models: https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/
+・Inside Ode with Anthropic, the startup betting AI services are the future of enterprise: https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/
+・Hack suggests AI music generator Suno scraped YouTube for training data: https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/
+・Google's Demis Hassabis says it's time for a global AI watchdog — led by the US: https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog
+・GPT-Red: Unlocking Self-Improvement for Robustness: https://openai.com/index/unlocking-self-improvement-gpt-red
+・Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer: https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/
+・New York becomes the first state to enact a data center moratorium: https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium
+・Microsoft patches record number of security vulnerabilities, citing its use of AI: https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/
+・Vint Cerf is working on a plan to unleash AI agents on the open internet: https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/
+・OpenAI's new flagship model deletes files on its own, people keep warning: https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/
+・OpenAI's first hardware device is reportedly a screenless speaker that can move: https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/
+・Apple Intelligence approved for launch in China with Alibaba's Qwen AI: https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/
+・Apple opens its new Siri AI to everyone with the iOS 27 public beta: https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/
+・SpaceXAI's Grok Build was uploading users' entire codebase to cloud storage: https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload
+・Meta accused of using biased AI targeting for mass layoffs: https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs
+・Chai brews up $400M series C to fuel AI molecule models used by Lilly, Novartis and Pfizer: https://www.fiercebiotech.com/biotech/chai-brews-400m-series-c-fuel-ai-used-lilly-novartis-and-pfizer
+・OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B: https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/
+・Indian AI coding startup Emergent becomes a unicorn with $130M Series C: https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/
+・NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry: https://blogs.nvidia.com/blog/japan-ecosystem-2026/
+・Hard Fork: Do Social Media Bans Work? + AI Consciousness + Tool Time: https://www.nytimes.com/column/hard-fork
+・No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel: https://www.youtube.com/@NoPriorsPodcast
+・The US is advancing AI safety through state and federal action: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
+・The Apple FaceID Co-Inventor Building a Frontier AI Model for the Human Brain: https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/
+・What Anthropic's latest AI discovery does—and doesn't—show: https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/
+・Sam Altman didn't need another lawsuit: https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo
+・Summit sells failed antibiotic to OpenAI-backed startup in $105M deal: https://www.fiercebiotech.com/biotech/summit-sells-failed-antibiotic-openai-backed-startup-105m-deal
+
+#AIニュース #生成AI #海外AI #AIガバナンス #AI著作権 #AI創薬 #AIと社会 #中国AI規制 #AI安全性]]></itunes:summary>
+      <itunes:duration>00:28:25</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>7/13 Apple対OpenAI訴訟＆SKハイニックス4兆円IPO＆AIの意識研究最前線</title>
+      <description><![CDATA[【今回のトピック】
+・AppleがOpenAIをハードウェア企業秘密の窃盗で提訴——AI企業間の競争が法廷へ
+・SKハイニックスが米国で史上最大の外国企業IPO（約4兆円）を達成——AIチップ需要が半導体産業を変革
+・AnthropicがClaudeの内部に人間の思考に似た構造を発見——AIの意識問題が規制・ビジネスの現実課題に]]></description>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-13.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-13.mp3" length="28957869" type="audio/mpeg"/>
       <itunes:title>7/13 Apple対OpenAI訴訟＆SKハイニックス4兆円IPO＆AIの意識研究最前線</itunes:title>
-      <itunes:summary><![CDATA[AppleがOpenAIをハードウェア企業秘密の窃盗で訴えた衝撃の展開と、SKハイニックスが米国で史上最大の外国企業IPOを達成した半導体業界の地殻変動を深掘り。さらにAnthropicがClaudeの内部に意識に似た構造を発見したAI意識研究の最前線を解説し、私たちの生活や仕事にどう影響するかを具体的に議論します。
-
-【目次】
-・オープニング
-・メインニュース：Apple対OpenAI知財訴訟とOpenAI幹部離脱の波紋
-・メインニュース：SKハイニックス史上最大IPOとAI投資の地殻変動
-・ディープダイブ：AIの意識研究とClaudeの内部構造の発見
-・生活＆仕事へのヒント：知財管理・AIコスト・子どものAI利用・セキュリティ
-・エンディング
-
-【参照元】
-・Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets: https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/
-・Apple sues OpenAI over alleged trade secret theft: https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/
-・Apple sues OpenAI for allegedly stealing hardware secrets (The Verge): https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets
-・OpenAI's Head of Safety Is Leaving the Company: https://www.wired.com/story/openai-head-of-safety-leaving/
-・Fidji Simo steps down from OpenAI's no. 2 role: https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/
-・Fidji Simo steps down from leading OpenAI's AGI work due to illness: https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor
-・SK Hynix raises $26.5B in the biggest foreign IPO in US history: https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/
-・Microsoft's carbon emissions went up 25 percent last year: https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026
-・Can AI answer the $3 trillion question?: https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/
-・Anthropic found a hidden space where Claude puzzles over concepts: https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/
-・Hard Fork: Do Social Media Bans Work? + AI Consciousness: https://www.nytimes.com/column/hard-fork
-・Meta removes controversial AI feature on Instagram after backlash: https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/
-・Meta turns off Instagram AI deepfakes feature: https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes
-・Google will now disclose which ads are made with AI: https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/
-・OpenAI bets on families as ChatGPT goes deeper into households: https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/
-・Hugging Face's CEO on why companies are done renting their AI: https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/
-・Prompt Injection to Data Exfil in 3 Hops: https://www.oreilly.com/radar/prompt-injection-to-data-exfil-in-3-hops/
-・IHealthScreen nabs FDA nod for AI-backed dx to spot mild diabetic retinopathy: https://www.fiercebiotech.com/medtech/ihealthscreen-garners-fda-nod-ai-backed-dx-spot-mild-diabetic-retinopathy
-・Google Research Introduces SensorFM: https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/
-・AI² Robotics raises $735M at $3B valuation: https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/
-・Would you host part of an AI data center in your home?: https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center
-・Apple's failed self-driving car program left a legacy of powerful AI chips: https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra
-・Meta Superintelligence Labs Releases Muse Spark 1.1: https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/
-・OpenAI launches its new family of models with GPT-5.6: https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/
-・GPT-5.6 is now the preferred model in Microsoft 365 Copilot: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
-・No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel: https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/
-
-#AIニュース #生成AI #海外AI #Apple #OpenAI #半導体 #SKハイニックス #AI意識 #Anthropic #AIと社会 #医療AI #AIセキュリティ]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・AppleがOpenAIをハードウェア企業秘密の窃盗で提訴——AI企業間の競争が法廷へ
+・SKハイニックスが米国で史上最大の外国企業IPO（約4兆円）を達成——AIチップ需要が半導体産業を変革
+・AnthropicがClaudeの内部に人間の思考に似た構造を発見——AIの意識問題が規制・ビジネスの現実課題に]]></itunes:summary>
       <itunes:duration>00:30:09</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -430,19 +449,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>5/4 マスクvsアルトマン裁判＆医療AIが救急医を超えた日</title>
-      <description><![CDATA[【今回のトピック】
-・マスク氏対アルトマン氏の裁判 — OpenAIの営利転換の正当性、xAIによるモデル蒸留の自認、AI業界のガバナンスと知的財産問題
-・ハーバード大学の研究で大規模言語モデルが救急医より正確な診断を達成 — AIスクライブやOpen Evidenceの急速普及、メイヨー・クリニックの膵臓がん早期発見AI
-・OpenAIのマルチクラウド戦略転換（Microsoft独占解消→Amazon・Googleへ展開）およびアカデミー賞によるAI生成俳優・脚本の排除決定]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-05-04</title>
+      <description><![CDATA[2026-05-04 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-04.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-04.mp3" length="25620909" type="audio/mpeg"/>
-      <itunes:title>5/4 マスクvsアルトマン裁判＆医療AIが救急医を超えた日</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・マスク氏対アルトマン氏の裁判 — OpenAIの営利転換の正当性、xAIによるモデル蒸留の自認、AI業界のガバナンスと知的財産問題
-・ハーバード大学の研究で大規模言語モデルが救急医より正確な診断を達成 — AIスクライブやOpen Evidenceの急速普及、メイヨー・クリニックの膵臓がん早期発見AI
-・OpenAIのマルチクラウド戦略転換（Microsoft独占解消→Amazon・Googleへ展開）およびアカデミー賞によるAI生成俳優・脚本の排除決定]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-05-04</itunes:title>
+      <itunes:summary><![CDATA[2026-05-04 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:26:41</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
