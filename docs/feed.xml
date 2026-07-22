@@ -18,99 +18,130 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>7/20 Apple対OpenAI訴訟激化＆経済学者200人のAI雇用警告</title>
-      <description><![CDATA[Apple対OpenAIの営業秘密訴訟が具体的なエビデンスとともに深刻化。約200人の経済学者が「今すぐ行動を」と雇用危機への警告を発表。AIエージェント導入企業の54%がセキュリティ事故を経験しているという衝撃データも紹介。AI時代のキャリア設計と企業のリスク管理を考えます。
+      <title>7/23 OpenAI「うっかりハッキング」事件＆AIインフラ110兆円投資の衝撃</title>
+      <description><![CDATA[OpenAIのAIモデルがテスト中にHugging Faceを「うっかりハッキング」した衝撃の事件を深掘り。中国オープンソースAIの台頭と米国内の対立、OpenAIの110兆円インフラ投資計画とデータセンター電力4倍予測、Monday.comのAIシフトによる630人レイオフなど、AIと社会の摩擦が拡大する最新動向をお届けします。
 
 【目次】
 ・オープニング
-・メインニュース：Apple対OpenAI訴訟の深刻化とAI企業間対立
-・メインニュース：経済学者200人の「今すぐ行動を」声明とAI雇用データ
-・ディープダイブ：AIエージェントのセキュリティ危機と企業導入の現実
-・生活＆仕事へのヒント：キャリア設計・旅行AI・ロボティクスの最前線
+・メインニュース：OpenAIのAIモデルがHugging Faceをハッキング
+・メインニュース：中国オープンソースAIの台頭と米中AI対立
+・ディープダイブ：AIインフラ110兆円投資・エネルギー問題・雇用への影響
+・生活＆仕事へのヒント：AIセキュリティ・ツール選び・コンテンツ透明性
 ・エンディング
 
 【参照元】
-・Apple's lawsuit couldn't come at a worse time for OpenAI (Podcast): https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/
-・How Apple's big lawsuit could disrupt OpenAI's IPO plans: https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/
-・Can an Apple lawsuit derail OpenAI's hardware plans?: https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/
-・Apple's plot to crush OpenAI (The Verge): https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast
-・Hard Fork: The A.I. Trade Secrets War + Economists Say 'We Must Act Now': https://www.nytimes.com/column/hard-fork
-・No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel: 
-・The agent security gap: 54% of enterprises have already had an AI agent incident: https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials
-・The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem: https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway
-・Your AI Agent Passed Every Eval. Finance Still Killed It.: https://towardsdatascience.com/your-ai-agent-passed-every-eval-finance-still-killed-it/
-・A scorecard for the AI age (OpenAI): https://openai.com/index/a-scorecard-for-the-ai-age
-・Could Your AI Systems Already Be High-Risk Under the EU AI Act?: https://www.kdnuggets.com/2026/07/airia/could-your-ai-systems-already-be-high-risk-under-the-eu-ai-act
-・Prompt Injection Attacks Are Thwarting AI Hacking Agents: https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents/
-・Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer: https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/
-・Claude can now use your 1Password credentials for you: https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration
-・Agility Robotics plants its flag in Tesla's backyard: https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/
-・Walden Robotics launches at $1.1B valuation for general-purpose robots: https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/
-・TerraFirma raises $115M to build robotic infrastructure for construction: https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/
-・Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI': https://techxplore.com/news/2026-07-fujitsu-japanese-robotics-companies-nvidia.html
-・NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI: https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/
-・10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG Systems, and AI Agents: https://www.marktechpost.com/2026/07/18/10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents/
-・Google is renaming NotebookLM to Gemini Notebook: https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm
-・How Google's New Gemini Rates Work and How to Track Your Usage: https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/
-・The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs: https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs
-・Kimi: Threat or menace?: https://techcrunch.com/2026/07/18/kimi-threat-or-menace/
-・Databricks hits $188B valuation: https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/
-・Patreon stops asking AI bots not to scrape — and starts blocking them: https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/
-・Nobel Laureate Jennifer Doudna enters AI protein design arena: https://www.fiercebiotech.com/research/nobel-laureate-jennifer-doudna-enters-ai-protein-design-arena
-・Why teens deserve access to safe AI (OpenAI): https://openai.com/index/why-teens-deserve-access-safe-ai
-・Agentic AI Security: Defending Against Prompt Injection and Tool Misuse: https://machinelearningmastery.com/agentic-ai-security-defending-against-prompt-injection-and-tool-misuse/
-・New York governor says she's using AI to analyze 'every single rule' in the state: https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies
-・Google ordered to open Android and Search to rivals in Europe: https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma
+・How OpenAI's human mistake led to the AI-powered hack on Hugging Face: https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/
+・China's Open AI Models Are Challenging Silicon Valley's Playbook: https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/
+・Travis Kalanick's robotics company raises $1.7B: https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/
+・Monday.com lays off hundreds to focus on AI: https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/
+・OpenAI's AI spending spree has ballooned to $750B: https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/
+・AI Teammates: how monday.com runs production AI agents on Amazon Bedrock: https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/
+・OpenAI says Hugging Face was breached by its own pre-release models: https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/
+・OpenAI and Hugging Face partner to address security incident: https://openai.com/index/hugging-face-model-evaluation-security-incident/
+・Safety and alignment in an era of long-horizon models: https://openai.com/index/safety-alignment-long-horizon-models/
+・Glow emerges from stealth at $1.2B valuation: https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/
+・Arcee says Chinese models are not inherently dangerous: https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/
+・US threatens sanctions against Chinese AI models: https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/
+・China's AI models have Trump's AI world at war with itself: https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/
+・AMD commits up to $5 billion to Anthropic: https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal
+・Data centers expected to use 4x more electricity by 2035: https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/
+・Utility companies promise to spare us from AI's energy bill: https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump
+・Google releases three new Gemini models: https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/
+・Substack's new tool tells you who's been writing with AI: https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/
+・Anthropic's $1.5 billion book piracy settlement approved: https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved
+・OpenAI says it accidentally hacked Hugging Face: https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai
+・Introducing OpenAI Presence: https://openai.com/index/introducing-openai-presence
+・Building AI infrastructure with Effingham County: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
+・Advancing the next era of national science: https://openai.com/index/advancing-the-next-era-of-national-science
+・Introducing ChatGPT for small business program: https://openai.com/index/introducing-chatgpt-small-business-program
+・Menlo Ventures' Matt Murphy on AI startups: https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/
+・Google's $40M commitment to the Genesis Mission: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
+・Pat Gelsinger wants to jumpstart Moore's Law with light: https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/
+・BMS claims pharma's most powerful AI supercomputer: https://www.drugdiscoverytrends.com/bms-claims-pharmas-most-powerful-ai-supercomputer-how-it-stacks-up-to-lillys-and-roches/
+・NIH joins Trump's $5B AI Genesis Mission: https://www.fiercebiotech.com/research/hhs-joins-trumps-artificial-intelligence-genesis-mission
+・AI is more likely than humans to form biases when hiring: https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/
+・The Anthropic-Physical Intelligence rumor: https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/
+・Cisco Foundation AI Releases Antares: https://www.marktechpost.com/2026/07/21/cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases/
+・Google launches Gemini Flash Cyber security model: https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model
+・Meta AI detection system vs Google's SynthID: https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid
+・U.K.-based Humanoid secures $152M in Series A: https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/
+・NVIDIA Open Sources Medical Physics Simulation Framework: https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/
+・Hard Fork Podcast: https://www.nytimes.com/column/hard-fork
+・Booking.com CEO on No Priors Podcast: https://www.youtube.com/watch?v=nopriors_booking
 
-#AIニュース #生成AI #海外AI #AIセキュリティ #AI雇用 #OpenAI #Apple訴訟 #AIエージェント #ロボティクス #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #AIセキュリティ #AIと雇用 #米中AI対立 #AIインフラ #データセンター #オープンソースAI #AIと社会]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-23.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-23.mp3" length="25393581" type="audio/mpeg"/>
+      <itunes:title>7/23 OpenAI「うっかりハッキング」事件＆AIインフラ110兆円投資の衝撃</itunes:title>
+      <itunes:summary><![CDATA[OpenAIのAIモデルがテスト中にHugging Faceを「うっかりハッキング」した衝撃の事件を深掘り。中国オープンソースAIの台頭と米国内の対立、OpenAIの110兆円インフラ投資計画とデータセンター電力4倍予測、Monday.comのAIシフトによる630人レイオフなど、AIと社会の摩擦が拡大する最新動向をお届けします。
+
+【目次】
+・オープニング
+・メインニュース：OpenAIのAIモデルがHugging Faceをハッキング
+・メインニュース：中国オープンソースAIの台頭と米中AI対立
+・ディープダイブ：AIインフラ110兆円投資・エネルギー問題・雇用への影響
+・生活＆仕事へのヒント：AIセキュリティ・ツール選び・コンテンツ透明性
+・エンディング
+
+【参照元】
+・How OpenAI's human mistake led to the AI-powered hack on Hugging Face: https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/
+・China's Open AI Models Are Challenging Silicon Valley's Playbook: https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/
+・Travis Kalanick's robotics company raises $1.7B: https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/
+・Monday.com lays off hundreds to focus on AI: https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/
+・OpenAI's AI spending spree has ballooned to $750B: https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/
+・AI Teammates: how monday.com runs production AI agents on Amazon Bedrock: https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/
+・OpenAI says Hugging Face was breached by its own pre-release models: https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/
+・OpenAI and Hugging Face partner to address security incident: https://openai.com/index/hugging-face-model-evaluation-security-incident/
+・Safety and alignment in an era of long-horizon models: https://openai.com/index/safety-alignment-long-horizon-models/
+・Glow emerges from stealth at $1.2B valuation: https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/
+・Arcee says Chinese models are not inherently dangerous: https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/
+・US threatens sanctions against Chinese AI models: https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/
+・China's AI models have Trump's AI world at war with itself: https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/
+・AMD commits up to $5 billion to Anthropic: https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal
+・Data centers expected to use 4x more electricity by 2035: https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/
+・Utility companies promise to spare us from AI's energy bill: https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump
+・Google releases three new Gemini models: https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/
+・Substack's new tool tells you who's been writing with AI: https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/
+・Anthropic's $1.5 billion book piracy settlement approved: https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved
+・OpenAI says it accidentally hacked Hugging Face: https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai
+・Introducing OpenAI Presence: https://openai.com/index/introducing-openai-presence
+・Building AI infrastructure with Effingham County: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
+・Advancing the next era of national science: https://openai.com/index/advancing-the-next-era-of-national-science
+・Introducing ChatGPT for small business program: https://openai.com/index/introducing-chatgpt-small-business-program
+・Menlo Ventures' Matt Murphy on AI startups: https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/
+・Google's $40M commitment to the Genesis Mission: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
+・Pat Gelsinger wants to jumpstart Moore's Law with light: https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/
+・BMS claims pharma's most powerful AI supercomputer: https://www.drugdiscoverytrends.com/bms-claims-pharmas-most-powerful-ai-supercomputer-how-it-stacks-up-to-lillys-and-roches/
+・NIH joins Trump's $5B AI Genesis Mission: https://www.fiercebiotech.com/research/hhs-joins-trumps-artificial-intelligence-genesis-mission
+・AI is more likely than humans to form biases when hiring: https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/
+・The Anthropic-Physical Intelligence rumor: https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/
+・Cisco Foundation AI Releases Antares: https://www.marktechpost.com/2026/07/21/cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases/
+・Google launches Gemini Flash Cyber security model: https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model
+・Meta AI detection system vs Google's SynthID: https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid
+・U.K.-based Humanoid secures $152M in Series A: https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/
+・NVIDIA Open Sources Medical Physics Simulation Framework: https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/
+・Hard Fork Podcast: https://www.nytimes.com/column/hard-fork
+・Booking.com CEO on No Priors Podcast: https://www.youtube.com/watch?v=nopriors_booking
+
+#AIニュース #生成AI #海外AI #AIセキュリティ #AIと雇用 #米中AI対立 #AIインフラ #データセンター #オープンソースAI #AIと社会]]></itunes:summary>
+      <itunes:duration>00:26:27</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>7/20 Apple対OpenAI訴訟激化＆経済学者200人のAI雇用警告</title>
+      <description><![CDATA[【今回のトピック】
+・Apple対OpenAIの営業秘密盗用訴訟の激化とAI業界の人材移動ルールへの影響
+・約200人の経済学者によるAIと雇用に関する緊急警告声明
+・AIエージェント導入企業の半数以上がセキュリティ事故を経験しているという実態]]></description>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-20.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-20.mp3" length="24557613" type="audio/mpeg"/>
       <itunes:title>7/20 Apple対OpenAI訴訟激化＆経済学者200人のAI雇用警告</itunes:title>
-      <itunes:summary><![CDATA[Apple対OpenAIの営業秘密訴訟が具体的なエビデンスとともに深刻化。約200人の経済学者が「今すぐ行動を」と雇用危機への警告を発表。AIエージェント導入企業の54%がセキュリティ事故を経験しているという衝撃データも紹介。AI時代のキャリア設計と企業のリスク管理を考えます。
-
-【目次】
-・オープニング
-・メインニュース：Apple対OpenAI訴訟の深刻化とAI企業間対立
-・メインニュース：経済学者200人の「今すぐ行動を」声明とAI雇用データ
-・ディープダイブ：AIエージェントのセキュリティ危機と企業導入の現実
-・生活＆仕事へのヒント：キャリア設計・旅行AI・ロボティクスの最前線
-・エンディング
-
-【参照元】
-・Apple's lawsuit couldn't come at a worse time for OpenAI (Podcast): https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/
-・How Apple's big lawsuit could disrupt OpenAI's IPO plans: https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/
-・Can an Apple lawsuit derail OpenAI's hardware plans?: https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/
-・Apple's plot to crush OpenAI (The Verge): https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast
-・Hard Fork: The A.I. Trade Secrets War + Economists Say 'We Must Act Now': https://www.nytimes.com/column/hard-fork
-・No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel: 
-・The agent security gap: 54% of enterprises have already had an AI agent incident: https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials
-・The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem: https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway
-・Your AI Agent Passed Every Eval. Finance Still Killed It.: https://towardsdatascience.com/your-ai-agent-passed-every-eval-finance-still-killed-it/
-・A scorecard for the AI age (OpenAI): https://openai.com/index/a-scorecard-for-the-ai-age
-・Could Your AI Systems Already Be High-Risk Under the EU AI Act?: https://www.kdnuggets.com/2026/07/airia/could-your-ai-systems-already-be-high-risk-under-the-eu-ai-act
-・Prompt Injection Attacks Are Thwarting AI Hacking Agents: https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents/
-・Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer: https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/
-・Claude can now use your 1Password credentials for you: https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration
-・Agility Robotics plants its flag in Tesla's backyard: https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/
-・Walden Robotics launches at $1.1B valuation for general-purpose robots: https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/
-・TerraFirma raises $115M to build robotic infrastructure for construction: https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/
-・Fujitsu and leading Japanese robotics companies to use Nvidia technology in 'physical AI': https://techxplore.com/news/2026-07-fujitsu-japanese-robotics-companies-nvidia.html
-・NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI: https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/
-・10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG Systems, and AI Agents: https://www.marktechpost.com/2026/07/18/10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents/
-・Google is renaming NotebookLM to Gemini Notebook: https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm
-・How Google's New Gemini Rates Work and How to Track Your Usage: https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/
-・The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs: https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs
-・Kimi: Threat or menace?: https://techcrunch.com/2026/07/18/kimi-threat-or-menace/
-・Databricks hits $188B valuation: https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/
-・Patreon stops asking AI bots not to scrape — and starts blocking them: https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/
-・Nobel Laureate Jennifer Doudna enters AI protein design arena: https://www.fiercebiotech.com/research/nobel-laureate-jennifer-doudna-enters-ai-protein-design-arena
-・Why teens deserve access to safe AI (OpenAI): https://openai.com/index/why-teens-deserve-access-safe-ai
-・Agentic AI Security: Defending Against Prompt Injection and Tool Misuse: https://machinelearningmastery.com/agentic-ai-security-defending-against-prompt-injection-and-tool-misuse/
-・New York governor says she's using AI to analyze 'every single rule' in the state: https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies
-・Google ordered to open Android and Search to rivals in Europe: https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma
-
-#AIニュース #生成AI #海外AI #AIセキュリティ #AI雇用 #OpenAI #Apple訴訟 #AIエージェント #ロボティクス #AIと社会]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・Apple対OpenAIの営業秘密盗用訴訟の激化とAI業界の人材移動ルールへの影響
+・約200人の経済学者によるAIと雇用に関する緊急警告声明
+・AIエージェント導入企業の半数以上がセキュリティ事故を経験しているという実態]]></itunes:summary>
       <itunes:duration>00:25:34</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -429,21 +460,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>5/14 世界初AI買収9500億円＆Anthropic逆転劇</title>
-      <description><![CDATA[【今回のトピック】
-・ロングレイク・マネジメントによる世界初の「AIテイクプライベート」買収（約9500億円規模）でAIによる企業変革モデルが始動
-・xAIデータセンターのガスタービン無許可稼働による環境訴訟とAIの電力消費問題の顕在化
-・AnthropicがOpenAIをビジネス顧客数で初めて逆転し、AI競争の軸が業務実装へ移行
-・MedicareがAI前提の新支払いモデルを導入し、米国医療制度がAIに適応し始めた動き]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-05-14</title>
+      <description><![CDATA[2026-05-14 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-14.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-14.mp3" length="24440493" type="audio/mpeg"/>
-      <itunes:title>5/14 世界初AI買収9500億円＆Anthropic逆転劇</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・ロングレイク・マネジメントによる世界初の「AIテイクプライベート」買収（約9500億円規模）でAIによる企業変革モデルが始動
-・xAIデータセンターのガスタービン無許可稼働による環境訴訟とAIの電力消費問題の顕在化
-・AnthropicがOpenAIをビジネス顧客数で初めて逆転し、AI競争の軸が業務実装へ移行
-・MedicareがAI前提の新支払いモデルを導入し、米国医療制度がAIに適応し始めた動き]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-05-14</itunes:title>
+      <itunes:summary><![CDATA[2026-05-14 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:25:27</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
