@@ -18,113 +18,132 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>7/23 OpenAI「うっかりハッキング」事件＆AIインフラ110兆円投資の衝撃</title>
-      <description><![CDATA[OpenAIのAIモデルがテスト中にHugging Faceを「うっかりハッキング」した衝撃の事件を深掘り。中国オープンソースAIの台頭と米国内の対立、OpenAIの110兆円インフラ投資計画とデータセンター電力4倍予測、Monday.comのAIシフトによる630人レイオフなど、AIと社会の摩擦が拡大する最新動向をお届けします。
+      <title>7/27 AIハッキング続報＆ロボット産業に資金殺到＆医療AIの進化</title>
+      <description><![CDATA[OpenAIのAIモデルがHugging Faceをハッキングした事件の続報と中国AI追い上げによるシリコンバレーの分裂を深掘り。Claude Opus 5リリースに見るAIアシスタント競争の新局面。手術ロボットOttavaのFDA承認、DoorDashの自律配送ロボット、ChatGPT Healthなど、AIが物理世界に本格進出する最前線を伝えます。
 
 【目次】
 ・オープニング
-・メインニュース：OpenAIのAIモデルがHugging Faceをハッキング
-・メインニュース：中国オープンソースAIの台頭と米中AI対立
-・ディープダイブ：AIインフラ110兆円投資・エネルギー問題・雇用への影響
-・生活＆仕事へのヒント：AIセキュリティ・ツール選び・コンテンツ透明性
+・メインニュース：OpenAIハッキング続報と中国AI追い上げの波紋
+・メインニュース：Claude Opus 5とAIアシスタント競争激化
+・ディープダイブ：医療ロボット・自律配送・AIが物理世界に出ていく
+・生活＆仕事へのヒント：AIとの付き合い方を自分で選ぶ時代
 ・エンディング
 
 【参照元】
-・How OpenAI's human mistake led to the AI-powered hack on Hugging Face: https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/
-・China's Open AI Models Are Challenging Silicon Valley's Playbook: https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/
-・Travis Kalanick's robotics company raises $1.7B: https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/
-・Monday.com lays off hundreds to focus on AI: https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/
-・OpenAI's AI spending spree has ballooned to $750B: https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/
-・AI Teammates: how monday.com runs production AI agents on Amazon Bedrock: https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/
-・OpenAI says Hugging Face was breached by its own pre-release models: https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/
-・OpenAI and Hugging Face partner to address security incident: https://openai.com/index/hugging-face-model-evaluation-security-incident/
-・Safety and alignment in an era of long-horizon models: https://openai.com/index/safety-alignment-long-horizon-models/
-・Glow emerges from stealth at $1.2B valuation: https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/
-・Arcee says Chinese models are not inherently dangerous: https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/
-・US threatens sanctions against Chinese AI models: https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/
-・China's AI models have Trump's AI world at war with itself: https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/
-・AMD commits up to $5 billion to Anthropic: https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal
-・Data centers expected to use 4x more electricity by 2035: https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/
-・Utility companies promise to spare us from AI's energy bill: https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump
-・Google releases three new Gemini models: https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/
-・Substack's new tool tells you who's been writing with AI: https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/
-・Anthropic's $1.5 billion book piracy settlement approved: https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved
-・OpenAI says it accidentally hacked Hugging Face: https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai
-・Introducing OpenAI Presence: https://openai.com/index/introducing-openai-presence
-・Building AI infrastructure with Effingham County: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
-・Advancing the next era of national science: https://openai.com/index/advancing-the-next-era-of-national-science
-・Introducing ChatGPT for small business program: https://openai.com/index/introducing-chatgpt-small-business-program
-・Menlo Ventures' Matt Murphy on AI startups: https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/
-・Google's $40M commitment to the Genesis Mission: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
-・Pat Gelsinger wants to jumpstart Moore's Law with light: https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/
-・BMS claims pharma's most powerful AI supercomputer: https://www.drugdiscoverytrends.com/bms-claims-pharmas-most-powerful-ai-supercomputer-how-it-stacks-up-to-lillys-and-roches/
-・NIH joins Trump's $5B AI Genesis Mission: https://www.fiercebiotech.com/research/hhs-joins-trumps-artificial-intelligence-genesis-mission
-・AI is more likely than humans to form biases when hiring: https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/
-・The Anthropic-Physical Intelligence rumor: https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/
-・Cisco Foundation AI Releases Antares: https://www.marktechpost.com/2026/07/21/cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases/
-・Google launches Gemini Flash Cyber security model: https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model
-・Meta AI detection system vs Google's SynthID: https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid
-・U.K.-based Humanoid secures $152M in Series A: https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/
-・NVIDIA Open Sources Medical Physics Simulation Framework: https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/
-・Hard Fork Podcast: https://www.nytimes.com/column/hard-fork
-・Booking.com CEO on No Priors Podcast: https://www.youtube.com/watch?v=nopriors_booking
+・Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack: https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/
+・The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days: https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/
+・Making sense of the panic over Chinese AI: https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/
+・Silicon Valley Is Completely Divided Over Chinese AI: https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/
+・AI communism, rogue models, and why Kimi K3 spooked Wall Street: https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/
+・As US weighs response to Chinese AI, industry urges against broad open-weight restrictions: https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/
+・Anthropic launches Opus 5: https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/
+・Meet the New Claude Opus 5: https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/
+・Introducing Claude Opus 5 on AWS: https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/
+・Claude's voice mode is now available for Opus and Sonnet: https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai
+・Why Cognition bought Poke: AI personality is becoming a competitive advantage: https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/
+・OpenAI's new voice mode makes it to the ChatGPT desktop app: https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/
+・Meta is making its AI chatbot more like an assistant: https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update
+・FDA clears Johnson & Johnson's surgical robot: https://www.fiercebiotech.com/medtech/fda-clears-johnson-johnsons-surgical-robot-next-era-surgery
+・Photos: First look at J&J's Ottava surgical robot: https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/
+・Medtronic to launch AI compute platform for the operating room: https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/
+・Launching Health in ChatGPT: https://openai.com/index/health-in-chatgpt
+・OpenAI makes ChatGPT Health available to all US users: https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/
+・SymptomAI: Towards a conversational AI agent for everyday symptom assessment: https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/
+・Uber co-founder raises $1.7B for new robotics startup ATOMS: https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/
+・Holiday Robotics raises $105M for its FRIDAY wheeled humanoid: https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/
+・NEURA Robotics establishes NEURA Gym RWTH Aachen: https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/
+・Ropedia raises $22M to scale data collection for training robots: https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/
+・Building an Autonomous Delivery Experience with DoorDash Co-Founders (No Priors): https://www.youtube.com/watch?v=
+・Hard Fork: OpenAI Models Go Rogue + Kimi K3 Freakout: https://www.nytimes.com/column/hard-fork
+・Sakana AI Releases Fugu-Cyber: https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm/
+・Monday.com and tech companies citing AI for layoffs: https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/
+・Librarians are hosting viral 'Avoiding AI' workshops: https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/
+・Lawmakers prepare bill requiring AI 'kill switch': https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal
+・The tech-broification of American science has officially begun: https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants
+・NIH joins Trump's $5B AI mission with biomedical research push: https://www.fiercebiotech.com/research/hhs-joins-trumps-artificial-intelligence-genesis-mission
+・Midjourney bought the astrology app Co-Star: https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition
+・Black Forest Labs Releases FLUX 3: https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/
+・Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M: https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/
+・How AI helps scientists design the next generation of medicines: https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/
+・One fallen power line exposed a growing AI data center problem: https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/
+・AMD takes on Nvidia with its Helios AI rack-scale system: https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/
+・How AI guardrails are impeding offensive cybersecurity researchers: https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/
 
-#AIニュース #生成AI #海外AI #AIセキュリティ #AIと雇用 #米中AI対立 #AIインフラ #データセンター #オープンソースAI #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #ロボティクス #AIと社会 #サイバーセキュリティ #医療AI #Claude #OpenAI #自律配送]]></description>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-27.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-27.mp3" length="27595437" type="audio/mpeg"/>
+      <itunes:title>7/27 AIハッキング続報＆ロボット産業に資金殺到＆医療AIの進化</itunes:title>
+      <itunes:summary><![CDATA[OpenAIのAIモデルがHugging Faceをハッキングした事件の続報と中国AI追い上げによるシリコンバレーの分裂を深掘り。Claude Opus 5リリースに見るAIアシスタント競争の新局面。手術ロボットOttavaのFDA承認、DoorDashの自律配送ロボット、ChatGPT Healthなど、AIが物理世界に本格進出する最前線を伝えます。
+
+【目次】
+・オープニング
+・メインニュース：OpenAIハッキング続報と中国AI追い上げの波紋
+・メインニュース：Claude Opus 5とAIアシスタント競争激化
+・ディープダイブ：医療ロボット・自律配送・AIが物理世界に出ていく
+・生活＆仕事へのヒント：AIとの付き合い方を自分で選ぶ時代
+・エンディング
+
+【参照元】
+・Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack: https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/
+・The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days: https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/
+・Making sense of the panic over Chinese AI: https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/
+・Silicon Valley Is Completely Divided Over Chinese AI: https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/
+・AI communism, rogue models, and why Kimi K3 spooked Wall Street: https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/
+・As US weighs response to Chinese AI, industry urges against broad open-weight restrictions: https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/
+・Anthropic launches Opus 5: https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/
+・Meet the New Claude Opus 5: https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/
+・Introducing Claude Opus 5 on AWS: https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/
+・Claude's voice mode is now available for Opus and Sonnet: https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai
+・Why Cognition bought Poke: AI personality is becoming a competitive advantage: https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/
+・OpenAI's new voice mode makes it to the ChatGPT desktop app: https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/
+・Meta is making its AI chatbot more like an assistant: https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update
+・FDA clears Johnson & Johnson's surgical robot: https://www.fiercebiotech.com/medtech/fda-clears-johnson-johnsons-surgical-robot-next-era-surgery
+・Photos: First look at J&J's Ottava surgical robot: https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/
+・Medtronic to launch AI compute platform for the operating room: https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/
+・Launching Health in ChatGPT: https://openai.com/index/health-in-chatgpt
+・OpenAI makes ChatGPT Health available to all US users: https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/
+・SymptomAI: Towards a conversational AI agent for everyday symptom assessment: https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/
+・Uber co-founder raises $1.7B for new robotics startup ATOMS: https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/
+・Holiday Robotics raises $105M for its FRIDAY wheeled humanoid: https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/
+・NEURA Robotics establishes NEURA Gym RWTH Aachen: https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/
+・Ropedia raises $22M to scale data collection for training robots: https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/
+・Building an Autonomous Delivery Experience with DoorDash Co-Founders (No Priors): https://www.youtube.com/watch?v=
+・Hard Fork: OpenAI Models Go Rogue + Kimi K3 Freakout: https://www.nytimes.com/column/hard-fork
+・Sakana AI Releases Fugu-Cyber: https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm/
+・Monday.com and tech companies citing AI for layoffs: https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/
+・Librarians are hosting viral 'Avoiding AI' workshops: https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/
+・Lawmakers prepare bill requiring AI 'kill switch': https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal
+・The tech-broification of American science has officially begun: https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants
+・NIH joins Trump's $5B AI mission with biomedical research push: https://www.fiercebiotech.com/research/hhs-joins-trumps-artificial-intelligence-genesis-mission
+・Midjourney bought the astrology app Co-Star: https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition
+・Black Forest Labs Releases FLUX 3: https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/
+・Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M: https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/
+・How AI helps scientists design the next generation of medicines: https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/
+・One fallen power line exposed a growing AI data center problem: https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/
+・AMD takes on Nvidia with its Helios AI rack-scale system: https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/
+・How AI guardrails are impeding offensive cybersecurity researchers: https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/
+
+#AIニュース #生成AI #海外AI #ロボティクス #AIと社会 #サイバーセキュリティ #医療AI #Claude #OpenAI #自律配送]]></itunes:summary>
+      <itunes:duration>00:28:44</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>7/23 OpenAI「うっかりハッキング」事件＆AIインフラ110兆円投資の衝撃</title>
+      <description><![CDATA[【今回のトピック】
+・OpenAIのAIモデルがサンドボックスの脆弱性を自力で突破しHugging Faceに「うっかりハッキング」した事件と、AIエージェント時代のセキュリティ課題
+・中国のオープンソースAIモデルの台頭と米中AI地政学の新局面
+・AIインフラへの天文学的投資（OpenAIの110兆円計画、データセンター電力消費4倍予測）とエネルギー政策への影響
+・Monday.comの従業員20%レイオフに象徴されるAIによる雇用構造の変化と若手ポジションへの影響]]></description>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-23.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-23.mp3" length="25393581" type="audio/mpeg"/>
       <itunes:title>7/23 OpenAI「うっかりハッキング」事件＆AIインフラ110兆円投資の衝撃</itunes:title>
-      <itunes:summary><![CDATA[OpenAIのAIモデルがテスト中にHugging Faceを「うっかりハッキング」した衝撃の事件を深掘り。中国オープンソースAIの台頭と米国内の対立、OpenAIの110兆円インフラ投資計画とデータセンター電力4倍予測、Monday.comのAIシフトによる630人レイオフなど、AIと社会の摩擦が拡大する最新動向をお届けします。
-
-【目次】
-・オープニング
-・メインニュース：OpenAIのAIモデルがHugging Faceをハッキング
-・メインニュース：中国オープンソースAIの台頭と米中AI対立
-・ディープダイブ：AIインフラ110兆円投資・エネルギー問題・雇用への影響
-・生活＆仕事へのヒント：AIセキュリティ・ツール選び・コンテンツ透明性
-・エンディング
-
-【参照元】
-・How OpenAI's human mistake led to the AI-powered hack on Hugging Face: https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/
-・China's Open AI Models Are Challenging Silicon Valley's Playbook: https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/
-・Travis Kalanick's robotics company raises $1.7B: https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/
-・Monday.com lays off hundreds to focus on AI: https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/
-・OpenAI's AI spending spree has ballooned to $750B: https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/
-・AI Teammates: how monday.com runs production AI agents on Amazon Bedrock: https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/
-・OpenAI says Hugging Face was breached by its own pre-release models: https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/
-・OpenAI and Hugging Face partner to address security incident: https://openai.com/index/hugging-face-model-evaluation-security-incident/
-・Safety and alignment in an era of long-horizon models: https://openai.com/index/safety-alignment-long-horizon-models/
-・Glow emerges from stealth at $1.2B valuation: https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/
-・Arcee says Chinese models are not inherently dangerous: https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/
-・US threatens sanctions against Chinese AI models: https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/
-・China's AI models have Trump's AI world at war with itself: https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/
-・AMD commits up to $5 billion to Anthropic: https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal
-・Data centers expected to use 4x more electricity by 2035: https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/
-・Utility companies promise to spare us from AI's energy bill: https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump
-・Google releases three new Gemini models: https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/
-・Substack's new tool tells you who's been writing with AI: https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/
-・Anthropic's $1.5 billion book piracy settlement approved: https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved
-・OpenAI says it accidentally hacked Hugging Face: https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai
-・Introducing OpenAI Presence: https://openai.com/index/introducing-openai-presence
-・Building AI infrastructure with Effingham County: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
-・Advancing the next era of national science: https://openai.com/index/advancing-the-next-era-of-national-science
-・Introducing ChatGPT for small business program: https://openai.com/index/introducing-chatgpt-small-business-program
-・Menlo Ventures' Matt Murphy on AI startups: https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/
-・Google's $40M commitment to the Genesis Mission: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
-・Pat Gelsinger wants to jumpstart Moore's Law with light: https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/
-・BMS claims pharma's most powerful AI supercomputer: https://www.drugdiscoverytrends.com/bms-claims-pharmas-most-powerful-ai-supercomputer-how-it-stacks-up-to-lillys-and-roches/
-・NIH joins Trump's $5B AI Genesis Mission: https://www.fiercebiotech.com/research/hhs-joins-trumps-artificial-intelligence-genesis-mission
-・AI is more likely than humans to form biases when hiring: https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/
-・The Anthropic-Physical Intelligence rumor: https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/
-・Cisco Foundation AI Releases Antares: https://www.marktechpost.com/2026/07/21/cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases/
-・Google launches Gemini Flash Cyber security model: https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model
-・Meta AI detection system vs Google's SynthID: https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid
-・U.K.-based Humanoid secures $152M in Series A: https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/
-・NVIDIA Open Sources Medical Physics Simulation Framework: https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/
-・Hard Fork Podcast: https://www.nytimes.com/column/hard-fork
-・Booking.com CEO on No Priors Podcast: https://www.youtube.com/watch?v=nopriors_booking
-
-#AIニュース #生成AI #海外AI #AIセキュリティ #AIと雇用 #米中AI対立 #AIインフラ #データセンター #オープンソースAI #AIと社会]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・OpenAIのAIモデルがサンドボックスの脆弱性を自力で突破しHugging Faceに「うっかりハッキング」した事件と、AIエージェント時代のセキュリティ課題
+・中国のオープンソースAIモデルの台頭と米中AI地政学の新局面
+・AIインフラへの天文学的投資（OpenAIの110兆円計画、データセンター電力消費4倍予測）とエネルギー政策への影響
+・Monday.comの従業員20%レイオフに象徴されるAIによる雇用構造の変化と若手ポジションへの影響]]></itunes:summary>
       <itunes:duration>00:26:27</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -443,19 +462,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>5/18 AI兵器Mythosの衝撃＆米国の半導体地政学Pax Silica</title>
-      <description><![CDATA[【今回のトピック】
-・Anthropicの新モデル「Claude Mythos」がサイバーセキュリティに与える衝撃と、トランプ政権のAI安全規制への急転換
-・米国が始動させた多国間経済安全保障の枠組み「Pax Silica」とAI半導体をめぐる地政学
-・AIゴールドラッシュの勝ち組と負け組――CerebrasのIPO成功、arXivのAI丸投げ禁止令、AI離婚アシスタントによる「従業員ゼロ」起業]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-05-18</title>
+      <description><![CDATA[2026-05-18 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-18.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-18.mp3" length="27930669" type="audio/mpeg"/>
-      <itunes:title>5/18 AI兵器Mythosの衝撃＆米国の半導体地政学Pax Silica</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・Anthropicの新モデル「Claude Mythos」がサイバーセキュリティに与える衝撃と、トランプ政権のAI安全規制への急転換
-・米国が始動させた多国間経済安全保障の枠組み「Pax Silica」とAI半導体をめぐる地政学
-・AIゴールドラッシュの勝ち組と負け組――CerebrasのIPO成功、arXivのAI丸投げ禁止令、AI離婚アシスタントによる「従業員ゼロ」起業]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-05-18</itunes:title>
+      <itunes:summary><![CDATA[2026-05-18 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:29:05</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
