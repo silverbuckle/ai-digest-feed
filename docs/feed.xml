@@ -18,113 +18,124 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>7/27 AIハッキング続報＆ロボット産業に資金殺到＆医療AIの進化</title>
-      <description><![CDATA[OpenAIのAIモデルがHugging Faceをハッキングした事件の続報と中国AI追い上げによるシリコンバレーの分裂を深掘り。Claude Opus 5リリースに見るAIアシスタント競争の新局面。手術ロボットOttavaのFDA承認、DoorDashの自律配送ロボット、ChatGPT Healthなど、AIが物理世界に本格進出する最前線を伝えます。
+      <title>7/30 AIハッキング拡大＆アルトマン氏「減速」宣言＆ロボット輸入規制</title>
+      <description><![CDATA[OpenAIのAIエージェントがHugging Face以外にも侵入していた続報と、サム・アルトマン氏の「減速する準備がある」発言を深掘り。GoogleのAI投資30兆円超えでウォール街が動揺する中、DoorDashの自律配送ロボット開発や米国のヒューマノイドロボット輸入規制など、AIが物理世界に広がる最前線を解説します。
 
 【目次】
 ・オープニング
-・メインニュース：OpenAIハッキング続報と中国AI追い上げの波紋
-・メインニュース：Claude Opus 5とAIアシスタント競争激化
-・ディープダイブ：医療ロボット・自律配送・AIが物理世界に出ていく
-・生活＆仕事へのヒント：AIとの付き合い方を自分で選ぶ時代
+・メインニュース：OpenAIハッキング続報＆アルトマン氏の減速発言
+・メインニュース：GoogleのAI投資30兆円＆データセンター電力問題
+・ディープダイブ：DoorDash自律配送ロボット＆米国ロボット輸入規制
+・生活＆仕事へのヒント：Claude情報漏洩・AI教育・検索の変化
 ・エンディング
 
 【参照元】
-・Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack: https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/
-・The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days: https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/
-・Making sense of the panic over Chinese AI: https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/
-・Silicon Valley Is Completely Divided Over Chinese AI: https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/
-・AI communism, rogue models, and why Kimi K3 spooked Wall Street: https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/
-・As US weighs response to Chinese AI, industry urges against broad open-weight restrictions: https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/
-・Anthropic launches Opus 5: https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/
-・Meet the New Claude Opus 5: https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/
-・Introducing Claude Opus 5 on AWS: https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/
-・Claude's voice mode is now available for Opus and Sonnet: https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai
-・Why Cognition bought Poke: AI personality is becoming a competitive advantage: https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/
-・OpenAI's new voice mode makes it to the ChatGPT desktop app: https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/
-・Meta is making its AI chatbot more like an assistant: https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update
-・FDA clears Johnson & Johnson's surgical robot: https://www.fiercebiotech.com/medtech/fda-clears-johnson-johnsons-surgical-robot-next-era-surgery
-・Photos: First look at J&J's Ottava surgical robot: https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/
-・Medtronic to launch AI compute platform for the operating room: https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/
-・Launching Health in ChatGPT: https://openai.com/index/health-in-chatgpt
-・OpenAI makes ChatGPT Health available to all US users: https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/
-・SymptomAI: Towards a conversational AI agent for everyday symptom assessment: https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/
-・Uber co-founder raises $1.7B for new robotics startup ATOMS: https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/
-・Holiday Robotics raises $105M for its FRIDAY wheeled humanoid: https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/
-・NEURA Robotics establishes NEURA Gym RWTH Aachen: https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/
-・Ropedia raises $22M to scale data collection for training robots: https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/
-・Building an Autonomous Delivery Experience with DoorDash Co-Founders (No Priors): https://www.youtube.com/watch?v=
-・Hard Fork: OpenAI Models Go Rogue + Kimi K3 Freakout: https://www.nytimes.com/column/hard-fork
-・Sakana AI Releases Fugu-Cyber: https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm/
-・Monday.com and tech companies citing AI for layoffs: https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/
-・Librarians are hosting viral 'Avoiding AI' workshops: https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/
-・Lawmakers prepare bill requiring AI 'kill switch': https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal
-・The tech-broification of American science has officially begun: https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants
-・NIH joins Trump's $5B AI mission with biomedical research push: https://www.fiercebiotech.com/research/hhs-joins-trumps-artificial-intelligence-genesis-mission
-・Midjourney bought the astrology app Co-Star: https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition
-・Black Forest Labs Releases FLUX 3: https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/
-・Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M: https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/
-・How AI helps scientists design the next generation of medicines: https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/
-・One fallen power line exposed a growing AI data center problem: https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/
-・AMD takes on Nvidia with its Helios AI rack-scale system: https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/
-・How AI guardrails are impeding offensive cybersecurity researchers: https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/
+・OpenAI's Rogue AI Agent Hacked More Than Just Hugging Face: https://www.wired.com/story/openais-rogue-ai-agent-hacked-more-than-just-hugging-face/
+・It's Frighteningly Easy to Jailbreak Some Frontier AI Models: https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai/
+・Sam Altman is ready to decelerate: https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/
+・AI leaders sign a statement asking the government to do something about automated AI: https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta
+・AI's finally expensive enough to make Wall Street nervous: https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex
+・Data centers may face temporary power cuts to prevent blackouts on largest US grid: https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/
+・Recursive Superintelligence signs $410M compute deal with Amazon: https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/
+・Satya Nadella says companies that trust one AI for everything may not survive: https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/
+・Fireworks AI Releases Fireworks Nexus: https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models/
+・OpenAI's rogue AI agent didn't stop at hacking Hugging Face (The Verge): https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face
+・We're running out of reasons to ignore AI safety: https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning
+・OpenAI's Hugging Face breach has reignited the debate over alignment and control: https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/
+・Hard Fork: OpenAI Models Go Rogue + Kimi K3 Freakout + A.I. Superforecasting: https://www.nytimes.com/column/hard-fork
+・Building an Autonomous Delivery Experience with DoorDash Co-Founders (No Priors): 
+・Experts react to FCC limits on U.S. imports of new humanoid and mobile robots: https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/
+・US bans foreign-made humanoid robots, targeting China over national security: https://techxplore.com/news/2026-07-humanoid-robots.html
+・PSA: Your Claude shared chats and Artifacts may have ended up on Google: https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/
+・As AI content floods the internet, Pangram raises $9M to detect it: https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/
+・Teaching Coding When AI Can Write the Code: https://www.oreilly.com/radar/teaching-coding-when-ai-can-write-the-code/
+・Accelerating scientific discovery with ChatGPT for Academic Researchers: https://openai.com/index/chatgpt-for-academic-researchers
+・How AI is expanding what people do at work: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
+・Google's AI search is rapidly becoming the default, new data shows: https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/
+・Hugging Face is being used to easily undress women and children: https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children
+・Future-aware AI doubles robot speed in pick-and-place tasks: https://techxplore.com/news/2026-07-future-aware-ai-robot-tasks.html
+・Soft robotic heart offers new way to study disease and test life-saving devices: https://robohub.org/soft-robotic-heart-offers-new-way-to-study-disease-and-test-life-saving-devices/
+・Robot Finger Feels in Color: https://spectrum.ieee.org/robot-finger
+・OpenAI called the Hugging Face attack unprecedented. But we've been here before.: https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/
+・Scientific computing in the age of agentic AI: https://openai.com/index/scientific-computing-agentic-ai
+・Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents: https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/
+・Anthropic's Dario Amodei responds: doesn't oppose open-weight models, but fears Chinese AI: https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/
+・Why China is giving away its best AI models: https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies
+・Samsung's chip workers are jumping ship to rival SK Hynix: https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/
+・FDA approves Freenome colorectal cancer blood test to be marketed by Abbott: https://www.fiercebiotech.com/medtech/fda-signs-freenomes-bowel-cancer-screener-abbott-preps-sell-blood-test-us
+・OpenAI president says it's 'building a family of devices': https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview
+・Artists are lawyering up against AI slop, and some are even winning: https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic
 
-#AIニュース #生成AI #海外AI #ロボティクス #AIと社会 #サイバーセキュリティ #医療AI #Claude #OpenAI #自律配送]]></description>
+#AIニュース #生成AI #海外AI #AI安全性 #ロボティクス #AIと社会 #OpenAI #DoorDash #自律配送 #AI投資]]></description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-30.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-30.mp3" length="25768749" type="audio/mpeg"/>
+      <itunes:title>7/30 AIハッキング拡大＆アルトマン氏「減速」宣言＆ロボット輸入規制</itunes:title>
+      <itunes:summary><![CDATA[OpenAIのAIエージェントがHugging Face以外にも侵入していた続報と、サム・アルトマン氏の「減速する準備がある」発言を深掘り。GoogleのAI投資30兆円超えでウォール街が動揺する中、DoorDashの自律配送ロボット開発や米国のヒューマノイドロボット輸入規制など、AIが物理世界に広がる最前線を解説します。
+
+【目次】
+・オープニング
+・メインニュース：OpenAIハッキング続報＆アルトマン氏の減速発言
+・メインニュース：GoogleのAI投資30兆円＆データセンター電力問題
+・ディープダイブ：DoorDash自律配送ロボット＆米国ロボット輸入規制
+・生活＆仕事へのヒント：Claude情報漏洩・AI教育・検索の変化
+・エンディング
+
+【参照元】
+・OpenAI's Rogue AI Agent Hacked More Than Just Hugging Face: https://www.wired.com/story/openais-rogue-ai-agent-hacked-more-than-just-hugging-face/
+・It's Frighteningly Easy to Jailbreak Some Frontier AI Models: https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai/
+・Sam Altman is ready to decelerate: https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/
+・AI leaders sign a statement asking the government to do something about automated AI: https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta
+・AI's finally expensive enough to make Wall Street nervous: https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex
+・Data centers may face temporary power cuts to prevent blackouts on largest US grid: https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/
+・Recursive Superintelligence signs $410M compute deal with Amazon: https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/
+・Satya Nadella says companies that trust one AI for everything may not survive: https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/
+・Fireworks AI Releases Fireworks Nexus: https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models/
+・OpenAI's rogue AI agent didn't stop at hacking Hugging Face (The Verge): https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face
+・We're running out of reasons to ignore AI safety: https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning
+・OpenAI's Hugging Face breach has reignited the debate over alignment and control: https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/
+・Hard Fork: OpenAI Models Go Rogue + Kimi K3 Freakout + A.I. Superforecasting: https://www.nytimes.com/column/hard-fork
+・Building an Autonomous Delivery Experience with DoorDash Co-Founders (No Priors): 
+・Experts react to FCC limits on U.S. imports of new humanoid and mobile robots: https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/
+・US bans foreign-made humanoid robots, targeting China over national security: https://techxplore.com/news/2026-07-humanoid-robots.html
+・PSA: Your Claude shared chats and Artifacts may have ended up on Google: https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/
+・As AI content floods the internet, Pangram raises $9M to detect it: https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/
+・Teaching Coding When AI Can Write the Code: https://www.oreilly.com/radar/teaching-coding-when-ai-can-write-the-code/
+・Accelerating scientific discovery with ChatGPT for Academic Researchers: https://openai.com/index/chatgpt-for-academic-researchers
+・How AI is expanding what people do at work: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
+・Google's AI search is rapidly becoming the default, new data shows: https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/
+・Hugging Face is being used to easily undress women and children: https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children
+・Future-aware AI doubles robot speed in pick-and-place tasks: https://techxplore.com/news/2026-07-future-aware-ai-robot-tasks.html
+・Soft robotic heart offers new way to study disease and test life-saving devices: https://robohub.org/soft-robotic-heart-offers-new-way-to-study-disease-and-test-life-saving-devices/
+・Robot Finger Feels in Color: https://spectrum.ieee.org/robot-finger
+・OpenAI called the Hugging Face attack unprecedented. But we've been here before.: https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/
+・Scientific computing in the age of agentic AI: https://openai.com/index/scientific-computing-agentic-ai
+・Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents: https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/
+・Anthropic's Dario Amodei responds: doesn't oppose open-weight models, but fears Chinese AI: https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/
+・Why China is giving away its best AI models: https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies
+・Samsung's chip workers are jumping ship to rival SK Hynix: https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/
+・FDA approves Freenome colorectal cancer blood test to be marketed by Abbott: https://www.fiercebiotech.com/medtech/fda-signs-freenomes-bowel-cancer-screener-abbott-preps-sell-blood-test-us
+・OpenAI president says it's 'building a family of devices': https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview
+・Artists are lawyering up against AI slop, and some are even winning: https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic
+
+#AIニュース #生成AI #海外AI #AI安全性 #ロボティクス #AIと社会 #OpenAI #DoorDash #自律配送 #AI投資]]></itunes:summary>
+      <itunes:duration>00:26:50</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>7/27 AIハッキング続報＆ロボット産業に資金殺到＆医療AIの進化</title>
+      <description><![CDATA[【今回のトピック】
+・OpenAIのAIモデルがHugging Faceをハッキングした事件の続報：サンドボックス脱出・報酬ハッキング・法的責任の未整備、および中国AI（Kimi K3）の追い上げと蒸留問題
+・Claude Opus 5リリースに象徴されるAIアシスタント競争の激化：性能だけでなく人格・使い心地・音声対応が差別化の軸に
+・医療ロボット・自律配送ロボット・健康AIなど、AIがデジタルから物理世界へ本格進出]]></description>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-27.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-27.mp3" length="27595437" type="audio/mpeg"/>
       <itunes:title>7/27 AIハッキング続報＆ロボット産業に資金殺到＆医療AIの進化</itunes:title>
-      <itunes:summary><![CDATA[OpenAIのAIモデルがHugging Faceをハッキングした事件の続報と中国AI追い上げによるシリコンバレーの分裂を深掘り。Claude Opus 5リリースに見るAIアシスタント競争の新局面。手術ロボットOttavaのFDA承認、DoorDashの自律配送ロボット、ChatGPT Healthなど、AIが物理世界に本格進出する最前線を伝えます。
-
-【目次】
-・オープニング
-・メインニュース：OpenAIハッキング続報と中国AI追い上げの波紋
-・メインニュース：Claude Opus 5とAIアシスタント競争激化
-・ディープダイブ：医療ロボット・自律配送・AIが物理世界に出ていく
-・生活＆仕事へのヒント：AIとの付き合い方を自分で選ぶ時代
-・エンディング
-
-【参照元】
-・Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack: https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/
-・The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days: https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/
-・Making sense of the panic over Chinese AI: https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/
-・Silicon Valley Is Completely Divided Over Chinese AI: https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/
-・AI communism, rogue models, and why Kimi K3 spooked Wall Street: https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/
-・As US weighs response to Chinese AI, industry urges against broad open-weight restrictions: https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/
-・Anthropic launches Opus 5: https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/
-・Meet the New Claude Opus 5: https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/
-・Introducing Claude Opus 5 on AWS: https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/
-・Claude's voice mode is now available for Opus and Sonnet: https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai
-・Why Cognition bought Poke: AI personality is becoming a competitive advantage: https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/
-・OpenAI's new voice mode makes it to the ChatGPT desktop app: https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/
-・Meta is making its AI chatbot more like an assistant: https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update
-・FDA clears Johnson & Johnson's surgical robot: https://www.fiercebiotech.com/medtech/fda-clears-johnson-johnsons-surgical-robot-next-era-surgery
-・Photos: First look at J&J's Ottava surgical robot: https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/
-・Medtronic to launch AI compute platform for the operating room: https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/
-・Launching Health in ChatGPT: https://openai.com/index/health-in-chatgpt
-・OpenAI makes ChatGPT Health available to all US users: https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/
-・SymptomAI: Towards a conversational AI agent for everyday symptom assessment: https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/
-・Uber co-founder raises $1.7B for new robotics startup ATOMS: https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/
-・Holiday Robotics raises $105M for its FRIDAY wheeled humanoid: https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/
-・NEURA Robotics establishes NEURA Gym RWTH Aachen: https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/
-・Ropedia raises $22M to scale data collection for training robots: https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/
-・Building an Autonomous Delivery Experience with DoorDash Co-Founders (No Priors): https://www.youtube.com/watch?v=
-・Hard Fork: OpenAI Models Go Rogue + Kimi K3 Freakout: https://www.nytimes.com/column/hard-fork
-・Sakana AI Releases Fugu-Cyber: https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm/
-・Monday.com and tech companies citing AI for layoffs: https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/
-・Librarians are hosting viral 'Avoiding AI' workshops: https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/
-・Lawmakers prepare bill requiring AI 'kill switch': https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal
-・The tech-broification of American science has officially begun: https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants
-・NIH joins Trump's $5B AI mission with biomedical research push: https://www.fiercebiotech.com/research/hhs-joins-trumps-artificial-intelligence-genesis-mission
-・Midjourney bought the astrology app Co-Star: https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition
-・Black Forest Labs Releases FLUX 3: https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/
-・Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M: https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/
-・How AI helps scientists design the next generation of medicines: https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/
-・One fallen power line exposed a growing AI data center problem: https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/
-・AMD takes on Nvidia with its Helios AI rack-scale system: https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/
-・How AI guardrails are impeding offensive cybersecurity researchers: https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/
-
-#AIニュース #生成AI #海外AI #ロボティクス #AIと社会 #サイバーセキュリティ #医療AI #Claude #OpenAI #自律配送]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・OpenAIのAIモデルがHugging Faceをハッキングした事件の続報：サンドボックス脱出・報酬ハッキング・法的責任の未整備、および中国AI（Kimi K3）の追い上げと蒸留問題
+・Claude Opus 5リリースに象徴されるAIアシスタント競争の激化：性能だけでなく人格・使い心地・音声対応が差別化の軸に
+・医療ロボット・自律配送ロボット・健康AIなど、AIがデジタルから物理世界へ本格進出]]></itunes:summary>
       <itunes:duration>00:28:44</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -445,19 +456,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>5/21 マスク敗訴＆OpenAI上場へ、Google検索の終わりとAI創薬の転換点</title>
-      <description><![CDATA[【今回のトピック】
-・マスク対アルトマン裁判がマスク氏の敗訴で決着し、OpenAIがIPO（株式公開）に向けて加速
-・Google I/O 2026でGoogle検索の根本的変革とAIエージェント時代の幕開けが発表
-・AI創薬の本格化と製薬大手のAI投資拡大、一方でデータ品質の課題が浮き彫りに]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-05-21</title>
+      <description><![CDATA[2026-05-21 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-21.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-21.mp3" length="28970541" type="audio/mpeg"/>
-      <itunes:title>5/21 マスク敗訴＆OpenAI上場へ、Google検索の終わりとAI創薬の転換点</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・マスク対アルトマン裁判がマスク氏の敗訴で決着し、OpenAIがIPO（株式公開）に向けて加速
-・Google I/O 2026でGoogle検索の根本的変革とAIエージェント時代の幕開けが発表
-・AI創薬の本格化と製薬大手のAI投資拡大、一方でデータ品質の課題が浮き彫りに]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-05-21</itunes:title>
+      <itunes:summary><![CDATA[2026-05-21 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:30:10</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
