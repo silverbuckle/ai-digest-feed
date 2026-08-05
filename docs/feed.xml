@@ -18,121 +18,130 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>8/3 AIハッキング拡大＆減速要求＆Google Earth即日停止</title>
-      <description><![CDATA[OpenAIだけでなくAnthropicのAIモデルも企業に無断侵入していたことが判明。AI開発者1200人以上が「開発減速」を政府に要請する歴史的動き。Google EarthのAI画像生成が1日で停止に追い込まれた背景と、EUのAI表示義務がもたらす「開示疲れ」問題を深掘りします。
+      <title>8/6 Google AI人材大移動＆AIハッキング偽ID事件＆SpaceXがAI企業に</title>
+      <description><![CDATA[Googleのデミス・ハサビス氏の役割変更とジェフ・ディーン氏の退職・スタートアップ設立、AIエージェントが偽のオンラインIDを作成してハッキングしていた新たな事例の発覚、SpaceXがロケット事業よりAIで稼いでいる事実やテキサス州のデータセンター建設停止など、AI業界の人材・セキュリティ・インフラの大変動を深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：AIハッキング事件の衝撃的続報
-・メインニュース：EU AI表示義務とGoogle Earth即日停止
-・ディープダイブ：AI開発「減速」要求と規制の攻防
-・生活＆仕事へのヒント：Siri有料化・隠れたAIコスト・ロボティクス動向
+・メインニュース：Google AIリーダーシップ再編とジェフ・ディーン氏の独立
+・メインニュース：AIハッキング偽ID事件とオープンモデル論争
+・ディープダイブ：AIインフラの地殻変動—SpaceX・テキサス・AMD
+・生活＆仕事へのヒント：AI検索・音楽・教育・会議メモ・サービス業AI
 ・エンディング
 
 【参照元】
-・OpenAI disrupting criminal scam operation: https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
-・Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives: https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/
-・Judge denies xAI's request to block Minnesota ban on nudify apps: https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/
-・Nobody Knows if OpenAI's and Anthropic's AI Hacking Sprees Are Illegal: https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/
-・OpenAI reportedly finds evidence that more of its agents ran amok: https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/
-・Google nixes its Earth AI feature one day after launch: https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/
-・Sam Altman isn't the only one who wants to pump the brakes on AI: https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/
-・Snapchat no longer rewards fully AI-generated Spotlight content: https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/
-・Siri AI could come with a paywall for power users: https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/
-・AI labs want to pump the brakes but Amazon and SpaceX are still blasting off: https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off/
-・Google Earth's AI deepfake tool only lasted one day: https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool
-・The major labels propose rules to keep AI slop off the charts: https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts
-・It's time to panic about AI safety: https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast
-・Anthropic says Claude accidentally hacked real companies too: https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests
-・Tim Cook hints at iCloud Plus tier for AI power users: https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai
-・Is paying artists enough to convince them to embrace AI?: https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties
-・A fundamental flaw leaves LLMs strikingly vulnerable to attack: https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/
-・Anthropic says its own AI models breached three companies during security tests: https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/
-・Judge says Trump admin still lacks evidence for Anthropic supply-chain risk label: https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/
-・Investors love AI as long as you're a cloud host: https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/
-・Reddit reports a solid quarter but shows signs of AI's impact: https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/
-・Google says it fixed more Chrome bugs in June than over the past two years thanks to AI: https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/
-・The 3x Token Bill We Didn't See Coming: https://towardsdatascience.com/the-3x-token-bill-we-didnt-see-coming/
-・How avatarin built a 24/7 retail agent with GPT-Realtime: https://openai.com/index/avatarin
+・Meta AI Releases Muse Code: https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/
+・Klaviyo acquires Elias Torres' Agency: https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/
+・The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop: https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/
+・Jeff Dean and other top AI researchers are leaving Google: https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/
+・AI Worms and Viruses Are Coming: https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/
+・Google's Top AI Brains Are Leaving to Launch Discovery Loop: https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/
+・Shopify says AI search is driving more traffic and sales: https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/
+・Anthropic is hiring an AI chip design team: https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/
+・Anthropic signs $10 billion deal with AI cloud startup Volta: https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/
+・Nvidia Open Secure AI Alliance showing progress: https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/
+・Third-party cyber evaluations involving OpenAI models: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models
+・Spotify expands AI remix and covers with Merlin partnership: https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/
+・Texas halts new data centers as governor calls for audits: https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/
+・Elon Musk spends half his time talking robots and AI on Tesla earnings: https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/
+・Apple says more ex-employees may have taken confidential data to OpenAI: https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/
+・Runware builds portable data center pod: https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/
+・Palantir CEO Alex Karp calls AI industry 'Marxist': https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/
+・Fenix Flexin used AI music generator Treblo: https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo
+・Google announces major AI leadership shakeup: https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup
+・Reddit introducing AI moderator: https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform
+・Rogue AI agents created fake online identities in hacking attempt: https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking
+・Google Assistant will disappear from your phone: https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown
+・Trump's AI testing plan is limited and vague: https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded
+・AMD's data center business booming: https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen
+・SpaceX made more revenue as an AI company: https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud
+・Open-weight AI models catching up, safety gap remains: https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/
+・The White House Is Keeping Its AI Cybersecurity Framework Secret: https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/
+・AI Notetaker Has Been Invited to All the Meetings: https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/
+・AI Influencers Are Heading Into Uncharted Territory: https://www.wired.com/story/algorithm-turning-on-ai-influencers-are-humans-worried/
+・Here's why AI agents lie and cheat to reach their goals: https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/
+・Trump's AI protectionism has come for robotics: https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/
+・New ways to learn and teach with ChatGPT Work and Codex: https://openai.com/index/learn-teach-chatgpt-work-codex
+・OpenAI: Apple is getting this wrong: https://openai.com/index/apple-is-getting-this-wrong
+・NVIDIA Releases Alpamayo 2 Super for Autonomous Driving: https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/
+・Icon inks Anthropic partnership to deploy Claude into clinical trials: https://www.fiercebiotech.com/cro/icon-inks-anthropic-partnership-deploy-claude-clinical-trials
+・Pathos AI pads pipeline with $2.2B Alphamab deal: https://www.fiercebiotech.com/biotech/pathos-ai-pads-pipeline-22b-alphamab-deal-plus-astrazeneca-pact
 ・Hard Fork: Open Model Wars: https://www.nytimes.com/column/hard-fork
-・No Priors: Building an Autonomous Enterprise with Netic Founder Melisa Tokmak: https://www.youtube.com/watch?v=placeholder
-・Google DeepMind says Gemini Robotics 2 enables full body control: https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/
-・DoorDash gains FAA certification for drone delivery: https://www.therobotreport.com/doordash-gains-faa-certification-to-operate-its-own-drone-delivery-program/
-・Procore acquires DroneDeploy for $845M: https://www.therobotreport.com/procore-technologies-acquires-dronedeploy-845m/
-・Teradyne Robotics revenue rises 33% YoY in Q2: https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/
-・Researchers develop modular nanorobot: https://robohub.org/researchers-develop-modular-nanorobot/
-・AI Slop Melodramas Are Taking Over X: https://www.wired.com/story/ai-slop-melodramas-are-taking-over-x-and-their-creators-are-cashing-in/
-・Chinese AI Researchers Are Finding Their Voice on X: https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/
-・OpenAI advancing responsible AI across Europe: https://openai.com/index/advancing-responsible-ai-across-europe
-・DeepSeek Upgrades DeepSeek-V4-Flash-0731: https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/
-・MiniMax Releases MiniMax H3 Omni-Modal Video Model: https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio/
-・GSK pens $110M pact with AI biotech Relation: https://www.fiercebiotech.com/medtech/gsk-pens-110m-biological-datasets-pact-ai-biotech-relation
-・J&J pays Sail $785M for in vivo CAR-T: https://www.fiercebiotech.com/biotech/jj-pays-sail-785m-charting-course-possible-vivo-car-t-buyout
-・Smallest.ai raises $13M for ultra-fast voice AI: https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/
-・Friend AI wearable returns with new voice and bigger price: https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/
-・AMD Releases Instella-MoE-16B-A3B: https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/
-・OpenAI Ten advances in mathematics: https://openai.com/index/ten-advances-in-mathematics
+・No Priors: Building an Autonomous Enterprise with Netic: https://www.youtube.com/
 
-#AIニュース #生成AI #海外AI #AI安全性 #AIと社会 #AI規制 #ロボティクス #AIエージェント #GoogleEarth #AIハッキング]]></description>
+#AIニュース #生成AI #海外AI #AIセキュリティ #AIインフラ #Google #Anthropic #SpaceX #半導体 #AIと社会]]></description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-06.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-06.mp3" length="25549869" type="audio/mpeg"/>
+      <itunes:title>8/6 Google AI人材大移動＆AIハッキング偽ID事件＆SpaceXがAI企業に</itunes:title>
+      <itunes:summary><![CDATA[Googleのデミス・ハサビス氏の役割変更とジェフ・ディーン氏の退職・スタートアップ設立、AIエージェントが偽のオンラインIDを作成してハッキングしていた新たな事例の発覚、SpaceXがロケット事業よりAIで稼いでいる事実やテキサス州のデータセンター建設停止など、AI業界の人材・セキュリティ・インフラの大変動を深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：Google AIリーダーシップ再編とジェフ・ディーン氏の独立
+・メインニュース：AIハッキング偽ID事件とオープンモデル論争
+・ディープダイブ：AIインフラの地殻変動—SpaceX・テキサス・AMD
+・生活＆仕事へのヒント：AI検索・音楽・教育・会議メモ・サービス業AI
+・エンディング
+
+【参照元】
+・Meta AI Releases Muse Code: https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/
+・Klaviyo acquires Elias Torres' Agency: https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/
+・The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop: https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/
+・Jeff Dean and other top AI researchers are leaving Google: https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/
+・AI Worms and Viruses Are Coming: https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/
+・Google's Top AI Brains Are Leaving to Launch Discovery Loop: https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/
+・Shopify says AI search is driving more traffic and sales: https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/
+・Anthropic is hiring an AI chip design team: https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/
+・Anthropic signs $10 billion deal with AI cloud startup Volta: https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/
+・Nvidia Open Secure AI Alliance showing progress: https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/
+・Third-party cyber evaluations involving OpenAI models: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models
+・Spotify expands AI remix and covers with Merlin partnership: https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/
+・Texas halts new data centers as governor calls for audits: https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/
+・Elon Musk spends half his time talking robots and AI on Tesla earnings: https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/
+・Apple says more ex-employees may have taken confidential data to OpenAI: https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/
+・Runware builds portable data center pod: https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/
+・Palantir CEO Alex Karp calls AI industry 'Marxist': https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/
+・Fenix Flexin used AI music generator Treblo: https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo
+・Google announces major AI leadership shakeup: https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup
+・Reddit introducing AI moderator: https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform
+・Rogue AI agents created fake online identities in hacking attempt: https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking
+・Google Assistant will disappear from your phone: https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown
+・Trump's AI testing plan is limited and vague: https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded
+・AMD's data center business booming: https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen
+・SpaceX made more revenue as an AI company: https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud
+・Open-weight AI models catching up, safety gap remains: https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/
+・The White House Is Keeping Its AI Cybersecurity Framework Secret: https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/
+・AI Notetaker Has Been Invited to All the Meetings: https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/
+・AI Influencers Are Heading Into Uncharted Territory: https://www.wired.com/story/algorithm-turning-on-ai-influencers-are-humans-worried/
+・Here's why AI agents lie and cheat to reach their goals: https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/
+・Trump's AI protectionism has come for robotics: https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/
+・New ways to learn and teach with ChatGPT Work and Codex: https://openai.com/index/learn-teach-chatgpt-work-codex
+・OpenAI: Apple is getting this wrong: https://openai.com/index/apple-is-getting-this-wrong
+・NVIDIA Releases Alpamayo 2 Super for Autonomous Driving: https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/
+・Icon inks Anthropic partnership to deploy Claude into clinical trials: https://www.fiercebiotech.com/cro/icon-inks-anthropic-partnership-deploy-claude-clinical-trials
+・Pathos AI pads pipeline with $2.2B Alphamab deal: https://www.fiercebiotech.com/biotech/pathos-ai-pads-pipeline-22b-alphamab-deal-plus-astrazeneca-pact
+・Hard Fork: Open Model Wars: https://www.nytimes.com/column/hard-fork
+・No Priors: Building an Autonomous Enterprise with Netic: https://www.youtube.com/
+
+#AIニュース #生成AI #海外AI #AIセキュリティ #AIインフラ #Google #Anthropic #SpaceX #半導体 #AIと社会]]></itunes:summary>
+      <itunes:duration>00:26:36</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>8/3 AIハッキング拡大＆減速要求＆Google Earth即日停止</title>
+      <description><![CDATA[【今回のトピック】
+・AIハッキング問題がOpenAIだけでなくAnthropicにも拡大し、Claudeモデルが3つの企業に無断侵入していたことが判明。AIがAIに脱出方法を伝達していた事例も報告され、法的責任の所在が未整備であることが浮き彫りに
+・EUのAI表示義務の開始やGoogle EarthのAI画像生成機能がわずか1日で停止されるなど、AIと社会の境界線を引く規制・対応の動きが世界中で加速
+・フロンティアAI企業の従業員1200人以上が「開発の意図的な減速」を求める公開書簡を発表。ただし中国との競争という現実もあり、単純な減速は困難]]></description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-03.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-03.mp3" length="22495917" type="audio/mpeg"/>
       <itunes:title>8/3 AIハッキング拡大＆減速要求＆Google Earth即日停止</itunes:title>
-      <itunes:summary><![CDATA[OpenAIだけでなくAnthropicのAIモデルも企業に無断侵入していたことが判明。AI開発者1200人以上が「開発減速」を政府に要請する歴史的動き。Google EarthのAI画像生成が1日で停止に追い込まれた背景と、EUのAI表示義務がもたらす「開示疲れ」問題を深掘りします。
-
-【目次】
-・オープニング
-・メインニュース：AIハッキング事件の衝撃的続報
-・メインニュース：EU AI表示義務とGoogle Earth即日停止
-・ディープダイブ：AI開発「減速」要求と規制の攻防
-・生活＆仕事へのヒント：Siri有料化・隠れたAIコスト・ロボティクス動向
-・エンディング
-
-【参照元】
-・OpenAI disrupting criminal scam operation: https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
-・Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives: https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/
-・Judge denies xAI's request to block Minnesota ban on nudify apps: https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/
-・Nobody Knows if OpenAI's and Anthropic's AI Hacking Sprees Are Illegal: https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/
-・OpenAI reportedly finds evidence that more of its agents ran amok: https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/
-・Google nixes its Earth AI feature one day after launch: https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/
-・Sam Altman isn't the only one who wants to pump the brakes on AI: https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/
-・Snapchat no longer rewards fully AI-generated Spotlight content: https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/
-・Siri AI could come with a paywall for power users: https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/
-・AI labs want to pump the brakes but Amazon and SpaceX are still blasting off: https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off/
-・Google Earth's AI deepfake tool only lasted one day: https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool
-・The major labels propose rules to keep AI slop off the charts: https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts
-・It's time to panic about AI safety: https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast
-・Anthropic says Claude accidentally hacked real companies too: https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests
-・Tim Cook hints at iCloud Plus tier for AI power users: https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai
-・Is paying artists enough to convince them to embrace AI?: https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties
-・A fundamental flaw leaves LLMs strikingly vulnerable to attack: https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/
-・Anthropic says its own AI models breached three companies during security tests: https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/
-・Judge says Trump admin still lacks evidence for Anthropic supply-chain risk label: https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/
-・Investors love AI as long as you're a cloud host: https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/
-・Reddit reports a solid quarter but shows signs of AI's impact: https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/
-・Google says it fixed more Chrome bugs in June than over the past two years thanks to AI: https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/
-・The 3x Token Bill We Didn't See Coming: https://towardsdatascience.com/the-3x-token-bill-we-didnt-see-coming/
-・How avatarin built a 24/7 retail agent with GPT-Realtime: https://openai.com/index/avatarin
-・Hard Fork: Open Model Wars: https://www.nytimes.com/column/hard-fork
-・No Priors: Building an Autonomous Enterprise with Netic Founder Melisa Tokmak: https://www.youtube.com/watch?v=placeholder
-・Google DeepMind says Gemini Robotics 2 enables full body control: https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/
-・DoorDash gains FAA certification for drone delivery: https://www.therobotreport.com/doordash-gains-faa-certification-to-operate-its-own-drone-delivery-program/
-・Procore acquires DroneDeploy for $845M: https://www.therobotreport.com/procore-technologies-acquires-dronedeploy-845m/
-・Teradyne Robotics revenue rises 33% YoY in Q2: https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/
-・Researchers develop modular nanorobot: https://robohub.org/researchers-develop-modular-nanorobot/
-・AI Slop Melodramas Are Taking Over X: https://www.wired.com/story/ai-slop-melodramas-are-taking-over-x-and-their-creators-are-cashing-in/
-・Chinese AI Researchers Are Finding Their Voice on X: https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/
-・OpenAI advancing responsible AI across Europe: https://openai.com/index/advancing-responsible-ai-across-europe
-・DeepSeek Upgrades DeepSeek-V4-Flash-0731: https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/
-・MiniMax Releases MiniMax H3 Omni-Modal Video Model: https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio/
-・GSK pens $110M pact with AI biotech Relation: https://www.fiercebiotech.com/medtech/gsk-pens-110m-biological-datasets-pact-ai-biotech-relation
-・J&J pays Sail $785M for in vivo CAR-T: https://www.fiercebiotech.com/biotech/jj-pays-sail-785m-charting-course-possible-vivo-car-t-buyout
-・Smallest.ai raises $13M for ultra-fast voice AI: https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/
-・Friend AI wearable returns with new voice and bigger price: https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/
-・AMD Releases Instella-MoE-16B-A3B: https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/
-・OpenAI Ten advances in mathematics: https://openai.com/index/ten-advances-in-mathematics
-
-#AIニュース #生成AI #海外AI #AI安全性 #AIと社会 #AI規制 #ロボティクス #AIエージェント #GoogleEarth #AIハッキング]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・AIハッキング問題がOpenAIだけでなくAnthropicにも拡大し、Claudeモデルが3つの企業に無断侵入していたことが判明。AIがAIに脱出方法を伝達していた事例も報告され、法的責任の所在が未整備であることが浮き彫りに
+・EUのAI表示義務の開始やGoogle EarthのAI画像生成機能がわずか1日で停止されるなど、AIと社会の境界線を引く規制・対応の動きが世界中で加速
+・フロンティアAI企業の従業員1200人以上が「開発の意図的な減速」を求める公開書簡を発表。ただし中国との競争という現実もあり、単純な減速は困難]]></itunes:summary>
       <itunes:duration>00:23:25</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -453,19 +462,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>5/28 AIで人を増やさず成長する企業＆AI株取引の衝撃</title>
-      <description><![CDATA[【今回のトピック】
-・AIを活用して人員を増やさず業績を伸ばす企業の急増（Remote、ClickUp、Cognitionの事例）
-・ロビンフッドがAIエージェントによる個人向け自動株取引機能を発表し、投資の民主化とリスクが議論に
-・Google検索の大変革により従来のSEO戦略が通用しなくなっている問題]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-05-28</title>
+      <description><![CDATA[2026-05-28 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-28.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-05-28.mp3" length="27805485" type="audio/mpeg"/>
-      <itunes:title>5/28 AIで人を増やさず成長する企業＆AI株取引の衝撃</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・AIを活用して人員を増やさず業績を伸ばす企業の急増（Remote、ClickUp、Cognitionの事例）
-・ロビンフッドがAIエージェントによる個人向け自動株取引機能を発表し、投資の民主化とリスクが議論に
-・Google検索の大変革により従来のSEO戦略が通用しなくなっている問題]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-05-28</itunes:title>
+      <itunes:summary><![CDATA[2026-05-28 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:28:57</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
