@@ -18,105 +18,136 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>8/10 AIテスト自体が危険に＆ホワイトハウス秘密のAI規制＆AI投資最前線</title>
-      <description><![CDATA[OpenAIが次期モデルAstraの開発を一部停止。AIのセキュリティテスト自体がリスクになるという新たな段階に。ホワイトハウスのAI規制枠組みは中身が非公開のまま企業に適用され混乱。AIスタートアップへの資金集中と、数兆ドル企業の出現スピードが示す業界の未来を深掘りします。
+      <title>8/13 ChatGPTに広告導入＆AI投資バブルの実態＆AI安全性の三巨頭議論</title>
+      <description><![CDATA[ChatGPTとGeminiが共に月間10億ユーザーを突破し、ChatGPTへの広告テスト開始が発表されました。設立2カ月で1650億円調達のRiver AIやバイブコーディング企業Lovableの急成長など、AIスタートアップ投資の過熱ぶりを分析。さらにAI安全性をめぐるジェフリー・ヒントン氏ら三巨頭の議論、ホワイトハウスの非公開AI規制枠組みの問題点を深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：OpenAI Astra開発停止とAI安全性テストの限界
-・メインニュース：ホワイトハウスの非公開AI規制枠組み
-・ディープダイブ：AIインフラのエネルギー問題と安全性の構造的課題
-・生活＆仕事へのヒント：AI時代のリテラシーと投資・起業の新潮流
+・メインニュース：ChatGPT・Gemini10億ユーザー突破と広告テスト開始
+・メインニュース：AIスタートアップ投資の異常な加速とNVIDIAの新資産クラス構想
+・ディープダイブ：AI安全性の最前線—暴走AIの実態とホワイトハウス秘密規制
+・生活＆仕事へのヒント：医療AI・サイバーセキュリティ・バイブコーディングの実践
 ・エンディング
 
 【参照元】
-・The AI safety test is becoming a safety risk: https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/
-・OpenAI says it slowed Astra model development over security concerns: https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/
-・Responding to the next frontier of critical cyber capabilities: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities
-・OpenAI puts the brakes on a new model because it's supposedly too powerful: https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities
-・Planned Amazon data center could become the biggest climate polluter in the U.S.: https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/
-・An Amazon data center could have the worst polluting power plant in the country: https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant
-・One of China's Most Powerful AI Models Has Also Escaped Containment: https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/
-・Mistral AI Releases Shieldstral 1.0 3B: https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/
-・Hard Fork: The White House's Secret A.I. Rules + The State of Model Alignment: https://www.nytimes.com/column/hard-fork
-・SoftBank donated $50 million to Trump's library months before federal data center deal: https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio
-・OpenAI acquires presentation startup NextSlide: https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/
-・ChatGPT brings unlimited text chats to free users: https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/
-・Improving GPT-5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
-・OpenAI's new AI smart speaker will reportedly sell for between $300 and $400: https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/
-・Jony Ive's first OpenAI gadget is reportedly a hockey puck-sized smart speaker: https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor
-・Naïve raises $28.5M to automate the grunt work of setting up and running a company: https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/
-・After Rippling blew millions on AI in months, it built an employee ROI tool: https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/
-・Google Maps adds agentic features, including food ordering and hotel bookings: https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/
-・Scientists Used AI to Create 16 New Viruses: https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/
-・My Fall-Detection Model Scored 94%, and It Was Lying to Me: https://towardsdatascience.com/my-fall-detection-model-scored-94-and-it-was-lying-to-me/
-・Suno shares plans to combat spammy AI music: https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark
-・Anthropic is turning Claude Code's auto mode on by default: https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/
-・Icon inks Anthropic partnership to deploy Claude into clinical trials: https://www.fiercebiotech.com/cro/icon-inks-anthropic-partnership-deploy-claude-clinical-trials
-・AI agents create virtual playgrounds to help robots get crucial training data: https://robohub.org/ai-agents-create-virtual-playgrounds-to-help-robots-get-crucial-training-data/
-・Into the Omniverse: How Open World Models Push the Frontier of Physical AI: https://blogs.nvidia.com/blog/open-world-models-physical-ai/
-・What's behind the Google AI shake-up: https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast
-・No Priors: Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture: 
-・Cloudflare launches Kitesurf, a browser built for AI agents: https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/
-・Mirendil inks $100M+ Google Cloud deal to scale self-improving AI: https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/
-・AI detectors are creating a new era of distrust: https://www.theverge.com/column/976690/ai-writing-detectors-suspicion
-・Firebird Launches CIS Region's Largest AI Factory in Armenia: https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/
-・Moove raises $250M to build infrastructure for autonomous vehicles: https://www.therobotreport.com/moove-raises-250m-to-build-infrastructure-for-autonomous-vehicles/
-・Working with the American Psychological Association on youth mental health and AI: https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai
-・New Mexico court orders Meta to pay additional $567M in child safety case: https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/
+・Rogue AI Agents Aren't Evil. They're Just Eager to Please: https://www.wired.com/story/rogue-ai-is-just-misunderstood/
+・AI coding startup Cognition reportedly already in talks to raise at $40B valuation: https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/
+・As AI safety concerns mount, three pioneers make the case for staying open: https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/
+・LangSmith BYOC on AWS is generally available: https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws
+・OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise: https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/
+・Why Stream ring-maker Sandbar says the future of AI wearables is voice: https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/
+・Lovable confirms new $13.3B valuation, raises another $400M: https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/
+・Putting sign language AI into users' hands: https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
+・Now you can connect even more of your favorite apps and services to Gemini: https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/
+・NVIDIA CEO Tops Glassdoor's 2026 List of Best CEOs: https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/
+・NVIDIA AI Factory Compute Is Becoming an Investable Asset Class: https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/
+・AI code-testing startup Blacksmith's valuation jumps almost 10x in less than a year: https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/
+・Oh Lord, AI Reporters Are Actually Breaking Big News: https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/
+・NVIDIA AI Releases Nemotron 3.5 Lightning: https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/
+・From assistance to execution: How enterprises put AI to work: https://openai.com/index/how-enterprises-put-ai-to-work
+・Testing ads in ChatGPT: https://openai.com/index/testing-ads-in-chatgpt
+・Expanding Daybreak as the Cyber Defense Window Narrows: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows
+・An unreleased Anthropic model made progress on one of math's biggest unsolved problems: https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/
+・Spotify will label 'AI Persona' profiles and exclude their music from recommendations: https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/
+・Anthropic says it will watermark text generated by its AI models: https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/
+・Brad Lightcap, OpenAI's longtime COO, is leaving to 'start something new': https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/
+・General Catalyst leads $1.1B round into 2-month-old River AI: https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/
+・Google's Gemini app surges to one billion users: https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/
+・ChatGPT and Gemini both just passed 1 billion users: https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users
+・Twitch streamers can now opt out from training Amazon's AI: https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai
+・Guitar company D'Addario admits that AI music was used in a promotional video: https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno
+・Of course the ChatGPT dog cancer vaccine spawned a startup: https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee
+・Grok is now an AI 'teammate' you can assign work: https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch
+・Apple could help you prove your iPhone photos aren't deepfakes: https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata
+・AMIE video consultations research: https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/
+・Advancing AMIE towards expert-level audio-visual clinical consultations: https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/
+・Abbott teams with Google Health on AI-powered health insights app: https://www.fiercebiotech.com/medtech/abbott-teams-google-health-ai-powered-health-trends-app
+・Novo Nordisk and Amazon sign AI drug discovery pact, launch London innovation hub: https://www.fiercebiotech.com/biotech/novo-nordisk-and-aws-sign-ai-drug-discovery-pact-launch-london-innovation-hub
+・AI clinical monitoring agent can deliver up to 82 times the ROI in oncology: report: https://www.fiercebiotech.com/cro/ai-clinical-monitoring-agents-can-deliver-82-times-roi-report
+・Hard Fork: The White House's Secret A.I. Rules + METR's Chris Painter: https://www.nytimes.com/column/hard-fork
+・No Priors: Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets: 
+・Q2 2026 robotics demand increased across industries: https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/
+・The 370-billion-dollar race: Humanoid manufacturers: https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/
+・A '5-in-1' seed-sized surgical robot: https://robohub.org/a-5-in-1-seed-sized-surgical-robot/
+・OpenAI reportedly completed a $7 billion employee tender offer: https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/
+・LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model: https://www.marktechpost.com/2026/08/11/the-video-production-stack-now-fits-on-one-desk-ltx-2-5-launches-as-nvidia-accelerated-open-weights-world-model/
 
-#AIニュース #生成AI #海外AI #AI安全性 #AI規制 #AIスタートアップ #データセンター #エネルギー問題 #OpenAI #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #ChatGPT広告 #AI投資 #AI安全性 #バイブコーディング #医療AI #NVIDIA #AIと社会]]></description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-13.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-13.mp3" length="28497069" type="audio/mpeg"/>
+      <itunes:title>8/13 ChatGPTに広告導入＆AI投資バブルの実態＆AI安全性の三巨頭議論</itunes:title>
+      <itunes:summary><![CDATA[ChatGPTとGeminiが共に月間10億ユーザーを突破し、ChatGPTへの広告テスト開始が発表されました。設立2カ月で1650億円調達のRiver AIやバイブコーディング企業Lovableの急成長など、AIスタートアップ投資の過熱ぶりを分析。さらにAI安全性をめぐるジェフリー・ヒントン氏ら三巨頭の議論、ホワイトハウスの非公開AI規制枠組みの問題点を深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：ChatGPT・Gemini10億ユーザー突破と広告テスト開始
+・メインニュース：AIスタートアップ投資の異常な加速とNVIDIAの新資産クラス構想
+・ディープダイブ：AI安全性の最前線—暴走AIの実態とホワイトハウス秘密規制
+・生活＆仕事へのヒント：医療AI・サイバーセキュリティ・バイブコーディングの実践
+・エンディング
+
+【参照元】
+・Rogue AI Agents Aren't Evil. They're Just Eager to Please: https://www.wired.com/story/rogue-ai-is-just-misunderstood/
+・AI coding startup Cognition reportedly already in talks to raise at $40B valuation: https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/
+・As AI safety concerns mount, three pioneers make the case for staying open: https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/
+・LangSmith BYOC on AWS is generally available: https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws
+・OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise: https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/
+・Why Stream ring-maker Sandbar says the future of AI wearables is voice: https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/
+・Lovable confirms new $13.3B valuation, raises another $400M: https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/
+・Putting sign language AI into users' hands: https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
+・Now you can connect even more of your favorite apps and services to Gemini: https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/
+・NVIDIA CEO Tops Glassdoor's 2026 List of Best CEOs: https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/
+・NVIDIA AI Factory Compute Is Becoming an Investable Asset Class: https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/
+・AI code-testing startup Blacksmith's valuation jumps almost 10x in less than a year: https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/
+・Oh Lord, AI Reporters Are Actually Breaking Big News: https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/
+・NVIDIA AI Releases Nemotron 3.5 Lightning: https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/
+・From assistance to execution: How enterprises put AI to work: https://openai.com/index/how-enterprises-put-ai-to-work
+・Testing ads in ChatGPT: https://openai.com/index/testing-ads-in-chatgpt
+・Expanding Daybreak as the Cyber Defense Window Narrows: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows
+・An unreleased Anthropic model made progress on one of math's biggest unsolved problems: https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/
+・Spotify will label 'AI Persona' profiles and exclude their music from recommendations: https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/
+・Anthropic says it will watermark text generated by its AI models: https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/
+・Brad Lightcap, OpenAI's longtime COO, is leaving to 'start something new': https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/
+・General Catalyst leads $1.1B round into 2-month-old River AI: https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/
+・Google's Gemini app surges to one billion users: https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/
+・ChatGPT and Gemini both just passed 1 billion users: https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users
+・Twitch streamers can now opt out from training Amazon's AI: https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai
+・Guitar company D'Addario admits that AI music was used in a promotional video: https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno
+・Of course the ChatGPT dog cancer vaccine spawned a startup: https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee
+・Grok is now an AI 'teammate' you can assign work: https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch
+・Apple could help you prove your iPhone photos aren't deepfakes: https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata
+・AMIE video consultations research: https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/
+・Advancing AMIE towards expert-level audio-visual clinical consultations: https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/
+・Abbott teams with Google Health on AI-powered health insights app: https://www.fiercebiotech.com/medtech/abbott-teams-google-health-ai-powered-health-trends-app
+・Novo Nordisk and Amazon sign AI drug discovery pact, launch London innovation hub: https://www.fiercebiotech.com/biotech/novo-nordisk-and-aws-sign-ai-drug-discovery-pact-launch-london-innovation-hub
+・AI clinical monitoring agent can deliver up to 82 times the ROI in oncology: report: https://www.fiercebiotech.com/cro/ai-clinical-monitoring-agents-can-deliver-82-times-roi-report
+・Hard Fork: The White House's Secret A.I. Rules + METR's Chris Painter: https://www.nytimes.com/column/hard-fork
+・No Priors: Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets: 
+・Q2 2026 robotics demand increased across industries: https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/
+・The 370-billion-dollar race: Humanoid manufacturers: https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/
+・A '5-in-1' seed-sized surgical robot: https://robohub.org/a-5-in-1-seed-sized-surgical-robot/
+・OpenAI reportedly completed a $7 billion employee tender offer: https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/
+・LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model: https://www.marktechpost.com/2026/08/11/the-video-production-stack-now-fits-on-one-desk-ltx-2-5-launches-as-nvidia-accelerated-open-weights-world-model/
+
+#AIニュース #生成AI #海外AI #ChatGPT広告 #AI投資 #AI安全性 #バイブコーディング #医療AI #NVIDIA #AIと社会]]></itunes:summary>
+      <itunes:duration>00:29:41</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>8/10 AIテスト自体が危険に＆ホワイトハウス秘密のAI規制＆AI投資最前線</title>
+      <description><![CDATA[【今回のトピック】
+・AIの安全性テストそのものがリスクになる新段階（OpenAI「Astra」開発一部停止、サンドボックス脱出事例の拡大）
+・ホワイトハウスのAI規制が中身非公開のまま企業に適用される異例の展開
+・AIスタートアップへの投資集中と数兆ドル企業の出現スピード]]></description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-10.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-10.mp3" length="25167789" type="audio/mpeg"/>
       <itunes:title>8/10 AIテスト自体が危険に＆ホワイトハウス秘密のAI規制＆AI投資最前線</itunes:title>
-      <itunes:summary><![CDATA[OpenAIが次期モデルAstraの開発を一部停止。AIのセキュリティテスト自体がリスクになるという新たな段階に。ホワイトハウスのAI規制枠組みは中身が非公開のまま企業に適用され混乱。AIスタートアップへの資金集中と、数兆ドル企業の出現スピードが示す業界の未来を深掘りします。
-
-【目次】
-・オープニング
-・メインニュース：OpenAI Astra開発停止とAI安全性テストの限界
-・メインニュース：ホワイトハウスの非公開AI規制枠組み
-・ディープダイブ：AIインフラのエネルギー問題と安全性の構造的課題
-・生活＆仕事へのヒント：AI時代のリテラシーと投資・起業の新潮流
-・エンディング
-
-【参照元】
-・The AI safety test is becoming a safety risk: https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/
-・OpenAI says it slowed Astra model development over security concerns: https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/
-・Responding to the next frontier of critical cyber capabilities: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities
-・OpenAI puts the brakes on a new model because it's supposedly too powerful: https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities
-・Planned Amazon data center could become the biggest climate polluter in the U.S.: https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/
-・An Amazon data center could have the worst polluting power plant in the country: https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant
-・One of China's Most Powerful AI Models Has Also Escaped Containment: https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/
-・Mistral AI Releases Shieldstral 1.0 3B: https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/
-・Hard Fork: The White House's Secret A.I. Rules + The State of Model Alignment: https://www.nytimes.com/column/hard-fork
-・SoftBank donated $50 million to Trump's library months before federal data center deal: https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio
-・OpenAI acquires presentation startup NextSlide: https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/
-・ChatGPT brings unlimited text chats to free users: https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/
-・Improving GPT-5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
-・OpenAI's new AI smart speaker will reportedly sell for between $300 and $400: https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/
-・Jony Ive's first OpenAI gadget is reportedly a hockey puck-sized smart speaker: https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor
-・Naïve raises $28.5M to automate the grunt work of setting up and running a company: https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/
-・After Rippling blew millions on AI in months, it built an employee ROI tool: https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/
-・Google Maps adds agentic features, including food ordering and hotel bookings: https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/
-・Scientists Used AI to Create 16 New Viruses: https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/
-・My Fall-Detection Model Scored 94%, and It Was Lying to Me: https://towardsdatascience.com/my-fall-detection-model-scored-94-and-it-was-lying-to-me/
-・Suno shares plans to combat spammy AI music: https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark
-・Anthropic is turning Claude Code's auto mode on by default: https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/
-・Icon inks Anthropic partnership to deploy Claude into clinical trials: https://www.fiercebiotech.com/cro/icon-inks-anthropic-partnership-deploy-claude-clinical-trials
-・AI agents create virtual playgrounds to help robots get crucial training data: https://robohub.org/ai-agents-create-virtual-playgrounds-to-help-robots-get-crucial-training-data/
-・Into the Omniverse: How Open World Models Push the Frontier of Physical AI: https://blogs.nvidia.com/blog/open-world-models-physical-ai/
-・What's behind the Google AI shake-up: https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast
-・No Priors: Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture: 
-・Cloudflare launches Kitesurf, a browser built for AI agents: https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/
-・Mirendil inks $100M+ Google Cloud deal to scale self-improving AI: https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/
-・AI detectors are creating a new era of distrust: https://www.theverge.com/column/976690/ai-writing-detectors-suspicion
-・Firebird Launches CIS Region's Largest AI Factory in Armenia: https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/
-・Moove raises $250M to build infrastructure for autonomous vehicles: https://www.therobotreport.com/moove-raises-250m-to-build-infrastructure-for-autonomous-vehicles/
-・Working with the American Psychological Association on youth mental health and AI: https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai
-・New Mexico court orders Meta to pay additional $567M in child safety case: https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/
-
-#AIニュース #生成AI #海外AI #AI安全性 #AI規制 #AIスタートアップ #データセンター #エネルギー問題 #OpenAI #AIと社会]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・AIの安全性テストそのものがリスクになる新段階（OpenAI「Astra」開発一部停止、サンドボックス脱出事例の拡大）
+・ホワイトハウスのAI規制が中身非公開のまま企業に適用される異例の展開
+・AIスタートアップへの投資集中と数兆ドル企業の出現スピード]]></itunes:summary>
       <itunes:duration>00:26:12</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -433,23 +464,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>6/4 トランプAI大統領令＆NVIDIA物理AI＆自動運転の分岐点</title>
-      <description><![CDATA[【今回のトピック】
-・トランプ大統領の新AI大統領令（自主的フレームワークと重要インフラ防御）
-・NVIDIAの物理AI新展開（Cosmos 3など、ロボット・自動運転向け技術基盤）
-・AIエージェントのセキュリティと暴走防止
-・自動運転タクシーの未来と規制・公共交通統合の課題
-・Alphabet・OpenAIなど巨額AI投資とデータセンターのエネルギー問題]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-06-04</title>
+      <description><![CDATA[2026-06-04 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-04.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-04.mp3" length="26272941" type="audio/mpeg"/>
-      <itunes:title>6/4 トランプAI大統領令＆NVIDIA物理AI＆自動運転の分岐点</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・トランプ大統領の新AI大統領令（自主的フレームワークと重要インフラ防御）
-・NVIDIAの物理AI新展開（Cosmos 3など、ロボット・自動運転向け技術基盤）
-・AIエージェントのセキュリティと暴走防止
-・自動運転タクシーの未来と規制・公共交通統合の課題
-・Alphabet・OpenAIなど巨額AI投資とデータセンターのエネルギー問題]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-06-04</itunes:title>
+      <itunes:summary><![CDATA[2026-06-04 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:27:22</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
