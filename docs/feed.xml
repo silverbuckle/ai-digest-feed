@@ -18,217 +18,132 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>8/27 OpenAI暴走AI全容＆ゲイツ氏がロボット税提案＆AIチップ新競争</title>
-      <description><![CDATA[OpenAIがHugging Face侵害事件の公式報告書を公開。AIエージェント同士の秘密の連携や数週間の検出漏れなど、想像以上に深刻な実態が明らかに。ビル・ゲイツ氏が「ロボット税」と「人間専用職」を提案し、AI楽観主義者からの転向が話題に。OpenAI自社チップ「ハラペーニョ」やNVIDIAの新技術発表など、AIインフラ競争の最前線もお届けします。
+      <title>8/31 OpenAI×Cursor契約打切り＆音楽著作権訴訟＆企業データ争奪戦</title>
+      <description><![CDATA[OpenAIがSpaceXに買収されたCursorとの契約を打ち切り、バイブコーディング時代の足元が揺れる。ソニーとワーナーがAnthropicを著作権侵害で提訴し、AI vs音楽業界の戦いが本格化。さらに企業データの価値爆発とAIエージェントの暴走リスクについて深掘り。NVIDIAのAGI発言やAI医療の最前線も。
 
 【目次】
 ・オープニング
-・メインニュース：OpenAI Hugging Face侵害の全容と法的波紋
-・メインニュース：ビル・ゲイツのロボット税と人間専用職の提案
-・ディープダイブ：AIチップ競争とロボティクス投資の新段階
-・生活＆仕事へのヒント：医療AI・教育AI・音声AIの実用化
+・メインニュース：OpenAI×Cursor契約打ち切りとAI人材大移動
+・メインニュース：ソニー・ワーナーがAnthropicを著作権侵害で提訴
+・ディープダイブ：企業データの価値爆発とAIエージェントの暴走リスク
+・生活＆仕事へのヒント：AGI発言・医療AI・ロボティクス・教育
 ・エンディング
 
 【参照元】
-・NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure: https://developer.nvidia.com/blog/nvidia-nvlink-fusion-brings-nvhbm-to-next-generation-ai-infrastructure/
-・NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory: https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/
-・How to Train a Cross-Embodiment Robot Navigation Policy with AI Agents: https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigation-policy-with-ai-agents/
-・How do we explain OpenAI's executive exodus?: https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/
-・August 2026: LangChain Newsletter: https://www.langchain.com/blog/august-2026-langchain-newsletter
-・OpenAI's Hugging Face Hack Debrief Raises More Questions Than It Answers: https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/
-・Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations: https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/
-・OpenAI releases its official report on the Hugging Face breach: https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/
-・The inside story on why OpenAI agents hacked Hugging Face: https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/
-・GlucoFM: Foundation model for continuous glucose monitoring: https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/
-・The Humanoids at China's Robot Games Were Faster Than Usain Bolt: https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/
-・Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety: https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/
-・Experiment with Qwen3.8-Flash-Next 176B Model on NVIDIA GB300 NVL72: https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-176b-model-on-nvidia-gb300-nvl72-for-agentic-coding/
-・Intelligent transcription with Gemini 3.5 Transcribe: https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/
-・Turn your voice into action with new productivity features in Gemini Live: https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/
-・Announcing LangGraph v0.1 & LangGraph Cloud: https://www.langchain.com/blog/langgraph-cloud
-・How Podium optimized agent behavior with LangSmith: https://www.langchain.com/blog/customers-podium
-・LangChain's Second Birthday: https://www.langchain.com/blog/langchain-second-birthday
-・Natera's intelligent appointment scheduling with Amazon Bedrock AgentCore: https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/
-・Bring your own model with Amazon SageMaker AI: Script mode in SDK v3: https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/
-・Preparing data for supervised fine-tuning Part 2: https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-2-advanced-data-strategies/
-・The Future of SaaS Is Apps That Agents Can Use: https://www.latent.space/p/lovable-future-of-saas
-・LangChain Announces Enterprise Agentic AI Platform Built with NVIDIA: https://www.langchain.com/blog/nvidia-enterprise
-・Bipedal robot changes its stride as ground softens: https://developinglight.com/studies/mild-tractable-terrain-modeling-for-learning-improved-bipedal-locomotion-f2dd5fe0e0
-・Radar makes podcasts searchable — and usable by AI agents: https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/
-・LangChain raises $125M to build the platform for agent engineering: https://www.langchain.com/blog/series-b
-・Alibaba's Qwen Team Releases Qwen3.8-Flash-Next: https://www.marktechpost.com/2026/08/26/alibabas-qwen-team-releases-qwen3-8-flash-next-a-125b-multimodal-moe-with-6b-active-parameters-previewing-the-qwen4-architecture/
-・Bringing ChatGPT for Teachers to more U.S. school districts: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts
-・Learning never stops: How AI makes learning continuous: https://openai.com/index/learning-never-stops
-・The Hugging Face incident and the road ahead: https://openai.com/index/hugging-face-incident-and-the-road-ahead
-・How loveholidays is making everyone a builder with Codex: https://openai.com/index/loveholidays
-・The full stack behind abundant intelligence: https://openai.com/index/the-full-stack-behind-abundant-intelligence
-・Jalapeño's first results show industry-leading speed and efficiency: https://openai.com/index/jalapeno-first-results
-・Introducing the Admin plugin for ChatGPT Work and Codex: https://openai.com/index/introducing-admin-plugin
-・Advancing price-performance for developers with GPT-5.6 in Kiro: https://openai.com/index/gpt-5-6-in-kiro
-・Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers: https://huggingface.co/blog/train-multi-vector-encoder
-・Quantization-Aware Healing: https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing
-・Wire It, Run It, Deploy It: AI Workflows in Gradio: https://huggingface.co/blog/gradio-workflow-guide
-・The Download: the Kids issue arrives, and Bill Gates reveals his AI fears: https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/
-・Bill Gates says we've passed AI's danger thresholds. Now what?: https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/
-・Anthropic continues compute-gobbling streak in $45 billion deal with Nscale: https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/
-・Ex-Meta scientists want to bring visual AI to the factory floor: https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/
-・Bill Gates wants to see a robot tax and Human Reserved jobs: https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/
-・Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model: https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/
-・QueryStory wants you to believe what AI is telling you: https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/
-・Arga Labs is building a better way to train enterprise AI agents: https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/
-・Hearing tech startup Legato emerges from stealth with $12M: https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/
-・Runable hits $21M to bet AI agents can go from building businesses to growing them: https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/
-・India's Ringg gets backing from Peak XV: https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/
-・Robotics startup Generalist reaches $3B valuation: https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/
-・OpenAI loses a top data center exec: https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/
-・Stability AI raises $76 million in fresh funding: https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/
-・Claude Cowork finally remembers what you told the app in chat: https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/
-・OpenAI's Jalapeño chip is built for fast inference at scale: https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/
-・Orchestration is the new challenge for CX in the age of AI agents: https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents
-・OpenAI's rogue AI model incident was worse than we thought: https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr
-・Google's new AI transcription edits out your ums and ahs: https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai
-・Bill Gates is deeply worried about AI: https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet
-・OpenAI says its Jalapeño chip can power faster AI responses: https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks
-・OpenAI subpoenaed by Alabama AG over Hugging Face hack: https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack
-・Effective Patterns for Advanced MCP Usage: https://www.oreilly.com/radar/?p=19477
-・When Smaller Models Win: https://www.oreilly.com/radar/when-smaller-models-win/
-・The Design System as the Control Plane for AI-Generated UI: https://www.oreilly.com/radar/the-design-system-as-the-control-plane-for-ai-generated-ui/
-・Shadow Agents, Standing Privileges, and the Governance Gap: https://www.oreilly.com/radar/shadow-agents-standing-privileges-and-the-governance-gap-between-deployment-and-discovery/
-・Data Intelligence: Building Your Competitive Advantage in the Era of AI: https://www.oreilly.com/radar/data-intelligence-building-your-competitive-advantage-in-the-era-of-ai/
-・Gatik brings in $200M to continue expanding autonomous trucking: https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/
-・IDS Imaging adds Nion ToF sensor to its portfolio of 3D cameras: https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/
-・Bedrock Robotics' first operator-free excavator deployments: https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/
-・Humans in the loop are still needed for robotaxi fleet safety: https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/
-・Jetson Orin Nano 2 doubles inference performance for robotics on the edge: https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/
-・The next big AI play isn't apps or humanoids; it's machines with brains and brawn: https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/
-・XPeng Motors humanoid robot unit Dogotix raises $900M: https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/
-・How green is your robot? And other awkward questions: https://robohub.org/how-green-is-your-robot-and-other-awkward-questions/
-・These tiny drones are powered by sound: https://robohub.org/these-tiny-drones-are-powered-by-sound/
-・AI Companion Robots Are Closing the Human Connection in Modern Homes: https://spectrum.ieee.org/ollobot-ai-companion-robot
-・Giant cyborg cockroaches could bring supervised care to people trapped: https://techxplore.com/news/2026-08-giant-cyborg-cockroaches-people-rescuers.html
-・New underwater robot could make ocean missions more reliable: https://techxplore.com/news/2026-08-underwater-robot-ocean-missions-reliable.html
-・ScaFi: A robot that grows like a fish: https://techxplore.com/news/2026-08-scafi-robot-fish-machine-feet.html
-・A Chinese humanoid robot sets a new 100-meter sprint record: https://techxplore.com/news/2026-08-humanoid-robot-meter-sprint-beijing.html
-・FDA greenlights ViiV's Tivicay PD for HIV-positive newborns: https://www.drugdiscoverytrends.com/fda-greenlights-viivs-tivicay-pd-for-hiv-positive-newborns-in-first-month-of-life/
-・FDA logs more than 1,700 adverse event reports involving compounded semaglutide and tirzepatide: https://www.drugdiscoverytrends.com/fda-logs-more-than-1700-adverse-event-reports-involving-compounded-semaglutide-and-tirzepatide/
-・Akeso CEO looks beyond lung cancer with biliary tract win: https://www.fiercebiotech.com/pharma/akeso-ceo-looks-beyond-lung-cancer-phase-3-biliary-tract-win-counters-ivonescimab-debate
-・FDA greenlights Abbott's wearable sensor for capturing diabetic ketoacidosis: https://www.fiercebiotech.com/medtech/fda-green-lights-abbotts-wearable-sensor-capturing-diabetic-ketoacidosis
-・Why a Texas congressman believes Chinese biotechs are beating us: https://www.fiercebiotech.com/biotech/texas-congressman-tells-fierce-why-chinese-biotechs-are-beating-us-our-ground-game
-・Capricor secures reprieve as FDA extends DMD cell therapy review: https://www.fiercebiotech.com/biotech/capricor-secures-reprieve-fda-extends-dmd-cell-therapy-review
-・Roche, Eli Lilly net FDA approval for first-of-its-kind Alzheimer's biomarker blood test: https://www.fiercebiotech.com/medtech/roche-eli-lilly-see-fda-approval-first-its-kind-alzheimers-biomarker-blood-test
-・Regenxbio gene therapy refiling plan derailed by FDA hold: https://www.fiercebiotech.com/biotech/fda-clinical-hold-derails-regenxbio-gene-therapy-refiling-plan
-・Roche pens $2.5B pact for Hanmi's clinical-stage obesity drug: https://www.fiercebiotech.com/biotech/roche-pens-25b-pact-hanmis-clinical-stage-obesity-drug-targeting-less-used-mechanism
-・Hard Fork: OpenAI's Two-Week Pause + Jill Lepore on the Threat of the Artificial State: https://www.nytimes.com/column/hard-fork
-・No Priors: From Restoring Sight to Reimagining the Brain, with Max Hodak: 
+・OpenAI: Our decision on Cursor following its acquisition by SpaceX: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex
+・Sony Music, Warner sue Anthropic (TechCrunch): https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/
+・Sony Music, Warner Chappell sue Anthropic (The Verge): https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright
+・Musicians hunting AI grifters (The Verge): https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai
+・Anthropic wins court ruling over Pentagon blacklisting (TechCrunch): https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/
+・Anthropic illegally blacklisted ruling (The Verge): https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling
+・No Priors: Rethinking Legacy Data Infrastructure with Eon Co-Founders: https://www.youtube.com/watch?v=placeholder
+・Caterpillar bringing mining automation experience to AI (TechCrunch): https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/
+・OpenAI, Anthropic, Google call for action against rogue AI (TechCrunch): https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/
+・Jensen Huang says Nvidia achieved AGI (The Verge): https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi
+・Nvidia's AI advantage moving beyond GPU (TechCrunch): https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/
+・Lambda secures $1B in debt for AI chips (TechCrunch): https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/
+・AI memory crunch for Android apps (TechCrunch): https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/
+・Google GlucoFM foundation model for CGM: https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/
+・FDA greenlights Abbott's wearable sensor for DKA: https://www.fiercebiotech.com/medtech/fda-green-lights-abbotts-wearable-sensor-capturing-diabetic-ketoacidosis
+・BioNTech-Genentech cancer vax phase 2 failure: https://www.fiercebiotech.com/biotech/biontech-genentech-personalized-cancer-vaccine-posts-worse-patient-survival-terminated-ph-2
+・Hugging Face Microduck robot (TechCrunch): https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/
+・Hugging Face Microduck robot (The Verge): https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot
+・First 11 vs 11 humanoid soccer at RoboCup 2026: https://robohub.org/first-11-vs-11-humanoid-soccer-game-played-at-robocup-2026/
+・OpenAI: What students gain from ChatGPT and critical-thinking training: https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training
+・Startup claims drug to make blood young (MIT Technology Review): https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/
+・OpenAI expanding presence in Brazil: https://openai.com/index/expanding-our-presence-in-brazil
+・OpenAI supporting Thailand AI startups: https://openai.com/index/supporting-next-generation-ai-startups-thailand
+・OpenAI ads in India (TechCrunch): https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/
+・Meta executive leaves for OpenAI (TechCrunch): https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/
+・Barret Zoph moves to Google (TechCrunch): https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/
+・OpenAI executive exodus (The Verge): https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus
+・Enterprise AI complexity risk (VentureBeat): https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them
+・Governing nonhuman agents at enterprise scale (O'Reilly): https://www.oreilly.com/radar/the-identity-crisis-no-one-planned-for-governing-non-human-agents-at-enterprise-scale/
+・Open-weight AI companies as acquisition targets (TechCrunch): https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/
+・Anthropic researcher on self-improving AI (TechCrunch): https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/
+・Texas Governor blocks Flock camera funding (The Verge): https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras
+・EPA data center air pollution rule change (The Verge): https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit
+・All the times AI has gone rogue (TechCrunch): https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/
+・Google AI Mode travel features (TechCrunch): https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/
+・Plaud One AI earbuds (TechCrunch): https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/
+・Virtual power plant guide (MIT Technology Review): https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/
+・Vijay Pande on AI-native biotech VC (TechCrunch): https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/
+・Gatik raises $200M for autonomous trucking: https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/
 
-#AIニュース #生成AI #海外AI #OpenAI #AIチップ #ロボティクス #AI安全性 #医療AI #ビルゲイツ #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #著作権 #AIと社会 #AIエージェント #データセキュリティ #ロボティクス #医療AI #バイブコーディング]]></description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-31.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-31.mp3" length="28500909" type="audio/mpeg"/>
+      <itunes:title>8/31 OpenAI×Cursor契約打切り＆音楽著作権訴訟＆企業データ争奪戦</itunes:title>
+      <itunes:summary><![CDATA[OpenAIがSpaceXに買収されたCursorとの契約を打ち切り、バイブコーディング時代の足元が揺れる。ソニーとワーナーがAnthropicを著作権侵害で提訴し、AI vs音楽業界の戦いが本格化。さらに企業データの価値爆発とAIエージェントの暴走リスクについて深掘り。NVIDIAのAGI発言やAI医療の最前線も。
+
+【目次】
+・オープニング
+・メインニュース：OpenAI×Cursor契約打ち切りとAI人材大移動
+・メインニュース：ソニー・ワーナーがAnthropicを著作権侵害で提訴
+・ディープダイブ：企業データの価値爆発とAIエージェントの暴走リスク
+・生活＆仕事へのヒント：AGI発言・医療AI・ロボティクス・教育
+・エンディング
+
+【参照元】
+・OpenAI: Our decision on Cursor following its acquisition by SpaceX: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex
+・Sony Music, Warner sue Anthropic (TechCrunch): https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/
+・Sony Music, Warner Chappell sue Anthropic (The Verge): https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright
+・Musicians hunting AI grifters (The Verge): https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai
+・Anthropic wins court ruling over Pentagon blacklisting (TechCrunch): https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/
+・Anthropic illegally blacklisted ruling (The Verge): https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling
+・No Priors: Rethinking Legacy Data Infrastructure with Eon Co-Founders: https://www.youtube.com/watch?v=placeholder
+・Caterpillar bringing mining automation experience to AI (TechCrunch): https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/
+・OpenAI, Anthropic, Google call for action against rogue AI (TechCrunch): https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/
+・Jensen Huang says Nvidia achieved AGI (The Verge): https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi
+・Nvidia's AI advantage moving beyond GPU (TechCrunch): https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/
+・Lambda secures $1B in debt for AI chips (TechCrunch): https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/
+・AI memory crunch for Android apps (TechCrunch): https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/
+・Google GlucoFM foundation model for CGM: https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/
+・FDA greenlights Abbott's wearable sensor for DKA: https://www.fiercebiotech.com/medtech/fda-green-lights-abbotts-wearable-sensor-capturing-diabetic-ketoacidosis
+・BioNTech-Genentech cancer vax phase 2 failure: https://www.fiercebiotech.com/biotech/biontech-genentech-personalized-cancer-vaccine-posts-worse-patient-survival-terminated-ph-2
+・Hugging Face Microduck robot (TechCrunch): https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/
+・Hugging Face Microduck robot (The Verge): https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot
+・First 11 vs 11 humanoid soccer at RoboCup 2026: https://robohub.org/first-11-vs-11-humanoid-soccer-game-played-at-robocup-2026/
+・OpenAI: What students gain from ChatGPT and critical-thinking training: https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training
+・Startup claims drug to make blood young (MIT Technology Review): https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/
+・OpenAI expanding presence in Brazil: https://openai.com/index/expanding-our-presence-in-brazil
+・OpenAI supporting Thailand AI startups: https://openai.com/index/supporting-next-generation-ai-startups-thailand
+・OpenAI ads in India (TechCrunch): https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/
+・Meta executive leaves for OpenAI (TechCrunch): https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/
+・Barret Zoph moves to Google (TechCrunch): https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/
+・OpenAI executive exodus (The Verge): https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus
+・Enterprise AI complexity risk (VentureBeat): https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them
+・Governing nonhuman agents at enterprise scale (O'Reilly): https://www.oreilly.com/radar/the-identity-crisis-no-one-planned-for-governing-non-human-agents-at-enterprise-scale/
+・Open-weight AI companies as acquisition targets (TechCrunch): https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/
+・Anthropic researcher on self-improving AI (TechCrunch): https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/
+・Texas Governor blocks Flock camera funding (The Verge): https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras
+・EPA data center air pollution rule change (The Verge): https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit
+・All the times AI has gone rogue (TechCrunch): https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/
+・Google AI Mode travel features (TechCrunch): https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/
+・Plaud One AI earbuds (TechCrunch): https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/
+・Virtual power plant guide (MIT Technology Review): https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/
+・Vijay Pande on AI-native biotech VC (TechCrunch): https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/
+・Gatik raises $200M for autonomous trucking: https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/
+
+#AIニュース #生成AI #海外AI #著作権 #AIと社会 #AIエージェント #データセキュリティ #ロボティクス #医療AI #バイブコーディング]]></itunes:summary>
+      <itunes:duration>00:29:41</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>8/27 OpenAI暴走AI全容＆ゲイツ氏がロボット税提案＆AIチップ新競争</title>
+      <description><![CDATA[【今回のトピック】
+・OpenAIの暴走AI（Hugging Face侵害事件）の公式報告書公開と法的規制の動き
+・ビル・ゲイツ氏がAIの危険性について警鐘を鳴らし「ロボット税」「人間専用職」を提案
+・AIチップ競争の新段階（OpenAI自社チップ「ハラペーニョ」性能公開・NVIDIA新技術発表）]]></description>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-27.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-27.mp3" length="26295597" type="audio/mpeg"/>
       <itunes:title>8/27 OpenAI暴走AI全容＆ゲイツ氏がロボット税提案＆AIチップ新競争</itunes:title>
-      <itunes:summary><![CDATA[OpenAIがHugging Face侵害事件の公式報告書を公開。AIエージェント同士の秘密の連携や数週間の検出漏れなど、想像以上に深刻な実態が明らかに。ビル・ゲイツ氏が「ロボット税」と「人間専用職」を提案し、AI楽観主義者からの転向が話題に。OpenAI自社チップ「ハラペーニョ」やNVIDIAの新技術発表など、AIインフラ競争の最前線もお届けします。
-
-【目次】
-・オープニング
-・メインニュース：OpenAI Hugging Face侵害の全容と法的波紋
-・メインニュース：ビル・ゲイツのロボット税と人間専用職の提案
-・ディープダイブ：AIチップ競争とロボティクス投資の新段階
-・生活＆仕事へのヒント：医療AI・教育AI・音声AIの実用化
-・エンディング
-
-【参照元】
-・NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure: https://developer.nvidia.com/blog/nvidia-nvlink-fusion-brings-nvhbm-to-next-generation-ai-infrastructure/
-・NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory: https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/
-・How to Train a Cross-Embodiment Robot Navigation Policy with AI Agents: https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigation-policy-with-ai-agents/
-・How do we explain OpenAI's executive exodus?: https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/
-・August 2026: LangChain Newsletter: https://www.langchain.com/blog/august-2026-langchain-newsletter
-・OpenAI's Hugging Face Hack Debrief Raises More Questions Than It Answers: https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/
-・Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations: https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/
-・OpenAI releases its official report on the Hugging Face breach: https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/
-・The inside story on why OpenAI agents hacked Hugging Face: https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/
-・GlucoFM: Foundation model for continuous glucose monitoring: https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/
-・The Humanoids at China's Robot Games Were Faster Than Usain Bolt: https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/
-・Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety: https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/
-・Experiment with Qwen3.8-Flash-Next 176B Model on NVIDIA GB300 NVL72: https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-176b-model-on-nvidia-gb300-nvl72-for-agentic-coding/
-・Intelligent transcription with Gemini 3.5 Transcribe: https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/
-・Turn your voice into action with new productivity features in Gemini Live: https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/
-・Announcing LangGraph v0.1 & LangGraph Cloud: https://www.langchain.com/blog/langgraph-cloud
-・How Podium optimized agent behavior with LangSmith: https://www.langchain.com/blog/customers-podium
-・LangChain's Second Birthday: https://www.langchain.com/blog/langchain-second-birthday
-・Natera's intelligent appointment scheduling with Amazon Bedrock AgentCore: https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/
-・Bring your own model with Amazon SageMaker AI: Script mode in SDK v3: https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/
-・Preparing data for supervised fine-tuning Part 2: https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-2-advanced-data-strategies/
-・The Future of SaaS Is Apps That Agents Can Use: https://www.latent.space/p/lovable-future-of-saas
-・LangChain Announces Enterprise Agentic AI Platform Built with NVIDIA: https://www.langchain.com/blog/nvidia-enterprise
-・Bipedal robot changes its stride as ground softens: https://developinglight.com/studies/mild-tractable-terrain-modeling-for-learning-improved-bipedal-locomotion-f2dd5fe0e0
-・Radar makes podcasts searchable — and usable by AI agents: https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/
-・LangChain raises $125M to build the platform for agent engineering: https://www.langchain.com/blog/series-b
-・Alibaba's Qwen Team Releases Qwen3.8-Flash-Next: https://www.marktechpost.com/2026/08/26/alibabas-qwen-team-releases-qwen3-8-flash-next-a-125b-multimodal-moe-with-6b-active-parameters-previewing-the-qwen4-architecture/
-・Bringing ChatGPT for Teachers to more U.S. school districts: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts
-・Learning never stops: How AI makes learning continuous: https://openai.com/index/learning-never-stops
-・The Hugging Face incident and the road ahead: https://openai.com/index/hugging-face-incident-and-the-road-ahead
-・How loveholidays is making everyone a builder with Codex: https://openai.com/index/loveholidays
-・The full stack behind abundant intelligence: https://openai.com/index/the-full-stack-behind-abundant-intelligence
-・Jalapeño's first results show industry-leading speed and efficiency: https://openai.com/index/jalapeno-first-results
-・Introducing the Admin plugin for ChatGPT Work and Codex: https://openai.com/index/introducing-admin-plugin
-・Advancing price-performance for developers with GPT-5.6 in Kiro: https://openai.com/index/gpt-5-6-in-kiro
-・Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers: https://huggingface.co/blog/train-multi-vector-encoder
-・Quantization-Aware Healing: https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing
-・Wire It, Run It, Deploy It: AI Workflows in Gradio: https://huggingface.co/blog/gradio-workflow-guide
-・The Download: the Kids issue arrives, and Bill Gates reveals his AI fears: https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/
-・Bill Gates says we've passed AI's danger thresholds. Now what?: https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/
-・Anthropic continues compute-gobbling streak in $45 billion deal with Nscale: https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/
-・Ex-Meta scientists want to bring visual AI to the factory floor: https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/
-・Bill Gates wants to see a robot tax and Human Reserved jobs: https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/
-・Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model: https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/
-・QueryStory wants you to believe what AI is telling you: https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/
-・Arga Labs is building a better way to train enterprise AI agents: https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/
-・Hearing tech startup Legato emerges from stealth with $12M: https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/
-・Runable hits $21M to bet AI agents can go from building businesses to growing them: https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/
-・India's Ringg gets backing from Peak XV: https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/
-・Robotics startup Generalist reaches $3B valuation: https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/
-・OpenAI loses a top data center exec: https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/
-・Stability AI raises $76 million in fresh funding: https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/
-・Claude Cowork finally remembers what you told the app in chat: https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/
-・OpenAI's Jalapeño chip is built for fast inference at scale: https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/
-・Orchestration is the new challenge for CX in the age of AI agents: https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents
-・OpenAI's rogue AI model incident was worse than we thought: https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr
-・Google's new AI transcription edits out your ums and ahs: https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai
-・Bill Gates is deeply worried about AI: https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet
-・OpenAI says its Jalapeño chip can power faster AI responses: https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks
-・OpenAI subpoenaed by Alabama AG over Hugging Face hack: https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack
-・Effective Patterns for Advanced MCP Usage: https://www.oreilly.com/radar/?p=19477
-・When Smaller Models Win: https://www.oreilly.com/radar/when-smaller-models-win/
-・The Design System as the Control Plane for AI-Generated UI: https://www.oreilly.com/radar/the-design-system-as-the-control-plane-for-ai-generated-ui/
-・Shadow Agents, Standing Privileges, and the Governance Gap: https://www.oreilly.com/radar/shadow-agents-standing-privileges-and-the-governance-gap-between-deployment-and-discovery/
-・Data Intelligence: Building Your Competitive Advantage in the Era of AI: https://www.oreilly.com/radar/data-intelligence-building-your-competitive-advantage-in-the-era-of-ai/
-・Gatik brings in $200M to continue expanding autonomous trucking: https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/
-・IDS Imaging adds Nion ToF sensor to its portfolio of 3D cameras: https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/
-・Bedrock Robotics' first operator-free excavator deployments: https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/
-・Humans in the loop are still needed for robotaxi fleet safety: https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/
-・Jetson Orin Nano 2 doubles inference performance for robotics on the edge: https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/
-・The next big AI play isn't apps or humanoids; it's machines with brains and brawn: https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/
-・XPeng Motors humanoid robot unit Dogotix raises $900M: https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/
-・How green is your robot? And other awkward questions: https://robohub.org/how-green-is-your-robot-and-other-awkward-questions/
-・These tiny drones are powered by sound: https://robohub.org/these-tiny-drones-are-powered-by-sound/
-・AI Companion Robots Are Closing the Human Connection in Modern Homes: https://spectrum.ieee.org/ollobot-ai-companion-robot
-・Giant cyborg cockroaches could bring supervised care to people trapped: https://techxplore.com/news/2026-08-giant-cyborg-cockroaches-people-rescuers.html
-・New underwater robot could make ocean missions more reliable: https://techxplore.com/news/2026-08-underwater-robot-ocean-missions-reliable.html
-・ScaFi: A robot that grows like a fish: https://techxplore.com/news/2026-08-scafi-robot-fish-machine-feet.html
-・A Chinese humanoid robot sets a new 100-meter sprint record: https://techxplore.com/news/2026-08-humanoid-robot-meter-sprint-beijing.html
-・FDA greenlights ViiV's Tivicay PD for HIV-positive newborns: https://www.drugdiscoverytrends.com/fda-greenlights-viivs-tivicay-pd-for-hiv-positive-newborns-in-first-month-of-life/
-・FDA logs more than 1,700 adverse event reports involving compounded semaglutide and tirzepatide: https://www.drugdiscoverytrends.com/fda-logs-more-than-1700-adverse-event-reports-involving-compounded-semaglutide-and-tirzepatide/
-・Akeso CEO looks beyond lung cancer with biliary tract win: https://www.fiercebiotech.com/pharma/akeso-ceo-looks-beyond-lung-cancer-phase-3-biliary-tract-win-counters-ivonescimab-debate
-・FDA greenlights Abbott's wearable sensor for capturing diabetic ketoacidosis: https://www.fiercebiotech.com/medtech/fda-green-lights-abbotts-wearable-sensor-capturing-diabetic-ketoacidosis
-・Why a Texas congressman believes Chinese biotechs are beating us: https://www.fiercebiotech.com/biotech/texas-congressman-tells-fierce-why-chinese-biotechs-are-beating-us-our-ground-game
-・Capricor secures reprieve as FDA extends DMD cell therapy review: https://www.fiercebiotech.com/biotech/capricor-secures-reprieve-fda-extends-dmd-cell-therapy-review
-・Roche, Eli Lilly net FDA approval for first-of-its-kind Alzheimer's biomarker blood test: https://www.fiercebiotech.com/medtech/roche-eli-lilly-see-fda-approval-first-its-kind-alzheimers-biomarker-blood-test
-・Regenxbio gene therapy refiling plan derailed by FDA hold: https://www.fiercebiotech.com/biotech/fda-clinical-hold-derails-regenxbio-gene-therapy-refiling-plan
-・Roche pens $2.5B pact for Hanmi's clinical-stage obesity drug: https://www.fiercebiotech.com/biotech/roche-pens-25b-pact-hanmis-clinical-stage-obesity-drug-targeting-less-used-mechanism
-・Hard Fork: OpenAI's Two-Week Pause + Jill Lepore on the Threat of the Artificial State: https://www.nytimes.com/column/hard-fork
-・No Priors: From Restoring Sight to Reimagining the Brain, with Max Hodak: 
-
-#AIニュース #生成AI #海外AI #OpenAI #AIチップ #ロボティクス #AI安全性 #医療AI #ビルゲイツ #AIと社会]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・OpenAIの暴走AI（Hugging Face侵害事件）の公式報告書公開と法的規制の動き
+・ビル・ゲイツ氏がAIの危険性について警鐘を鳴らし「ロボット税」「人間専用職」を提案
+・AIチップ競争の新段階（OpenAI自社チップ「ハラペーニョ」性能公開・NVIDIA新技術発表）]]></itunes:summary>
       <itunes:duration>00:27:23</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -543,19 +458,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>6/22 Anthropic規制混乱＆Intel大転換＆AI進化スピード論争</title>
-      <description><![CDATA[【今回のトピック】
-・Anthropicへの米政府によるルールなき規制と、AIモデル停止問題の続報
-・Intel新CEO リップ・ブー・タン氏によるAI時代に向けた大転換戦略
-・AIの進化スピードをめぐる専門家間の意見対立（Hard Forkライブイベント）]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-06-22</title>
+      <description><![CDATA[2026-06-22 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-22.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-22.mp3" length="28211757" type="audio/mpeg"/>
-      <itunes:title>6/22 Anthropic規制混乱＆Intel大転換＆AI進化スピード論争</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・Anthropicへの米政府によるルールなき規制と、AIモデル停止問題の続報
-・Intel新CEO リップ・ブー・タン氏によるAI時代に向けた大転換戦略
-・AIの進化スピードをめぐる専門家間の意見対立（Hard Forkライブイベント）]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-06-22</itunes:title>
+      <itunes:summary><![CDATA[2026-06-22 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:29:23</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
