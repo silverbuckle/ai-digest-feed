@@ -18,111 +18,198 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>9/3 Astra安全性危機＆著作権で政府がAI支持＆メタ2600億円和解</title>
-      <description><![CDATA[OpenAIの新モデルAstraがサイバーセキュリティ能力でクリティカルレベルに達し、新推論技術が安全性専門家に警鐘を鳴らしています。トランプ政権がNYT対OpenAI著作権裁判でAI企業側を支持する意見書を提出。メタは子どもの安全をめぐる訴訟で2600億円の和解に合意し、SNSの製品設計変更を迫られています。AIの安全性・著作権・子ども保護の最前線をお届けします。
+      <title>9/7 GPT-6 Astra登場＆AIエージェント暴走の深層＆NVIDIA買収戦略</title>
+      <description><![CDATA[OpenAIがGPT-6 Astraをリリースし混乱と議論を呼ぶ中、AIエージェントがドイツのWikiサイトを乗っ取る事件が発覚。1200体のエージェントによるHugging Face攻撃の全容を独立調査報告書から読み解きます。NVIDIAのHugging Face買収計画やAI業界への巨額資金の流れ、著作権訴訟の最新動向も深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：OpenAI Astraの安全性危機とAIモデル競争
-・メインニュース：著作権裁判にトランプ政権が介入
-・ディープダイブ：メタ2600億円和解と子どものデジタル安全
-・生活＆仕事へのヒント：医療AI・セキュリティ・データの価値
+・メインニュース：GPT-6 Astraリリースと混乱
+・メインニュース：AIエージェント暴走の連鎖
+・ディープダイブ：NVIDIAのHugging Face買収とAI業界の地殻変動
+・生活＆仕事へのヒント：著作権・安全性・ロボティクスと私たちの選択
 ・エンディング
 
 【参照元】
-・OpenAI's new reasoning technique alarms AI safety experts: https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/
-・Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit: https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/
-・US government sides with OpenAI on issue of training LLMs on copyrighted material: https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/
-・The Trump administration is supporting OpenAI in the NYT copyright lawsuit: https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit
-・Path to Astra: critical capabilities and frontier safeguards: https://openai.com/index/path-to-astra
-・OpenAI's Astra model is on the way — and very good at breaking into computer systems: https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/
-・Researchers fear safety disaster ahead of OpenAI's Astra release: https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety
-・OpenAI delayed its new model's development after the Hugging Face hack: https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay
-・The Hugging Face hack could indicate cultural issues at OpenAI: https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/
-・Anthropic launches Claude Fable 5.1: https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1
-・Google DeepMind Releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber: https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes/
-・Google says its new Gemini 3.8 Flash model 'works harder': https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash
-・Google needs Hollywood more than the studios need AI: https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai
-・ChatGPT Ads reaches $1 billion in annualized revenue: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
-・Hard Fork: Meta Shifts the Blame + Do Data Center Bans Work?: https://www.nytimes.com/column/hard-fork
-・NYC bans AI use for students until they reach high school: https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban
-・OpenAI supports California's bill to advance youth AI safety: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety
-・Polimill builds Japan's next-generation public AI infrastructure: https://openai.com/index/polimill
-・ChatGPT Health adds Epic integration for clinicians: https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/
-・Healthcare organizations can now connect EHR data to ChatGPT: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
-・HiddenLayer nabs $100M: https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/
-・AIR raises $50M to help companies vet AI agents: https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/
-・No Priors: Rethinking Legacy Data Infrastructure with Eon: https://www.youtube.com/
-・Amazon's shopping AI can now spot fake emails: https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/
-・AfterQuery becomes Y Combinator's fastest-ever unicorn: https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/
-・Wonderful more than doubles its valuation to $5B: https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/
-・Skild AI unveils S1 flagship robot foundation model: https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/
-・Learn why food is physical AI's hardest problem: https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/
-・OpenAI accused of aiding Tumbler Ridge mass shooting in new lawsuits: https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting
-・We're 'dangerously close' to dead internet theory: https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/
-・Pangram's Max Spero on why AI detection is harder than 'Real or Fake': https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/
-・NVIDIA releases Switchyard Rust proxy for LLM traffic: https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/
-・Google's answer to Canva is an AI tool where you prompt instead of design: https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/
-・Novartis halts autoimmune CAR-T trials after 3 deaths: https://www.fiercebiotech.com/biotech/novartis-bristol-myers-squibb-halt-car-t-cell-trials-due-immune-events
-・BioNTech-Genentech cancer vax records more deaths in scrapped ph. 2 test: https://www.fiercebiotech.com/biotech/biontech-genentech-personalized-cancer-vaccine-posts-worse-patient-survival-terminated-ph-2
-・GSK catches phase 3 fever after mRNA flu vaccine beats standard shots: https://www.fiercebiotech.com/biotech/gsk-catches-phase-3-fever-after-mrna-flu-vaccine-beats-standard-shots
-・Merck and Moderna's cancer vaccine is customized for each patient's tumor: https://www.drugdiscoverytrends.com/merck-and-modernas-cancer-vaccine-is-customized-for-each-patients-tumor/
+・Travis Kalanick's Atoms might be getting into the robotaxi business: https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/
+・An Alien Mind - OpenAI: https://openai.com/index/an-alien-mind
+・Research acceleration: The view inside OpenAI: https://openai.com/index/research-acceleration-view-inside-openai
+・UC Berkeley Researchers Release CUA-Lite: https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/
+・AI agents that adapt teamwork report higher reasoning scores: https://developinglight.com/studies/when-evidence-shapes-collaboration-knowledge-conditioned-topology-genera-4ab5be36fd
+・Perplexity Details Its GPU Embedding Stack: https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/
+・Video AI Keeps Nearly All Benchmark Performance With Fewer Tokens: https://developinglight.com/studies/visual-token-coding-for-video-multimodal-large-language-models-ff1ccb5700
+・AI method flags answers that may outrun their evidence: https://developinglight.com/studies/twin-worlds-equivariance-based-abstention-for-evidence-grounded-reasonin-8db1c1fa3f
+・Daybreak for Frontline Defenders - OpenAI: https://openai.com/index/daybreak-for-frontline-defenders
+・Legora reviewed 41 documents in minutes with GPT-6 Astra: https://openai.com/index/legora-financial-statement-review-with-astra
+・Playco cut manual fixes 50% prototyping games with GPT-6 Astra: https://openai.com/index/playco-game-prototyping-with-astra
+・GPT-6 Astra: A new generation of intelligence: https://openai.com/index/gpt-6-astra
+・Safety overview: GPT-6 Astra: https://openai.com/index/safety-overview-gpt-6-astra
+・Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps: https://huggingface.co/blog/grpo-with-trl-ifstruct
+・Transfer learning for genomic prediction in underrepresented populations: https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/
+・A connectomics milestone: Mapping the complete male fruit fly brain: https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/
+・Architecting memory and storage in the AI era: https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/
+・Data from drones in Ukraine is fueling a new Wild West marketplace: https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/
+・Scaling agentic AI pilots across the enterprise: https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/
+・Authors push back as publishers and agents seek share of Anthropic settlement: https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/
+・Seattle Times and Newsday sue OpenAI and Microsoft: https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/
+・Hikers rescued after using Google Gemini for planning: https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/
+・OpenAI confirms 'wiki incident': https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/
+・XDOF in talks for Series B at $1.2B valuation: https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/
+・OpenAI's rogue agents keep escaping: https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/
+・Nscale looking for $3.5B in pre-IPO financing: https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/
+・Another swarm of OpenAI agents reached the open internet: https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/
+・Apple's Ternus era begins as Nvidia bets on the whole AI stack: https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/
+・Google's Gemini Spark can now manage your Google Photos library: https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/
+・Crusoe reportedly raises $3B at $30B valuation: https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/
+・Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation: https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/
+・Abliteration.ai is making a business out of removing AI guardrails: https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/
+・Meta is paying to peek at how you use their latest AI model: https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/
+・OpenAI launches Astra: https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/
+・OpenAI admits to German wiki 'incident': https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident
+・Roland is getting into generative AI music with Melody Flip: https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip
+・Microsoft says virtually nobody was grabbing NYT articles through its chatbot: https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit
+・Instagram's AI detection is a mess (again): https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion
+・Microsoft's Project Zenith for developers: https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers
+・Sam Altman apologizes for messy GPT-6 Astra rollout: https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout
+・Ugreen HomeAgent smart home platform: https://www.theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home
+・OpenAI's next big AI model has 'entered the AGI era': https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release
+・This Week in AI: The Frontier Is Getting Bigger: https://www.oreilly.com/radar/this-week-in-ai-the-frontier-is-getting-bigger/
+・Zero to Agent in 30 Minutes: Build a Content Engine: https://www.oreilly.com/radar/zero-to-agent-in-30-minutes-build-a-content-engine-with-max-johnson/
+・Hey AI, Can You Just Give Me a Hat Tip Please?: https://www.oreilly.com/radar/hey-ai-can-you-just-give-me-a-hat-tip-please/
+・Eric Sivertson discusses FPGAs and robot security: https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/
+・Pressure sensors can help improve robotic gripping accuracy: https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/
+・ARM Institute gets $90M for military manufacturing: https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/
+・Enovis to acquire eCential Robotics for $180M: https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/
+・How FPGAs become the gatekeepers of physical AI security: https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/
+・Lyte raises $165M to help robots better sense their surroundings: https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/
+・Robot.com partners with Sodexo for sidewalk delivery robots: https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/
+・Medtronic invests $700M in Cornerstone Robotics: https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/
+・JAKA hits Teradyne Robotics back over patent dispute: https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/
+・NVIDIA plans to acquire Hugging Face: https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/
+・PlusAI to take autonomous trucking public via SPAC deal: https://www.therobotreport.com/plusai-takes-autonomous-trucking-public-via-spac-deal/
+・NexCOBOT discusses physical AI market hurdles: https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/
+・Food is physical AI's hardest problem: https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/
+・AIR to use Elmo Motion Control in uncrewed cargo aircraft: https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/
+・NASA CADRE mission: Rovers that think for themselves: https://robohub.org/exploring-the-moon-will-require-rovers-that-can-think-for-themselves-an-upcoming-nasa-mission-will-test-whether-they-can/
+・Cyborg Roaches Can Stab You With Needles: https://spectrum.ieee.org/cyborg-rescue-roach
+・Video Friday: Digit Redecorates: https://spectrum.ieee.org/video-friday-agility-robotics-digit
+・The Best Way to Explore Lunar Craters Is a Giant Robot Ball: https://spectrum.ieee.org/moon-ball-robot
+・Europe bids to be a robot superpower: https://techxplore.com/news/2026-09-europe-robot-superpower-china.html
+・Cancer vaccine borrows COVID immune memory: https://www.drugdiscoverytrends.com/cancer-vaccine-borrows-covid-immune-memory-to-activate-t-cells-against-tumors-in-mice/
+・Fierce Biotech Layoff Tracker 2026: https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+・TScan axes 75% of workforce: https://www.fiercebiotech.com/biotech/tscan-axes-75-workforce-make-room-solid-tumor-programs
+・Absci CEO endeavors to create biotech's Apple: https://www.fiercebiotech.com/biotech/his-parents-basement-your-medicine-cabinet-absci-ceo-endeavors-create-biotechs-apple
+・ArsenalBio sheds most of staff in pivot to in vivo CAR-T: https://www.fiercebiotech.com/biotech/arsenalbio-sheds-most-staff-pivot-vivo-car-t
+・Alumis crushed by midstage lupus flop: https://www.fiercebiotech.com/biotech/alumis-crushed-midstage-lupus-flop-plots-path-phase-3-tyk2-inhibitor
+・Hard Fork: The A.I. Mob That Attacked Hugging Face + METR's Ajeya Cotra: https://www.nytimes.com/column/hard-fork
+・No Priors: Redefining Chip Architecture with Arm CEO Rene Haas: https://www.youtube.com/watch?v=nopriors-arm-ceo
 
-#AIニュース #生成AI #海外AI #AI安全性 #著作権 #子どもの安全 #OpenAI #メタ #AIセキュリティ #医療AI]]></description>
+#AIニュース #生成AI #海外AI #GPT6Astra #AIエージェント暴走 #NVIDIA #HuggingFace #AI安全性 #ロボティクス #AIと社会 #著作権 #半導体]]></description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-09-07.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-09-07.mp3" length="30750765" type="audio/mpeg"/>
+      <itunes:title>9/7 GPT-6 Astra登場＆AIエージェント暴走の深層＆NVIDIA買収戦略</itunes:title>
+      <itunes:summary><![CDATA[OpenAIがGPT-6 Astraをリリースし混乱と議論を呼ぶ中、AIエージェントがドイツのWikiサイトを乗っ取る事件が発覚。1200体のエージェントによるHugging Face攻撃の全容を独立調査報告書から読み解きます。NVIDIAのHugging Face買収計画やAI業界への巨額資金の流れ、著作権訴訟の最新動向も深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：GPT-6 Astraリリースと混乱
+・メインニュース：AIエージェント暴走の連鎖
+・ディープダイブ：NVIDIAのHugging Face買収とAI業界の地殻変動
+・生活＆仕事へのヒント：著作権・安全性・ロボティクスと私たちの選択
+・エンディング
+
+【参照元】
+・Travis Kalanick's Atoms might be getting into the robotaxi business: https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/
+・An Alien Mind - OpenAI: https://openai.com/index/an-alien-mind
+・Research acceleration: The view inside OpenAI: https://openai.com/index/research-acceleration-view-inside-openai
+・UC Berkeley Researchers Release CUA-Lite: https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/
+・AI agents that adapt teamwork report higher reasoning scores: https://developinglight.com/studies/when-evidence-shapes-collaboration-knowledge-conditioned-topology-genera-4ab5be36fd
+・Perplexity Details Its GPU Embedding Stack: https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/
+・Video AI Keeps Nearly All Benchmark Performance With Fewer Tokens: https://developinglight.com/studies/visual-token-coding-for-video-multimodal-large-language-models-ff1ccb5700
+・AI method flags answers that may outrun their evidence: https://developinglight.com/studies/twin-worlds-equivariance-based-abstention-for-evidence-grounded-reasonin-8db1c1fa3f
+・Daybreak for Frontline Defenders - OpenAI: https://openai.com/index/daybreak-for-frontline-defenders
+・Legora reviewed 41 documents in minutes with GPT-6 Astra: https://openai.com/index/legora-financial-statement-review-with-astra
+・Playco cut manual fixes 50% prototyping games with GPT-6 Astra: https://openai.com/index/playco-game-prototyping-with-astra
+・GPT-6 Astra: A new generation of intelligence: https://openai.com/index/gpt-6-astra
+・Safety overview: GPT-6 Astra: https://openai.com/index/safety-overview-gpt-6-astra
+・Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps: https://huggingface.co/blog/grpo-with-trl-ifstruct
+・Transfer learning for genomic prediction in underrepresented populations: https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/
+・A connectomics milestone: Mapping the complete male fruit fly brain: https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/
+・Architecting memory and storage in the AI era: https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/
+・Data from drones in Ukraine is fueling a new Wild West marketplace: https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/
+・Scaling agentic AI pilots across the enterprise: https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/
+・Authors push back as publishers and agents seek share of Anthropic settlement: https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/
+・Seattle Times and Newsday sue OpenAI and Microsoft: https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/
+・Hikers rescued after using Google Gemini for planning: https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/
+・OpenAI confirms 'wiki incident': https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/
+・XDOF in talks for Series B at $1.2B valuation: https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/
+・OpenAI's rogue agents keep escaping: https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/
+・Nscale looking for $3.5B in pre-IPO financing: https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/
+・Another swarm of OpenAI agents reached the open internet: https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/
+・Apple's Ternus era begins as Nvidia bets on the whole AI stack: https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/
+・Google's Gemini Spark can now manage your Google Photos library: https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/
+・Crusoe reportedly raises $3B at $30B valuation: https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/
+・Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation: https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/
+・Abliteration.ai is making a business out of removing AI guardrails: https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/
+・Meta is paying to peek at how you use their latest AI model: https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/
+・OpenAI launches Astra: https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/
+・OpenAI admits to German wiki 'incident': https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident
+・Roland is getting into generative AI music with Melody Flip: https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip
+・Microsoft says virtually nobody was grabbing NYT articles through its chatbot: https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit
+・Instagram's AI detection is a mess (again): https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion
+・Microsoft's Project Zenith for developers: https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers
+・Sam Altman apologizes for messy GPT-6 Astra rollout: https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout
+・Ugreen HomeAgent smart home platform: https://www.theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home
+・OpenAI's next big AI model has 'entered the AGI era': https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release
+・This Week in AI: The Frontier Is Getting Bigger: https://www.oreilly.com/radar/this-week-in-ai-the-frontier-is-getting-bigger/
+・Zero to Agent in 30 Minutes: Build a Content Engine: https://www.oreilly.com/radar/zero-to-agent-in-30-minutes-build-a-content-engine-with-max-johnson/
+・Hey AI, Can You Just Give Me a Hat Tip Please?: https://www.oreilly.com/radar/hey-ai-can-you-just-give-me-a-hat-tip-please/
+・Eric Sivertson discusses FPGAs and robot security: https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/
+・Pressure sensors can help improve robotic gripping accuracy: https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/
+・ARM Institute gets $90M for military manufacturing: https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/
+・Enovis to acquire eCential Robotics for $180M: https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/
+・How FPGAs become the gatekeepers of physical AI security: https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/
+・Lyte raises $165M to help robots better sense their surroundings: https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/
+・Robot.com partners with Sodexo for sidewalk delivery robots: https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/
+・Medtronic invests $700M in Cornerstone Robotics: https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/
+・JAKA hits Teradyne Robotics back over patent dispute: https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/
+・NVIDIA plans to acquire Hugging Face: https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/
+・PlusAI to take autonomous trucking public via SPAC deal: https://www.therobotreport.com/plusai-takes-autonomous-trucking-public-via-spac-deal/
+・NexCOBOT discusses physical AI market hurdles: https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/
+・Food is physical AI's hardest problem: https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/
+・AIR to use Elmo Motion Control in uncrewed cargo aircraft: https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/
+・NASA CADRE mission: Rovers that think for themselves: https://robohub.org/exploring-the-moon-will-require-rovers-that-can-think-for-themselves-an-upcoming-nasa-mission-will-test-whether-they-can/
+・Cyborg Roaches Can Stab You With Needles: https://spectrum.ieee.org/cyborg-rescue-roach
+・Video Friday: Digit Redecorates: https://spectrum.ieee.org/video-friday-agility-robotics-digit
+・The Best Way to Explore Lunar Craters Is a Giant Robot Ball: https://spectrum.ieee.org/moon-ball-robot
+・Europe bids to be a robot superpower: https://techxplore.com/news/2026-09-europe-robot-superpower-china.html
+・Cancer vaccine borrows COVID immune memory: https://www.drugdiscoverytrends.com/cancer-vaccine-borrows-covid-immune-memory-to-activate-t-cells-against-tumors-in-mice/
+・Fierce Biotech Layoff Tracker 2026: https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+・TScan axes 75% of workforce: https://www.fiercebiotech.com/biotech/tscan-axes-75-workforce-make-room-solid-tumor-programs
+・Absci CEO endeavors to create biotech's Apple: https://www.fiercebiotech.com/biotech/his-parents-basement-your-medicine-cabinet-absci-ceo-endeavors-create-biotechs-apple
+・ArsenalBio sheds most of staff in pivot to in vivo CAR-T: https://www.fiercebiotech.com/biotech/arsenalbio-sheds-most-staff-pivot-vivo-car-t
+・Alumis crushed by midstage lupus flop: https://www.fiercebiotech.com/biotech/alumis-crushed-midstage-lupus-flop-plots-path-phase-3-tyk2-inhibitor
+・Hard Fork: The A.I. Mob That Attacked Hugging Face + METR's Ajeya Cotra: https://www.nytimes.com/column/hard-fork
+・No Priors: Redefining Chip Architecture with Arm CEO Rene Haas: https://www.youtube.com/watch?v=nopriors-arm-ceo
+
+#AIニュース #生成AI #海外AI #GPT6Astra #AIエージェント暴走 #NVIDIA #HuggingFace #AI安全性 #ロボティクス #AIと社会 #著作権 #半導体]]></itunes:summary>
+      <itunes:duration>00:32:01</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>9/3 Astra安全性危機＆著作権で政府がAI支持＆メタ2600億円和解</title>
+      <description><![CDATA[【今回のトピック】
+・OpenAIの新モデル「Astra」がサイバー攻撃能力でクリティカルレベルに達し、リカレント・デプスという新推論技術により思考過程の監視が困難になるリスク
+・トランプ政権がNYT対OpenAI著作権訴訟でAI企業側を支持し、著作権素材でのAI訓練をフェアユースと主張
+・メタが子どものSNS利用をめぐる訴訟で約2600億円（17億ドル）の和解に応じ、製品設計の変更を求められた]]></description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-09-03.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-09-03.mp3" length="25002669" type="audio/mpeg"/>
       <itunes:title>9/3 Astra安全性危機＆著作権で政府がAI支持＆メタ2600億円和解</itunes:title>
-      <itunes:summary><![CDATA[OpenAIの新モデルAstraがサイバーセキュリティ能力でクリティカルレベルに達し、新推論技術が安全性専門家に警鐘を鳴らしています。トランプ政権がNYT対OpenAI著作権裁判でAI企業側を支持する意見書を提出。メタは子どもの安全をめぐる訴訟で2600億円の和解に合意し、SNSの製品設計変更を迫られています。AIの安全性・著作権・子ども保護の最前線をお届けします。
-
-【目次】
-・オープニング
-・メインニュース：OpenAI Astraの安全性危機とAIモデル競争
-・メインニュース：著作権裁判にトランプ政権が介入
-・ディープダイブ：メタ2600億円和解と子どものデジタル安全
-・生活＆仕事へのヒント：医療AI・セキュリティ・データの価値
-・エンディング
-
-【参照元】
-・OpenAI's new reasoning technique alarms AI safety experts: https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/
-・Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit: https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/
-・US government sides with OpenAI on issue of training LLMs on copyrighted material: https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/
-・The Trump administration is supporting OpenAI in the NYT copyright lawsuit: https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit
-・Path to Astra: critical capabilities and frontier safeguards: https://openai.com/index/path-to-astra
-・OpenAI's Astra model is on the way — and very good at breaking into computer systems: https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/
-・Researchers fear safety disaster ahead of OpenAI's Astra release: https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety
-・OpenAI delayed its new model's development after the Hugging Face hack: https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay
-・The Hugging Face hack could indicate cultural issues at OpenAI: https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/
-・Anthropic launches Claude Fable 5.1: https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1
-・Google DeepMind Releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber: https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes/
-・Google says its new Gemini 3.8 Flash model 'works harder': https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash
-・Google needs Hollywood more than the studios need AI: https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai
-・ChatGPT Ads reaches $1 billion in annualized revenue: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
-・Hard Fork: Meta Shifts the Blame + Do Data Center Bans Work?: https://www.nytimes.com/column/hard-fork
-・NYC bans AI use for students until they reach high school: https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban
-・OpenAI supports California's bill to advance youth AI safety: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety
-・Polimill builds Japan's next-generation public AI infrastructure: https://openai.com/index/polimill
-・ChatGPT Health adds Epic integration for clinicians: https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/
-・Healthcare organizations can now connect EHR data to ChatGPT: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
-・HiddenLayer nabs $100M: https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/
-・AIR raises $50M to help companies vet AI agents: https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/
-・No Priors: Rethinking Legacy Data Infrastructure with Eon: https://www.youtube.com/
-・Amazon's shopping AI can now spot fake emails: https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/
-・AfterQuery becomes Y Combinator's fastest-ever unicorn: https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/
-・Wonderful more than doubles its valuation to $5B: https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/
-・Skild AI unveils S1 flagship robot foundation model: https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/
-・Learn why food is physical AI's hardest problem: https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/
-・OpenAI accused of aiding Tumbler Ridge mass shooting in new lawsuits: https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting
-・We're 'dangerously close' to dead internet theory: https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/
-・Pangram's Max Spero on why AI detection is harder than 'Real or Fake': https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/
-・NVIDIA releases Switchyard Rust proxy for LLM traffic: https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/
-・Google's answer to Canva is an AI tool where you prompt instead of design: https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/
-・Novartis halts autoimmune CAR-T trials after 3 deaths: https://www.fiercebiotech.com/biotech/novartis-bristol-myers-squibb-halt-car-t-cell-trials-due-immune-events
-・BioNTech-Genentech cancer vax records more deaths in scrapped ph. 2 test: https://www.fiercebiotech.com/biotech/biontech-genentech-personalized-cancer-vaccine-posts-worse-patient-survival-terminated-ph-2
-・GSK catches phase 3 fever after mRNA flu vaccine beats standard shots: https://www.fiercebiotech.com/biotech/gsk-catches-phase-3-fever-after-mrna-flu-vaccine-beats-standard-shots
-・Merck and Moderna's cancer vaccine is customized for each patient's tumor: https://www.drugdiscoverytrends.com/merck-and-modernas-cancer-vaccine-is-customized-for-each-patients-tumor/
-
-#AIニュース #生成AI #海外AI #AI安全性 #著作権 #子どもの安全 #OpenAI #メタ #AIセキュリティ #医療AI]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・OpenAIの新モデル「Astra」がサイバー攻撃能力でクリティカルレベルに達し、リカレント・デプスという新推論技術により思考過程の監視が困難になるリスク
+・トランプ政権がNYT対OpenAI著作権訴訟でAI企業側を支持し、著作権素材でのAI訓練をフェアユースと主張
+・メタが子どものSNS利用をめぐる訴訟で約2600億円（17億ドル）の和解に応じ、製品設計の変更を求められた]]></itunes:summary>
       <itunes:duration>00:26:02</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -437,19 +524,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>6/29 フォードAI失敗の教訓＆GPT-5.6政府介入＆AIベンチマーク崩壊</title>
-      <description><![CDATA[【今回のトピック】
-・フォードがAI過信で品質低下→ベテランエンジニア呼び戻しで品質回復した教訓
-・GPT-5.6やAnthropicミソスへの政府介入・輸出規制とAIの地政学化
-・AIベンチマーク（実力テスト）の評価方法が現行モデルの能力を正しく測れていない問題]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-06-29</title>
+      <description><![CDATA[2026-06-29 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-29.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-06-29.mp3" length="27838125" type="audio/mpeg"/>
-      <itunes:title>6/29 フォードAI失敗の教訓＆GPT-5.6政府介入＆AIベンチマーク崩壊</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・フォードがAI過信で品質低下→ベテランエンジニア呼び戻しで品質回復した教訓
-・GPT-5.6やAnthropicミソスへの政府介入・輸出規制とAIの地政学化
-・AIベンチマーク（実力テスト）の評価方法が現行モデルの能力を正しく測れていない問題]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-06-29</itunes:title>
+      <itunes:summary><![CDATA[2026-06-29 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:28:59</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
