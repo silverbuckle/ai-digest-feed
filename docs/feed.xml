@@ -18,159 +18,128 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>9/14 AIブレーキ宣言＆データセンター反乱＆エージェント経済の到来</title>
-      <description><![CDATA[AnthropicのCEOが「AI開発のペースを落とすべき」と宣言し、業界の安全性議論が新段階へ。アメリカではAIデータセンター建設への市民反対が70%に急増し、政党を超えた「AIポピュリズム」が拡大。OpenAIのIPO見送りとAIエージェント経済の急成長、Coinbaseが描くエージェント間マイクロペイメントの未来まで深掘りします。
+      <title>9/17 AIデータセンター反乱拡大＆安全性の三すくみ＆エージェント経済の夜明け</title>
+      <description><![CDATA[AIデータセンター建設に対するアメリカ市民の超党派的反対が61%に達し、「AIポピュリズム」と呼ばれる新たな社会現象が拡大。AI安全性では企業が規制を求める一方で政府は動かず、NVIDIAは規制不要を主張する三すくみ状態に。CoinbaseのCEOが語るAIエージェント経済の具体像と、Claudeの統合アップデート、GoogleのスマートホームMCP対応など最新動向をお届けします。
 
 【目次】
 ・オープニング
-・メインニュース：AnthropicがAI開発減速を宣言＆業界安全性の転換点
-・メインニュース：米国AIデータセンター建設への市民大反発
-・ディープダイブ：OpenAI IPO見送り＆AIエージェント経済の現在地
-・生活＆仕事へのヒント：AIツール活用と検証力の重要性
+・メインニュース：AIデータセンター反対運動とAIポピュリズムの拡大
+・メインニュース：AI安全性をめぐる企業・政府・NVIDIAの三すくみ
+・ディープダイブ：1兆ドルの賭けとインフラの社会的合意
+・生活＆仕事へのヒント：AIエージェント経済・Claude統合・スマートホーム・医療AI
 ・エンディング
 
 【参照元】
-・Perplexity trusts GPT-6 Astra with end-to-end systems: https://openai.com/index/perplexity-improving-accuracy-with-astra
-・What's behind the AI industry's latest warnings of doom?: https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/
-・Obama urges Democrats to have a 'clear plan' for AI safeguards: https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/
-・AI Agent Monitoring Beyond the Dashboard: https://pastagi.com/engineering/ai-agent-monitoring-beyond-the-dashboard/
-・Your Model Isn't Done Until Someone Else Can Call It: https://towardsdatascience.com/your-model-isnt-done-until-someone-else-can-call-it/
-・AI Agents Are Thirsty for Power: https://www.wired.com/story/ai-agents-are-thirsty-for-power/
-・AWS Introduces Pizza Bot: https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents/
-・Context Engineering Inside the Harness: https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks/
-・Cognition Releases SWE-2: https://www.marktechpost.com/2026/09/12/cognition-releases-swe-2-a-kimi-k3-post-trained-coding-model-that-matches-fable-5-1-on-frontiercode-at-64-lower-cost/
-・OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026: https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/
-・The Rise of the Forward Deployed Engineer: https://www.latent.space/p/forward-deployed-engineer-best-practices
-・One Capital Letter Was Silently Breaking My AI Support Bot: https://towardsdatascience.com/one-capital-letter-was-silently-breaking-my-ai-support-bot-and-it-wasnt-in-the-new-model/
-・From Hacks to Bioweapons, Claude Misuse Is Now Everywhere: https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/
-・Rapidly scaling online storage to serve over 1 billion ChatGPT users: https://openai.com/index/scaling-storage-one-billion-users-part-one
-・Cognition helps Devin test its own work with GPT-6 Astra: https://openai.com/index/cognition-devin-testing-with-astra
-・How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
-・Now everyone can put data to work: https://openai.com/index/put-data-to-work
-・Introducing ChatGPT for Financial Services: https://openai.com/index/introducing-chatgpt-financial-services
-・Expanding AI access and cyber defense for federal, state, local, and tribal governments: https://openai.com/index/expanding-ai-access-us-government
-・Build more natural voice experiences with GPT-Live-1 in the API: https://openai.com/index/introducing-gpt-live-1-in-the-api
-・Introducing the Agents API: https://openai.com/index/introducing-the-agents-api
-・Paul Christiano joins OpenAI Foundation Board: https://openai.com/index/paul-christiano-joins-openai-foundation-board
-・Rebuilding AUTOMATIC1111 with Gradio Workflow: https://huggingface.co/blog/gradio-workflow-1111
-・IBM releases SOTA Granite Time Series model: https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series
-・Roundtables: Could AI really kill us all?: https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/
-・Powering AI is an architecture problem: https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/
-・Healthcare AI's next test is integration: https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/
-・Mecka AI nears $500M valuation in Sequoia-led deal: https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/
-・Y Combinator's Garry Tan wants US open-weight AI labs to 'distill' frontier models: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
-・OpenAI's feud with mathematicians is only escalating: https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/
-・Kimi-maker Moonshot AI targets $2B in annual revenue: https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/
-・An Anthropic researcher's doomsday warning comes at a very interesting time: https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/
-・Nscale adds former OpenAI exec Fidji Simo to its board: https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/
-・Jensen Huang explains why Nvidia will grow an astounding 70% next year: https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/
-・OpenAI puts Pro subscriptions on hold due to Astra demand: https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/
-・Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek: https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/
-・Meta's AI agent Muse is now the No. 2 app in the US: https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/
-・Anthropic reveals rogue AI agents hate CAPTCHAs: https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/
-・India's Pocket FM doubles revenue run rate to $500M: https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/
-・OpenAI's rogue AI tried to hack another company in May: https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack
-・Sam Altman says OpenAI going public in 2026 would be 'ill-advised': https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised
-・Anthropic CEO says it's time to pump the brakes on AI: https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development
-・Trump is giving data centers a pass to pollute: https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa
-・Lawyer fined $5K over AI-hallucinated witnesses in a murder case: https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal
-・Anthropic spent this week in hot water over cybersecurity: https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity
-・Meta says it's changing AI suggestions after posing invasive personal questions: https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions
-・Slack can now vibe-code interactive charts and reports inside chats: https://www.theverge.com/tech/989853/slackforce-surfaces-launch
-・Schools are catching on to Big Tech's playbook: https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids
-・The Interfaces Are Arriving: https://www.oreilly.com/radar/the-interfaces-are-arriving/
-・Generative AI in the Real World: Local Voice AI with Pete Warden: https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-local-voice-ai-with-pete-warden/
-・How autonomous fleets are changing what's possible in American agriculture: https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/
-・Ultrasound offers a scalable path to tactile intelligence for physical AI: https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/
-・One brick at a time: How Monumental uses robotics to build walls: https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/
-・Unitree shares down 53% from IPO debut: https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/
-・AGIBOT to explain how to scale humanoids from lab to real world: https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/
-・Vention opens Physical AI Lab for manufacturing in Montreal: https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/
-・Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video: https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/
-・Robots Are Learning to Feel: https://spectrum.ieee.org/tactile-data-robots
-・Humanoid robot learns to sprint and perform spin kicks using AI: https://techxplore.com/news/2026-09-humanoid-robot-sprint-ai-human.html
-・The Ezra Klein Show: The A.I. Revolt Is Here: https://www.nytimes.com/column/hard-fork
-・No Priors: Coinbase CEO Brian Armstrong on Agentic Finance: https://www.youtube.com/watch?v=nopriors-coinbase
+・Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?: https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/
+・Washington Won't Be Regulating AI Anytime Soon: https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/
+・TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor: https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/
+・Improving HCLS AI reasoning with open-source agent skills: https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/
+・AI labs want in-house auditors — but maybe they should shut the front door first: https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/
+・Claude Cowork and chat are now one Claude: https://simonwillison.net/2026/Sep/16/one-claude/
+・Your AI agents can now control your Google Home devices: https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/
+・Anthropic merges Claude chat and Cowork in one interface: https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/
+・Helping older adults use AI in everyday life: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life/
+・Reimagining advertising with AI: https://openai.com/index/reimagining-advertising-with-ai/
+・Nanoscale mechanics could enable brain-inspired computing: https://news.mit.edu/2026/nanoscale-mechanics-could-enable-brain-inspired-computing-0916/
+・New AI technique could make minimally invasive surgeries safer and more precise: https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916
+・Robots are waiting for a ChatGPT moment: https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/
+・SK Hynix reportedly in talks with Intel to build memory chips in US: https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/
+・Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers: https://blogs.nvidia.com/blog/ai-energy-management-alliance/
+・NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut: https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/
+・Building the materials foundation for AI: https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/
+・What's at stake in AI's trillion-dollar gamble: https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/
+・The AI industry has taken a doomer turn. What now?: https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/
+・AI agents blew the whistle on their cheating colleagues: https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/
+・AI models need more data about biology, and OpenAI is paying to create it: https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/
+・We don't need AI regulation — leave safety to us, Nvidia's Jensen Huang says: https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/
+・The AI data center boom is colliding with cities scarred by big industry: https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/
+・US data centers could consume more natural gas than Germany and Japan combined by 2035: https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/
+・OpenAI, Anthropic, Google have been in talks on AI safety for weeks: https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/
+・The AI data center e-waste problem is huge — and getting bigger: https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban
+・Apple might make servers again to cash in on the AI rush: https://www.theverge.com/tech/996321/apple-servers-ai-nvidia
+・Google will now let any AI agent run your smart home: https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date
+・Claude comes for Gemini with its own take on Docs and Slides: https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides
+・A brief history of AI executives calling for regulation: https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation
+・AI and data centers are incredibly unpopular in every poll: https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september
+・The Ezra Klein Show: The A.I. Revolt Is Here (Hard Fork): https://www.nytimes.com/column/hard-fork
+・Coinbase's Everything Exchange: Agentic Finance with CEO Brian Armstrong (No Priors): https://www.youtube.com/watch?v=no-priors-coinbase
+・Heart of the Matter: How a Major Children's Hospital Uses Open Source NVIDIA AI for Cardiac Care: https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/
+・Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades: https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/
+・Digit 5 May Be the First Humanoid Robot Worker That's Truly Safe: https://spectrum.ieee.org/humanoid-robot-safety
+・Universal Robots launches its seventh generation robot platform at IMTS: https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/
 
-#AIニュース #生成AI #海外AI #AI安全性 #データセンター #AIエージェント #AIと社会 #暗号資産 #ロボティクス #AI規制]]></description>
+#AIニュース #生成AI #海外AI #データセンター #AI安全性 #AIエージェント #暗号資産 #半導体 #スマートホーム #医療AI #AIと社会]]></description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-09-17.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-09-17.mp3" length="28620333" type="audio/mpeg"/>
+      <itunes:title>9/17 AIデータセンター反乱拡大＆安全性の三すくみ＆エージェント経済の夜明け</itunes:title>
+      <itunes:summary><![CDATA[AIデータセンター建設に対するアメリカ市民の超党派的反対が61%に達し、「AIポピュリズム」と呼ばれる新たな社会現象が拡大。AI安全性では企業が規制を求める一方で政府は動かず、NVIDIAは規制不要を主張する三すくみ状態に。CoinbaseのCEOが語るAIエージェント経済の具体像と、Claudeの統合アップデート、GoogleのスマートホームMCP対応など最新動向をお届けします。
+
+【目次】
+・オープニング
+・メインニュース：AIデータセンター反対運動とAIポピュリズムの拡大
+・メインニュース：AI安全性をめぐる企業・政府・NVIDIAの三すくみ
+・ディープダイブ：1兆ドルの賭けとインフラの社会的合意
+・生活＆仕事へのヒント：AIエージェント経済・Claude統合・スマートホーム・医療AI
+・エンディング
+
+【参照元】
+・Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?: https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/
+・Washington Won't Be Regulating AI Anytime Soon: https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/
+・TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor: https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/
+・Improving HCLS AI reasoning with open-source agent skills: https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/
+・AI labs want in-house auditors — but maybe they should shut the front door first: https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/
+・Claude Cowork and chat are now one Claude: https://simonwillison.net/2026/Sep/16/one-claude/
+・Your AI agents can now control your Google Home devices: https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/
+・Anthropic merges Claude chat and Cowork in one interface: https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/
+・Helping older adults use AI in everyday life: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life/
+・Reimagining advertising with AI: https://openai.com/index/reimagining-advertising-with-ai/
+・Nanoscale mechanics could enable brain-inspired computing: https://news.mit.edu/2026/nanoscale-mechanics-could-enable-brain-inspired-computing-0916/
+・New AI technique could make minimally invasive surgeries safer and more precise: https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916
+・Robots are waiting for a ChatGPT moment: https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/
+・SK Hynix reportedly in talks with Intel to build memory chips in US: https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/
+・Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers: https://blogs.nvidia.com/blog/ai-energy-management-alliance/
+・NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut: https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/
+・Building the materials foundation for AI: https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/
+・What's at stake in AI's trillion-dollar gamble: https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/
+・The AI industry has taken a doomer turn. What now?: https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/
+・AI agents blew the whistle on their cheating colleagues: https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/
+・AI models need more data about biology, and OpenAI is paying to create it: https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/
+・We don't need AI regulation — leave safety to us, Nvidia's Jensen Huang says: https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/
+・The AI data center boom is colliding with cities scarred by big industry: https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/
+・US data centers could consume more natural gas than Germany and Japan combined by 2035: https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/
+・OpenAI, Anthropic, Google have been in talks on AI safety for weeks: https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/
+・The AI data center e-waste problem is huge — and getting bigger: https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban
+・Apple might make servers again to cash in on the AI rush: https://www.theverge.com/tech/996321/apple-servers-ai-nvidia
+・Google will now let any AI agent run your smart home: https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date
+・Claude comes for Gemini with its own take on Docs and Slides: https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides
+・A brief history of AI executives calling for regulation: https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation
+・AI and data centers are incredibly unpopular in every poll: https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september
+・The Ezra Klein Show: The A.I. Revolt Is Here (Hard Fork): https://www.nytimes.com/column/hard-fork
+・Coinbase's Everything Exchange: Agentic Finance with CEO Brian Armstrong (No Priors): https://www.youtube.com/watch?v=no-priors-coinbase
+・Heart of the Matter: How a Major Children's Hospital Uses Open Source NVIDIA AI for Cardiac Care: https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/
+・Agility's Digit 5 humanoid has new legs, batteries, and safety upgrades: https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/
+・Digit 5 May Be the First Humanoid Robot Worker That's Truly Safe: https://spectrum.ieee.org/humanoid-robot-safety
+・Universal Robots launches its seventh generation robot platform at IMTS: https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/
+
+#AIニュース #生成AI #海外AI #データセンター #AI安全性 #AIエージェント #暗号資産 #半導体 #スマートホーム #医療AI #AIと社会]]></itunes:summary>
+      <itunes:duration>00:29:48</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>9/14 AIブレーキ宣言＆データセンター反乱＆エージェント経済の到来</title>
+      <description><![CDATA[【今回のトピック】
+・Anthropicのダリオ・アモデイCEOが「AI開発のペースを落とすべき」と表明し、外部評価機関METRによる安全性チェックの導入を発表。Claudeの悪用事例や中国企業による蒸留攻撃も報告された
+・アメリカでAIデータセンター建設への市民の反対が急増し、反対率が40%から70%にほぼ倍増。電力・水資源・環境への懸念が背景にあり、日本にも波及しうる問題
+・OpenAIのサム・アルトマンが2026年中のIPOを否定。AIエージェント経済の進展、コンテンツ制作コストの80分の1への激減、AI生成の虚偽情報が法廷に持ち込まれた事例など、AIの社会的影響が多面的に拡大]]></description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-09-14.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-09-14.mp3" length="25409709" type="audio/mpeg"/>
       <itunes:title>9/14 AIブレーキ宣言＆データセンター反乱＆エージェント経済の到来</itunes:title>
-      <itunes:summary><![CDATA[AnthropicのCEOが「AI開発のペースを落とすべき」と宣言し、業界の安全性議論が新段階へ。アメリカではAIデータセンター建設への市民反対が70%に急増し、政党を超えた「AIポピュリズム」が拡大。OpenAIのIPO見送りとAIエージェント経済の急成長、Coinbaseが描くエージェント間マイクロペイメントの未来まで深掘りします。
-
-【目次】
-・オープニング
-・メインニュース：AnthropicがAI開発減速を宣言＆業界安全性の転換点
-・メインニュース：米国AIデータセンター建設への市民大反発
-・ディープダイブ：OpenAI IPO見送り＆AIエージェント経済の現在地
-・生活＆仕事へのヒント：AIツール活用と検証力の重要性
-・エンディング
-
-【参照元】
-・Perplexity trusts GPT-6 Astra with end-to-end systems: https://openai.com/index/perplexity-improving-accuracy-with-astra
-・What's behind the AI industry's latest warnings of doom?: https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/
-・Obama urges Democrats to have a 'clear plan' for AI safeguards: https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/
-・AI Agent Monitoring Beyond the Dashboard: https://pastagi.com/engineering/ai-agent-monitoring-beyond-the-dashboard/
-・Your Model Isn't Done Until Someone Else Can Call It: https://towardsdatascience.com/your-model-isnt-done-until-someone-else-can-call-it/
-・AI Agents Are Thirsty for Power: https://www.wired.com/story/ai-agents-are-thirsty-for-power/
-・AWS Introduces Pizza Bot: https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents/
-・Context Engineering Inside the Harness: https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks/
-・Cognition Releases SWE-2: https://www.marktechpost.com/2026/09/12/cognition-releases-swe-2-a-kimi-k3-post-trained-coding-model-that-matches-fable-5-1-on-frontiercode-at-64-lower-cost/
-・OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026: https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/
-・The Rise of the Forward Deployed Engineer: https://www.latent.space/p/forward-deployed-engineer-best-practices
-・One Capital Letter Was Silently Breaking My AI Support Bot: https://towardsdatascience.com/one-capital-letter-was-silently-breaking-my-ai-support-bot-and-it-wasnt-in-the-new-model/
-・From Hacks to Bioweapons, Claude Misuse Is Now Everywhere: https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/
-・Rapidly scaling online storage to serve over 1 billion ChatGPT users: https://openai.com/index/scaling-storage-one-billion-users-part-one
-・Cognition helps Devin test its own work with GPT-6 Astra: https://openai.com/index/cognition-devin-testing-with-astra
-・How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
-・Now everyone can put data to work: https://openai.com/index/put-data-to-work
-・Introducing ChatGPT for Financial Services: https://openai.com/index/introducing-chatgpt-financial-services
-・Expanding AI access and cyber defense for federal, state, local, and tribal governments: https://openai.com/index/expanding-ai-access-us-government
-・Build more natural voice experiences with GPT-Live-1 in the API: https://openai.com/index/introducing-gpt-live-1-in-the-api
-・Introducing the Agents API: https://openai.com/index/introducing-the-agents-api
-・Paul Christiano joins OpenAI Foundation Board: https://openai.com/index/paul-christiano-joins-openai-foundation-board
-・Rebuilding AUTOMATIC1111 with Gradio Workflow: https://huggingface.co/blog/gradio-workflow-1111
-・IBM releases SOTA Granite Time Series model: https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series
-・Roundtables: Could AI really kill us all?: https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/
-・Powering AI is an architecture problem: https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/
-・Healthcare AI's next test is integration: https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/
-・Mecka AI nears $500M valuation in Sequoia-led deal: https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/
-・Y Combinator's Garry Tan wants US open-weight AI labs to 'distill' frontier models: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
-・OpenAI's feud with mathematicians is only escalating: https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/
-・Kimi-maker Moonshot AI targets $2B in annual revenue: https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/
-・An Anthropic researcher's doomsday warning comes at a very interesting time: https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/
-・Nscale adds former OpenAI exec Fidji Simo to its board: https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/
-・Jensen Huang explains why Nvidia will grow an astounding 70% next year: https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/
-・OpenAI puts Pro subscriptions on hold due to Astra demand: https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/
-・Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek: https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/
-・Meta's AI agent Muse is now the No. 2 app in the US: https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/
-・Anthropic reveals rogue AI agents hate CAPTCHAs: https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/
-・India's Pocket FM doubles revenue run rate to $500M: https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/
-・OpenAI's rogue AI tried to hack another company in May: https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack
-・Sam Altman says OpenAI going public in 2026 would be 'ill-advised': https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised
-・Anthropic CEO says it's time to pump the brakes on AI: https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development
-・Trump is giving data centers a pass to pollute: https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa
-・Lawyer fined $5K over AI-hallucinated witnesses in a murder case: https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal
-・Anthropic spent this week in hot water over cybersecurity: https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity
-・Meta says it's changing AI suggestions after posing invasive personal questions: https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions
-・Slack can now vibe-code interactive charts and reports inside chats: https://www.theverge.com/tech/989853/slackforce-surfaces-launch
-・Schools are catching on to Big Tech's playbook: https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids
-・The Interfaces Are Arriving: https://www.oreilly.com/radar/the-interfaces-are-arriving/
-・Generative AI in the Real World: Local Voice AI with Pete Warden: https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-local-voice-ai-with-pete-warden/
-・How autonomous fleets are changing what's possible in American agriculture: https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/
-・Ultrasound offers a scalable path to tactile intelligence for physical AI: https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/
-・One brick at a time: How Monumental uses robotics to build walls: https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/
-・Unitree shares down 53% from IPO debut: https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/
-・AGIBOT to explain how to scale humanoids from lab to real world: https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/
-・Vention opens Physical AI Lab for manufacturing in Montreal: https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/
-・Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video: https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/
-・Robots Are Learning to Feel: https://spectrum.ieee.org/tactile-data-robots
-・Humanoid robot learns to sprint and perform spin kicks using AI: https://techxplore.com/news/2026-09-humanoid-robot-sprint-ai-human.html
-・The Ezra Klein Show: The A.I. Revolt Is Here: https://www.nytimes.com/column/hard-fork
-・No Priors: Coinbase CEO Brian Armstrong on Agentic Finance: https://www.youtube.com/watch?v=nopriors-coinbase
-
-#AIニュース #生成AI #海外AI #AI安全性 #データセンター #AIエージェント #AIと社会 #暗号資産 #ロボティクス #AI規制]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・Anthropicのダリオ・アモデイCEOが「AI開発のペースを落とすべき」と表明し、外部評価機関METRによる安全性チェックの導入を発表。Claudeの悪用事例や中国企業による蒸留攻撃も報告された
+・アメリカでAIデータセンター建設への市民の反対が急増し、反対率が40%から70%にほぼ倍増。電力・水資源・環境への懸念が背景にあり、日本にも波及しうる問題
+・OpenAIのサム・アルトマンが2026年中のIPOを否定。AIエージェント経済の進展、コンテンツ制作コストの80分の1への激減、AI生成の虚偽情報が法廷に持ち込まれた事例など、AIの社会的影響が多面的に拡大]]></itunes:summary>
       <itunes:duration>00:26:28</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -485,19 +454,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>7/9 GPT-Live音声革命＆ゲームでロボット訓練＆MetaのInstagram写真AI利用問題</title>
-      <description><![CDATA[【今回のトピック】
-・OpenAIの「GPT-Live」によるフルデュプレックス音声会話の革新と同時通訳・カスタマーサポートへの応用
-・General Intuitionによるビデオゲームデータを活用したロボットAI訓練という新アプローチとロボティクス業界への資金流入
-・MetaのAI画像モデル「Muse」がInstagramユーザーの写真を他人のAI画像生成に利用するプライバシー問題]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-07-09</title>
+      <description><![CDATA[2026-07-09 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-09.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-09.mp3" length="19633581" type="audio/mpeg"/>
-      <itunes:title>7/9 GPT-Live音声革命＆ゲームでロボット訓練＆MetaのInstagram写真AI利用問題</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・OpenAIの「GPT-Live」によるフルデュプレックス音声会話の革新と同時通訳・カスタマーサポートへの応用
-・General Intuitionによるビデオゲームデータを活用したロボットAI訓練という新アプローチとロボティクス業界への資金流入
-・MetaのAI画像モデル「Muse」がInstagramユーザーの写真を他人のAI画像生成に利用するプライバシー問題]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-07-09</itunes:title>
+      <itunes:summary><![CDATA[2026-07-09 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:20:27</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
