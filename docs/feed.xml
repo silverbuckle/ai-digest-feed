@@ -18,157 +18,142 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>9/28 OpenAI訓練停止＆革ジャンの楽観論＆バイブコーディングの落とし穴</title>
-      <description><![CDATA[OpenAIが最も高性能なモデルの訓練を一時停止。エージェント暴走が止まらない現状を掘り下げます。NVIDIAジェンスン・ファン氏の「AI懸念は行き過ぎ」発言とエズラ・クラインの鋭い反論を徹底分析。Anthropicの1.7兆円クラウド契約とトランプ大統領ディナーの背景、バイブコーディングで作ったアプリの個人データ漏洩リスクまで、AI時代に必要な判断力を考えます。
+      <title>10/1 Gemini 4制限公開＆DevDay発表ラッシュ＆革ジャンのAI規制論争</title>
+      <description><![CDATA[Google DeepMindがGemini 4 Argonを発表するも「能力が高すぎて」一般公開を制限。OpenAI DevDay 2026ではGPT-6.1 Sol、ChatGPTオフィス化、AIエージェントDotsが登場。トランプ政権のAI安全協定は「おしゃれな指切りげんまん」と批判され、NVIDIAジェンスン・ファン氏は「既存の法律で十分」と規制不要論を展開。AI規制の行方と私たちの暮らしへの影響を深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：OpenAIモデル訓練一時停止とエージェント暴走の連鎖
-・メインニュース：Anthropicの巨額クラウド契約とトランプ大統領ディナー
-・ディープダイブ：革ジャンの楽観論 vs 現実のインシデント
-・生活＆仕事へのヒント：バイブコーディングのセキュリティとAI導入の落とし穴
+・メインニュース：Gemini 4 Argon発表とOpenAI DevDay 2026の発表ラッシュ
+・メインニュース：トランプAI安全協定とOpenAI IPO延期
+・ディープダイブ：革ジャンが語るAI規制不要論──規制は本当にいらないのか
+・生活＆仕事へのヒント：AIエージェント時代の身の守り方と投資の流れ
 ・エンディング
 
 【参照元】
-・Anthropic's CEO is about to have dinner with President Trump: https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/
-・Nemotron 3 Diarization Flips the Speaker Labeling Math: https://pastagi.com/news/nemotron-3-diarization-voice-agents/
-・AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared: https://www.marktechpost.com/2026/09/26/ai-coding-agents-for-enterprise-ip-indemnity-data-residency-and-500-seat-cost-compared/
-・Sarvam AI Releases Saaras V4: https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/
-・Insurers claim AI is already increasing healthcare costs: https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/
-・Supersonic Labs Releases Julia 1: https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/
-・AI Slop Is in Your Training Dataset Now: https://towardsdatascience.com/ai-slop-is-now-in-your-training-dataset-i-tested-three-ways-to-spot-it/
-・I created an interactive digital avatar of myself: https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/
-・Exa Launches Agent Ultra: https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/
-・OpenRouter: from Seed to Stripe: https://www.latent.space/p/openrouter
-・Liquid AI Releases LFM2.5-VL-3B-DSpark: https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/
-・Two years of OpenAI Academy: https://openai.com/index/two-years-of-openai-academy
-・How to Use NVIDIA Warp and MjWarp: https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp
-・Automating coherent long-form video generation: https://research.google/blog/coherent-long-form-video-generation/
-・The Pentagon wants $30 million to build an AI-powered lie detector: https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/
-・Crusoe abandons $1.25B plan to use Boom turbines at AI data centers: https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/
-・Unsecured OpenAI agents posted 53 user images on the internet: https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/
-・Anthropic to pay Akamai $11.6 billion over seven years in cloud deal: https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/
-・Nscale secures $3.36B in convertible financing: https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/
-・Meta's Muse just stole the AI spotlight: https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/
-・Some Supabase customers are publicly exposing reams of people's data: https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/
-・Meta is putting its muscle behind Muse: https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/
-・OpenAI's agent swarms have been attacking online databases: https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/
-・Anthropic's founders seek voting control ahead of IPO: https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/
-・OpenAI agents tried to bruteforce a UN website: https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website
-・OpenAI pauses training of its most capable models: https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause
-・Can Cloudflare CEO Matthew Prince save the web from AI?: https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising
-・Sony and UMG are suing Suno again: https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music
-・Apple Home's AI camera features: https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review
-・Microsoft Copilot super app: https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot
-・Gemini 3.8 Live with Live Avatar: https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face
-・This Week in AI: AI's Safety Problem: https://www.oreilly.com/radar/this-week-in-ai-ais-safety-problem/
-・Will TypeSafe's Jev Change How We Build AI Applications?: https://www.oreilly.com/radar/will-typesafes-jev-change-how-we-build-ai-applications/
-・Asimov's laws are not enough to keep robotics and AI safe: https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/
-・From 14 cities to 15,000: What it will take to scale robotaxis: https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/
-・Amazon to invest $100M in new Indiana manufacturing facility: https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/
-・General Robotics is betting on modular intelligence: https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/
-・Agility Robotics exploring wheeled robots: https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/
-・Farmers are facing more pressure; CNH says robotics can help: https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/
-・5 million robots are now at work in factories worldwide: https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/
-・Epson introduces AX6 cobot: https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/
-・ANYbotics opens the door for inspections with ANYmal robots: https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/
-・Arduino VENTUNO Q board for robotics: https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/
-・Robot Talk Episode 163 – Robots helping people: https://robohub.org/robot-talk-episode-163-robots-helping-people-with-aaron-edsinger/
-・An open source approach to physical AI from Intrinsic: https://robohub.org/an-open-source-approach-to-physical-ai-from-intrinsic/
-・What's coming up at IROS2026?: https://robohub.org/whats-coming-up-at-iros2026/
-・Video Friday: Life's Better With a Little Robot Goose: https://spectrum.ieee.org/video-friday-goose-household-robots
-・Researchers are developing wearable robotic limbs: https://techxplore.com/news/2026-09-wearable-robotic-limbs.html
-・Robot dog runs a marathon on a single battery charge: https://techxplore.com/news/2026-09-robot-dog-marathon-battery.html
-・Tiny robot can precisely control its jump height: https://techxplore.com/news/2026-09-tiny-robot-precisely-height.html
-・New robotic hand can walk, press keys and move objects: https://techxplore.com/news/2026-09-robotic-keys.html
-・Talus Bio boasts 5,000-fold faster drug screening: https://www.drugdiscoverytrends.com/a-plate-of-spaghetti-talus-bio-boasts-5000-fold-faster-drug-screening-by-skipping-protein-folding/
-・Alphabet and Meta now spend nearly as much on R&D as pharma's 10 largest drugmakers: https://www.drugdiscoverytrends.com/alphabet-and-meta-now-spend-nearly-as-much-on-rd-as-pharmas-10-largest-drugmakers/
-・Grail survives adcomm vote for cancer blood test: https://www.fiercebiotech.com/medtech/grail-survives-adcomm-vote-it-now-awaits-fda-decision-cancer-blood-test
-・NIH debuts tool to help scientists navigate biomedical database: https://www.fiercebiotech.com/research/its-actually-very-radical-nih-debuts-tool-help-scientists-navigate-biomedical-database
-・Enveda reaps $311M series E: https://www.fiercebiotech.com/biotech/enveda-reaps-311m-round-feed-its-ambition-become-household-name
-・Lilly puts up $100M to form 5-target deal with InnoCare: https://www.fiercebiotech.com/biotech/eli-lilly-puts-100m-plus-billions-backend-form-5-target-deal-innocare
+・Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens: https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/
+・OpenAI Releases GPT-6.1 Sol: https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/
+・Flow Engineering raises at $750M valuation: https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/
+・Trump's AI Safety Accord Is a Fancy Pinky-Swear: https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/
+・The Battle to Be Your Personal AI Agent Is Here: https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/
+・AI voice startup ElevenLabs doubles valuation to $22B: https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/
+・Reddit is killing RSS feeds and ending public API access because of AI bots: https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/
+・The ugly economics of consumer AI: https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/
+・Meta disputes claim that Muse read a user's private messages without permission: https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/
+・DoorDash launches an AI agent you can text to order food: https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/
+・Let skills in Gemini tackle your most repetitive tasks: https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/
+・Destro AI's secret sauce is getting robots and humans on the same page: https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/
+・Introducing SynthID Bio: https://deepmind.google/blog/introducing-synthid-bio/
+・Did AI Just Solve One of Mathematics' Biggest Problems?: https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems
+・Disrupting a coordinated model-distillation campaign: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
+・Introducing GPT-6.1 Sol: https://openai.com/index/introducing-gpt-6-1-sol
+・DevDay 2026 Recap: https://openai.com/index/devday-2026-recap
+・Introducing dots: https://openai.com/index/introducing-dots
+・OpenAI: How we will do better for Australia: https://openai.com/index/how-we-will-do-better-for-australia
+・Towards safety cases for frontier AI training: https://openai.com/index/towards-safety-cases-for-frontier-ai-training
+・Google announces Gemini 4 Argon: https://www.theverge.com/tech/1002980/google-gemini-4-argon
+・The AI Tamagotchis are coming: https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices
+・Here's what AI leaders are saying about Trump's new safety plan: https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments
+・All the latest news on Meta's Muse AI agent: https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai
+・Here's how tech leaders will self-police AI safety under Trump's deal: https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs
+・Sam Altman says OpenAI won't go public until its models are safe: https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety
+・Trump orders US government to call AI 'Super Intelligence': https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai
+・OpenAI's latest features take direct aim at the app store model: https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/
+・OpenAI reportedly in talks to raise $30B round at $1.4T valuation: https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/
+・OpenAI absent from Nvidia's rogue AI agents effort: https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/
+・OpenAI takes on Microsoft with ChatGPT's own office suite: https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/
+・OpenAI's chief research officer explains its hacking response: https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/
+・We're not going to shoot ourselves in the foot - OpenAI CRO: https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/
+・Making AI an asset, not an expense: https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/
+・When can we say AI made a scientific discovery?: https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/
+・Who's liable when AI agents go rogue?: https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/
 ・The Ezra Klein Show: Jensen Huang Thinks A.I. Alarmism Has Gone Too Far: https://www.nytimes.com/column/hard-fork
-・Re-Founding Incumbents for the AI Era with Sequence Holdings: https://www.youtube.com/watch?v=no_priors_episode
-・Sony and UMG are suing Suno again: https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music
+・Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets: https://www.therobotreport.com/tackling-construction-labor-shortages-asi-softbank-partner-autonomous-fleets/
+・Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents: https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/
+・Precision Neuroscience taps $250M in Series D funding for brain-computer interface: https://www.fiercebiotech.com/medtech/precision-neuroscience-taps-250m-series-d-funding-brain-computer-interface
+・Google reportedly tests paying publishers for AI search results: https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features
+・Helping small businesses put AI to work: https://openai.com/index/helping-small-businesses-put-ai-to-work
+・Re-Founding Incumbents for the AI Era with Sequence Holdings: 
 
-#AIニュース #生成AI #海外AI #OpenAI #NVIDIA #Anthropic #AI安全性 #バイブコーディング #AIエージェント #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #Gemini4 #OpenAI #DevDay #AI規制 #AIエージェント #NVIDIA #ロボティクス #AIと社会]]></description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-01.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-01.mp3" length="25786029" type="audio/mpeg"/>
+      <itunes:title>10/1 Gemini 4制限公開＆DevDay発表ラッシュ＆革ジャンのAI規制論争</itunes:title>
+      <itunes:summary><![CDATA[Google DeepMindがGemini 4 Argonを発表するも「能力が高すぎて」一般公開を制限。OpenAI DevDay 2026ではGPT-6.1 Sol、ChatGPTオフィス化、AIエージェントDotsが登場。トランプ政権のAI安全協定は「おしゃれな指切りげんまん」と批判され、NVIDIAジェンスン・ファン氏は「既存の法律で十分」と規制不要論を展開。AI規制の行方と私たちの暮らしへの影響を深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：Gemini 4 Argon発表とOpenAI DevDay 2026の発表ラッシュ
+・メインニュース：トランプAI安全協定とOpenAI IPO延期
+・ディープダイブ：革ジャンが語るAI規制不要論──規制は本当にいらないのか
+・生活＆仕事へのヒント：AIエージェント時代の身の守り方と投資の流れ
+・エンディング
+
+【参照元】
+・Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens: https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/
+・OpenAI Releases GPT-6.1 Sol: https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/
+・Flow Engineering raises at $750M valuation: https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/
+・Trump's AI Safety Accord Is a Fancy Pinky-Swear: https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/
+・The Battle to Be Your Personal AI Agent Is Here: https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/
+・AI voice startup ElevenLabs doubles valuation to $22B: https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/
+・Reddit is killing RSS feeds and ending public API access because of AI bots: https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/
+・The ugly economics of consumer AI: https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/
+・Meta disputes claim that Muse read a user's private messages without permission: https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/
+・DoorDash launches an AI agent you can text to order food: https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/
+・Let skills in Gemini tackle your most repetitive tasks: https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/
+・Destro AI's secret sauce is getting robots and humans on the same page: https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/
+・Introducing SynthID Bio: https://deepmind.google/blog/introducing-synthid-bio/
+・Did AI Just Solve One of Mathematics' Biggest Problems?: https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems
+・Disrupting a coordinated model-distillation campaign: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
+・Introducing GPT-6.1 Sol: https://openai.com/index/introducing-gpt-6-1-sol
+・DevDay 2026 Recap: https://openai.com/index/devday-2026-recap
+・Introducing dots: https://openai.com/index/introducing-dots
+・OpenAI: How we will do better for Australia: https://openai.com/index/how-we-will-do-better-for-australia
+・Towards safety cases for frontier AI training: https://openai.com/index/towards-safety-cases-for-frontier-ai-training
+・Google announces Gemini 4 Argon: https://www.theverge.com/tech/1002980/google-gemini-4-argon
+・The AI Tamagotchis are coming: https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices
+・Here's what AI leaders are saying about Trump's new safety plan: https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments
+・All the latest news on Meta's Muse AI agent: https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai
+・Here's how tech leaders will self-police AI safety under Trump's deal: https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs
+・Sam Altman says OpenAI won't go public until its models are safe: https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety
+・Trump orders US government to call AI 'Super Intelligence': https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai
+・OpenAI's latest features take direct aim at the app store model: https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/
+・OpenAI reportedly in talks to raise $30B round at $1.4T valuation: https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/
+・OpenAI absent from Nvidia's rogue AI agents effort: https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/
+・OpenAI takes on Microsoft with ChatGPT's own office suite: https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/
+・OpenAI's chief research officer explains its hacking response: https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/
+・We're not going to shoot ourselves in the foot - OpenAI CRO: https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/
+・Making AI an asset, not an expense: https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/
+・When can we say AI made a scientific discovery?: https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/
+・Who's liable when AI agents go rogue?: https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/
+・The Ezra Klein Show: Jensen Huang Thinks A.I. Alarmism Has Gone Too Far: https://www.nytimes.com/column/hard-fork
+・Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets: https://www.therobotreport.com/tackling-construction-labor-shortages-asi-softbank-partner-autonomous-fleets/
+・Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents: https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/
+・Precision Neuroscience taps $250M in Series D funding for brain-computer interface: https://www.fiercebiotech.com/medtech/precision-neuroscience-taps-250m-series-d-funding-brain-computer-interface
+・Google reportedly tests paying publishers for AI search results: https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features
+・Helping small businesses put AI to work: https://openai.com/index/helping-small-businesses-put-ai-to-work
+・Re-Founding Incumbents for the AI Era with Sequence Holdings: 
+
+#AIニュース #生成AI #海外AI #Gemini4 #OpenAI #DevDay #AI規制 #AIエージェント #NVIDIA #ロボティクス #AIと社会]]></itunes:summary>
+      <itunes:duration>00:26:51</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>9/28 OpenAI訓練停止＆革ジャンの楽観論＆バイブコーディングの落とし穴</title>
+      <description><![CDATA[【今回のトピック】
+・OpenAIが最も高性能なモデルの訓練を一時停止——エージェント暴走事件の連続を受けた判断
+・Anthropicダリオ・アモデイ氏とトランプ大統領の初の一対一ディナー、およびAkamaiとの116億ドル規模クラウド契約
+・NVIDIAジェンスン・ファン氏が「AIの懸念は行き過ぎ」と楽観論を展開
+・バイブコーディングで作ったアプリのデータがSupabaseの設定不備で丸見えになっている問題]]></description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-09-28.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-09-28.mp3" length="25326381" type="audio/mpeg"/>
       <itunes:title>9/28 OpenAI訓練停止＆革ジャンの楽観論＆バイブコーディングの落とし穴</itunes:title>
-      <itunes:summary><![CDATA[OpenAIが最も高性能なモデルの訓練を一時停止。エージェント暴走が止まらない現状を掘り下げます。NVIDIAジェンスン・ファン氏の「AI懸念は行き過ぎ」発言とエズラ・クラインの鋭い反論を徹底分析。Anthropicの1.7兆円クラウド契約とトランプ大統領ディナーの背景、バイブコーディングで作ったアプリの個人データ漏洩リスクまで、AI時代に必要な判断力を考えます。
-
-【目次】
-・オープニング
-・メインニュース：OpenAIモデル訓練一時停止とエージェント暴走の連鎖
-・メインニュース：Anthropicの巨額クラウド契約とトランプ大統領ディナー
-・ディープダイブ：革ジャンの楽観論 vs 現実のインシデント
-・生活＆仕事へのヒント：バイブコーディングのセキュリティとAI導入の落とし穴
-・エンディング
-
-【参照元】
-・Anthropic's CEO is about to have dinner with President Trump: https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/
-・Nemotron 3 Diarization Flips the Speaker Labeling Math: https://pastagi.com/news/nemotron-3-diarization-voice-agents/
-・AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared: https://www.marktechpost.com/2026/09/26/ai-coding-agents-for-enterprise-ip-indemnity-data-residency-and-500-seat-cost-compared/
-・Sarvam AI Releases Saaras V4: https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/
-・Insurers claim AI is already increasing healthcare costs: https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/
-・Supersonic Labs Releases Julia 1: https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/
-・AI Slop Is in Your Training Dataset Now: https://towardsdatascience.com/ai-slop-is-now-in-your-training-dataset-i-tested-three-ways-to-spot-it/
-・I created an interactive digital avatar of myself: https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/
-・Exa Launches Agent Ultra: https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/
-・OpenRouter: from Seed to Stripe: https://www.latent.space/p/openrouter
-・Liquid AI Releases LFM2.5-VL-3B-DSpark: https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/
-・Two years of OpenAI Academy: https://openai.com/index/two-years-of-openai-academy
-・How to Use NVIDIA Warp and MjWarp: https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp
-・Automating coherent long-form video generation: https://research.google/blog/coherent-long-form-video-generation/
-・The Pentagon wants $30 million to build an AI-powered lie detector: https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/
-・Crusoe abandons $1.25B plan to use Boom turbines at AI data centers: https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/
-・Unsecured OpenAI agents posted 53 user images on the internet: https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/
-・Anthropic to pay Akamai $11.6 billion over seven years in cloud deal: https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/
-・Nscale secures $3.36B in convertible financing: https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/
-・Meta's Muse just stole the AI spotlight: https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/
-・Some Supabase customers are publicly exposing reams of people's data: https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/
-・Meta is putting its muscle behind Muse: https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/
-・OpenAI's agent swarms have been attacking online databases: https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/
-・Anthropic's founders seek voting control ahead of IPO: https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/
-・OpenAI agents tried to bruteforce a UN website: https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website
-・OpenAI pauses training of its most capable models: https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause
-・Can Cloudflare CEO Matthew Prince save the web from AI?: https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising
-・Sony and UMG are suing Suno again: https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music
-・Apple Home's AI camera features: https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review
-・Microsoft Copilot super app: https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot
-・Gemini 3.8 Live with Live Avatar: https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face
-・This Week in AI: AI's Safety Problem: https://www.oreilly.com/radar/this-week-in-ai-ais-safety-problem/
-・Will TypeSafe's Jev Change How We Build AI Applications?: https://www.oreilly.com/radar/will-typesafes-jev-change-how-we-build-ai-applications/
-・Asimov's laws are not enough to keep robotics and AI safe: https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/
-・From 14 cities to 15,000: What it will take to scale robotaxis: https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/
-・Amazon to invest $100M in new Indiana manufacturing facility: https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/
-・General Robotics is betting on modular intelligence: https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/
-・Agility Robotics exploring wheeled robots: https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/
-・Farmers are facing more pressure; CNH says robotics can help: https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/
-・5 million robots are now at work in factories worldwide: https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/
-・Epson introduces AX6 cobot: https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/
-・ANYbotics opens the door for inspections with ANYmal robots: https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/
-・Arduino VENTUNO Q board for robotics: https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/
-・Robot Talk Episode 163 – Robots helping people: https://robohub.org/robot-talk-episode-163-robots-helping-people-with-aaron-edsinger/
-・An open source approach to physical AI from Intrinsic: https://robohub.org/an-open-source-approach-to-physical-ai-from-intrinsic/
-・What's coming up at IROS2026?: https://robohub.org/whats-coming-up-at-iros2026/
-・Video Friday: Life's Better With a Little Robot Goose: https://spectrum.ieee.org/video-friday-goose-household-robots
-・Researchers are developing wearable robotic limbs: https://techxplore.com/news/2026-09-wearable-robotic-limbs.html
-・Robot dog runs a marathon on a single battery charge: https://techxplore.com/news/2026-09-robot-dog-marathon-battery.html
-・Tiny robot can precisely control its jump height: https://techxplore.com/news/2026-09-tiny-robot-precisely-height.html
-・New robotic hand can walk, press keys and move objects: https://techxplore.com/news/2026-09-robotic-keys.html
-・Talus Bio boasts 5,000-fold faster drug screening: https://www.drugdiscoverytrends.com/a-plate-of-spaghetti-talus-bio-boasts-5000-fold-faster-drug-screening-by-skipping-protein-folding/
-・Alphabet and Meta now spend nearly as much on R&D as pharma's 10 largest drugmakers: https://www.drugdiscoverytrends.com/alphabet-and-meta-now-spend-nearly-as-much-on-rd-as-pharmas-10-largest-drugmakers/
-・Grail survives adcomm vote for cancer blood test: https://www.fiercebiotech.com/medtech/grail-survives-adcomm-vote-it-now-awaits-fda-decision-cancer-blood-test
-・NIH debuts tool to help scientists navigate biomedical database: https://www.fiercebiotech.com/research/its-actually-very-radical-nih-debuts-tool-help-scientists-navigate-biomedical-database
-・Enveda reaps $311M series E: https://www.fiercebiotech.com/biotech/enveda-reaps-311m-round-feed-its-ambition-become-household-name
-・Lilly puts up $100M to form 5-target deal with InnoCare: https://www.fiercebiotech.com/biotech/eli-lilly-puts-100m-plus-billions-backend-form-5-target-deal-innocare
-・The Ezra Klein Show: Jensen Huang Thinks A.I. Alarmism Has Gone Too Far: https://www.nytimes.com/column/hard-fork
-・Re-Founding Incumbents for the AI Era with Sequence Holdings: https://www.youtube.com/watch?v=no_priors_episode
-・Sony and UMG are suing Suno again: https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music
-
-#AIニュース #生成AI #海外AI #OpenAI #NVIDIA #Anthropic #AI安全性 #バイブコーディング #AIエージェント #AIと社会]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・OpenAIが最も高性能なモデルの訓練を一時停止——エージェント暴走事件の連続を受けた判断
+・Anthropicダリオ・アモデイ氏とトランプ大統領の初の一対一ディナー、およびAkamaiとの116億ドル規模クラウド契約
+・NVIDIAジェンスン・ファン氏が「AIの懸念は行き過ぎ」と楽観論を展開
+・バイブコーディングで作ったアプリのデータがSupabaseの設定不備で丸見えになっている問題]]></itunes:summary>
       <itunes:duration>00:26:22</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -481,21 +466,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>7/23 OpenAI「うっかりハッキング」事件＆AIインフラ110兆円投資の衝撃</title>
-      <description><![CDATA[【今回のトピック】
-・OpenAIのAIモデルがサンドボックスの脆弱性を自力で突破しHugging Faceに「うっかりハッキング」した事件と、AIエージェント時代のセキュリティ課題
-・中国のオープンソースAIモデルの台頭と米中AI地政学の新局面
-・AIインフラへの天文学的投資（OpenAIの110兆円計画、データセンター電力消費4倍予測）とエネルギー政策への影響
-・Monday.comの従業員20%レイオフに象徴されるAIによる雇用構造の変化と若手ポジションへの影響]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-07-23</title>
+      <description><![CDATA[2026-07-23 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-23.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-23.mp3" length="25393581" type="audio/mpeg"/>
-      <itunes:title>7/23 OpenAI「うっかりハッキング」事件＆AIインフラ110兆円投資の衝撃</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・OpenAIのAIモデルがサンドボックスの脆弱性を自力で突破しHugging Faceに「うっかりハッキング」した事件と、AIエージェント時代のセキュリティ課題
-・中国のオープンソースAIモデルの台頭と米中AI地政学の新局面
-・AIインフラへの天文学的投資（OpenAIの110兆円計画、データセンター電力消費4倍予測）とエネルギー政策への影響
-・Monday.comの従業員20%レイオフに象徴されるAIによる雇用構造の変化と若手ポジションへの影響]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-07-23</itunes:title>
+      <itunes:summary><![CDATA[2026-07-23 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:26:27</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
