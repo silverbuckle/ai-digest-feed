@@ -18,123 +18,142 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>10/1 Gemini 4制限公開＆DevDay発表ラッシュ＆革ジャンのAI規制論争</title>
-      <description><![CDATA[Google DeepMindがGemini 4 Argonを発表するも「能力が高すぎて」一般公開を制限。OpenAI DevDay 2026ではGPT-6.1 Sol、ChatGPTオフィス化、AIエージェントDotsが登場。トランプ政権のAI安全協定は「おしゃれな指切りげんまん」と批判され、NVIDIAジェンスン・ファン氏は「既存の法律で十分」と規制不要論を展開。AI規制の行方と私たちの暮らしへの影響を深掘りします。
+      <title>10/5 OpenAI安全リーダー辞任＆AIエージェント急拡大のリスクと対策</title>
+      <description><![CDATA[OpenAIの安全性リーダーが「文化は壊れている」と辞任エッセイを公開。AIエージェントの急拡大に伴い、AppleがmacOSのセキュリティを強化し、トランプ政権は「スーパーインテリジェンス・フォース」を立ち上げた。AI推論チップのスタートアップFractileの戦略や、Boston Dynamicsの新型ロボットハンドの設計思想も紹介。AIの便利さとリスクの両面を掘り下げます。
 
 【目次】
 ・オープニング
-・メインニュース：Gemini 4 Argon発表とOpenAI DevDay 2026の発表ラッシュ
-・メインニュース：トランプAI安全協定とOpenAI IPO延期
-・ディープダイブ：革ジャンが語るAI規制不要論──規制は本当にいらないのか
-・生活＆仕事へのヒント：AIエージェント時代の身の守り方と投資の流れ
+・メインニュース：OpenAI安全性リーダー辞任と10兆パラメータモデルのリーク
+・メインニュース：AIエージェント急拡大とAppleのセキュリティ強化
+・ディープダイブ：AIエージェントのガバナンスをどう設計するか
+・生活＆仕事へのヒント：AIエージェント時代の3つのチェックポイント
 ・エンディング
 
 【参照元】
-・Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens: https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/
-・OpenAI Releases GPT-6.1 Sol: https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/
-・Flow Engineering raises at $750M valuation: https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/
-・Trump's AI Safety Accord Is a Fancy Pinky-Swear: https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/
-・The Battle to Be Your Personal AI Agent Is Here: https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/
-・AI voice startup ElevenLabs doubles valuation to $22B: https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/
-・Reddit is killing RSS feeds and ending public API access because of AI bots: https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/
-・The ugly economics of consumer AI: https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/
-・Meta disputes claim that Muse read a user's private messages without permission: https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/
-・DoorDash launches an AI agent you can text to order food: https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/
-・Let skills in Gemini tackle your most repetitive tasks: https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/
-・Destro AI's secret sauce is getting robots and humans on the same page: https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/
-・Introducing SynthID Bio: https://deepmind.google/blog/introducing-synthid-bio/
-・Did AI Just Solve One of Mathematics' Biggest Problems?: https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems
-・Disrupting a coordinated model-distillation campaign: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
-・Introducing GPT-6.1 Sol: https://openai.com/index/introducing-gpt-6-1-sol
-・DevDay 2026 Recap: https://openai.com/index/devday-2026-recap
-・Introducing dots: https://openai.com/index/introducing-dots
-・OpenAI: How we will do better for Australia: https://openai.com/index/how-we-will-do-better-for-australia
-・Towards safety cases for frontier AI training: https://openai.com/index/towards-safety-cases-for-frontier-ai-training
-・Google announces Gemini 4 Argon: https://www.theverge.com/tech/1002980/google-gemini-4-argon
-・The AI Tamagotchis are coming: https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices
-・Here's what AI leaders are saying about Trump's new safety plan: https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments
-・All the latest news on Meta's Muse AI agent: https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai
-・Here's how tech leaders will self-police AI safety under Trump's deal: https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs
-・Sam Altman says OpenAI won't go public until its models are safe: https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety
-・Trump orders US government to call AI 'Super Intelligence': https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai
-・OpenAI's latest features take direct aim at the app store model: https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/
-・OpenAI reportedly in talks to raise $30B round at $1.4T valuation: https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/
-・OpenAI absent from Nvidia's rogue AI agents effort: https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/
-・OpenAI takes on Microsoft with ChatGPT's own office suite: https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/
-・OpenAI's chief research officer explains its hacking response: https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/
-・We're not going to shoot ourselves in the foot - OpenAI CRO: https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/
-・Making AI an asset, not an expense: https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/
-・When can we say AI made a scientific discovery?: https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/
-・Who's liable when AI agents go rogue?: https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/
-・The Ezra Klein Show: Jensen Huang Thinks A.I. Alarmism Has Gone Too Far: https://www.nytimes.com/column/hard-fork
-・Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets: https://www.therobotreport.com/tackling-construction-labor-shortages-asi-softbank-partner-autonomous-fleets/
-・Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents: https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/
-・Precision Neuroscience taps $250M in Series D funding for brain-computer interface: https://www.fiercebiotech.com/medtech/precision-neuroscience-taps-250m-series-d-funding-brain-computer-interface
-・Google reportedly tests paying publishers for AI search results: https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features
-・Helping small businesses put AI to work: https://openai.com/index/helping-small-businesses-put-ai-to-work
-・Re-Founding Incumbents for the AI Era with Sequence Holdings: 
+・Google froze its open source bug bounty program due to AI submissions: https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/
+・Can 'super intelligence' and a non-binding safety pact solve AI's image problem?: https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/
+・Trump unveils his new Super Intelligence Force: https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/
+・How to Govern AI Agents: https://towardsdatascience.com/how-to-govern-ai-agents/
+・OpenAI Safety Lead David Robinson Quits: His Essay, Read: https://cellcog.ai/blog/openai-safety-lead-resigns/
+・OpenAI Bel: The 10T Pretrain Leak, Graded: https://cellcog.ai/blog/openai-bel/
+・Apple Tightens macOS Full Disk Access Over AI Agents: https://cellcog.ai/blog/macos-full-disk-access-ai-agents/
+・Your AI Employees Can Now Buy Things, With Your OK: https://cellcog.ai/blog/ai-employee-spend/
+・What Is DeepSeek Harness? The Open Agent, Explained: https://cellcog.ai/blog/what-is-deepseek-harness/
+・Best AI Tools for Shopify: 8 AI Agents Ranked: https://cellcog.ai/blog/best-ai-tools-for-shopify/
+・Rural Data Centers Are in for a Big Federal Tax Break: https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/
+・Amazon responds to data center backlash, says it no longer uses NDAs: https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/
+・OpenAI safety employee resigns, claiming the company's 'culture is broken': https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/
+・Apple says it's tightening macOS 'Full Disk Access' controls due to new risks from AI agents: https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/
+・Call it AI, call it Super Intelligence, only 2% of consumers are buying it: https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/
+・Circuit Breaker Labs hopes to make AI safer for your kids: https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/
+・AI hallucinations are making entitled customers even worse: https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents
+・An OpenAI safety employee has quit and is sounding the alarm: https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm
+・Apple will limit Mac disk access as AI agents 'substantially' increase risk: https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents
+・OpenAI's Dot agent is enterprise software that can also order your dinner: https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent
+・Meta open sources code to let you make Muse AI gadgets: https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link
+・We're going to need default hard budget caps on pretty much everything: https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
+・This Week in AI: Agents Are Outrunning the Systems Around Them: https://www.oreilly.com/radar/this-week-in-ai-agents-are-outrunning-the-systems-around-them/
+・A.I. Agents: Cute, Cuddly and Maybe Catastrophically Dangerous?: https://www.nytimes.com/column/hard-fork
+・Frontier Chips for Frontier AI Labs, with Walter Goodwin (No Priors): 
+・DeepSeek Harness v0.2 Brings Official Desktop Apps: https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/
+・Inside NVIDIA's IsaacTeleop: https://www.marktechpost.com/2026/10/03/inside-nvidias-isaacteleop-from-hand-and-controller-tracking-to-robot-actions-with-the-graph-based-retargeting-engine/
+・Boston Dynamics drops pinkie on new humanoid hand: https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/
+・Atlas Robot's New Hand May Outperform Humanlike Designs: https://spectrum.ieee.org/robust-robot-hand
+・Maven Robotics plans to automate industrial work: https://www.therobotreport.com/how-maven-robotics-plans-automate-industrial-work-one-task-at-a-time/
+・Robots approaching from behind are perceived as moving faster: https://techxplore.com/news/2026-10-robots-approaching-faster-reveal.html
+・A model guide for the GPT-6 family: https://openai.com/index/practical-guide-building-gpt-6
+・Chatham scales its capital markets expertise with OpenAI: https://openai.com/index/chatham-financial
+・Albertsons Companies is reimagining retail: https://openai.com/index/albertsons-reimagining-retail
+・The Den frees up 10-15 hours a week with ChatGPT Work: https://openai.com/index/the-den-family-social
+・Runway introduces Praxis-1 world action model for robotics: https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/
+・Don't be fooled—LLMs don't reason (MIT Technology Review): https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/
+・AI mind-reading tool can reconstruct what you're looking at: https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/
+・Sean Parker is rebuilding Stability AI around music: https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/
+・Capcom is preparing for a future where we create games together with AI: https://www.theverge.com/games/1004418/capcom-ai-game-development
+・Google Research Moves Federated Learning Into TEEs: https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/
+・Xaira reveals antibody platform, first taste of pipeline: https://www.fiercebiotech.com/biotech/weve-been-taking-our-time-xaira-reveals-antibody-platform-and-first-taste-pipeline
+・Foghorn lays off 40% as Lilly collab collapses: https://www.fiercebiotech.com/ai-and-machine-learning/foghorn-lays-40-employees-lilly-collab-collapses-over-poor-data
 
-#AIニュース #生成AI #海外AI #Gemini4 #OpenAI #DevDay #AI規制 #AIエージェント #NVIDIA #ロボティクス #AIと社会]]></description>
+#AIニュース #生成AI #海外AI #AIエージェント #AI安全性 #OpenAI #ロボティクス #半導体 #AIと社会 #AIガバナンス]]></description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-05.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-05.mp3" length="27448749" type="audio/mpeg"/>
+      <itunes:title>10/5 OpenAI安全リーダー辞任＆AIエージェント急拡大のリスクと対策</itunes:title>
+      <itunes:summary><![CDATA[OpenAIの安全性リーダーが「文化は壊れている」と辞任エッセイを公開。AIエージェントの急拡大に伴い、AppleがmacOSのセキュリティを強化し、トランプ政権は「スーパーインテリジェンス・フォース」を立ち上げた。AI推論チップのスタートアップFractileの戦略や、Boston Dynamicsの新型ロボットハンドの設計思想も紹介。AIの便利さとリスクの両面を掘り下げます。
+
+【目次】
+・オープニング
+・メインニュース：OpenAI安全性リーダー辞任と10兆パラメータモデルのリーク
+・メインニュース：AIエージェント急拡大とAppleのセキュリティ強化
+・ディープダイブ：AIエージェントのガバナンスをどう設計するか
+・生活＆仕事へのヒント：AIエージェント時代の3つのチェックポイント
+・エンディング
+
+【参照元】
+・Google froze its open source bug bounty program due to AI submissions: https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/
+・Can 'super intelligence' and a non-binding safety pact solve AI's image problem?: https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/
+・Trump unveils his new Super Intelligence Force: https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/
+・How to Govern AI Agents: https://towardsdatascience.com/how-to-govern-ai-agents/
+・OpenAI Safety Lead David Robinson Quits: His Essay, Read: https://cellcog.ai/blog/openai-safety-lead-resigns/
+・OpenAI Bel: The 10T Pretrain Leak, Graded: https://cellcog.ai/blog/openai-bel/
+・Apple Tightens macOS Full Disk Access Over AI Agents: https://cellcog.ai/blog/macos-full-disk-access-ai-agents/
+・Your AI Employees Can Now Buy Things, With Your OK: https://cellcog.ai/blog/ai-employee-spend/
+・What Is DeepSeek Harness? The Open Agent, Explained: https://cellcog.ai/blog/what-is-deepseek-harness/
+・Best AI Tools for Shopify: 8 AI Agents Ranked: https://cellcog.ai/blog/best-ai-tools-for-shopify/
+・Rural Data Centers Are in for a Big Federal Tax Break: https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/
+・Amazon responds to data center backlash, says it no longer uses NDAs: https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/
+・OpenAI safety employee resigns, claiming the company's 'culture is broken': https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/
+・Apple says it's tightening macOS 'Full Disk Access' controls due to new risks from AI agents: https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/
+・Call it AI, call it Super Intelligence, only 2% of consumers are buying it: https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/
+・Circuit Breaker Labs hopes to make AI safer for your kids: https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/
+・AI hallucinations are making entitled customers even worse: https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents
+・An OpenAI safety employee has quit and is sounding the alarm: https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm
+・Apple will limit Mac disk access as AI agents 'substantially' increase risk: https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents
+・OpenAI's Dot agent is enterprise software that can also order your dinner: https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent
+・Meta open sources code to let you make Muse AI gadgets: https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link
+・We're going to need default hard budget caps on pretty much everything: https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
+・This Week in AI: Agents Are Outrunning the Systems Around Them: https://www.oreilly.com/radar/this-week-in-ai-agents-are-outrunning-the-systems-around-them/
+・A.I. Agents: Cute, Cuddly and Maybe Catastrophically Dangerous?: https://www.nytimes.com/column/hard-fork
+・Frontier Chips for Frontier AI Labs, with Walter Goodwin (No Priors): 
+・DeepSeek Harness v0.2 Brings Official Desktop Apps: https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/
+・Inside NVIDIA's IsaacTeleop: https://www.marktechpost.com/2026/10/03/inside-nvidias-isaacteleop-from-hand-and-controller-tracking-to-robot-actions-with-the-graph-based-retargeting-engine/
+・Boston Dynamics drops pinkie on new humanoid hand: https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/
+・Atlas Robot's New Hand May Outperform Humanlike Designs: https://spectrum.ieee.org/robust-robot-hand
+・Maven Robotics plans to automate industrial work: https://www.therobotreport.com/how-maven-robotics-plans-automate-industrial-work-one-task-at-a-time/
+・Robots approaching from behind are perceived as moving faster: https://techxplore.com/news/2026-10-robots-approaching-faster-reveal.html
+・A model guide for the GPT-6 family: https://openai.com/index/practical-guide-building-gpt-6
+・Chatham scales its capital markets expertise with OpenAI: https://openai.com/index/chatham-financial
+・Albertsons Companies is reimagining retail: https://openai.com/index/albertsons-reimagining-retail
+・The Den frees up 10-15 hours a week with ChatGPT Work: https://openai.com/index/the-den-family-social
+・Runway introduces Praxis-1 world action model for robotics: https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/
+・Don't be fooled—LLMs don't reason (MIT Technology Review): https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/
+・AI mind-reading tool can reconstruct what you're looking at: https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/
+・Sean Parker is rebuilding Stability AI around music: https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/
+・Capcom is preparing for a future where we create games together with AI: https://www.theverge.com/games/1004418/capcom-ai-game-development
+・Google Research Moves Federated Learning Into TEEs: https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/
+・Xaira reveals antibody platform, first taste of pipeline: https://www.fiercebiotech.com/biotech/weve-been-taking-our-time-xaira-reveals-antibody-platform-and-first-taste-pipeline
+・Foghorn lays off 40% as Lilly collab collapses: https://www.fiercebiotech.com/ai-and-machine-learning/foghorn-lays-40-employees-lilly-collab-collapses-over-poor-data
+
+#AIニュース #生成AI #海外AI #AIエージェント #AI安全性 #OpenAI #ロボティクス #半導体 #AIと社会 #AIガバナンス]]></itunes:summary>
+      <itunes:duration>00:28:35</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>10/1 Gemini 4制限公開＆DevDay発表ラッシュ＆革ジャンのAI規制論争</title>
+      <description><![CDATA[【今回のトピック】
+・Google Gemini 4 Argonの発表と「能力が高すぎて一般公開を制限する」という新時代の到来
+・OpenAI DevDay 2026の発表ラッシュ（GPT-6.1 Solの低価格化、ChatGPTのオフィススイート化、AIエージェントDots）
+・トランプ大統領のAI安全協定への6社署名と「自主規制の実効性」への批判
+・NVIDIAジェンスン・ファン氏のAI規制不要論についてのロングインタビュー]]></description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-01.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-01.mp3" length="25786029" type="audio/mpeg"/>
       <itunes:title>10/1 Gemini 4制限公開＆DevDay発表ラッシュ＆革ジャンのAI規制論争</itunes:title>
-      <itunes:summary><![CDATA[Google DeepMindがGemini 4 Argonを発表するも「能力が高すぎて」一般公開を制限。OpenAI DevDay 2026ではGPT-6.1 Sol、ChatGPTオフィス化、AIエージェントDotsが登場。トランプ政権のAI安全協定は「おしゃれな指切りげんまん」と批判され、NVIDIAジェンスン・ファン氏は「既存の法律で十分」と規制不要論を展開。AI規制の行方と私たちの暮らしへの影響を深掘りします。
-
-【目次】
-・オープニング
-・メインニュース：Gemini 4 Argon発表とOpenAI DevDay 2026の発表ラッシュ
-・メインニュース：トランプAI安全協定とOpenAI IPO延期
-・ディープダイブ：革ジャンが語るAI規制不要論──規制は本当にいらないのか
-・生活＆仕事へのヒント：AIエージェント時代の身の守り方と投資の流れ
-・エンディング
-
-【参照元】
-・Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens: https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/
-・OpenAI Releases GPT-6.1 Sol: https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/
-・Flow Engineering raises at $750M valuation: https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/
-・Trump's AI Safety Accord Is a Fancy Pinky-Swear: https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/
-・The Battle to Be Your Personal AI Agent Is Here: https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/
-・AI voice startup ElevenLabs doubles valuation to $22B: https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/
-・Reddit is killing RSS feeds and ending public API access because of AI bots: https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/
-・The ugly economics of consumer AI: https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/
-・Meta disputes claim that Muse read a user's private messages without permission: https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/
-・DoorDash launches an AI agent you can text to order food: https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/
-・Let skills in Gemini tackle your most repetitive tasks: https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/
-・Destro AI's secret sauce is getting robots and humans on the same page: https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/
-・Introducing SynthID Bio: https://deepmind.google/blog/introducing-synthid-bio/
-・Did AI Just Solve One of Mathematics' Biggest Problems?: https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems
-・Disrupting a coordinated model-distillation campaign: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
-・Introducing GPT-6.1 Sol: https://openai.com/index/introducing-gpt-6-1-sol
-・DevDay 2026 Recap: https://openai.com/index/devday-2026-recap
-・Introducing dots: https://openai.com/index/introducing-dots
-・OpenAI: How we will do better for Australia: https://openai.com/index/how-we-will-do-better-for-australia
-・Towards safety cases for frontier AI training: https://openai.com/index/towards-safety-cases-for-frontier-ai-training
-・Google announces Gemini 4 Argon: https://www.theverge.com/tech/1002980/google-gemini-4-argon
-・The AI Tamagotchis are coming: https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices
-・Here's what AI leaders are saying about Trump's new safety plan: https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments
-・All the latest news on Meta's Muse AI agent: https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai
-・Here's how tech leaders will self-police AI safety under Trump's deal: https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs
-・Sam Altman says OpenAI won't go public until its models are safe: https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety
-・Trump orders US government to call AI 'Super Intelligence': https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai
-・OpenAI's latest features take direct aim at the app store model: https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/
-・OpenAI reportedly in talks to raise $30B round at $1.4T valuation: https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/
-・OpenAI absent from Nvidia's rogue AI agents effort: https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/
-・OpenAI takes on Microsoft with ChatGPT's own office suite: https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/
-・OpenAI's chief research officer explains its hacking response: https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/
-・We're not going to shoot ourselves in the foot - OpenAI CRO: https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/
-・Making AI an asset, not an expense: https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/
-・When can we say AI made a scientific discovery?: https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/
-・Who's liable when AI agents go rogue?: https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/
-・The Ezra Klein Show: Jensen Huang Thinks A.I. Alarmism Has Gone Too Far: https://www.nytimes.com/column/hard-fork
-・Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets: https://www.therobotreport.com/tackling-construction-labor-shortages-asi-softbank-partner-autonomous-fleets/
-・Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents: https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/
-・Precision Neuroscience taps $250M in Series D funding for brain-computer interface: https://www.fiercebiotech.com/medtech/precision-neuroscience-taps-250m-series-d-funding-brain-computer-interface
-・Google reportedly tests paying publishers for AI search results: https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features
-・Helping small businesses put AI to work: https://openai.com/index/helping-small-businesses-put-ai-to-work
-・Re-Founding Incumbents for the AI Era with Sequence Holdings: 
-
-#AIニュース #生成AI #海外AI #Gemini4 #OpenAI #DevDay #AI規制 #AIエージェント #NVIDIA #ロボティクス #AIと社会]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・Google Gemini 4 Argonの発表と「能力が高すぎて一般公開を制限する」という新時代の到来
+・OpenAI DevDay 2026の発表ラッシュ（GPT-6.1 Solの低価格化、ChatGPTのオフィススイート化、AIエージェントDots）
+・トランプ大統領のAI安全協定への6社署名と「自主規制の実効性」への批判
+・NVIDIAジェンスン・ファン氏のAI規制不要論についてのロングインタビュー]]></itunes:summary>
       <itunes:duration>00:26:51</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -449,19 +468,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>7/27 AIハッキング続報＆ロボット産業に資金殺到＆医療AIの進化</title>
-      <description><![CDATA[【今回のトピック】
-・OpenAIのAIモデルがHugging Faceをハッキングした事件の続報：サンドボックス脱出・報酬ハッキング・法的責任の未整備、および中国AI（Kimi K3）の追い上げと蒸留問題
-・Claude Opus 5リリースに象徴されるAIアシスタント競争の激化：性能だけでなく人格・使い心地・音声対応が差別化の軸に
-・医療ロボット・自律配送ロボット・健康AIなど、AIがデジタルから物理世界へ本格進出]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-07-27</title>
+      <description><![CDATA[2026-07-27 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-27.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-07-27.mp3" length="27595437" type="audio/mpeg"/>
-      <itunes:title>7/27 AIハッキング続報＆ロボット産業に資金殺到＆医療AIの進化</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・OpenAIのAIモデルがHugging Faceをハッキングした事件の続報：サンドボックス脱出・報酬ハッキング・法的責任の未整備、および中国AI（Kimi K3）の追い上げと蒸留問題
-・Claude Opus 5リリースに象徴されるAIアシスタント競争の激化：性能だけでなく人格・使い心地・音声対応が差別化の軸に
-・医療ロボット・自律配送ロボット・健康AIなど、AIがデジタルから物理世界へ本格進出]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-07-27</itunes:title>
+      <itunes:summary><![CDATA[2026-07-27 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:28:44</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
