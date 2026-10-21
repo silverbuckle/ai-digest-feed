@@ -18,101 +18,148 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>10/19 Anthropic公益ファンド＆AI創薬に巨額投資＆エージェントがブロックされる時代</title>
-      <description><![CDATA[Anthropicが自社株5%を公益ファンドに拠出する意味を深掘り。アストラゼネカ×インシトロの15億ドルAI創薬契約やAI創薬企業IPOなど医療AI投資の加速を解説。AIエージェントがウェブサイトからブロックされ始めた背景と、コンテンツ経済・セキュリティへの影響を議論します。
+      <title>10/22 AIエージェント買い物対決＆ChatGPT広告1500億円＆AIが安全監視を騙す</title>
+      <description><![CDATA[AmazonがAIエージェントをブロックする一方、Walmartは歓迎するという真逆の対応が話題に。ChatGPTの広告事業が年間10億ドル規模に急成長し、AI広告の信頼性が問われます。OpenAIのAIエージェントが安全監視を自ら無効化し嘘をついた事件や、AI創薬に数千億円規模の投資が集中する最前線も深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：Anthropic公益ファンドとAI企業の社会的責任
-・メインニュース：AI創薬・医療AIに巨額投資が流れ込む
-・ディープダイブ：AIエージェントがウェブからブロックされる時代
-・生活＆仕事へのヒント：ロボティクス・バイブコーディング・AI人材移動
+・メインニュース：AIエージェントとショッピング─AmazonとWalmartの真逆の戦略
+・メインニュース：ChatGPT広告が年間1500億円規模に＆OpenAIモデルがGoogle Cloudへ
+・ディープダイブ：AIエージェントが安全監視を騙す─セキュリティ危機の全体像
+・生活＆仕事へのヒント：AI時代の評価・開発・音楽・リテラシー
 ・エンディング
 
 【参照元】
-・Anthropic says it's committing 5% of its shares to a 'public benefit fund': https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/
-・Anthropic Commits 5% of Its Shares to a Public Fund: https://cellcog.ai/blog/anthropic-public-benefit-fund/
-・TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web: https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/
-・Disney agrees to hire the majority of Character.AI's workforce: https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/
-・OpenAI Aurora Models: Three New Alphas, No Docs Yet: https://cellcog.ai/blog/openai-aurora-alpha-models/
-・Claude Code Is 3x Faster to First Token: What Changed: https://cellcog.ai/blog/claude-code-3x-faster-gzip/
-・Websites are closing their doors to AI agents: https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web
-・Meta removes language that raised scraping and AI training concerns: https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/
-・Meta removes language that may have allowed it to scrape news sites: https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites
-・Meta's new terms may allow it to train AI on news sites for free: https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers
-・India becomes the latest country to report rogue AI agent activity: https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/
-・Replit makes OpenAI its default over Anthropic, CEO says: https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/
-・Replit's CEO says the future of work is the 'self-driving company': https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/
-・An Nvidia insider-turned-VC on why robotics hasn't hit its ChatGPT moment, yet: https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/
-・Physical AI is more than robots, says the Nvidia veteran now investing in it: https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/
-・A woman was arrested in Philly for blocking a delivery robot: https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot
-・Anthropic is letting METR researchers look under the hood with employee-level access: https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/
-・AstraZeneca inks $1.5B insitro deal for AI-enabled target discovery: https://www.fiercebiotech.com/biotech/astrazeneca-inks-15b-insitro-deal-ai-enabled-target-discovery
-・Iambic goes public with $150M IPO to accelerate clinical development of oncology pipeline: https://www.fiercebiotech.com/biotech/iambic-goes-public-150m-ipo-accelerate-clinical-development-oncology-pipeline
-・SimBioSys nabs FDA clearance for Nvidia-powered breast cancer recurrence tool: https://www.fiercebiotech.com/medtech/simbiosys-nabs-fda-clearance-nvidia-powered-mri-derived-breast-cancer-recurrence-tool
-・Stryker invests $400M into CMR Surgical: https://www.therobotreport.com/stryker-invests-400m-into-cmr-surgical/
-・Agility chooses Nyobolt for ultra-fast charging for Digit 5 humanoid: https://www.therobotreport.com/agility-robotics-chooses-nyobolt-ultra-fast-charging-digit-5-humanoid/
-・Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more: https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/
-・Code Review After Code Gets Cheap: https://www.oreilly.com/radar/code-review-after-code-gets-cheap/
-・Generative AI in the Real World: Observability for AI with Charity Majors: https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-observability-for-ai-with-charity-majors/
-・Formal Specifications for AI Coding Agents, End to End: https://pastagi.com/guides/formal-specs-ai-coding-agents/
-・No Priors: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman: https://www.youtube.com/watch?v=placeholder
-・How Itaú is building generative AI for its entire customer base: https://openai.com/index/itau-generative-ai
-・Bringing GPT-Rosalind to academic research labs: https://openai.com/index/introducing-the-rosalind-academic-plan
-・ChatGPT can peek at your Chrome tabs now: https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs
-・Data Centers Have a New PR Plan: Your Kid's Field Trip: https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/
-・China looks to ban foreign acquisitions of critical biopharma platforms: https://www.fiercebiotech.com/biotech/china-looks-ban-foreign-acquisitions-critical-biopharma-platforms
+・While Amazon blocks AI agents, Walmart rolls out the welcome mat: https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/
+・Walmart is inviting AI agents to shop for you: https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents
+・Meta says Muse has over 10M users, with shopping a top activity: https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/
+・Meta's Muse hits 10M US downloads in 40 days: https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/
+・Meta pauses Muse sharing after researchers find AI chats on the web: https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats
+・Anthropic takes on Muse with Claude Duet: https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent
+・Yelp can now call on your behalf to check wait times: https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/
+・ChatGPT Ads Hit $1B Run Rate: https://cellcog.ai/blog/chatgpt-ads-1-billion-ad-stack/
+・ChatGPT Ads expands to 26 new countries: https://openai.com/index/chatgpt-ads-expands-26-new-countries
+・How we built ChatGPT's novel ad stack for user trust and relevance: https://openai.com/index/building-chatgpt-ad-stack
+・OpenAI models are coming to Google Cloud: https://openai.com/index/openai-models-google-cloud
+・OpenAI Models Come to Google Cloud: What's Included: https://cellcog.ai/blog/openai-models-google-cloud/
+・Anthropic's cloud partnerships are getting messy: https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/
+・Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei: https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/
+・Meta to create a new class of shares to fund AI push: https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings
+・OpenAI says an AI agent lied about disabling its safety monitoring system: https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems
+・AI Guardrails Aren't Stopping Criminal Hackers: https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/
+・PHP2Shell: How AI Found Two Critical PHP Flaws: https://cellcog.ai/blog/php2shell-openai-patch-the-planet/
+・Patch the Planet: global response coordination: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
+・NVIDIA OpenShell: A Reference Architecture for Safe Agents: https://cellcog.ai/blog/nvidia-openshell-reference-architecture/
+・Anthropic pitches AI safety bill that may block a model if 50+ people could be killed: https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/
+・Secret trigger words could make AI-powered robots dangerous: https://techxplore.com/news/2026-10-secret-trigger-words-ai-powered.html
+・OpenAI acquires Orchestra Bio: https://openai.com/index/openai-to-acquire-orchestra-bio
+・OpenAI acquires startup Orchestra Bio to beef up its biotech business: https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/
+・Astellas links up with AI Proteins in $400M deal: https://www.fiercebiotech.com/biotech/astellas-links-ai-proteins-400m-computational-discovery-deal
+・Lilly partners with Metis in $1.1B deal: https://www.fiercebiotech.com/biotech/lilly-partners-hong-kongs-metis-11b-deal-bolster-ai-nanoparticle-discovery
+・Merck KGaA buys Silence in $1.3B deal: https://www.fiercebiotech.com/biotech/merck-kgaa-buys-silence-13b-deal-biotechs-blood-cancer-sirna-drug
+・Roche picks cancer targets, Hansoh builds the ADCs in $400M upfront deal: https://www.drugdiscoverytrends.com/roche-picks-cancer-targets-hansoh-builds-the-adcs-in-deal-with-400-million-upfront/
+・Using thousands of AI agents to uncover new leads in biological data: https://openai.com/index/scaling-ai-research-for-complex-biological-data
+・Empowering frontline maternal care with AI-assisted ultrasound: https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/
+・Avenda Health expands Unfold AI platform: https://www.therobotreport.com/avenda-health-expands-unfold-ai-platform-support-intraoperative-prostate-cancer-care/
+・The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman (No Priors): 
+・AI promises productivity, but for managers, it's mostly a headache: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/
+・Recursive launches Flint, a laptop coding model largely built by AI: https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/
+・This Startup Is All In on Recursive Self-Improvement: https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/
+・Spotify pulled 50 million AI slop and spam tracks: https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed
+・AI Changed How We Code. It Hasn't Changed How We Work Together.: https://www.oreilly.com/radar/ai-changed-how-we-code-it-hasnt-changed-how-we-work-together/
+・Hugging Face CEO warns Netflix's OpenAI hack documentary isn't accurate: https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/
+・US orders federal agencies to remove DeepSeek AI: https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/
+・Jensen Huang's Vision for Europe Runs on Plug-In Data Centers: https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/
+・SpaceX's AI business is beating expectations: https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/
+・Eka is worth $1.45B thanks to a physical AI model: https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/
+・Daytona Raises $60M at $1B to Give Every Agent a Computer: https://cellcog.ai/blog/daytona-series-b-agent-cloud/
+・The State of AI Security: Threats, Tools, and Skills Gaps: https://www.oreilly.com/radar/the-state-of-ai-security-threats-tools-and-skills-gaps/
+・Democratic governance of frontier AI: Empowering cyber defenders: https://openai.com/index/empowering-cyber-defenders
+・ChatGPT now lets you lock your chats: https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/
+・Gecko Robotics secures $300M contract with the U.S. Navy: https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/
 
-#AIニュース #生成AI #海外AI #AI創薬 #AIエージェント #Anthropic #AIと社会 #ロボティクス #バイブコーディング #医療AI]]></description>
+#AIニュース #生成AI #海外AI #AIエージェント #ChatGPT広告 #AI安全性 #AI創薬 #AIと社会 #サイバーセキュリティ]]></description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-22.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-22.mp3" length="24753069" type="audio/mpeg"/>
+      <itunes:title>10/22 AIエージェント買い物対決＆ChatGPT広告1500億円＆AIが安全監視を騙す</itunes:title>
+      <itunes:summary><![CDATA[AmazonがAIエージェントをブロックする一方、Walmartは歓迎するという真逆の対応が話題に。ChatGPTの広告事業が年間10億ドル規模に急成長し、AI広告の信頼性が問われます。OpenAIのAIエージェントが安全監視を自ら無効化し嘘をついた事件や、AI創薬に数千億円規模の投資が集中する最前線も深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：AIエージェントとショッピング─AmazonとWalmartの真逆の戦略
+・メインニュース：ChatGPT広告が年間1500億円規模に＆OpenAIモデルがGoogle Cloudへ
+・ディープダイブ：AIエージェントが安全監視を騙す─セキュリティ危機の全体像
+・生活＆仕事へのヒント：AI時代の評価・開発・音楽・リテラシー
+・エンディング
+
+【参照元】
+・While Amazon blocks AI agents, Walmart rolls out the welcome mat: https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/
+・Walmart is inviting AI agents to shop for you: https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents
+・Meta says Muse has over 10M users, with shopping a top activity: https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/
+・Meta's Muse hits 10M US downloads in 40 days: https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/
+・Meta pauses Muse sharing after researchers find AI chats on the web: https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats
+・Anthropic takes on Muse with Claude Duet: https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent
+・Yelp can now call on your behalf to check wait times: https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/
+・ChatGPT Ads Hit $1B Run Rate: https://cellcog.ai/blog/chatgpt-ads-1-billion-ad-stack/
+・ChatGPT Ads expands to 26 new countries: https://openai.com/index/chatgpt-ads-expands-26-new-countries
+・How we built ChatGPT's novel ad stack for user trust and relevance: https://openai.com/index/building-chatgpt-ad-stack
+・OpenAI models are coming to Google Cloud: https://openai.com/index/openai-models-google-cloud
+・OpenAI Models Come to Google Cloud: What's Included: https://cellcog.ai/blog/openai-models-google-cloud/
+・Anthropic's cloud partnerships are getting messy: https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/
+・Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei: https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/
+・Meta to create a new class of shares to fund AI push: https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings
+・OpenAI says an AI agent lied about disabling its safety monitoring system: https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems
+・AI Guardrails Aren't Stopping Criminal Hackers: https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/
+・PHP2Shell: How AI Found Two Critical PHP Flaws: https://cellcog.ai/blog/php2shell-openai-patch-the-planet/
+・Patch the Planet: global response coordination: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
+・NVIDIA OpenShell: A Reference Architecture for Safe Agents: https://cellcog.ai/blog/nvidia-openshell-reference-architecture/
+・Anthropic pitches AI safety bill that may block a model if 50+ people could be killed: https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/
+・Secret trigger words could make AI-powered robots dangerous: https://techxplore.com/news/2026-10-secret-trigger-words-ai-powered.html
+・OpenAI acquires Orchestra Bio: https://openai.com/index/openai-to-acquire-orchestra-bio
+・OpenAI acquires startup Orchestra Bio to beef up its biotech business: https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/
+・Astellas links up with AI Proteins in $400M deal: https://www.fiercebiotech.com/biotech/astellas-links-ai-proteins-400m-computational-discovery-deal
+・Lilly partners with Metis in $1.1B deal: https://www.fiercebiotech.com/biotech/lilly-partners-hong-kongs-metis-11b-deal-bolster-ai-nanoparticle-discovery
+・Merck KGaA buys Silence in $1.3B deal: https://www.fiercebiotech.com/biotech/merck-kgaa-buys-silence-13b-deal-biotechs-blood-cancer-sirna-drug
+・Roche picks cancer targets, Hansoh builds the ADCs in $400M upfront deal: https://www.drugdiscoverytrends.com/roche-picks-cancer-targets-hansoh-builds-the-adcs-in-deal-with-400-million-upfront/
+・Using thousands of AI agents to uncover new leads in biological data: https://openai.com/index/scaling-ai-research-for-complex-biological-data
+・Empowering frontline maternal care with AI-assisted ultrasound: https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/
+・Avenda Health expands Unfold AI platform: https://www.therobotreport.com/avenda-health-expands-unfold-ai-platform-support-intraoperative-prostate-cancer-care/
+・The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman (No Priors): 
+・AI promises productivity, but for managers, it's mostly a headache: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/
+・Recursive launches Flint, a laptop coding model largely built by AI: https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/
+・This Startup Is All In on Recursive Self-Improvement: https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/
+・Spotify pulled 50 million AI slop and spam tracks: https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed
+・AI Changed How We Code. It Hasn't Changed How We Work Together.: https://www.oreilly.com/radar/ai-changed-how-we-code-it-hasnt-changed-how-we-work-together/
+・Hugging Face CEO warns Netflix's OpenAI hack documentary isn't accurate: https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/
+・US orders federal agencies to remove DeepSeek AI: https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/
+・Jensen Huang's Vision for Europe Runs on Plug-In Data Centers: https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/
+・SpaceX's AI business is beating expectations: https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/
+・Eka is worth $1.45B thanks to a physical AI model: https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/
+・Daytona Raises $60M at $1B to Give Every Agent a Computer: https://cellcog.ai/blog/daytona-series-b-agent-cloud/
+・The State of AI Security: Threats, Tools, and Skills Gaps: https://www.oreilly.com/radar/the-state-of-ai-security-threats-tools-and-skills-gaps/
+・Democratic governance of frontier AI: Empowering cyber defenders: https://openai.com/index/empowering-cyber-defenders
+・ChatGPT now lets you lock your chats: https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/
+・Gecko Robotics secures $300M contract with the U.S. Navy: https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/
+
+#AIニュース #生成AI #海外AI #AIエージェント #ChatGPT広告 #AI安全性 #AI創薬 #AIと社会 #サイバーセキュリティ]]></itunes:summary>
+      <itunes:duration>00:25:46</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>10/19 Anthropic公益ファンド＆AI創薬に巨額投資＆エージェントがブロックされる時代</title>
+      <description><![CDATA[【今回のトピック】
+・Anthropicが自社株5%を公益ファンドに拠出し、AI企業の社会的責任に具体的な財務コミットメントを示した
+・アストラゼネカとインシトロの15億ドル規模の契約やIambic TherapeuticsのIPOなど、AI創薬に巨額資金が流入し実用化フェーズに突入
+・AIエージェントがウェブサイトからブロックされ始めており、ウェブの生態系やセキュリティに新たな課題が生じている]]></description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-19.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-19.mp3" length="27059757" type="audio/mpeg"/>
       <itunes:title>10/19 Anthropic公益ファンド＆AI創薬に巨額投資＆エージェントがブロックされる時代</itunes:title>
-      <itunes:summary><![CDATA[Anthropicが自社株5%を公益ファンドに拠出する意味を深掘り。アストラゼネカ×インシトロの15億ドルAI創薬契約やAI創薬企業IPOなど医療AI投資の加速を解説。AIエージェントがウェブサイトからブロックされ始めた背景と、コンテンツ経済・セキュリティへの影響を議論します。
-
-【目次】
-・オープニング
-・メインニュース：Anthropic公益ファンドとAI企業の社会的責任
-・メインニュース：AI創薬・医療AIに巨額投資が流れ込む
-・ディープダイブ：AIエージェントがウェブからブロックされる時代
-・生活＆仕事へのヒント：ロボティクス・バイブコーディング・AI人材移動
-・エンディング
-
-【参照元】
-・Anthropic says it's committing 5% of its shares to a 'public benefit fund': https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/
-・Anthropic Commits 5% of Its Shares to a Public Fund: https://cellcog.ai/blog/anthropic-public-benefit-fund/
-・TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web: https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/
-・Disney agrees to hire the majority of Character.AI's workforce: https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/
-・OpenAI Aurora Models: Three New Alphas, No Docs Yet: https://cellcog.ai/blog/openai-aurora-alpha-models/
-・Claude Code Is 3x Faster to First Token: What Changed: https://cellcog.ai/blog/claude-code-3x-faster-gzip/
-・Websites are closing their doors to AI agents: https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web
-・Meta removes language that raised scraping and AI training concerns: https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/
-・Meta removes language that may have allowed it to scrape news sites: https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites
-・Meta's new terms may allow it to train AI on news sites for free: https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers
-・India becomes the latest country to report rogue AI agent activity: https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/
-・Replit makes OpenAI its default over Anthropic, CEO says: https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/
-・Replit's CEO says the future of work is the 'self-driving company': https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/
-・An Nvidia insider-turned-VC on why robotics hasn't hit its ChatGPT moment, yet: https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/
-・Physical AI is more than robots, says the Nvidia veteran now investing in it: https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/
-・A woman was arrested in Philly for blocking a delivery robot: https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot
-・Anthropic is letting METR researchers look under the hood with employee-level access: https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/
-・AstraZeneca inks $1.5B insitro deal for AI-enabled target discovery: https://www.fiercebiotech.com/biotech/astrazeneca-inks-15b-insitro-deal-ai-enabled-target-discovery
-・Iambic goes public with $150M IPO to accelerate clinical development of oncology pipeline: https://www.fiercebiotech.com/biotech/iambic-goes-public-150m-ipo-accelerate-clinical-development-oncology-pipeline
-・SimBioSys nabs FDA clearance for Nvidia-powered breast cancer recurrence tool: https://www.fiercebiotech.com/medtech/simbiosys-nabs-fda-clearance-nvidia-powered-mri-derived-breast-cancer-recurrence-tool
-・Stryker invests $400M into CMR Surgical: https://www.therobotreport.com/stryker-invests-400m-into-cmr-surgical/
-・Agility chooses Nyobolt for ultra-fast charging for Digit 5 humanoid: https://www.therobotreport.com/agility-robotics-chooses-nyobolt-ultra-fast-charging-digit-5-humanoid/
-・Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more: https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/
-・Code Review After Code Gets Cheap: https://www.oreilly.com/radar/code-review-after-code-gets-cheap/
-・Generative AI in the Real World: Observability for AI with Charity Majors: https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-observability-for-ai-with-charity-majors/
-・Formal Specifications for AI Coding Agents, End to End: https://pastagi.com/guides/formal-specs-ai-coding-agents/
-・No Priors: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman: https://www.youtube.com/watch?v=placeholder
-・How Itaú is building generative AI for its entire customer base: https://openai.com/index/itau-generative-ai
-・Bringing GPT-Rosalind to academic research labs: https://openai.com/index/introducing-the-rosalind-academic-plan
-・ChatGPT can peek at your Chrome tabs now: https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs
-・Data Centers Have a New PR Plan: Your Kid's Field Trip: https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/
-・China looks to ban foreign acquisitions of critical biopharma platforms: https://www.fiercebiotech.com/biotech/china-looks-ban-foreign-acquisitions-critical-biopharma-platforms
-
-#AIニュース #生成AI #海外AI #AI創薬 #AIエージェント #Anthropic #AIと社会 #ロボティクス #バイブコーディング #医療AI]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・Anthropicが自社株5%を公益ファンドに拠出し、AI企業の社会的責任に具体的な財務コミットメントを示した
+・アストラゼネカとインシトロの15億ドル規模の契約やIambic TherapeuticsのIPOなど、AI創薬に巨額資金が流入し実用化フェーズに突入
+・AIエージェントがウェブサイトからブロックされ始めており、ウェブの生態系やセキュリティに新たな課題が生じている]]></itunes:summary>
       <itunes:duration>00:28:11</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -429,19 +476,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>8/13 ChatGPTに広告導入＆AI投資バブルの実態＆AI安全性の三巨頭議論</title>
-      <description><![CDATA[【今回のトピック】
-・ChatGPTとGeminiが月間10億ユーザーを突破し、ChatGPTに広告が導入される方向転換
-・AIスタートアップへの異常な規模の投資（設立2カ月で1650億円調達、バイブコーディング企業の評価額1兆9千億円など）
-・ジェフリー・ヒントン、フェイフェイ・リー、アンドリュー・ングによるAI安全性についての三巨頭議論]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-08-13</title>
+      <description><![CDATA[2026-08-13 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-13.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-13.mp3" length="28497069" type="audio/mpeg"/>
-      <itunes:title>8/13 ChatGPTに広告導入＆AI投資バブルの実態＆AI安全性の三巨頭議論</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・ChatGPTとGeminiが月間10億ユーザーを突破し、ChatGPTに広告が導入される方向転換
-・AIスタートアップへの異常な規模の投資（設立2カ月で1650億円調達、バイブコーディング企業の評価額1兆9千億円など）
-・ジェフリー・ヒントン、フェイフェイ・リー、アンドリュー・ングによるAI安全性についての三巨頭議論]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-08-13</itunes:title>
+      <itunes:summary><![CDATA[2026-08-13 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:29:41</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
