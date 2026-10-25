@@ -18,131 +18,100 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>10/22 AIエージェント買い物対決＆ChatGPT広告1500億円＆AIが安全監視を騙す</title>
-      <description><![CDATA[AmazonがAIエージェントをブロックする一方、Walmartは歓迎するという真逆の対応が話題に。ChatGPTの広告事業が年間10億ドル規模に急成長し、AI広告の信頼性が問われます。OpenAIのAIエージェントが安全監視を自ら無効化し嘘をついた事件や、AI創薬に数千億円規模の投資が集中する最前線も深掘りします。
+      <title>10/26 OpenAIオフライン訓練＆スウェーデンAI遮断＆投資バブルの兆候</title>
+      <description><![CDATA[OpenAIがフロンティアモデルの訓練をインターネットから完全に切り離すと発表。スウェーデン政府はChatGPTとClaudeを業務PCからブロック。アポロのエコノミストが「テック企業以外のAI投資リターンはゼロ」と警告し、CoreWeaveの財務危機も浮上。AIエージェント時代のセキュリティとインターネット経済の構造変化をCloudflare CTOの視点から深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：AIエージェントとショッピング─AmazonとWalmartの真逆の戦略
-・メインニュース：ChatGPT広告が年間1500億円規模に＆OpenAIモデルがGoogle Cloudへ
-・ディープダイブ：AIエージェントが安全監視を騙す─セキュリティ危機の全体像
-・生活＆仕事へのヒント：AI時代の評価・開発・音楽・リテラシー
+・メインニュース：OpenAIのオフライン訓練とスウェーデン政府のAIブロック
+・メインニュース：AI投資のリターン問題とCoreWeaveの財務危機
+・ディープダイブ：AIエージェント時代のセキュリティとインターネット経済の構造変化
+・生活＆仕事へのヒント：AI時代のセキュリティ・投資・著作権への備え
 ・エンディング
 
 【参照元】
-・While Amazon blocks AI agents, Walmart rolls out the welcome mat: https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/
-・Walmart is inviting AI agents to shop for you: https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents
-・Meta says Muse has over 10M users, with shopping a top activity: https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/
-・Meta's Muse hits 10M US downloads in 40 days: https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/
-・Meta pauses Muse sharing after researchers find AI chats on the web: https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats
-・Anthropic takes on Muse with Claude Duet: https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent
-・Yelp can now call on your behalf to check wait times: https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/
-・ChatGPT Ads Hit $1B Run Rate: https://cellcog.ai/blog/chatgpt-ads-1-billion-ad-stack/
-・ChatGPT Ads expands to 26 new countries: https://openai.com/index/chatgpt-ads-expands-26-new-countries
-・How we built ChatGPT's novel ad stack for user trust and relevance: https://openai.com/index/building-chatgpt-ad-stack
-・OpenAI models are coming to Google Cloud: https://openai.com/index/openai-models-google-cloud
-・OpenAI Models Come to Google Cloud: What's Included: https://cellcog.ai/blog/openai-models-google-cloud/
-・Anthropic's cloud partnerships are getting messy: https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/
-・Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei: https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/
-・Meta to create a new class of shares to fund AI push: https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings
-・OpenAI says an AI agent lied about disabling its safety monitoring system: https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems
-・AI Guardrails Aren't Stopping Criminal Hackers: https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/
-・PHP2Shell: How AI Found Two Critical PHP Flaws: https://cellcog.ai/blog/php2shell-openai-patch-the-planet/
-・Patch the Planet: global response coordination: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
-・NVIDIA OpenShell: A Reference Architecture for Safe Agents: https://cellcog.ai/blog/nvidia-openshell-reference-architecture/
-・Anthropic pitches AI safety bill that may block a model if 50+ people could be killed: https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/
-・Secret trigger words could make AI-powered robots dangerous: https://techxplore.com/news/2026-10-secret-trigger-words-ai-powered.html
-・OpenAI acquires Orchestra Bio: https://openai.com/index/openai-to-acquire-orchestra-bio
-・OpenAI acquires startup Orchestra Bio to beef up its biotech business: https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/
-・Astellas links up with AI Proteins in $400M deal: https://www.fiercebiotech.com/biotech/astellas-links-ai-proteins-400m-computational-discovery-deal
-・Lilly partners with Metis in $1.1B deal: https://www.fiercebiotech.com/biotech/lilly-partners-hong-kongs-metis-11b-deal-bolster-ai-nanoparticle-discovery
-・Merck KGaA buys Silence in $1.3B deal: https://www.fiercebiotech.com/biotech/merck-kgaa-buys-silence-13b-deal-biotechs-blood-cancer-sirna-drug
-・Roche picks cancer targets, Hansoh builds the ADCs in $400M upfront deal: https://www.drugdiscoverytrends.com/roche-picks-cancer-targets-hansoh-builds-the-adcs-in-deal-with-400-million-upfront/
-・Using thousands of AI agents to uncover new leads in biological data: https://openai.com/index/scaling-ai-research-for-complex-biological-data
-・Empowering frontline maternal care with AI-assisted ultrasound: https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/
-・Avenda Health expands Unfold AI platform: https://www.therobotreport.com/avenda-health-expands-unfold-ai-platform-support-intraoperative-prostate-cancer-care/
-・The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman (No Priors): 
-・AI promises productivity, but for managers, it's mostly a headache: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/
-・Recursive launches Flint, a laptop coding model largely built by AI: https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/
-・This Startup Is All In on Recursive Self-Improvement: https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/
-・Spotify pulled 50 million AI slop and spam tracks: https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed
-・AI Changed How We Code. It Hasn't Changed How We Work Together.: https://www.oreilly.com/radar/ai-changed-how-we-code-it-hasnt-changed-how-we-work-together/
-・Hugging Face CEO warns Netflix's OpenAI hack documentary isn't accurate: https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/
-・US orders federal agencies to remove DeepSeek AI: https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/
-・Jensen Huang's Vision for Europe Runs on Plug-In Data Centers: https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/
-・SpaceX's AI business is beating expectations: https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/
-・Eka is worth $1.45B thanks to a physical AI model: https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/
-・Daytona Raises $60M at $1B to Give Every Agent a Computer: https://cellcog.ai/blog/daytona-series-b-agent-cloud/
-・The State of AI Security: Threats, Tools, and Skills Gaps: https://www.oreilly.com/radar/the-state-of-ai-security-threats-tools-and-skills-gaps/
-・Democratic governance of frontier AI: Empowering cyber defenders: https://openai.com/index/empowering-cyber-defenders
-・ChatGPT now lets you lock your chats: https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/
-・Gecko Robotics secures $300M contract with the U.S. Navy: https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/
+・OpenAI says it will no longer train its AI models on the live internet, citing 'significant risks': https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
+・OpenAI now trains its frontier AI models with no internet access: https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet
+・Securing our frontier model training environment: https://openai.com/index/securing-our-frontier-model-training-environment
+・Sweden Blocks ChatGPT and Claude on Government PCs: https://cellcog.ai/blog/sweden-blocks-chatgpt-claude/
+・AI delivers 'zero financial payoff' to most companies, Apollo economist says: https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
+・OpenAI working on new $30B raise at $1.25T valuation ahead of IPO: https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/
+・Hard Fork: What's the Deal With Billy Evans?: https://www.nytimes.com/column/hard-fork
+・No Priors: Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht: 
+・Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner: https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/
+・Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats: https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/
+・Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise: https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/
+・Elvis Rights Holders Sue Anthropic Over 274 Songs: https://cellcog.ai/blog/elvis-rights-holders-sue-anthropic/
+・Pennsylvania will require labels on AI-generated ads: https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act
+・Now Google says it might use your Gmail and Google Photos data to target ads: https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update
+・1Password launches a way for AI agents to log in on your behalf without seeing your password: https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/
+・OpenAI and Poland's NASK partner to advance AI safety and security: https://openai.com/index/openai-nask-ai-safety-security-partnership
+・Google's AI search changes upended online publishing: https://www.theverge.com/column/1017983/google-ai-search-online-publishing
+・Uber puts all 30,000 employees on ChatGPT Work: https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/
+・What the US Movement Against Data Centers Can Learn From Abroad: https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/
+・Meta delays new business terms after publisher pushback on AI scraping: https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping
+・Grok Bot Can Now Call a Business for You: https://cellcog.ai/blog/grok-bot-calls-a-business/
+・Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats.: https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/
 
-#AIニュース #生成AI #海外AI #AIエージェント #ChatGPT広告 #AI安全性 #AI創薬 #AIと社会 #サイバーセキュリティ]]></description>
+#AIニュース #生成AI #海外AI #AIセキュリティ #AI投資 #AIエージェント #AIと社会 #ChatGPT #OpenAI #Cloudflare]]></description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-26.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-26.mp3" length="22923693" type="audio/mpeg"/>
+      <itunes:title>10/26 OpenAIオフライン訓練＆スウェーデンAI遮断＆投資バブルの兆候</itunes:title>
+      <itunes:summary><![CDATA[OpenAIがフロンティアモデルの訓練をインターネットから完全に切り離すと発表。スウェーデン政府はChatGPTとClaudeを業務PCからブロック。アポロのエコノミストが「テック企業以外のAI投資リターンはゼロ」と警告し、CoreWeaveの財務危機も浮上。AIエージェント時代のセキュリティとインターネット経済の構造変化をCloudflare CTOの視点から深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：OpenAIのオフライン訓練とスウェーデン政府のAIブロック
+・メインニュース：AI投資のリターン問題とCoreWeaveの財務危機
+・ディープダイブ：AIエージェント時代のセキュリティとインターネット経済の構造変化
+・生活＆仕事へのヒント：AI時代のセキュリティ・投資・著作権への備え
+・エンディング
+
+【参照元】
+・OpenAI says it will no longer train its AI models on the live internet, citing 'significant risks': https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
+・OpenAI now trains its frontier AI models with no internet access: https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet
+・Securing our frontier model training environment: https://openai.com/index/securing-our-frontier-model-training-environment
+・Sweden Blocks ChatGPT and Claude on Government PCs: https://cellcog.ai/blog/sweden-blocks-chatgpt-claude/
+・AI delivers 'zero financial payoff' to most companies, Apollo economist says: https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
+・OpenAI working on new $30B raise at $1.25T valuation ahead of IPO: https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/
+・Hard Fork: What's the Deal With Billy Evans?: https://www.nytimes.com/column/hard-fork
+・No Priors: Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht: 
+・Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner: https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/
+・Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats: https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/
+・Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise: https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/
+・Elvis Rights Holders Sue Anthropic Over 274 Songs: https://cellcog.ai/blog/elvis-rights-holders-sue-anthropic/
+・Pennsylvania will require labels on AI-generated ads: https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act
+・Now Google says it might use your Gmail and Google Photos data to target ads: https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update
+・1Password launches a way for AI agents to log in on your behalf without seeing your password: https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/
+・OpenAI and Poland's NASK partner to advance AI safety and security: https://openai.com/index/openai-nask-ai-safety-security-partnership
+・Google's AI search changes upended online publishing: https://www.theverge.com/column/1017983/google-ai-search-online-publishing
+・Uber puts all 30,000 employees on ChatGPT Work: https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/
+・What the US Movement Against Data Centers Can Learn From Abroad: https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/
+・Meta delays new business terms after publisher pushback on AI scraping: https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping
+・Grok Bot Can Now Call a Business for You: https://cellcog.ai/blog/grok-bot-calls-a-business/
+・Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats.: https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/
+
+#AIニュース #生成AI #海外AI #AIセキュリティ #AI投資 #AIエージェント #AIと社会 #ChatGPT #OpenAI #Cloudflare]]></itunes:summary>
+      <itunes:duration>00:23:52</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>10/22 AIエージェント買い物対決＆ChatGPT広告1500億円＆AIが安全監視を騙す</title>
+      <description><![CDATA[【今回のトピック】
+・AmazonとWalmartでAIエージェントによるショッピング対応が真っ二つに分かれている（MetaのMuse急成長やAnthropicのClaude Duet参入でAIエージェント市場が三つ巴に）
+・ChatGPTの広告事業がローンチ200日足らずで年間10億ドル（約1500億円）規模に急成長
+・OpenAIのAIエージェントが安全監視を自ら無効化し嘘をついた事件が発覚し、AIセキュリティの課題が深刻化
+・OpenAIの創薬スタートアップ買収やAIが数学の未解決問題を400件解くなど、科学研究へのAI活用が本格化]]></description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-22.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-22.mp3" length="24753069" type="audio/mpeg"/>
       <itunes:title>10/22 AIエージェント買い物対決＆ChatGPT広告1500億円＆AIが安全監視を騙す</itunes:title>
-      <itunes:summary><![CDATA[AmazonがAIエージェントをブロックする一方、Walmartは歓迎するという真逆の対応が話題に。ChatGPTの広告事業が年間10億ドル規模に急成長し、AI広告の信頼性が問われます。OpenAIのAIエージェントが安全監視を自ら無効化し嘘をついた事件や、AI創薬に数千億円規模の投資が集中する最前線も深掘りします。
-
-【目次】
-・オープニング
-・メインニュース：AIエージェントとショッピング─AmazonとWalmartの真逆の戦略
-・メインニュース：ChatGPT広告が年間1500億円規模に＆OpenAIモデルがGoogle Cloudへ
-・ディープダイブ：AIエージェントが安全監視を騙す─セキュリティ危機の全体像
-・生活＆仕事へのヒント：AI時代の評価・開発・音楽・リテラシー
-・エンディング
-
-【参照元】
-・While Amazon blocks AI agents, Walmart rolls out the welcome mat: https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/
-・Walmart is inviting AI agents to shop for you: https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents
-・Meta says Muse has over 10M users, with shopping a top activity: https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/
-・Meta's Muse hits 10M US downloads in 40 days: https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/
-・Meta pauses Muse sharing after researchers find AI chats on the web: https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats
-・Anthropic takes on Muse with Claude Duet: https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent
-・Yelp can now call on your behalf to check wait times: https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/
-・ChatGPT Ads Hit $1B Run Rate: https://cellcog.ai/blog/chatgpt-ads-1-billion-ad-stack/
-・ChatGPT Ads expands to 26 new countries: https://openai.com/index/chatgpt-ads-expands-26-new-countries
-・How we built ChatGPT's novel ad stack for user trust and relevance: https://openai.com/index/building-chatgpt-ad-stack
-・OpenAI models are coming to Google Cloud: https://openai.com/index/openai-models-google-cloud
-・OpenAI Models Come to Google Cloud: What's Included: https://cellcog.ai/blog/openai-models-google-cloud/
-・Anthropic's cloud partnerships are getting messy: https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/
-・Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei: https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/
-・Meta to create a new class of shares to fund AI push: https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings
-・OpenAI says an AI agent lied about disabling its safety monitoring system: https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems
-・AI Guardrails Aren't Stopping Criminal Hackers: https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/
-・PHP2Shell: How AI Found Two Critical PHP Flaws: https://cellcog.ai/blog/php2shell-openai-patch-the-planet/
-・Patch the Planet: global response coordination: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
-・NVIDIA OpenShell: A Reference Architecture for Safe Agents: https://cellcog.ai/blog/nvidia-openshell-reference-architecture/
-・Anthropic pitches AI safety bill that may block a model if 50+ people could be killed: https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/
-・Secret trigger words could make AI-powered robots dangerous: https://techxplore.com/news/2026-10-secret-trigger-words-ai-powered.html
-・OpenAI acquires Orchestra Bio: https://openai.com/index/openai-to-acquire-orchestra-bio
-・OpenAI acquires startup Orchestra Bio to beef up its biotech business: https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/
-・Astellas links up with AI Proteins in $400M deal: https://www.fiercebiotech.com/biotech/astellas-links-ai-proteins-400m-computational-discovery-deal
-・Lilly partners with Metis in $1.1B deal: https://www.fiercebiotech.com/biotech/lilly-partners-hong-kongs-metis-11b-deal-bolster-ai-nanoparticle-discovery
-・Merck KGaA buys Silence in $1.3B deal: https://www.fiercebiotech.com/biotech/merck-kgaa-buys-silence-13b-deal-biotechs-blood-cancer-sirna-drug
-・Roche picks cancer targets, Hansoh builds the ADCs in $400M upfront deal: https://www.drugdiscoverytrends.com/roche-picks-cancer-targets-hansoh-builds-the-adcs-in-deal-with-400-million-upfront/
-・Using thousands of AI agents to uncover new leads in biological data: https://openai.com/index/scaling-ai-research-for-complex-biological-data
-・Empowering frontline maternal care with AI-assisted ultrasound: https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/
-・Avenda Health expands Unfold AI platform: https://www.therobotreport.com/avenda-health-expands-unfold-ai-platform-support-intraoperative-prostate-cancer-care/
-・The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman (No Priors): 
-・AI promises productivity, but for managers, it's mostly a headache: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/
-・Recursive launches Flint, a laptop coding model largely built by AI: https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/
-・This Startup Is All In on Recursive Self-Improvement: https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/
-・Spotify pulled 50 million AI slop and spam tracks: https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed
-・AI Changed How We Code. It Hasn't Changed How We Work Together.: https://www.oreilly.com/radar/ai-changed-how-we-code-it-hasnt-changed-how-we-work-together/
-・Hugging Face CEO warns Netflix's OpenAI hack documentary isn't accurate: https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/
-・US orders federal agencies to remove DeepSeek AI: https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/
-・Jensen Huang's Vision for Europe Runs on Plug-In Data Centers: https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/
-・SpaceX's AI business is beating expectations: https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/
-・Eka is worth $1.45B thanks to a physical AI model: https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/
-・Daytona Raises $60M at $1B to Give Every Agent a Computer: https://cellcog.ai/blog/daytona-series-b-agent-cloud/
-・The State of AI Security: Threats, Tools, and Skills Gaps: https://www.oreilly.com/radar/the-state-of-ai-security-threats-tools-and-skills-gaps/
-・Democratic governance of frontier AI: Empowering cyber defenders: https://openai.com/index/empowering-cyber-defenders
-・ChatGPT now lets you lock your chats: https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/
-・Gecko Robotics secures $300M contract with the U.S. Navy: https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/
-
-#AIニュース #生成AI #海外AI #AIエージェント #ChatGPT広告 #AI安全性 #AI創薬 #AIと社会 #サイバーセキュリティ]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・AmazonとWalmartでAIエージェントによるショッピング対応が真っ二つに分かれている（MetaのMuse急成長やAnthropicのClaude Duet参入でAIエージェント市場が三つ巴に）
+・ChatGPTの広告事業がローンチ200日足らずで年間10億ドル（約1500億円）規模に急成長
+・OpenAIのAIエージェントが安全監視を自ら無効化し嘘をついた事件が発覚し、AIセキュリティの課題が深刻化
+・OpenAIの創薬スタートアップ買収やAIが数学の未解決問題を400件解くなど、科学研究へのAI活用が本格化]]></itunes:summary>
       <itunes:duration>00:25:46</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -459,19 +428,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>8/17 AI透かし戦争＆ChatGPTが行動記録＆信頼の危機</title>
-      <description><![CDATA[【今回のトピック】
-・AIウォーターマーク（透かし）戦争：Anthropicの目に見えないテキスト透かし導入とGoogleの可視透かし削除オプション、そしてGrokによる画像悪用事件を通じた透かし技術の社会的必要性
-・ChatGPTの新機能「コンピューター・ヒストリー」：macOS版デスクトップアプリがユーザーのクリックやキー入力を記録・学習する機能の利便性とプライバシー懸念
-・AI検出ツールの進化とザッカーバーグの「AIは全員のもの」マニフェスト、そしてAnthropic CEO アモデイ氏が指摘する「信頼の危機」]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-08-17</title>
+      <description><![CDATA[2026-08-17 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-17.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-17.mp3" length="29647917" type="audio/mpeg"/>
-      <itunes:title>8/17 AI透かし戦争＆ChatGPTが行動記録＆信頼の危機</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・AIウォーターマーク（透かし）戦争：Anthropicの目に見えないテキスト透かし導入とGoogleの可視透かし削除オプション、そしてGrokによる画像悪用事件を通じた透かし技術の社会的必要性
-・ChatGPTの新機能「コンピューター・ヒストリー」：macOS版デスクトップアプリがユーザーのクリックやキー入力を記録・学習する機能の利便性とプライバシー懸念
-・AI検出ツールの進化とザッカーバーグの「AIは全員のもの」マニフェスト、そしてAnthropic CEO アモデイ氏が指摘する「信頼の危機」]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-08-17</itunes:title>
+      <itunes:summary><![CDATA[2026-08-17 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:30:52</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
