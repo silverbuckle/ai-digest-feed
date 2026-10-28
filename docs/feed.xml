@@ -18,81 +18,122 @@
     <itunes:image href="https://silverbuckle.github.io/ai-digest-feed/cover_new.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>10/26 OpenAIオフライン訓練＆スウェーデンAI遮断＆投資バブルの兆候</title>
-      <description><![CDATA[OpenAIがフロンティアモデルの訓練をインターネットから完全に切り離すと発表。スウェーデン政府はChatGPTとClaudeを業務PCからブロック。アポロのエコノミストが「テック企業以外のAI投資リターンはゼロ」と警告し、CoreWeaveの財務危機も浮上。AIエージェント時代のセキュリティとインターネット経済の構造変化をCloudflare CTOの視点から深掘りします。
+      <title>10/29 MS・Google決算AIで稼ぐ時代＆Anthropic上場＆セキュリティ激変</title>
+      <description><![CDATA[MicrosoftとGoogleの決算からAIが本格的に収益を生み始めた証拠を読み解きます。AnthropicのIPO目論見書に隠された複雑なガバナンス構造と創薬野心、CloudflareのCTOが語るAIエージェント時代のセキュリティ危機、そしてChatGPTの医療アドバイスが引き起こした悲劇まで、AIと社会の最前線を深掘りします。
 
 【目次】
 ・オープニング
-・メインニュース：OpenAIのオフライン訓練とスウェーデン政府のAIブロック
-・メインニュース：AI投資のリターン問題とCoreWeaveの財務危機
-・ディープダイブ：AIエージェント時代のセキュリティとインターネット経済の構造変化
-・生活＆仕事へのヒント：AI時代のセキュリティ・投資・著作権への備え
+・メインニュース：Microsoft・Google決算でAIが稼ぐ時代に
+・メインニュース：Anthropic IPOと創薬への野心
+・ディープダイブ：AIセキュリティ激変と日常的なAI被害
+・生活＆仕事へのヒント：バイブコーディング・ロボティクス・安全な使い方
 ・エンディング
 
 【参照元】
-・OpenAI says it will no longer train its AI models on the live internet, citing 'significant risks': https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
-・OpenAI now trains its frontier AI models with no internet access: https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet
-・Securing our frontier model training environment: https://openai.com/index/securing-our-frontier-model-training-environment
-・Sweden Blocks ChatGPT and Claude on Government PCs: https://cellcog.ai/blog/sweden-blocks-chatgpt-claude/
-・AI delivers 'zero financial payoff' to most companies, Apollo economist says: https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
-・OpenAI working on new $30B raise at $1.25T valuation ahead of IPO: https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/
-・Hard Fork: What's the Deal With Billy Evans?: https://www.nytimes.com/column/hard-fork
-・No Priors: Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht: 
-・Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner: https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/
-・Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats: https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/
-・Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise: https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/
-・Elvis Rights Holders Sue Anthropic Over 274 Songs: https://cellcog.ai/blog/elvis-rights-holders-sue-anthropic/
-・Pennsylvania will require labels on AI-generated ads: https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act
-・Now Google says it might use your Gmail and Google Photos data to target ads: https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update
-・1Password launches a way for AI agents to log in on your behalf without seeing your password: https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/
-・OpenAI and Poland's NASK partner to advance AI safety and security: https://openai.com/index/openai-nask-ai-safety-security-partnership
-・Google's AI search changes upended online publishing: https://www.theverge.com/column/1017983/google-ai-search-online-publishing
-・Uber puts all 30,000 employees on ChatGPT Work: https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/
-・What the US Movement Against Data Centers Can Learn From Abroad: https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/
-・Meta delays new business terms after publisher pushback on AI scraping: https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping
-・Grok Bot Can Now Call a Business for You: https://cellcog.ai/blog/grok-bot-calls-a-business/
-・Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats.: https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/
+・Microsoft just shared Azure's actual revenue in dollars: $33.2 billion: https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/
+・Google expands AI Search ads globally as core ad growth slows: https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/
+・Microsoft recorded $10 billion in revenue from OpenAI: https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/
+・Microsoft hits 10 quarters of record-breaking revenue in a row: https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/
+・Anthropic just launched tools to show companies what their AI spending is buying: https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/
+・VCs will make billions on Anthropic's IPO, but Amazon is set to make much (much) more: https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/
+・Who's really in charge at Anthropic after the IPO?: https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/
+・Will the real Anthropic please stand up: https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/
+・Anthropic lays out drug R&D ambitions, risks in mammoth IPO filing: https://www.fiercebiotech.com/biotech/anthropic-extols-ais-drug-rd-potential-including-risks-mammoth-ipo-filing
+・Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication: https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/
+・The focus on AI safety disasters ignores everyday harms: https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/
+・Bank of America kindly asks that you don't share your banking password with your AI assistant: https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/
+・No Priors: Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht: https://www.youtube.com/watch?v=placeholder
+・Chrome's AI-powered Autofill can now dig through your Gmail to fill out forms: https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/
+・As AI agents reshape the web, Google opens Gemini and Search to more apps: https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/
+・The October inflection point for vibe game development: https://simonwillison.net/2026/Oct/28/vibe-game-development/
+・GitHub Octoverse 2026: https://simonwillison.net/2026/Oct/28/github-octoverse-2026/
+・Are You Getting Your Money's Worth From AI?: https://www.oreilly.com/radar/are-you-getting-your-moneys-worth-from-ai/
+・NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games: https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/
+・Voice AI in vogue: Nvidia releases new open transcription model: https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/
+・North American robot orders climb 24.8% in Q3 of 2026, says A3: https://www.therobotreport.com/north-american-robot-orders-climb-24-8-q3-2026-says-a3/
+・Bedrock Robotics nears $1B in total funding: https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/
+・Agility and GXO Logistics plan expanded deployment of Digit humanoid: https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/
+・Embotech and BMW move 1M vehicles with automated driving technology: https://www.therobotreport.com/embotech-bmw-move-1m-vehicles-automated-driving-technology/
+・Warp Sciences emerges from stealth, to apply robotics to drug research: https://www.therobotreport.com/warp-sciences-emerges-stealth-apply-robotics-drug-research/
+・Boehringer, Microsoft team up to explore digital patient twins for clinical trials: https://www.fiercebiotech.com/cro/microsoft-bi-team-launch-digital-patient-twins-trial-design-improvements
+・Google DeepMind Introduces Gemini 4 Carbon: https://www.marktechpost.com/2026/10/28/google-deepmind-gemini-4-carbon-frontier-model/
+・How solid-state transformers could help power the AI boom: https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/
+・The data center boom has an upside: innovation for the US grid: https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/
+・Disruptive raises $10B fund to make big bets on at least 10 companies: https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/
+・AI execs may be too out of touch to build for the general public: https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/
+・xAI is buying out homeowners who promise not to sue over data center noise: https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit
+・Researchers are getting tired of OpenAI gatekeeping its breakthroughs: https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics
 
-#AIニュース #生成AI #海外AI #AIセキュリティ #AI投資 #AIエージェント #AIと社会 #ChatGPT #OpenAI #Cloudflare]]></description>
+#AIニュース #生成AI #海外AI #AIと社会 #Anthropic #Microsoft #Google #AIセキュリティ #バイブコーディング #ロボティクス #AI創薬 #AI安全性]]></description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-29.mp3</guid>
+      <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-29.mp3" length="24466989" type="audio/mpeg"/>
+      <itunes:title>10/29 MS・Google決算AIで稼ぐ時代＆Anthropic上場＆セキュリティ激変</itunes:title>
+      <itunes:summary><![CDATA[MicrosoftとGoogleの決算からAIが本格的に収益を生み始めた証拠を読み解きます。AnthropicのIPO目論見書に隠された複雑なガバナンス構造と創薬野心、CloudflareのCTOが語るAIエージェント時代のセキュリティ危機、そしてChatGPTの医療アドバイスが引き起こした悲劇まで、AIと社会の最前線を深掘りします。
+
+【目次】
+・オープニング
+・メインニュース：Microsoft・Google決算でAIが稼ぐ時代に
+・メインニュース：Anthropic IPOと創薬への野心
+・ディープダイブ：AIセキュリティ激変と日常的なAI被害
+・生活＆仕事へのヒント：バイブコーディング・ロボティクス・安全な使い方
+・エンディング
+
+【参照元】
+・Microsoft just shared Azure's actual revenue in dollars: $33.2 billion: https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/
+・Google expands AI Search ads globally as core ad growth slows: https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/
+・Microsoft recorded $10 billion in revenue from OpenAI: https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/
+・Microsoft hits 10 quarters of record-breaking revenue in a row: https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/
+・Anthropic just launched tools to show companies what their AI spending is buying: https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/
+・VCs will make billions on Anthropic's IPO, but Amazon is set to make much (much) more: https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/
+・Who's really in charge at Anthropic after the IPO?: https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/
+・Will the real Anthropic please stand up: https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/
+・Anthropic lays out drug R&D ambitions, risks in mammoth IPO filing: https://www.fiercebiotech.com/biotech/anthropic-extols-ais-drug-rd-potential-including-risks-mammoth-ipo-filing
+・Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication: https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/
+・The focus on AI safety disasters ignores everyday harms: https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/
+・Bank of America kindly asks that you don't share your banking password with your AI assistant: https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/
+・No Priors: Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht: https://www.youtube.com/watch?v=placeholder
+・Chrome's AI-powered Autofill can now dig through your Gmail to fill out forms: https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/
+・As AI agents reshape the web, Google opens Gemini and Search to more apps: https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/
+・The October inflection point for vibe game development: https://simonwillison.net/2026/Oct/28/vibe-game-development/
+・GitHub Octoverse 2026: https://simonwillison.net/2026/Oct/28/github-octoverse-2026/
+・Are You Getting Your Money's Worth From AI?: https://www.oreilly.com/radar/are-you-getting-your-moneys-worth-from-ai/
+・NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games: https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/
+・Voice AI in vogue: Nvidia releases new open transcription model: https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/
+・North American robot orders climb 24.8% in Q3 of 2026, says A3: https://www.therobotreport.com/north-american-robot-orders-climb-24-8-q3-2026-says-a3/
+・Bedrock Robotics nears $1B in total funding: https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/
+・Agility and GXO Logistics plan expanded deployment of Digit humanoid: https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/
+・Embotech and BMW move 1M vehicles with automated driving technology: https://www.therobotreport.com/embotech-bmw-move-1m-vehicles-automated-driving-technology/
+・Warp Sciences emerges from stealth, to apply robotics to drug research: https://www.therobotreport.com/warp-sciences-emerges-stealth-apply-robotics-drug-research/
+・Boehringer, Microsoft team up to explore digital patient twins for clinical trials: https://www.fiercebiotech.com/cro/microsoft-bi-team-launch-digital-patient-twins-trial-design-improvements
+・Google DeepMind Introduces Gemini 4 Carbon: https://www.marktechpost.com/2026/10/28/google-deepmind-gemini-4-carbon-frontier-model/
+・How solid-state transformers could help power the AI boom: https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/
+・The data center boom has an upside: innovation for the US grid: https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/
+・Disruptive raises $10B fund to make big bets on at least 10 companies: https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/
+・AI execs may be too out of touch to build for the general public: https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/
+・xAI is buying out homeowners who promise not to sue over data center noise: https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit
+・Researchers are getting tired of OpenAI gatekeeping its breakthroughs: https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics
+
+#AIニュース #生成AI #海外AI #AIと社会 #Anthropic #Microsoft #Google #AIセキュリティ #バイブコーディング #ロボティクス #AI創薬 #AI安全性]]></itunes:summary>
+      <itunes:duration>00:25:29</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>10/26 OpenAIオフライン訓練＆スウェーデンAI遮断＆投資バブルの兆候</title>
+      <description><![CDATA[【今回のトピック】
+・OpenAIがフロンティアモデルの訓練をインターネットから完全に切り離す（オフライン化）と発表
+・スウェーデン政府が政府業務用パソコンからChatGPT・Claudeへのアクセスを遮断
+・AI投資バブルの兆候とCoreWeaveの財務危機
+・AIエージェント時代のセキュリティとインターネットの構造変化（Cloudflareの取り組み・マイクロペイメント・HTTP 402）]]></description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-26.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-10-26.mp3" length="22923693" type="audio/mpeg"/>
       <itunes:title>10/26 OpenAIオフライン訓練＆スウェーデンAI遮断＆投資バブルの兆候</itunes:title>
-      <itunes:summary><![CDATA[OpenAIがフロンティアモデルの訓練をインターネットから完全に切り離すと発表。スウェーデン政府はChatGPTとClaudeを業務PCからブロック。アポロのエコノミストが「テック企業以外のAI投資リターンはゼロ」と警告し、CoreWeaveの財務危機も浮上。AIエージェント時代のセキュリティとインターネット経済の構造変化をCloudflare CTOの視点から深掘りします。
-
-【目次】
-・オープニング
-・メインニュース：OpenAIのオフライン訓練とスウェーデン政府のAIブロック
-・メインニュース：AI投資のリターン問題とCoreWeaveの財務危機
-・ディープダイブ：AIエージェント時代のセキュリティとインターネット経済の構造変化
-・生活＆仕事へのヒント：AI時代のセキュリティ・投資・著作権への備え
-・エンディング
-
-【参照元】
-・OpenAI says it will no longer train its AI models on the live internet, citing 'significant risks': https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
-・OpenAI now trains its frontier AI models with no internet access: https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet
-・Securing our frontier model training environment: https://openai.com/index/securing-our-frontier-model-training-environment
-・Sweden Blocks ChatGPT and Claude on Government PCs: https://cellcog.ai/blog/sweden-blocks-chatgpt-claude/
-・AI delivers 'zero financial payoff' to most companies, Apollo economist says: https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
-・OpenAI working on new $30B raise at $1.25T valuation ahead of IPO: https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/
-・Hard Fork: What's the Deal With Billy Evans?: https://www.nytimes.com/column/hard-fork
-・No Priors: Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht: 
-・Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner: https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/
-・Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats: https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/
-・Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise: https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/
-・Elvis Rights Holders Sue Anthropic Over 274 Songs: https://cellcog.ai/blog/elvis-rights-holders-sue-anthropic/
-・Pennsylvania will require labels on AI-generated ads: https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act
-・Now Google says it might use your Gmail and Google Photos data to target ads: https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update
-・1Password launches a way for AI agents to log in on your behalf without seeing your password: https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/
-・OpenAI and Poland's NASK partner to advance AI safety and security: https://openai.com/index/openai-nask-ai-safety-security-partnership
-・Google's AI search changes upended online publishing: https://www.theverge.com/column/1017983/google-ai-search-online-publishing
-・Uber puts all 30,000 employees on ChatGPT Work: https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/
-・What the US Movement Against Data Centers Can Learn From Abroad: https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/
-・Meta delays new business terms after publisher pushback on AI scraping: https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping
-・Grok Bot Can Now Call a Business for You: https://cellcog.ai/blog/grok-bot-calls-a-business/
-・Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats.: https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/
-
-#AIニュース #生成AI #海外AI #AIセキュリティ #AI投資 #AIエージェント #AIと社会 #ChatGPT #OpenAI #Cloudflare]]></itunes:summary>
+      <itunes:summary><![CDATA[【今回のトピック】
+・OpenAIがフロンティアモデルの訓練をインターネットから完全に切り離す（オフライン化）と発表
+・スウェーデン政府が政府業務用パソコンからChatGPT・Claudeへのアクセスを遮断
+・AI投資バブルの兆候とCoreWeaveの財務危機
+・AIエージェント時代のセキュリティとインターネットの構造変化（Cloudflareの取り組み・マイクロペイメント・HTTP 402）]]></itunes:summary>
       <itunes:duration>00:23:52</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -411,19 +452,13 @@
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
-      <title>8/20 AI信頼の危機＆OpenAI開発ブレーキ＆AI資金の地殻変動</title>
-      <description><![CDATA[【今回のトピック】
-・AIの普及と消費者信頼のギャップ（AI疲れ・検出技術・透かし回避のいたちごっこ）
-・OpenAIがHugging Faceハッキング事件を受けて開発スピードを意図的に減速しセキュリティ対策を強化
-・AI産業への資金の地殻変動（ユニツリーIPOで株価6倍・NVIDIAのGPU金融商品化・Anthropicの売上規模）]]></description>
+      <title>海外AIニュース・ダイジェスト 2026-08-20</title>
+      <description><![CDATA[2026-08-20 の海外AI最新情報をお届けします。]]></description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-20.mp3</guid>
       <enclosure url="https://silverbuckle.github.io/ai-digest-feed/episodes/2026-08-20.mp3" length="23243181" type="audio/mpeg"/>
-      <itunes:title>8/20 AI信頼の危機＆OpenAI開発ブレーキ＆AI資金の地殻変動</itunes:title>
-      <itunes:summary><![CDATA[【今回のトピック】
-・AIの普及と消費者信頼のギャップ（AI疲れ・検出技術・透かし回避のいたちごっこ）
-・OpenAIがHugging Faceハッキング事件を受けて開発スピードを意図的に減速しセキュリティ対策を強化
-・AI産業への資金の地殻変動（ユニツリーIPOで株価6倍・NVIDIAのGPU金融商品化・Anthropicの売上規模）]]></itunes:summary>
+      <itunes:title>海外AIニュース・ダイジェスト 2026-08-20</itunes:title>
+      <itunes:summary><![CDATA[2026-08-20 の海外AI最新情報をお届けします。]]></itunes:summary>
       <itunes:duration>00:24:12</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
